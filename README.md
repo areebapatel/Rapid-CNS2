@@ -1,4 +1,4 @@
-## RAPID-CNS2 (LSF cluster) ##
+## RAPID-CNS<sup>2</sup> (LSF cluster) ##
 
 This pipeline analyses CNS tumour data generated through Nanopore adaptive sequencing using [ReadFish](https://github.com/LooseLab/readfish). It requires FAST5 files generated from the sequencing run as input.
 
@@ -45,7 +45,7 @@ You should get outputs as
 If these times > 0.4s, targeting is not working as expected.
 
 
-**RAPID-CNS2 analysis**
+**RAPID-CNS<sup>2</sup> analysis**
 1. If you do not have an existing conda installation, follow these steps. If you have conda preinstalled, skip to step 2.
 - Download the appropriate Miniconda installer [here](https://docs.conda.io/en/latest/miniconda.html#linux-installers)
 - Open terminal, go to directory containing the Miniconda file. Enter
@@ -74,9 +74,11 @@ pip install .
 
 6. Download ANNOVAR [here](https://www.openbioinformatics.org/annovar/annovar_download_form.php)
 
-7. Edit `rapid_cns_snake.config` to specify paths
+7. Download Rapid-CNS<sup>2</sup> Git repo `git clone https://github.com/areebapatel/Rapid_CNS2.git`
 
-8. Run pipeline as
+8. Edit `rapid_cns_snake.config` to specify paths
+
+9. Run pipeline as
  ```
  snakemake --directory=<PATH/TO/OUTPUT/DIRECTORY> --use-conda
  ```
