@@ -1,6 +1,6 @@
 ## RAPID-CNS2 (LSF cluster) ##
 
-This pipeline analyses CNS tumour data generated through Nanopore adaptive sequencing using [ReadFish](https://github.com/LooseLab/readfish). It requires FAST5 files generated from the sequencing run as input. 
+This pipeline analyses CNS tumour data generated through Nanopore adaptive sequencing using [ReadFish](https://github.com/LooseLab/readfish). It requires FAST5 files generated from the sequencing run as input.
 
 **Sequencing**
 
@@ -51,8 +51,13 @@ If these times > 0.4s, targeting is not working as expected.
 - Open terminal, go to directory containing the Miniconda file. Enter
 `bash Miniconda3-latest-Linux-x86_64.sh`
 
-2. Install conda environment + packages using the `rapid_cns.yml ` file
-`conda env create -f rapid_cns.yml`
+2. Install snakemake
+```
+conda install -n base -c conda-forge mamba
+conda activate base
+mamba create -c conda-forge -c bioconda -n snakemake snakemake
+conda activate snakemake
+```
 
 3. Install CNVpytor
  ```
@@ -63,27 +68,31 @@ pip install .
 
 4. Download GPU version of guppy [here](https://mirror.oxfordnanoportal.com/software/analysis/ont-guppy_5.0.7_linux64.tar.gz) (Registration required)
 - Unpack the tar file (xxx is the version e.g. 4.2.2)
- `tar -xf ont-guppy_xxx_linux<64 or aarch64>.tar.gz` 
+ `tar -xf ont-guppy_xxx_linux<64 or aarch64>.tar.gz`
 
 5. Download singularity images for PEPPER-Margin-DeepVariant ` singularity pull docker://kishwars/pepper_deepvariant:r0.4`.
+
 6. Download ANNOVAR [here](https://www.openbioinformatics.org/annovar/annovar_download_form.php)
-7. Edit `paths.config` file with absolute paths for all variables mentioned
-8. Edit CUDA settings as per your LSF cluster in `guppy_dna.sh` and `megalodon.sh` files.
-9. Run `bash processing_lsf_script.sh $LIBRARY $SAMPLE` on a submit node 
+
+7. Edit `rapid_cns_snake.config` to specify paths
+
+8. Run pipeline as
+ ```
+ snakemake --directory=<PATH/TO/OUTPUT/DIRECTORY> --use-conda
+ ```
+
 
 **Requirements**
-- Reference genome FASTA
-- ANNOVAR database. 
+- Reference genome hg19 and hg38 FASTA
+- ANNOVAR database.
 ```
 annotate_variation.pl -buildver hg19 -downdb -webfrom annovar refGene humandb/
 
 annotate_variation.pl -buildver hg19 -downdb cytoBand humandb/
 
-annotate_variation.pl -buildver hg19 -downdb -webfrom annovar exac03 humandb/ 
+annotate_variation.pl -buildver hg19 -downdb -webfrom annovar exac03 humandb/
 
-annotate_variation.pl -buildver hg19 -downdb -webfrom annovar avsnp147 humandb/ 
+annotate_variation.pl -buildver hg19 -downdb -webfrom annovar avsnp147 humandb/
 
 annotate_variation.pl -buildver hg19 -downdb -webfrom annovar dbnsfp30a humandb/
 ```
-- FAST5 data should be in the directory structure as default by ONT `$LIBRARY/$SAMPLE/$FLOWCELL/fast5/....`
-
