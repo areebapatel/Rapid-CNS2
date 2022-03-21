@@ -1,6 +1,6 @@
-## RAPID-CNS<sup>2</sup> (LSF cluster) ##
+## RAPID-CNS<sup>2</sup> ##
 
-This pipeline analyses CNS tumour data generated through Nanopore adaptive sequencing using [ReadFish](https://github.com/LooseLab/readfish). It requires FAST5 files generated from the sequencing run as input.
+This pipeline analyses CNS tumour data generated through Nanopore adaptive sequencing using [ReadFish](https://github.com/LooseLab/readfish) or adaptive sampling on MinKNOW. It requires FAST5 files or FASTQ file generated from the sequencing run as input.
 
 **Sequencing**
 
