@@ -98,3 +98,6 @@ annotate_variation.pl -buildver hg19 -downdb -webfrom annovar avsnp147 humandb/
 
 annotate_variation.pl -buildver hg19 -downdb -webfrom annovar dbnsfp30a humandb/
 ```
+
+**Citation**
+Patel, A., Dogan, H., Payne, A. et al. Rapid-CNS<sup>2</sup>: rapid comprehensive adaptive nanopore-sequencing of CNS tumors, a proof-of-concept study. Acta Neuropathol (2022). https://doi.org/10.1007/s00401-022-02415-6
