@@ -1,9 +1,0 @@
-prefix=/omics/groups/OE0146/internal/Areeba/paper/Rapid-CNS2/.snakemake/conda/285e0451a248d5fe32d67bc237aaccea
-libdir=${prefix}/lib64
-includedir=${prefix}/include
-
-Name: GNU FriBidi
-Description: Unicode Bidirectional Algorithm Library
-Version: 1.0.10
-Libs: -L${libdir} -lfribidi
-Cflags: -I${includedir}/fribidi

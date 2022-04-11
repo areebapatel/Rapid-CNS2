@@ -1,4 +1,0 @@
-Config file rapid_cns_snake.yaml is extended by additional config specified via the command line.
-NameError in line 52 of /omics/groups/OE0146/internal/Areeba/paper/Rapid-CNS2/Snakefile:
-name 'sample' is not defined
-  File "/omics/groups/OE0146/internal/Areeba/paper/Rapid-CNS2/Snakefile", line 52, in <module>

@@ -1,4 +1,0 @@
-Config file rapid_cns_snake.yaml is extended by additional config specified via the command line.
-Building DAG of jobs...
-MissingRuleException:
-No rule to produce /b06x-isilon/b06x-m/mnp_nanopore/test_git/NL0065_2/cnv/195014_cnvpytor_100k.png (if you use input functions make sure that they don't raise unexpected exceptions).

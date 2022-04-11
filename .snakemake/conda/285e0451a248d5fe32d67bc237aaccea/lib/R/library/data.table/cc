@@ -1,2 +1,0 @@
-CC=x86_64-conda-linux-gnu-cc
-CFLAGS=-march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /omics/groups/OE0146/internal/Areeba/paper/Rapid-CNS2/.snakemake/conda/285e0451a248d5fe32d67bc237aaccea/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1630154298835/work=/usr/local/src/conda/r-base-4.1.1 -fdebug-prefix-map=/omics/groups/OE0146/internal/Areeba/paper/Rapid-CNS2/.snakemake/conda/285e0451a248d5fe32d67bc237aaccea=/usr/local/src/conda-prefix

@@ -1,9 +1,0 @@
-prefix=/omics/groups/OE0146/internal/Areeba/paper/Rapid-CNS2/.snakemake/conda/285e0451a248d5fe32d67bc237aaccea
-exec_prefix=${prefix}
-libdir=${exec_prefix}/lib
-includedir=${prefix}/include
- 
-Name: KBProto
-Description: KB extension headers
-Version: 1.0.7
-Cflags: -I${includedir}

@@ -1,7 +1,0 @@
-
-Name: Graphite2
-Description: Font rendering engine for Complex Scripts
-Version: 3.0.1
-Libs: -L/omics/groups/OE0146/internal/Areeba/paper/Rapid-CNS2/.snakemake/conda/285e0451a248d5fe32d67bc237aaccea/lib -lgraphite2
-Cflags: -I/omics/groups/OE0146/internal/Areeba/paper/Rapid-CNS2/.snakemake/conda/285e0451a248d5fe32d67bc237aaccea/include
-

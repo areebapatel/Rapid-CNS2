@@ -1,3 +1,0 @@
-KeyError in line 16 of /omics/groups/OE0146/internal/Areeba/paper/Rapid-CNS2/Snakefile:
-'ref_hg38_mmi'
-  File "/omics/groups/OE0146/internal/Areeba/paper/Rapid-CNS2/Snakefile", line 16, in <module>

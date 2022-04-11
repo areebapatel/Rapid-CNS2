@@ -1,4 +1,0 @@
-Config file rapid_cns_snake.yaml is extended by additional config specified via the command line.
-SyntaxError:
-Not all output, log and benchmark files of rule basecall contain the same wildcards. This is crucial though, in order to avoid that two or more jobs write to the same file.
-  File "/omics/groups/OE0146/internal/Areeba/paper/Rapid-CNS2/Snakefile", line 75, in <module>
