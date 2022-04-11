@@ -1,0 +1,11 @@
+prefix=/omics/groups/OE0146/internal/Areeba/paper/Rapid-CNS2/.snakemake/conda/285e0451a248d5fe32d67bc237aaccea
+exec_prefix=/omics/groups/OE0146/internal/Areeba/paper/Rapid-CNS2/.snakemake/conda/285e0451a248d5fe32d67bc237aaccea
+libdir=/omics/groups/OE0146/internal/Areeba/paper/Rapid-CNS2/.snakemake/conda/285e0451a248d5fe32d67bc237aaccea/lib
+includedir=/omics/groups/OE0146/internal/Areeba/paper/Rapid-CNS2/.snakemake/conda/285e0451a248d5fe32d67bc237aaccea/include
+GSL_CBLAS_LIB=-lgslcblas
+
+Name: GSL
+Description: GNU Scientific Library
+Version: 2.7
+Libs: -L/omics/groups/OE0146/internal/Areeba/paper/Rapid-CNS2/.snakemake/conda/285e0451a248d5fe32d67bc237aaccea/lib -lgsl ${GSL_CBLAS_LIB} -lm -lcblas -lm
+Cflags: -I/omics/groups/OE0146/internal/Areeba/paper/Rapid-CNS2/.snakemake/conda/285e0451a248d5fe32d67bc237aaccea/include

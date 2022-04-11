@@ -1,0 +1,65 @@
+{
+  "build": "h5c6108e_12",
+  "build_number": 12,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [
+    "libgfortran-ng 11.2.0"
+  ],
+  "depends": [],
+  "extracted_package_dir": "/omics/groups/OE0146/internal/Areeba/miniconda3/pkgs/libgfortran5-11.2.0-h5c6108e_12",
+  "features": "",
+  "files": [
+    "lib/libgfortran.so",
+    "lib/libgfortran.so.5",
+    "lib/libgfortran.so.5.0.0",
+    "share/licenses/libgfortran/RUNTIME.LIBRARY.EXCEPTION"
+  ],
+  "fn": "libgfortran5-11.2.0-h5c6108e_12.tar.bz2",
+  "license": "GPL-3.0-only WITH GCC-exception-3.1",
+  "link": {
+    "source": "/omics/groups/OE0146/internal/Areeba/miniconda3/pkgs/libgfortran5-11.2.0-h5c6108e_12",
+    "type": 1
+  },
+  "md5": "f547bf125ab234cec9c89491b262fc2f",
+  "name": "libgfortran5",
+  "package_tarball_full_path": "/omics/groups/OE0146/internal/Areeba/miniconda3/pkgs/libgfortran5-11.2.0-h5c6108e_12.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/libgfortran.so",
+        "path_type": "softlink",
+        "sha256": "236eb9bb5cd859d62aca294377ad5c59a94ef07a1888fadfa7c2fb28eb856a56",
+        "size_in_bytes": 6791368
+      },
+      {
+        "_path": "lib/libgfortran.so.5",
+        "path_type": "softlink",
+        "sha256": "236eb9bb5cd859d62aca294377ad5c59a94ef07a1888fadfa7c2fb28eb856a56",
+        "size_in_bytes": 6791368
+      },
+      {
+        "_path": "lib/libgfortran.so.5.0.0",
+        "path_type": "hardlink",
+        "sha256": "236eb9bb5cd859d62aca294377ad5c59a94ef07a1888fadfa7c2fb28eb856a56",
+        "sha256_in_prefix": "236eb9bb5cd859d62aca294377ad5c59a94ef07a1888fadfa7c2fb28eb856a56",
+        "size_in_bytes": 6791368
+      },
+      {
+        "_path": "share/licenses/libgfortran/RUNTIME.LIBRARY.EXCEPTION",
+        "path_type": "hardlink",
+        "sha256": "9d6b43ce4d8de0c878bf16b54d8e7a10d9bd42b75178153e3af6a815bdc90f74",
+        "sha256_in_prefix": "9d6b43ce4d8de0c878bf16b54d8e7a10d9bd42b75178153e3af6a815bdc90f74",
+        "size_in_bytes": 3324
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "libgfortran5==11.2.0=h5c6108e_12",
+  "sha256": "bb311dc19992527acc866ea020ef983ccf1e79860fcf9c42a6550aa602c0f2ab",
+  "size": 1815924,
+  "subdir": "linux-64",
+  "timestamp": 1643065551000,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/libgfortran5-11.2.0-h5c6108e_12.tar.bz2",
+  "version": "11.2.0"
+}

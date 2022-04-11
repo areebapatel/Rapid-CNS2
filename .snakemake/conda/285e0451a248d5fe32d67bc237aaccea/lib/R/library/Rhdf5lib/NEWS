@@ -1,0 +1,55 @@
+Version 1.16
+=============
+
+Bug fixes:
+  
+  o AR and RANLIB programs used to compile R are now also used to compile
+  the HDF5 library. This resolves issue when the default versions found on a
+  system are incompatible with options used to build R.
+  (thanks to @miesav, https://github.com/grimbough/Rhdf5lib/pull/41)
+  o Fixed issue in Windows installation introduced by upstream changes
+  to libcurl distributed by rwinlibs.
+  (https://github.com/grimbough/Rhdf5lib/pull/42)
+
+Version 1.14
+=============
+
+New features:
+
+  o Updated internal version of HDF5 to 1.10.7
+
+Bug fixes:
+  
+  o CPPFLAGS used to build R are now used during HDF compilation.
+  o Package configure script will now stop if it encounters errors when 
+  compiling HDF5.  This should make diagnosing issues easier.
+
+Version 1.8
+=============
+
+New features:
+
+  o Updated internal version of HDF5 to 1.10.5
+
+Bug fixes:
+  
+  o Quote paths reported by pkgconfig() to allow installation in libraries 
+  with whitespace in the path.
+  
+Version 1.0
+=============
+
+New features:
+
+  o Updated internal version of HDF5 to 1.8.19
+
+Bug fixes:
+  
+  o Switched Windows compilation script to use CMake rather than configure.
+  This seems to have solved problems in opening multiple files using different
+  access modes.
+
+Version 0.99
+=============
+
+  o Package submitted

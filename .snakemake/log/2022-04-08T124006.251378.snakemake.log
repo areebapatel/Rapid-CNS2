@@ -1,0 +1,51 @@
+Config file rapid_cns_snake.yaml is extended by additional config specified via the command line.
+Building DAG of jobs...
+Conda environment envs/rapid_cns.yml will be created.
+Job stats:
+job                  count    min threads    max threads
+-----------------  -------  -------------  -------------
+basecall                 1              8              8
+basecall_trimming        1             32             32
+copy_number              1             64             64
+minimap2_align           1             16             16
+total                    4              8             64
+
+
+[Fri Apr  8 12:40:07 2022]
+rule basecall:
+    input: /b06x-isilon/b06x-m/mnp_nanopore/data/NL0065_2/195014/20210811_1102_MN34546_FAQ56195_70769e9f/fast5
+    output: /b06x-isilon/b06x-m/mnp_nanopore/test_git/NL0065_2/fastq/195014_pass.fastq.gz
+    jobid: 3
+    reason: Missing output files: /b06x-isilon/b06x-m/mnp_nanopore/test_git/NL0065_2/fastq/195014_pass.fastq.gz
+    wildcards: sample=195014
+    threads: 8
+    resources: tmpdir=/tmp, nvidia_gpu=1, mem_gb=24
+
+scripts/guppy_dna.sh --fast5_dir=/b06x-isilon/b06x-m/mnp_nanopore/data/NL0065_2/195014/20210811_1102_MN34546_FAQ56195_70769e9f/fast5 --guppy_path=/b06x-isilon/b06x-m/mnp_nanopore/software/ont-guppy_5.0.11/bin/ --out_dir=/b06x-isilon/b06x-m/mnp_nanopore/test_git/NL0065_2/guppy --out_fastq=/b06x-isilon/b06x-m/mnp_nanopore/test_git/NL0065_2/fastq/195014_pass.fastq.gz
+
+[Fri Apr  8 12:40:07 2022]
+rule basecall_trimming:
+    input: /b06x-isilon/b06x-m/mnp_nanopore/test_git/NL0065_2/fastq/195014_pass.fastq.gz
+    output: /b06x-isilon/b06x-m/mnp_nanopore/test_git/NL0065_2/fastq/195014_adapter_trimmed.fastq.gz
+    log: /b06x-isilon/b06x-m/mnp_nanopore/test_git/NL0065_2/logs/195014_trimming.log
+    jobid: 2
+    reason: Missing output files: /b06x-isilon/b06x-m/mnp_nanopore/test_git/NL0065_2/fastq/195014_adapter_trimmed.fastq.gz; Input files updated by another job: /b06x-isilon/b06x-m/mnp_nanopore/test_git/NL0065_2/fastq/195014_pass.fastq.gz
+    wildcards: sample=195014
+    threads: 32
+    resources: tmpdir=/tmp, mem_gb=64
+
+python3 /b06x-isilon/b06x-m/mnp_nanopore/software/Porechop//porechop-runner.py -i /b06x-isilon/b06x-m/mnp_nanopore/test_git/NL0065_2/fastq/195014_pass.fastq.gz -o /b06x-isilon/b06x-m/mnp_nanopore/test_git/NL0065_2/fastq/195014_adapter_trimmed.fastq.gz -t 32 --verbosity 3
+
+[Fri Apr  8 12:40:07 2022]
+rule minimap2_align:
+    input: /b06x-isilon/b06x-m/mnp_nanopore/test_git/NL0065_2/fastq/195014_adapter_trimmed.fastq.gz
+    output: /b06x-isilon/b06x-m/mnp_nanopore/test_git/NL0065_2/bam/195014_cat.fastq.trimmed.minimap2.coordsorted.bam
+    log: /b06x-isilon/b06x-m/mnp_nanopore/test_git/NL0065_2/logs/195014_align.log
+    jobid: 1
+    reason: Missing output files: /b06x-isilon/b06x-m/mnp_nanopore/test_git/NL0065_2/bam/195014_cat.fastq.trimmed.minimap2.coordsorted.bam; Input files updated by another job: /b06x-isilon/b06x-m/mnp_nanopore/test_git/NL0065_2/fastq/195014_adapter_trimmed.fastq.gz
+    wildcards: sample=195014
+    threads: 16
+    resources: tmpdir=/tmp, mem_gb=32
+
+RuleException in line 122 of /omics/groups/OE0146/internal/Areeba/paper/Rapid-CNS2/Snakefile:
+NameError: The name 'sample' is unknown in this context. Did you mean 'wildcards.sample'?

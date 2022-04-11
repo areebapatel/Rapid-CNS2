@@ -1,0 +1,11 @@
+prefix=/omics/groups/OE0146/internal/Areeba/paper/Rapid-CNS2/.snakemake/conda/285e0451a248d5fe32d67bc237aaccea
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: mit-krb5-gssapi
+Description: Kerberos implementation of the GSSAPI
+Version: 1.19.2
+Requires.private: mit-krb5
+Cflags: -I${includedir}
+Libs: -L${libdir} -lgssapi_krb5

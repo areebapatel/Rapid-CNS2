@@ -1,0 +1,33 @@
+{
+  "build": "anacondar_1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [],
+  "extracted_package_dir": "/omics/groups/OE0146/internal/Areeba/miniconda3/pkgs/_r-mutex-1.0.1-anacondar_1",
+  "features": "",
+  "files": [],
+  "fn": "_r-mutex-1.0.1-anacondar_1.tar.bz2",
+  "license": "BSD",
+  "link": {
+    "source": "/omics/groups/OE0146/internal/Areeba/miniconda3/pkgs/_r-mutex-1.0.1-anacondar_1",
+    "type": 1
+  },
+  "md5": "19f9db5f4f1b7f5ef5f6d67207f25f38",
+  "name": "_r-mutex",
+  "noarch": "generic",
+  "package_tarball_full_path": "/omics/groups/OE0146/internal/Areeba/miniconda3/pkgs/_r-mutex-1.0.1-anacondar_1.tar.bz2",
+  "package_type": "noarch_generic",
+  "paths_data": {
+    "paths": [],
+    "paths_version": 1
+  },
+  "requested_spec": "_r-mutex==1.0.1=anacondar_1",
+  "sha256": "e58f9eeb416b92b550e824bcb1b9fb1958dee69abfe3089dfd1a9173e3a0528a",
+  "size": 3566,
+  "subdir": "noarch",
+  "timestamp": 1562343890000,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/_r-mutex-1.0.1-anacondar_1.tar.bz2",
+  "version": "1.0.1"
+}

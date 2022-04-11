@@ -1,0 +1,52 @@
+{
+  "build": "h36c2ea0_1013",
+  "build_number": 1013,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [
+    "zlib 1.2.11 *_1013"
+  ],
+  "depends": [
+    "libgcc-ng >=7.5.0"
+  ],
+  "extracted_package_dir": "/omics/groups/OE0146/internal/Areeba/miniconda3/pkgs/libzlib-1.2.11-h36c2ea0_1013",
+  "features": "",
+  "files": [
+    "lib/libz.so.1",
+    "lib/libz.so.1.2.11"
+  ],
+  "fn": "libzlib-1.2.11-h36c2ea0_1013.tar.bz2",
+  "license": "Zlib",
+  "link": {
+    "source": "/omics/groups/OE0146/internal/Areeba/miniconda3/pkgs/libzlib-1.2.11-h36c2ea0_1013",
+    "type": 1
+  },
+  "md5": "dcddf696ff5dfcab567100d691678e18",
+  "name": "libzlib",
+  "package_tarball_full_path": "/omics/groups/OE0146/internal/Areeba/miniconda3/pkgs/libzlib-1.2.11-h36c2ea0_1013.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/libz.so.1",
+        "path_type": "softlink",
+        "sha256": "d217245c1354b7d85d0250115b7a26d0253e54c0dcd924af1ab874863efe51e2",
+        "size_in_bytes": 108696
+      },
+      {
+        "_path": "lib/libz.so.1.2.11",
+        "path_type": "hardlink",
+        "sha256": "d217245c1354b7d85d0250115b7a26d0253e54c0dcd924af1ab874863efe51e2",
+        "sha256_in_prefix": "d217245c1354b7d85d0250115b7a26d0253e54c0dcd924af1ab874863efe51e2",
+        "size_in_bytes": 108696
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "libzlib==1.2.11=h36c2ea0_1013",
+  "sha256": "8292882ea5cfbe2e6b708432dfab0668f2acddb96ab7618163001acbd13678e4",
+  "size": 59956,
+  "subdir": "linux-64",
+  "timestamp": 1633226800000,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/libzlib-1.2.11-h36c2ea0_1013.tar.bz2",
+  "version": "1.2.11"
+}

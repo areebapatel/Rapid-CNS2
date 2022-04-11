@@ -1,0 +1,54 @@
+{
+  "build": "hf0ab688_4",
+  "build_number": 4,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "sysroot_linux-64",
+    "gfortran_impl_linux-64 9.4.0.*",
+    "binutils_linux-64 2.36 hf3e587d_4",
+    "gcc_linux-64 9.4.0 h391b98a_4"
+  ],
+  "extracted_package_dir": "/omics/groups/OE0146/internal/Areeba/miniconda3/pkgs/gfortran_linux-64-9.4.0-hf0ab688_4",
+  "features": "",
+  "files": [
+    "etc/conda/activate.d/activate-gfortran_linux-64.sh",
+    "etc/conda/deactivate.d/deactivate-gfortran_linux-64.sh"
+  ],
+  "fn": "gfortran_linux-64-9.4.0-hf0ab688_4.tar.bz2",
+  "license": "BSD-3-Clause",
+  "link": {
+    "source": "/omics/groups/OE0146/internal/Areeba/miniconda3/pkgs/gfortran_linux-64-9.4.0-hf0ab688_4",
+    "type": 1
+  },
+  "md5": "095482ceb6fc57868c2382e4edef6587",
+  "name": "gfortran_linux-64",
+  "package_tarball_full_path": "/omics/groups/OE0146/internal/Areeba/miniconda3/pkgs/gfortran_linux-64-9.4.0-hf0ab688_4.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "etc/conda/activate.d/activate-gfortran_linux-64.sh",
+        "path_type": "hardlink",
+        "sha256": "f2007784121e8c01f21a2310544d244699168c3d7a97ea9e9847a2bae26cb510",
+        "sha256_in_prefix": "f2007784121e8c01f21a2310544d244699168c3d7a97ea9e9847a2bae26cb510",
+        "size_in_bytes": 5015
+      },
+      {
+        "_path": "etc/conda/deactivate.d/deactivate-gfortran_linux-64.sh",
+        "path_type": "hardlink",
+        "sha256": "a32f980dcc59f477174f998d0b892e5bbfb222652fb266db4310a95ffeccdfec",
+        "sha256_in_prefix": "a32f980dcc59f477174f998d0b892e5bbfb222652fb266db4310a95ffeccdfec",
+        "size_in_bytes": 5019
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "gfortran_linux-64==9.4.0=hf0ab688_4",
+  "sha256": "68193b6c64bc896365bcbd62ff5ee5551ba2dd0c88ac4348971af87f76587e27",
+  "size": 24633,
+  "subdir": "linux-64",
+  "timestamp": 1641561087000,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/gfortran_linux-64-9.4.0-hf0ab688_4.tar.bz2",
+  "version": "9.4.0"
+}

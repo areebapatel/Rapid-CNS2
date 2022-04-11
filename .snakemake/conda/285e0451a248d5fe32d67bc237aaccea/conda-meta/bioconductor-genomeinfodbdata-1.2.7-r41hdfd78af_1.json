@@ -1,0 +1,54 @@
+{
+  "build": "r41hdfd78af_1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/bioconda/noarch",
+  "constrains": [],
+  "depends": [
+    "r-base >=4.1,<4.2.0a0",
+    "curl >=7.80.0,<8.0a0"
+  ],
+  "extracted_package_dir": "/omics/groups/OE0146/internal/Areeba/miniconda3/pkgs/bioconductor-genomeinfodbdata-1.2.7-r41hdfd78af_1",
+  "features": "",
+  "files": [
+    "bin/.bioconductor-genomeinfodbdata-post-link.sh",
+    "bin/.bioconductor-genomeinfodbdata-pre-unlink.sh"
+  ],
+  "fn": "bioconductor-genomeinfodbdata-1.2.7-r41hdfd78af_1.tar.bz2",
+  "license": "Artistic-2.0",
+  "link": {
+    "source": "/omics/groups/OE0146/internal/Areeba/miniconda3/pkgs/bioconductor-genomeinfodbdata-1.2.7-r41hdfd78af_1",
+    "type": 1
+  },
+  "md5": "6e1f609561c9649630efe729ed205131",
+  "name": "bioconductor-genomeinfodbdata",
+  "noarch": "generic",
+  "package_tarball_full_path": "/omics/groups/OE0146/internal/Areeba/miniconda3/pkgs/bioconductor-genomeinfodbdata-1.2.7-r41hdfd78af_1.tar.bz2",
+  "package_type": "noarch_generic",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "bin/.bioconductor-genomeinfodbdata-post-link.sh",
+        "path_type": "hardlink",
+        "sha256": "08438c0ad0c3ebc2314c6372316f94f8fc310559bf3e9dc4da07b53db42c87a0",
+        "sha256_in_prefix": "08438c0ad0c3ebc2314c6372316f94f8fc310559bf3e9dc4da07b53db42c87a0",
+        "size_in_bytes": 1328
+      },
+      {
+        "_path": "bin/.bioconductor-genomeinfodbdata-pre-unlink.sh",
+        "path_type": "hardlink",
+        "sha256": "9f3deb9d40c69175f19104295431710a9097c1164e9555da425aac31077b5737",
+        "sha256_in_prefix": "9f3deb9d40c69175f19104295431710a9097c1164e9555da425aac31077b5737",
+        "size_in_bytes": 63
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "bioconductor-genomeinfodbdata==1.2.7=r41hdfd78af_1",
+  "sha256": "9b4a31f9d80050eb1ca49e3f919da0416921bb567409e8962e24ce8ac8c53afc",
+  "size": 7606,
+  "subdir": "noarch",
+  "timestamp": 1636625322000,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/bioconda/noarch/bioconductor-genomeinfodbdata-1.2.7-r41hdfd78af_1.tar.bz2",
+  "version": "1.2.7"
+}

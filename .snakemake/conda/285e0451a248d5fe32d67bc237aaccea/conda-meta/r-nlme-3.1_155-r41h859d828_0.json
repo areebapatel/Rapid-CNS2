@@ -1,0 +1,423 @@
+{
+  "build": "r41h859d828_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "libgfortran-ng",
+    "r-lattice",
+    "libgcc-ng >=9.4.0",
+    "r-base >=4.1,<4.2.0a0",
+    "libgfortran5 >=9.4.0"
+  ],
+  "extracted_package_dir": "/omics/groups/OE0146/internal/Areeba/miniconda3/pkgs/r-nlme-3.1_155-r41h859d828_0",
+  "features": "",
+  "files": [
+    "lib/R/library/nlme/CITATION",
+    "lib/R/library/nlme/DESCRIPTION",
+    "lib/R/library/nlme/INDEX",
+    "lib/R/library/nlme/LICENCE",
+    "lib/R/library/nlme/Meta/Rd.rds",
+    "lib/R/library/nlme/Meta/data.rds",
+    "lib/R/library/nlme/Meta/features.rds",
+    "lib/R/library/nlme/Meta/hsearch.rds",
+    "lib/R/library/nlme/Meta/links.rds",
+    "lib/R/library/nlme/Meta/nsInfo.rds",
+    "lib/R/library/nlme/Meta/package.rds",
+    "lib/R/library/nlme/NAMESPACE",
+    "lib/R/library/nlme/R/nlme",
+    "lib/R/library/nlme/R/nlme.rdb",
+    "lib/R/library/nlme/R/nlme.rdx",
+    "lib/R/library/nlme/data/Rdata.rdb",
+    "lib/R/library/nlme/data/Rdata.rds",
+    "lib/R/library/nlme/data/Rdata.rdx",
+    "lib/R/library/nlme/help/AnIndex",
+    "lib/R/library/nlme/help/aliases.rds",
+    "lib/R/library/nlme/help/nlme.rdb",
+    "lib/R/library/nlme/help/nlme.rdx",
+    "lib/R/library/nlme/help/paths.rds",
+    "lib/R/library/nlme/html/00Index.html",
+    "lib/R/library/nlme/html/R.css",
+    "lib/R/library/nlme/libs/nlme.so",
+    "lib/R/library/nlme/mlbook/README",
+    "lib/R/library/nlme/mlbook/ch04.R",
+    "lib/R/library/nlme/mlbook/ch05.R",
+    "lib/R/library/nlme/po/de/LC_MESSAGES/R-nlme.mo",
+    "lib/R/library/nlme/po/de/LC_MESSAGES/nlme.mo",
+    "lib/R/library/nlme/po/en@quot/LC_MESSAGES/R-nlme.mo",
+    "lib/R/library/nlme/po/en@quot/LC_MESSAGES/nlme.mo",
+    "lib/R/library/nlme/po/fr/LC_MESSAGES/R-nlme.mo",
+    "lib/R/library/nlme/po/fr/LC_MESSAGES/nlme.mo",
+    "lib/R/library/nlme/po/ko/LC_MESSAGES/R-nlme.mo",
+    "lib/R/library/nlme/po/ko/LC_MESSAGES/nlme.mo",
+    "lib/R/library/nlme/po/pl/LC_MESSAGES/R-nlme.mo",
+    "lib/R/library/nlme/po/pl/LC_MESSAGES/nlme.mo",
+    "lib/R/library/nlme/scripts/ch01.R",
+    "lib/R/library/nlme/scripts/ch02.R",
+    "lib/R/library/nlme/scripts/ch03.R",
+    "lib/R/library/nlme/scripts/ch04.R",
+    "lib/R/library/nlme/scripts/ch05.R",
+    "lib/R/library/nlme/scripts/ch06.R",
+    "lib/R/library/nlme/scripts/ch08.R",
+    "lib/R/library/nlme/scripts/runme.R",
+    "lib/R/library/nlme/scripts/sims.rda"
+  ],
+  "fn": "r-nlme-3.1_155-r41h859d828_0.tar.bz2",
+  "license": "GPL-2.0-or-later",
+  "link": {
+    "source": "/omics/groups/OE0146/internal/Areeba/miniconda3/pkgs/r-nlme-3.1_155-r41h859d828_0",
+    "type": 1
+  },
+  "md5": "67782f0ebbbca9d7a58bea93e43778e1",
+  "name": "r-nlme",
+  "package_tarball_full_path": "/omics/groups/OE0146/internal/Areeba/miniconda3/pkgs/r-nlme-3.1_155-r41h859d828_0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/R/library/nlme/CITATION",
+        "path_type": "hardlink",
+        "sha256": "e68de762c44c4c2466812ac420bf7cd3babb018dd3779ebb7bd02b36a86be8c7",
+        "sha256_in_prefix": "e68de762c44c4c2466812ac420bf7cd3babb018dd3779ebb7bd02b36a86be8c7",
+        "size_in_bytes": 528
+      },
+      {
+        "_path": "lib/R/library/nlme/DESCRIPTION",
+        "path_type": "hardlink",
+        "sha256": "302d725ce96e3272ea5fba198705a210eeea05debd2cd3f79371948a0077e23e",
+        "sha256_in_prefix": "302d725ce96e3272ea5fba198705a210eeea05debd2cd3f79371948a0077e23e",
+        "size_in_bytes": 1859
+      },
+      {
+        "_path": "lib/R/library/nlme/INDEX",
+        "path_type": "hardlink",
+        "sha256": "dbde6b56d5fb0d361316c6b21b48452e52c8fcf93408584e1eb50f2d10b9e616",
+        "sha256_in_prefix": "dbde6b56d5fb0d361316c6b21b48452e52c8fcf93408584e1eb50f2d10b9e616",
+        "size_in_bytes": 16468
+      },
+      {
+        "_path": "lib/R/library/nlme/LICENCE",
+        "path_type": "hardlink",
+        "sha256": "dcd13fb2810d8256928b823f74be7380db96201ce804b5a086cb9aa19fd7b488",
+        "sha256_in_prefix": "dcd13fb2810d8256928b823f74be7380db96201ce804b5a086cb9aa19fd7b488",
+        "size_in_bytes": 18201
+      },
+      {
+        "_path": "lib/R/library/nlme/Meta/Rd.rds",
+        "path_type": "hardlink",
+        "sha256": "5f29fe8f03af3dcc37b530d21517222b86436b60c11cf97f0edc0a6970f09468",
+        "sha256_in_prefix": "5f29fe8f03af3dcc37b530d21517222b86436b60c11cf97f0edc0a6970f09468",
+        "size_in_bytes": 8716
+      },
+      {
+        "_path": "lib/R/library/nlme/Meta/data.rds",
+        "path_type": "hardlink",
+        "sha256": "ce8d44d1bca8db95ae1e7589aba1a3b86ab4c864353f7659e39526c53894f82c",
+        "sha256_in_prefix": "ce8d44d1bca8db95ae1e7589aba1a3b86ab4c864353f7659e39526c53894f82c",
+        "size_in_bytes": 1069
+      },
+      {
+        "_path": "lib/R/library/nlme/Meta/features.rds",
+        "path_type": "hardlink",
+        "sha256": "afa04c711628a6de0e93c59b08985fa661af90c9502d5620f12a5f20d9ef9eaa",
+        "sha256_in_prefix": "afa04c711628a6de0e93c59b08985fa661af90c9502d5620f12a5f20d9ef9eaa",
+        "size_in_bytes": 123
+      },
+      {
+        "_path": "lib/R/library/nlme/Meta/hsearch.rds",
+        "path_type": "hardlink",
+        "sha256": "8928c7e5b0cec1ae7d00540f5fa4e9a81d2357ef4fc93f1eb1bfcb3cc0642742",
+        "sha256_in_prefix": "8928c7e5b0cec1ae7d00540f5fa4e9a81d2357ef4fc93f1eb1bfcb3cc0642742",
+        "size_in_bytes": 8414
+      },
+      {
+        "_path": "lib/R/library/nlme/Meta/links.rds",
+        "path_type": "hardlink",
+        "sha256": "25d3461c3b53b95d407d962f36e95c656b270904df93883abdc7a5bc5ddda761",
+        "sha256_in_prefix": "25d3461c3b53b95d407d962f36e95c656b270904df93883abdc7a5bc5ddda761",
+        "size_in_bytes": 4721
+      },
+      {
+        "_path": "lib/R/library/nlme/Meta/nsInfo.rds",
+        "path_type": "hardlink",
+        "sha256": "19485d6b105a062c142b0c096669ecf7906ea7c3b0187909920083aaef804abd",
+        "sha256_in_prefix": "19485d6b105a062c142b0c096669ecf7906ea7c3b0187909920083aaef804abd",
+        "size_in_bytes": 2529
+      },
+      {
+        "_path": "lib/R/library/nlme/Meta/package.rds",
+        "path_type": "hardlink",
+        "sha256": "b1090358ede2201a11f4e2388b0bae9accb87828afb1d1160c09b681948fe74b",
+        "sha256_in_prefix": "b1090358ede2201a11f4e2388b0bae9accb87828afb1d1160c09b681948fe74b",
+        "size_in_bytes": 1294
+      },
+      {
+        "_path": "lib/R/library/nlme/NAMESPACE",
+        "path_type": "hardlink",
+        "sha256": "991f118b1c3facc910b6d5f8ab4a6f9f74e0285c5ce5e529d39a94dc1d295595",
+        "sha256_in_prefix": "991f118b1c3facc910b6d5f8ab4a6f9f74e0285c5ce5e529d39a94dc1d295595",
+        "size_in_bytes": 15075
+      },
+      {
+        "_path": "lib/R/library/nlme/R/nlme",
+        "path_type": "hardlink",
+        "sha256": "570ca456b280cdeb201ef5ebdf22dc8f80092e2c0c68e33c7f73340e420f3759",
+        "sha256_in_prefix": "570ca456b280cdeb201ef5ebdf22dc8f80092e2c0c68e33c7f73340e420f3759",
+        "size_in_bytes": 1058
+      },
+      {
+        "_path": "lib/R/library/nlme/R/nlme.rdb",
+        "path_type": "hardlink",
+        "sha256": "3acc67e398c64919398d09e26d18501582422c50321e875278deb828c5dd5a6b",
+        "sha256_in_prefix": "3acc67e398c64919398d09e26d18501582422c50321e875278deb828c5dd5a6b",
+        "size_in_bytes": 945059
+      },
+      {
+        "_path": "lib/R/library/nlme/R/nlme.rdx",
+        "path_type": "hardlink",
+        "sha256": "a45dbcca21e7000b8cfef74a279b0a2a22a17dde73b4ee71f1a56ee812595f20",
+        "sha256_in_prefix": "a45dbcca21e7000b8cfef74a279b0a2a22a17dde73b4ee71f1a56ee812595f20",
+        "size_in_bytes": 6547
+      },
+      {
+        "_path": "lib/R/library/nlme/data/Rdata.rdb",
+        "path_type": "hardlink",
+        "sha256": "d256b9f228a7a6a6c42f973cedf75ff8cb42d251bd194618d8fc60df9aae0eca",
+        "sha256_in_prefix": "d256b9f228a7a6a6c42f973cedf75ff8cb42d251bd194618d8fc60df9aae0eca",
+        "size_in_bytes": 272032
+      },
+      {
+        "_path": "lib/R/library/nlme/data/Rdata.rds",
+        "path_type": "hardlink",
+        "sha256": "036a6b93c795f5402256e5e435516cc241d3308f637603f4f42fa2613fca3444",
+        "sha256_in_prefix": "036a6b93c795f5402256e5e435516cc241d3308f637603f4f42fa2613fca3444",
+        "size_in_bytes": 472
+      },
+      {
+        "_path": "lib/R/library/nlme/data/Rdata.rdx",
+        "path_type": "hardlink",
+        "sha256": "58ae94b9a8e78cb049860e9d58d4e757d92804da0111ffaed71b8ab15225d9cd",
+        "sha256_in_prefix": "58ae94b9a8e78cb049860e9d58d4e757d92804da0111ffaed71b8ab15225d9cd",
+        "size_in_bytes": 836
+      },
+      {
+        "_path": "lib/R/library/nlme/help/AnIndex",
+        "path_type": "hardlink",
+        "sha256": "172b30fa9dc795455e7f3244d2054f0102f9dc000e3f489af7e909773723a5c8",
+        "sha256_in_prefix": "172b30fa9dc795455e7f3244d2054f0102f9dc000e3f489af7e909773723a5c8",
+        "size_in_bytes": 15240
+      },
+      {
+        "_path": "lib/R/library/nlme/help/aliases.rds",
+        "path_type": "hardlink",
+        "sha256": "17f4e64e70013fedf4a99b7527d9937357979a34d479d6d4cbe1c8337cfaa0cd",
+        "sha256_in_prefix": "17f4e64e70013fedf4a99b7527d9937357979a34d479d6d4cbe1c8337cfaa0cd",
+        "size_in_bytes": 3412
+      },
+      {
+        "_path": "lib/R/library/nlme/help/nlme.rdb",
+        "path_type": "hardlink",
+        "sha256": "ab141e6a97fbf050ad7e82c9d15715d2d0d52d0f6b4eeca35b70efd9d6b79af2",
+        "sha256_in_prefix": "ab141e6a97fbf050ad7e82c9d15715d2d0d52d0f6b4eeca35b70efd9d6b79af2",
+        "size_in_bytes": 959980
+      },
+      {
+        "_path": "lib/R/library/nlme/help/nlme.rdx",
+        "path_type": "hardlink",
+        "sha256": "dc5d55b3bab5a3423e574a199dea8ed52c16fb23842c12f884219c30518e5e5c",
+        "sha256_in_prefix": "dc5d55b3bab5a3423e574a199dea8ed52c16fb23842c12f884219c30518e5e5c",
+        "size_in_bytes": 5804
+      },
+      {
+        "_path": "lib/R/library/nlme/help/paths.rds",
+        "path_type": "hardlink",
+        "sha256": "5f652e5ea2ba544fb2326dfc1d3cfd7e3138931f050a569dfb9246eed727c3a0",
+        "sha256_in_prefix": "5f652e5ea2ba544fb2326dfc1d3cfd7e3138931f050a569dfb9246eed727c3a0",
+        "size_in_bytes": 2122
+      },
+      {
+        "_path": "lib/R/library/nlme/html/00Index.html",
+        "path_type": "hardlink",
+        "sha256": "58e39b1689c56cc5919dbc87e0aeaafe6b07b17fc768e321aa025ec44bbfb6e3",
+        "sha256_in_prefix": "58e39b1689c56cc5919dbc87e0aeaafe6b07b17fc768e321aa025ec44bbfb6e3",
+        "size_in_bytes": 72083
+      },
+      {
+        "_path": "lib/R/library/nlme/html/R.css",
+        "path_type": "hardlink",
+        "sha256": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "sha256_in_prefix": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "size_in_bytes": 1335
+      },
+      {
+        "_path": "lib/R/library/nlme/libs/nlme.so",
+        "path_type": "hardlink",
+        "sha256": "d725ca233d3273a342d34cc64aff286721e7ca7b5fa09f8e69108fd389d6a732",
+        "sha256_in_prefix": "d725ca233d3273a342d34cc64aff286721e7ca7b5fa09f8e69108fd389d6a732",
+        "size_in_bytes": 87840
+      },
+      {
+        "_path": "lib/R/library/nlme/mlbook/README",
+        "path_type": "hardlink",
+        "sha256": "c1dc972d7bb33b49b4fa1df15639b8cdfa3be198b2b97cd70f8ae956daba869a",
+        "sha256_in_prefix": "c1dc972d7bb33b49b4fa1df15639b8cdfa3be198b2b97cd70f8ae956daba869a",
+        "size_in_bytes": 207
+      },
+      {
+        "_path": "lib/R/library/nlme/mlbook/ch04.R",
+        "path_type": "hardlink",
+        "sha256": "7528705bdc78f7be88887c102eb87ce4463f21d490dbea3f548dc90b806e9b0f",
+        "sha256_in_prefix": "7528705bdc78f7be88887c102eb87ce4463f21d490dbea3f548dc90b806e9b0f",
+        "size_in_bytes": 920
+      },
+      {
+        "_path": "lib/R/library/nlme/mlbook/ch05.R",
+        "path_type": "hardlink",
+        "sha256": "926766b82f6c206e334656e6ff40d223eebec579324e1007094b4e08d1f508b6",
+        "sha256_in_prefix": "926766b82f6c206e334656e6ff40d223eebec579324e1007094b4e08d1f508b6",
+        "size_in_bytes": 516
+      },
+      {
+        "_path": "lib/R/library/nlme/po/de/LC_MESSAGES/R-nlme.mo",
+        "path_type": "hardlink",
+        "sha256": "925c062d78fb5251068c5c0b493e2b61c57b71875e05d4434db501ad5195b0fd",
+        "sha256_in_prefix": "925c062d78fb5251068c5c0b493e2b61c57b71875e05d4434db501ad5195b0fd",
+        "size_in_bytes": 45457
+      },
+      {
+        "_path": "lib/R/library/nlme/po/de/LC_MESSAGES/nlme.mo",
+        "path_type": "hardlink",
+        "sha256": "f58f6c6cbe093c79aced40709af8e33d26966e6fa17d0771e719c58781f467ac",
+        "sha256_in_prefix": "f58f6c6cbe093c79aced40709af8e33d26966e6fa17d0771e719c58781f467ac",
+        "size_in_bytes": 2050
+      },
+      {
+        "_path": "lib/R/library/nlme/po/en@quot/LC_MESSAGES/R-nlme.mo",
+        "path_type": "hardlink",
+        "sha256": "2aa23907633cbdd4390dda630ca3cdf9ee5b0f83dac754bba8d2758b99d9960c",
+        "sha256_in_prefix": "2aa23907633cbdd4390dda630ca3cdf9ee5b0f83dac754bba8d2758b99d9960c",
+        "size_in_bytes": 43505
+      },
+      {
+        "_path": "lib/R/library/nlme/po/en@quot/LC_MESSAGES/nlme.mo",
+        "path_type": "hardlink",
+        "sha256": "fbae5af5b5c203efc232614ee4eecf33ba3bd2f78d39ed6a63553cf86ff2a7e2",
+        "sha256_in_prefix": "fbae5af5b5c203efc232614ee4eecf33ba3bd2f78d39ed6a63553cf86ff2a7e2",
+        "size_in_bytes": 1887
+      },
+      {
+        "_path": "lib/R/library/nlme/po/fr/LC_MESSAGES/R-nlme.mo",
+        "path_type": "hardlink",
+        "sha256": "9df6b67f9a798b6bc09170082abaa712a00c0ddc4430494b71f38f62440ba119",
+        "sha256_in_prefix": "9df6b67f9a798b6bc09170082abaa712a00c0ddc4430494b71f38f62440ba119",
+        "size_in_bytes": 43964
+      },
+      {
+        "_path": "lib/R/library/nlme/po/fr/LC_MESSAGES/nlme.mo",
+        "path_type": "hardlink",
+        "sha256": "e4eb5236142e8738bc030cb0faff2e5f1f6d9bb381627e30cd6f01fcddbabf87",
+        "sha256_in_prefix": "e4eb5236142e8738bc030cb0faff2e5f1f6d9bb381627e30cd6f01fcddbabf87",
+        "size_in_bytes": 2108
+      },
+      {
+        "_path": "lib/R/library/nlme/po/ko/LC_MESSAGES/R-nlme.mo",
+        "path_type": "hardlink",
+        "sha256": "27dbb49fd769e4cefd69653fffd57d40d150d483db9cb04811560acd27090c08",
+        "sha256_in_prefix": "27dbb49fd769e4cefd69653fffd57d40d150d483db9cb04811560acd27090c08",
+        "size_in_bytes": 4941
+      },
+      {
+        "_path": "lib/R/library/nlme/po/ko/LC_MESSAGES/nlme.mo",
+        "path_type": "hardlink",
+        "sha256": "aaf74726a6152de3000a5ec8dbfc1ce14d5397ee37d6dcb214d7bb88aeea496e",
+        "sha256_in_prefix": "aaf74726a6152de3000a5ec8dbfc1ce14d5397ee37d6dcb214d7bb88aeea496e",
+        "size_in_bytes": 1452
+      },
+      {
+        "_path": "lib/R/library/nlme/po/pl/LC_MESSAGES/R-nlme.mo",
+        "path_type": "hardlink",
+        "sha256": "f538348ca5510bafd8332bc8e75920c58990c89328801b7ef4a818e61275d5b1",
+        "sha256_in_prefix": "f538348ca5510bafd8332bc8e75920c58990c89328801b7ef4a818e61275d5b1",
+        "size_in_bytes": 44463
+      },
+      {
+        "_path": "lib/R/library/nlme/po/pl/LC_MESSAGES/nlme.mo",
+        "path_type": "hardlink",
+        "sha256": "5597c4cb6f14b5884e2c2468e9cde6598f5485a398f701b0c9812373ab4bb8fa",
+        "sha256_in_prefix": "5597c4cb6f14b5884e2c2468e9cde6598f5485a398f701b0c9812373ab4bb8fa",
+        "size_in_bytes": 1739
+      },
+      {
+        "_path": "lib/R/library/nlme/scripts/ch01.R",
+        "path_type": "hardlink",
+        "sha256": "740bf97e93ccd857cebe88bc8db77b4894ea5d50e27262dae51f98c293bdff72",
+        "sha256_in_prefix": "740bf97e93ccd857cebe88bc8db77b4894ea5d50e27262dae51f98c293bdff72",
+        "size_in_bytes": 4702
+      },
+      {
+        "_path": "lib/R/library/nlme/scripts/ch02.R",
+        "path_type": "hardlink",
+        "sha256": "86e757f9bb068b82472674bb7ff4465f54760468bf72dc96ca8abdcde9a899c2",
+        "sha256_in_prefix": "86e757f9bb068b82472674bb7ff4465f54760468bf72dc96ca8abdcde9a899c2",
+        "size_in_bytes": 2427
+      },
+      {
+        "_path": "lib/R/library/nlme/scripts/ch03.R",
+        "path_type": "hardlink",
+        "sha256": "ec79635ba1730b481cf13bf38b7f97d9215e2a3414622b083dec58bfc727fd0f",
+        "sha256_in_prefix": "ec79635ba1730b481cf13bf38b7f97d9215e2a3414622b083dec58bfc727fd0f",
+        "size_in_bytes": 3910
+      },
+      {
+        "_path": "lib/R/library/nlme/scripts/ch04.R",
+        "path_type": "hardlink",
+        "sha256": "965ef4411c9b773c2b80e22e97404fadb4df35dae3dd0b4e26bb06d8e762bc89",
+        "sha256_in_prefix": "965ef4411c9b773c2b80e22e97404fadb4df35dae3dd0b4e26bb06d8e762bc89",
+        "size_in_bytes": 7102
+      },
+      {
+        "_path": "lib/R/library/nlme/scripts/ch05.R",
+        "path_type": "hardlink",
+        "sha256": "d938d2fafa812f56e6c62378e03168bb521c59372c0e9cb5e11ce58b4c467fc5",
+        "sha256_in_prefix": "d938d2fafa812f56e6c62378e03168bb521c59372c0e9cb5e11ce58b4c467fc5",
+        "size_in_bytes": 7503
+      },
+      {
+        "_path": "lib/R/library/nlme/scripts/ch06.R",
+        "path_type": "hardlink",
+        "sha256": "a5ef847ad015e71ee0fd7aa02e442840624b7e1fc44cfd8763293379f392240a",
+        "sha256_in_prefix": "a5ef847ad015e71ee0fd7aa02e442840624b7e1fc44cfd8763293379f392240a",
+        "size_in_bytes": 3622
+      },
+      {
+        "_path": "lib/R/library/nlme/scripts/ch08.R",
+        "path_type": "hardlink",
+        "sha256": "7f007f2f411869c23168773d726cf4c6b98a30593ed8e670fb2bcb61ca94769e",
+        "sha256_in_prefix": "7f007f2f411869c23168773d726cf4c6b98a30593ed8e670fb2bcb61ca94769e",
+        "size_in_bytes": 11796
+      },
+      {
+        "_path": "lib/R/library/nlme/scripts/runme.R",
+        "path_type": "hardlink",
+        "sha256": "edeea5b65424fdbe2956068887a86c87e94fab85aefd1de9770755cf6d9c7c88",
+        "sha256_in_prefix": "edeea5b65424fdbe2956068887a86c87e94fab85aefd1de9770755cf6d9c7c88",
+        "size_in_bytes": 550
+      },
+      {
+        "_path": "lib/R/library/nlme/scripts/sims.rda",
+        "path_type": "hardlink",
+        "sha256": "94dbe912674b243eb8d2137e03f8be8f4933750dd399f5f53a99830163b3b8ea",
+        "sha256_in_prefix": "94dbe912674b243eb8d2137e03f8be8f4933750dd399f5f53a99830163b3b8ea",
+        "size_in_bytes": 105883
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "r-nlme==3.1_155=r41h859d828_0",
+  "sha256": "a9463b1781f1e9cc0827299a66ccdd235a66a34b958760fb03cea68ccb2e345c",
+  "size": 2392929,
+  "subdir": "linux-64",
+  "timestamp": 1642089078000,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/r-nlme-3.1_155-r41h859d828_0.tar.bz2",
+  "version": "3.1_155"
+}

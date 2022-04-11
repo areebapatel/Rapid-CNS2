@@ -1,0 +1,405 @@
+{
+  "build": "r41hc72bb7e_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "r-base >=4.1,<4.2.0a0"
+  ],
+  "extracted_package_dir": "/omics/groups/OE0146/internal/Areeba/miniconda3/pkgs/r-iterators-1.0.13-r41hc72bb7e_0",
+  "features": "",
+  "files": [
+    "lib/R/library/iterators/DESCRIPTION",
+    "lib/R/library/iterators/INDEX",
+    "lib/R/library/iterators/Meta/Rd.rds",
+    "lib/R/library/iterators/Meta/features.rds",
+    "lib/R/library/iterators/Meta/hsearch.rds",
+    "lib/R/library/iterators/Meta/links.rds",
+    "lib/R/library/iterators/Meta/nsInfo.rds",
+    "lib/R/library/iterators/Meta/package.rds",
+    "lib/R/library/iterators/Meta/vignette.rds",
+    "lib/R/library/iterators/NAMESPACE",
+    "lib/R/library/iterators/NEWS.md",
+    "lib/R/library/iterators/R/iterators",
+    "lib/R/library/iterators/R/iterators.rdb",
+    "lib/R/library/iterators/R/iterators.rdx",
+    "lib/R/library/iterators/doc/index.html",
+    "lib/R/library/iterators/doc/iterators.R",
+    "lib/R/library/iterators/doc/iterators.Rnw",
+    "lib/R/library/iterators/doc/iterators.pdf",
+    "lib/R/library/iterators/doc/writing.R",
+    "lib/R/library/iterators/doc/writing.Rnw",
+    "lib/R/library/iterators/doc/writing.pdf",
+    "lib/R/library/iterators/examples/ifilter.R",
+    "lib/R/library/iterators/examples/iforever.R",
+    "lib/R/library/iterators/examples/ihasNext.R",
+    "lib/R/library/iterators/examples/ilimit.R",
+    "lib/R/library/iterators/examples/ipermn.R",
+    "lib/R/library/iterators/examples/irecycle.R",
+    "lib/R/library/iterators/examples/irep.R",
+    "lib/R/library/iterators/examples/iseq.R",
+    "lib/R/library/iterators/examples/itimer.R",
+    "lib/R/library/iterators/examples/ivector.R",
+    "lib/R/library/iterators/examples/ivector2.R",
+    "lib/R/library/iterators/help/AnIndex",
+    "lib/R/library/iterators/help/aliases.rds",
+    "lib/R/library/iterators/help/iterators.rdb",
+    "lib/R/library/iterators/help/iterators.rdx",
+    "lib/R/library/iterators/help/paths.rds",
+    "lib/R/library/iterators/html/00Index.html",
+    "lib/R/library/iterators/html/R.css",
+    "lib/R/library/iterators/unitTests/basicTest.R",
+    "lib/R/library/iterators/unitTests/chunksizeTest.R",
+    "lib/R/library/iterators/unitTests/iapplyTest.R",
+    "lib/R/library/iterators/unitTests/icountnTest.R",
+    "lib/R/library/iterators/unitTests/isplitTest.R",
+    "lib/R/library/iterators/unitTests/recycleTest.R",
+    "lib/R/library/iterators/unitTests/runTestSuite.sh"
+  ],
+  "fn": "r-iterators-1.0.13-r41hc72bb7e_0.tar.bz2",
+  "license": "Apache-2.0",
+  "link": {
+    "source": "/omics/groups/OE0146/internal/Areeba/miniconda3/pkgs/r-iterators-1.0.13-r41hc72bb7e_0",
+    "type": 1
+  },
+  "md5": "486193d2305a062be609d6f2eaa5f9b6",
+  "name": "r-iterators",
+  "noarch": "generic",
+  "package_tarball_full_path": "/omics/groups/OE0146/internal/Areeba/miniconda3/pkgs/r-iterators-1.0.13-r41hc72bb7e_0.tar.bz2",
+  "package_type": "noarch_generic",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/R/library/iterators/DESCRIPTION",
+        "path_type": "hardlink",
+        "sha256": "3e54e6b48298238f5e374cc1feb2e445b2470831703002e5228d313a8152431a",
+        "sha256_in_prefix": "3e54e6b48298238f5e374cc1feb2e445b2470831703002e5228d313a8152431a",
+        "size_in_bytes": 907
+      },
+      {
+        "_path": "lib/R/library/iterators/INDEX",
+        "path_type": "hardlink",
+        "sha256": "947c84f700735c719cb93dd4dd7553993c5214a2341732a108a66691b9c079ad",
+        "sha256_in_prefix": "947c84f700735c719cb93dd4dd7553993c5214a2341732a108a66691b9c079ad",
+        "size_in_bytes": 586
+      },
+      {
+        "_path": "lib/R/library/iterators/Meta/Rd.rds",
+        "path_type": "hardlink",
+        "sha256": "2f81bc6c4b4f7d4d0ab65cc6c8cb97b8adc38cb087b7764753717a139b7ef38b",
+        "sha256_in_prefix": "2f81bc6c4b4f7d4d0ab65cc6c8cb97b8adc38cb087b7764753717a139b7ef38b",
+        "size_in_bytes": 665
+      },
+      {
+        "_path": "lib/R/library/iterators/Meta/features.rds",
+        "path_type": "hardlink",
+        "sha256": "b84ca42483e79a917d4c89f07a99625c472773b7d3ba686c276da9b5514abeac",
+        "sha256_in_prefix": "b84ca42483e79a917d4c89f07a99625c472773b7d3ba686c276da9b5514abeac",
+        "size_in_bytes": 122
+      },
+      {
+        "_path": "lib/R/library/iterators/Meta/hsearch.rds",
+        "path_type": "hardlink",
+        "sha256": "9dbaffe7055618db9f0df143d7400254e83932a6e06cea4682d3cb9793c36d29",
+        "sha256_in_prefix": "9dbaffe7055618db9f0df143d7400254e83932a6e06cea4682d3cb9793c36d29",
+        "size_in_bytes": 775
+      },
+      {
+        "_path": "lib/R/library/iterators/Meta/links.rds",
+        "path_type": "hardlink",
+        "sha256": "c1fb5cc0423a6ea5450217011e81375549037c50ebafac7708547a1b935a43e4",
+        "sha256_in_prefix": "c1fb5cc0423a6ea5450217011e81375549037c50ebafac7708547a1b935a43e4",
+        "size_in_bytes": 363
+      },
+      {
+        "_path": "lib/R/library/iterators/Meta/nsInfo.rds",
+        "path_type": "hardlink",
+        "sha256": "bdd549ee23a1d266ecba07bb2f68fc391c3c6e18d82442e78329edf9d03eb210",
+        "sha256_in_prefix": "bdd549ee23a1d266ecba07bb2f68fc391c3c6e18d82442e78329edf9d03eb210",
+        "size_in_bytes": 396
+      },
+      {
+        "_path": "lib/R/library/iterators/Meta/package.rds",
+        "path_type": "hardlink",
+        "sha256": "3f3ac5f12f55a00a1f77ff7bcebd4456df831eb22775c4c1bf2caf45617ea2d1",
+        "sha256_in_prefix": "3f3ac5f12f55a00a1f77ff7bcebd4456df831eb22775c4c1bf2caf45617ea2d1",
+        "size_in_bytes": 921
+      },
+      {
+        "_path": "lib/R/library/iterators/Meta/vignette.rds",
+        "path_type": "hardlink",
+        "sha256": "63fae56d5d7b407f559818054b2c5ff690c3ef3a06f20c901839336add8cfb18",
+        "sha256_in_prefix": "63fae56d5d7b407f559818054b2c5ff690c3ef3a06f20c901839336add8cfb18",
+        "size_in_bytes": 229
+      },
+      {
+        "_path": "lib/R/library/iterators/NAMESPACE",
+        "path_type": "hardlink",
+        "sha256": "8baa6384fde444765c3b74b91e73b01ba410f3ad298df92ee5f9e431bec39e22",
+        "sha256_in_prefix": "8baa6384fde444765c3b74b91e73b01ba410f3ad298df92ee5f9e431bec39e22",
+        "size_in_bytes": 610
+      },
+      {
+        "_path": "lib/R/library/iterators/NEWS.md",
+        "path_type": "hardlink",
+        "sha256": "a5ce9809543d4b2838425658837dbbe543c69bbe4cf33d2a5d280328bb8f1205",
+        "sha256_in_prefix": "a5ce9809543d4b2838425658837dbbe543c69bbe4cf33d2a5d280328bb8f1205",
+        "size_in_bytes": 207
+      },
+      {
+        "_path": "lib/R/library/iterators/R/iterators",
+        "path_type": "hardlink",
+        "sha256": "570ca456b280cdeb201ef5ebdf22dc8f80092e2c0c68e33c7f73340e420f3759",
+        "sha256_in_prefix": "570ca456b280cdeb201ef5ebdf22dc8f80092e2c0c68e33c7f73340e420f3759",
+        "size_in_bytes": 1058
+      },
+      {
+        "_path": "lib/R/library/iterators/R/iterators.rdb",
+        "path_type": "hardlink",
+        "sha256": "991d6c910affad2cc4b83d13b4daf5efe9ad53de35316033ec76050b469430bc",
+        "sha256_in_prefix": "991d6c910affad2cc4b83d13b4daf5efe9ad53de35316033ec76050b469430bc",
+        "size_in_bytes": 39778
+      },
+      {
+        "_path": "lib/R/library/iterators/R/iterators.rdx",
+        "path_type": "hardlink",
+        "sha256": "391201a51319c71c64a25d84c51693f1306cf30d22e508d8a13502582984328e",
+        "sha256_in_prefix": "391201a51319c71c64a25d84c51693f1306cf30d22e508d8a13502582984328e",
+        "size_in_bytes": 755
+      },
+      {
+        "_path": "lib/R/library/iterators/doc/index.html",
+        "path_type": "hardlink",
+        "sha256": "699085cadc37178f890d22649bd0cf721c4d66ef232c16f63482fc808ac8785f",
+        "sha256_in_prefix": "699085cadc37178f890d22649bd0cf721c4d66ef232c16f63482fc808ac8785f",
+        "size_in_bytes": 1827
+      },
+      {
+        "_path": "lib/R/library/iterators/doc/iterators.R",
+        "path_type": "hardlink",
+        "sha256": "88debef09f900e41ec6f89828da1e5cf86be09418ecc51e88fc1623d4983d7b0",
+        "sha256_in_prefix": "88debef09f900e41ec6f89828da1e5cf86be09418ecc51e88fc1623d4983d7b0",
+        "size_in_bytes": 1300
+      },
+      {
+        "_path": "lib/R/library/iterators/doc/iterators.Rnw",
+        "path_type": "hardlink",
+        "sha256": "d420f7599ff738d9fc8460895ca9ee2b843e0cc3b0c6625d0a81074a81e30087",
+        "sha256_in_prefix": "d420f7599ff738d9fc8460895ca9ee2b843e0cc3b0c6625d0a81074a81e30087",
+        "size_in_bytes": 6396
+      },
+      {
+        "_path": "lib/R/library/iterators/doc/iterators.pdf",
+        "path_type": "hardlink",
+        "sha256": "e1239a829dfda08869f7af6d8522b720bd8b6c4215e547cd4eb27e3e5ecb79cf",
+        "sha256_in_prefix": "e1239a829dfda08869f7af6d8522b720bd8b6c4215e547cd4eb27e3e5ecb79cf",
+        "size_in_bytes": 81963
+      },
+      {
+        "_path": "lib/R/library/iterators/doc/writing.R",
+        "path_type": "hardlink",
+        "sha256": "5456e72d9fd81a59ce6a412dcc9c1f4dc54d8edd9ccdd9ea9da7fe352b087344",
+        "sha256_in_prefix": "5456e72d9fd81a59ce6a412dcc9c1f4dc54d8edd9ccdd9ea9da7fe352b087344",
+        "size_in_bytes": 6047
+      },
+      {
+        "_path": "lib/R/library/iterators/doc/writing.Rnw",
+        "path_type": "hardlink",
+        "sha256": "d0dee75dd9446f748c8713a716a6a51b5184681625b3c739ef046af72a42a9e2",
+        "sha256_in_prefix": "d0dee75dd9446f748c8713a716a6a51b5184681625b3c739ef046af72a42a9e2",
+        "size_in_bytes": 21097
+      },
+      {
+        "_path": "lib/R/library/iterators/doc/writing.pdf",
+        "path_type": "hardlink",
+        "sha256": "bfac7912a489b85836e16c2476a2e2a41516aa24c01c727fcde929a896195284",
+        "sha256_in_prefix": "bfac7912a489b85836e16c2476a2e2a41516aa24c01c727fcde929a896195284",
+        "size_in_bytes": 189951
+      },
+      {
+        "_path": "lib/R/library/iterators/examples/ifilter.R",
+        "path_type": "hardlink",
+        "sha256": "8bb8f97f161b93395b8f204231d8a001499561e488f522ee5cf0fe599e985ede",
+        "sha256_in_prefix": "8bb8f97f161b93395b8f204231d8a001499561e488f522ee5cf0fe599e985ede",
+        "size_in_bytes": 630
+      },
+      {
+        "_path": "lib/R/library/iterators/examples/iforever.R",
+        "path_type": "hardlink",
+        "sha256": "d49a4ea4a84238a9817b48d7bafb47ac667c7346a724496958327756a4ee16bc",
+        "sha256_in_prefix": "d49a4ea4a84238a9817b48d7bafb47ac667c7346a724496958327756a4ee16bc",
+        "size_in_bytes": 367
+      },
+      {
+        "_path": "lib/R/library/iterators/examples/ihasNext.R",
+        "path_type": "hardlink",
+        "sha256": "1c3e2ff8d8fa0b70c4b13330f81dfe5667e06c16d0e38088c1c56dbe6f9a788b",
+        "sha256_in_prefix": "1c3e2ff8d8fa0b70c4b13330f81dfe5667e06c16d0e38088c1c56dbe6f9a788b",
+        "size_in_bytes": 1741
+      },
+      {
+        "_path": "lib/R/library/iterators/examples/ilimit.R",
+        "path_type": "hardlink",
+        "sha256": "9a3dcef4b5a15edd568f9989b92da39a225de8d2568b83b714f2edbd7cd933d0",
+        "sha256_in_prefix": "9a3dcef4b5a15edd568f9989b92da39a225de8d2568b83b714f2edbd7cd933d0",
+        "size_in_bytes": 456
+      },
+      {
+        "_path": "lib/R/library/iterators/examples/ipermn.R",
+        "path_type": "hardlink",
+        "sha256": "ab8014a185abeb097f9bfc5f25a2cea56b0e69ea17983b7784cd718b17f8fe17",
+        "sha256_in_prefix": "ab8014a185abeb097f9bfc5f25a2cea56b0e69ea17983b7784cd718b17f8fe17",
+        "size_in_bytes": 3693
+      },
+      {
+        "_path": "lib/R/library/iterators/examples/irecycle.R",
+        "path_type": "hardlink",
+        "sha256": "4d343f3bab6b2e0ac56e0a85ebb53cb71d955b88057f6f3c31d5311a0bd46feb",
+        "sha256_in_prefix": "4d343f3bab6b2e0ac56e0a85ebb53cb71d955b88057f6f3c31d5311a0bd46feb",
+        "size_in_bytes": 535
+      },
+      {
+        "_path": "lib/R/library/iterators/examples/irep.R",
+        "path_type": "hardlink",
+        "sha256": "9753915f91e02051a18601b06c45a461f98d1e1e5719e25f4653645272ac37aa",
+        "sha256_in_prefix": "9753915f91e02051a18601b06c45a461f98d1e1e5719e25f4653645272ac37aa",
+        "size_in_bytes": 528
+      },
+      {
+        "_path": "lib/R/library/iterators/examples/iseq.R",
+        "path_type": "hardlink",
+        "sha256": "af826a6020ac8b8eb30dbee762093f93964ea68d1b7cee2462d299cd97becb51",
+        "sha256_in_prefix": "af826a6020ac8b8eb30dbee762093f93964ea68d1b7cee2462d299cd97becb51",
+        "size_in_bytes": 712
+      },
+      {
+        "_path": "lib/R/library/iterators/examples/itimer.R",
+        "path_type": "hardlink",
+        "sha256": "1c29530d6508d634d760d94759b589059a7a99a34be951f330c2a60997396438",
+        "sha256_in_prefix": "1c29530d6508d634d760d94759b589059a7a99a34be951f330c2a60997396438",
+        "size_in_bytes": 602
+      },
+      {
+        "_path": "lib/R/library/iterators/examples/ivector.R",
+        "path_type": "hardlink",
+        "sha256": "3d0486d66d3788457d7e7e4b91f9a2c52ba27ac91a5c852169ebff3950253e7d",
+        "sha256_in_prefix": "3d0486d66d3788457d7e7e4b91f9a2c52ba27ac91a5c852169ebff3950253e7d",
+        "size_in_bytes": 710
+      },
+      {
+        "_path": "lib/R/library/iterators/examples/ivector2.R",
+        "path_type": "hardlink",
+        "sha256": "ef82a4fdbbd4b784e53ef3c88ffc119d38349a889f893ae99c9b6609e365a132",
+        "sha256_in_prefix": "ef82a4fdbbd4b784e53ef3c88ffc119d38349a889f893ae99c9b6609e365a132",
+        "size_in_bytes": 1292
+      },
+      {
+        "_path": "lib/R/library/iterators/help/AnIndex",
+        "path_type": "hardlink",
+        "sha256": "f21710d1639b7bf9baaf6c0a47db2e1362e77ab38a0a615cb976e7336b05bed9",
+        "sha256_in_prefix": "f21710d1639b7bf9baaf6c0a47db2e1362e77ab38a0a615cb976e7336b05bed9",
+        "size_in_bytes": 473
+      },
+      {
+        "_path": "lib/R/library/iterators/help/aliases.rds",
+        "path_type": "hardlink",
+        "sha256": "40e7c7eb2078b2e821abca2d2048bebd9864c160df20ba1ea780d857d001cf28",
+        "sha256_in_prefix": "40e7c7eb2078b2e821abca2d2048bebd9864c160df20ba1ea780d857d001cf28",
+        "size_in_bytes": 289
+      },
+      {
+        "_path": "lib/R/library/iterators/help/iterators.rdb",
+        "path_type": "hardlink",
+        "sha256": "ff69066afc13aab8b7a70ac27fb40e9dfb0f8e362c86c6a00e32641e390ed84a",
+        "sha256_in_prefix": "ff69066afc13aab8b7a70ac27fb40e9dfb0f8e362c86c6a00e32641e390ed84a",
+        "size_in_bytes": 21410
+      },
+      {
+        "_path": "lib/R/library/iterators/help/iterators.rdx",
+        "path_type": "hardlink",
+        "sha256": "eeafe46678ec301be2040b5f94bc269b8c552d38f0d2911369dd08ddc60be0cc",
+        "sha256_in_prefix": "eeafe46678ec301be2040b5f94bc269b8c552d38f0d2911369dd08ddc60be0cc",
+        "size_in_bytes": 397
+      },
+      {
+        "_path": "lib/R/library/iterators/help/paths.rds",
+        "path_type": "hardlink",
+        "sha256": "6364f64ff75a6da9cc544a1b2a16abd94e1c89bb62e21f06cf81ab07d3610787",
+        "sha256_in_prefix": "6364f64ff75a6da9cc544a1b2a16abd94e1c89bb62e21f06cf81ab07d3610787",
+        "size_in_bytes": 257
+      },
+      {
+        "_path": "lib/R/library/iterators/html/00Index.html",
+        "path_type": "hardlink",
+        "sha256": "f01b673283d3e41025fb6d418f191bb1d7720438e34e556eb0a5fe21f832407a",
+        "sha256_in_prefix": "f01b673283d3e41025fb6d418f191bb1d7720438e34e556eb0a5fe21f832407a",
+        "size_in_bytes": 3805
+      },
+      {
+        "_path": "lib/R/library/iterators/html/R.css",
+        "path_type": "hardlink",
+        "sha256": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "sha256_in_prefix": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "size_in_bytes": 1335
+      },
+      {
+        "_path": "lib/R/library/iterators/unitTests/basicTest.R",
+        "path_type": "hardlink",
+        "sha256": "552dfd7d25212f3c84d1d9ff0e473c70f6b017d7fa40540b925056f6a1f8da55",
+        "sha256_in_prefix": "552dfd7d25212f3c84d1d9ff0e473c70f6b017d7fa40540b925056f6a1f8da55",
+        "size_in_bytes": 3698
+      },
+      {
+        "_path": "lib/R/library/iterators/unitTests/chunksizeTest.R",
+        "path_type": "hardlink",
+        "sha256": "03624c0b61ffdc1de62b61b6ad8708343b709253da3ac4a555bf7e391311e152",
+        "sha256_in_prefix": "03624c0b61ffdc1de62b61b6ad8708343b709253da3ac4a555bf7e391311e152",
+        "size_in_bytes": 737
+      },
+      {
+        "_path": "lib/R/library/iterators/unitTests/iapplyTest.R",
+        "path_type": "hardlink",
+        "sha256": "372f05a0443a5680bee9adae416ce640aaa6663e199def428a26d86aac355647",
+        "sha256_in_prefix": "372f05a0443a5680bee9adae416ce640aaa6663e199def428a26d86aac355647",
+        "size_in_bytes": 1002
+      },
+      {
+        "_path": "lib/R/library/iterators/unitTests/icountnTest.R",
+        "path_type": "hardlink",
+        "sha256": "afa135e5164373d213b9a179fc1d23f9dd2468f8ab7d42bef75a3c80852aa10e",
+        "sha256_in_prefix": "afa135e5164373d213b9a179fc1d23f9dd2468f8ab7d42bef75a3c80852aa10e",
+        "size_in_bytes": 716
+      },
+      {
+        "_path": "lib/R/library/iterators/unitTests/isplitTest.R",
+        "path_type": "hardlink",
+        "sha256": "f8d48f84d55cbe38ab695d909529c40389bdf85cdda8fa2dbbb5e781c81234aa",
+        "sha256_in_prefix": "f8d48f84d55cbe38ab695d909529c40389bdf85cdda8fa2dbbb5e781c81234aa",
+        "size_in_bytes": 982
+      },
+      {
+        "_path": "lib/R/library/iterators/unitTests/recycleTest.R",
+        "path_type": "hardlink",
+        "sha256": "f7be6194a0b436c6c294b8d3dc61d3bb6c0b10e2cf9aa9501141fbdf6102ecaa",
+        "sha256_in_prefix": "f7be6194a0b436c6c294b8d3dc61d3bb6c0b10e2cf9aa9501141fbdf6102ecaa",
+        "size_in_bytes": 345
+      },
+      {
+        "_path": "lib/R/library/iterators/unitTests/runTestSuite.sh",
+        "path_type": "hardlink",
+        "sha256": "4c49a78074a67738e1a4afdf13720f1885fcf1af993ce812c694badd93694394",
+        "sha256_in_prefix": "4c49a78074a67738e1a4afdf13720f1885fcf1af993ce812c694badd93694394",
+        "size_in_bytes": 780
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "r-iterators==1.0.13=r41hc72bb7e_0",
+  "sha256": "e680551090f77011aa2ef7455782cdaabceac4b3f675027a1ef67d276cf400b6",
+  "size": 346632,
+  "subdir": "noarch",
+  "timestamp": 1621840167000,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/r-iterators-1.0.13-r41hc72bb7e_0.tar.bz2",
+  "version": "1.0.13"
+}

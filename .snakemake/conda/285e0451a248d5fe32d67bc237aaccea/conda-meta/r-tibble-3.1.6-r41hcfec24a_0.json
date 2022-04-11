@@ -1,0 +1,476 @@
+{
+  "build": "r41hcfec24a_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "r-magrittr",
+    "r-pkgconfig",
+    "libgcc-ng >=9.4.0",
+    "r-base >=4.1,<4.2.0a0",
+    "r-ellipsis >=0.2.0",
+    "r-lifecycle >=0.2.0",
+    "r-fansi >=0.4.0",
+    "r-rlang >=0.4.3",
+    "r-vctrs >=0.3.2",
+    "r-pillar >=1.5.0"
+  ],
+  "extracted_package_dir": "/omics/groups/OE0146/internal/Areeba/miniconda3/pkgs/r-tibble-3.1.6-r41hcfec24a_0",
+  "features": "",
+  "files": [
+    "lib/R/library/tibble/DESCRIPTION",
+    "lib/R/library/tibble/INDEX",
+    "lib/R/library/tibble/LICENSE",
+    "lib/R/library/tibble/Meta/Rd.rds",
+    "lib/R/library/tibble/Meta/features.rds",
+    "lib/R/library/tibble/Meta/hsearch.rds",
+    "lib/R/library/tibble/Meta/links.rds",
+    "lib/R/library/tibble/Meta/nsInfo.rds",
+    "lib/R/library/tibble/Meta/package.rds",
+    "lib/R/library/tibble/Meta/vignette.rds",
+    "lib/R/library/tibble/NAMESPACE",
+    "lib/R/library/tibble/NEWS.md",
+    "lib/R/library/tibble/R/tibble",
+    "lib/R/library/tibble/R/tibble.rdb",
+    "lib/R/library/tibble/R/tibble.rdx",
+    "lib/R/library/tibble/doc/digits.R",
+    "lib/R/library/tibble/doc/digits.Rmd",
+    "lib/R/library/tibble/doc/digits.html",
+    "lib/R/library/tibble/doc/extending.Rmd",
+    "lib/R/library/tibble/doc/extending.html",
+    "lib/R/library/tibble/doc/formats.R",
+    "lib/R/library/tibble/doc/formats.Rmd",
+    "lib/R/library/tibble/doc/formats.html",
+    "lib/R/library/tibble/doc/index.html",
+    "lib/R/library/tibble/doc/invariants.R",
+    "lib/R/library/tibble/doc/invariants.Rmd",
+    "lib/R/library/tibble/doc/invariants.html",
+    "lib/R/library/tibble/doc/numbers.R",
+    "lib/R/library/tibble/doc/numbers.Rmd",
+    "lib/R/library/tibble/doc/numbers.html",
+    "lib/R/library/tibble/doc/tibble.R",
+    "lib/R/library/tibble/doc/tibble.Rmd",
+    "lib/R/library/tibble/doc/tibble.html",
+    "lib/R/library/tibble/doc/types.R",
+    "lib/R/library/tibble/doc/types.Rmd",
+    "lib/R/library/tibble/doc/types.html",
+    "lib/R/library/tibble/help/AnIndex",
+    "lib/R/library/tibble/help/aliases.rds",
+    "lib/R/library/tibble/help/figures/lifecycle-archived.svg",
+    "lib/R/library/tibble/help/figures/lifecycle-defunct.svg",
+    "lib/R/library/tibble/help/figures/lifecycle-deprecated.svg",
+    "lib/R/library/tibble/help/figures/lifecycle-experimental.svg",
+    "lib/R/library/tibble/help/figures/lifecycle-maturing.svg",
+    "lib/R/library/tibble/help/figures/lifecycle-questioning.svg",
+    "lib/R/library/tibble/help/figures/lifecycle-soft-deprecated.svg",
+    "lib/R/library/tibble/help/figures/lifecycle-stable.svg",
+    "lib/R/library/tibble/help/figures/lifecycle-superseded.svg",
+    "lib/R/library/tibble/help/figures/logo.png",
+    "lib/R/library/tibble/help/paths.rds",
+    "lib/R/library/tibble/help/tibble.rdb",
+    "lib/R/library/tibble/help/tibble.rdx",
+    "lib/R/library/tibble/html/00Index.html",
+    "lib/R/library/tibble/html/R.css",
+    "lib/R/library/tibble/libs/tibble.so"
+  ],
+  "fn": "r-tibble-3.1.6-r41hcfec24a_0.tar.bz2",
+  "license": "MIT",
+  "link": {
+    "source": "/omics/groups/OE0146/internal/Areeba/miniconda3/pkgs/r-tibble-3.1.6-r41hcfec24a_0",
+    "type": 1
+  },
+  "md5": "c9537791a8aeaec685d38494eed320ac",
+  "name": "r-tibble",
+  "package_tarball_full_path": "/omics/groups/OE0146/internal/Areeba/miniconda3/pkgs/r-tibble-3.1.6-r41hcfec24a_0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/R/library/tibble/DESCRIPTION",
+        "path_type": "hardlink",
+        "sha256": "1b06a67ba716a7d0a5d1e69a18177b78e44fcbae9a0979a20b63766ebb8e3dac",
+        "sha256_in_prefix": "1b06a67ba716a7d0a5d1e69a18177b78e44fcbae9a0979a20b63766ebb8e3dac",
+        "size_in_bytes": 2023
+      },
+      {
+        "_path": "lib/R/library/tibble/INDEX",
+        "path_type": "hardlink",
+        "sha256": "3e53d31a099c288fece9bda8fa76b3eadb2ef52519df4d516421052cd050d2f4",
+        "sha256_in_prefix": "3e53d31a099c288fece9bda8fa76b3eadb2ef52519df4d516421052cd050d2f4",
+        "size_in_bytes": 969
+      },
+      {
+        "_path": "lib/R/library/tibble/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "30024b268600650b7f18647c65d34b86c81f36d08e850ca2840d53dabdeede56",
+        "sha256_in_prefix": "30024b268600650b7f18647c65d34b86c81f36d08e850ca2840d53dabdeede56",
+        "size_in_bytes": 42
+      },
+      {
+        "_path": "lib/R/library/tibble/Meta/Rd.rds",
+        "path_type": "hardlink",
+        "sha256": "bf4b8169e821b44684d93f650d74ac31dd120a51360c3ad0f082abe687ba912d",
+        "sha256_in_prefix": "bf4b8169e821b44684d93f650d74ac31dd120a51360c3ad0f082abe687ba912d",
+        "size_in_bytes": 1315
+      },
+      {
+        "_path": "lib/R/library/tibble/Meta/features.rds",
+        "path_type": "hardlink",
+        "sha256": "51d50d1afdf7fa236c2e547a1cac49aa6f6cee803f935a626cac903fa66f4373",
+        "sha256_in_prefix": "51d50d1afdf7fa236c2e547a1cac49aa6f6cee803f935a626cac903fa66f4373",
+        "size_in_bytes": 123
+      },
+      {
+        "_path": "lib/R/library/tibble/Meta/hsearch.rds",
+        "path_type": "hardlink",
+        "sha256": "a15bfb7b75234077df839686ed6814c02fdd9ccdb020657825c42e1a92bb80fc",
+        "sha256_in_prefix": "a15bfb7b75234077df839686ed6814c02fdd9ccdb020657825c42e1a92bb80fc",
+        "size_in_bytes": 1313
+      },
+      {
+        "_path": "lib/R/library/tibble/Meta/links.rds",
+        "path_type": "hardlink",
+        "sha256": "4afcd23e3b9ca73f36c054a6bca7b092f487bf3d1cc8659c7eb444978e102a1c",
+        "sha256_in_prefix": "4afcd23e3b9ca73f36c054a6bca7b092f487bf3d1cc8659c7eb444978e102a1c",
+        "size_in_bytes": 761
+      },
+      {
+        "_path": "lib/R/library/tibble/Meta/nsInfo.rds",
+        "path_type": "hardlink",
+        "sha256": "22b50811fc19edfb86fd36ec74b2ad61515018d874a5c561d0e531339912bdac",
+        "sha256_in_prefix": "22b50811fc19edfb86fd36ec74b2ad61515018d874a5c561d0e531339912bdac",
+        "size_in_bytes": 1042
+      },
+      {
+        "_path": "lib/R/library/tibble/Meta/package.rds",
+        "path_type": "hardlink",
+        "sha256": "22252d92c3f8b191d94ad062164dbfb02a553cdb1021b272283b542974c81f8d",
+        "sha256_in_prefix": "22252d92c3f8b191d94ad062164dbfb02a553cdb1021b272283b542974c81f8d",
+        "size_in_bytes": 1770
+      },
+      {
+        "_path": "lib/R/library/tibble/Meta/vignette.rds",
+        "path_type": "hardlink",
+        "sha256": "9a055ccf7af75956270a0dd10aa717b16193d7c379838096443cbeb4bb36c013",
+        "sha256_in_prefix": "9a055ccf7af75956270a0dd10aa717b16193d7c379838096443cbeb4bb36c013",
+        "size_in_bytes": 381
+      },
+      {
+        "_path": "lib/R/library/tibble/NAMESPACE",
+        "path_type": "hardlink",
+        "sha256": "6bd05bacc6f273688416dc0f4ad4d98405a74d276d9245fcd85627c19062277f",
+        "sha256_in_prefix": "6bd05bacc6f273688416dc0f4ad4d98405a74d276d9245fcd85627c19062277f",
+        "size_in_bytes": 2681
+      },
+      {
+        "_path": "lib/R/library/tibble/NEWS.md",
+        "path_type": "hardlink",
+        "sha256": "2c724d9067a99ad7f4716ba4f3ae1c54018804268f0291e8ee04a75257fbe9bd",
+        "sha256_in_prefix": "2c724d9067a99ad7f4716ba4f3ae1c54018804268f0291e8ee04a75257fbe9bd",
+        "size_in_bytes": 39349
+      },
+      {
+        "_path": "lib/R/library/tibble/R/tibble",
+        "path_type": "hardlink",
+        "sha256": "570ca456b280cdeb201ef5ebdf22dc8f80092e2c0c68e33c7f73340e420f3759",
+        "sha256_in_prefix": "570ca456b280cdeb201ef5ebdf22dc8f80092e2c0c68e33c7f73340e420f3759",
+        "size_in_bytes": 1058
+      },
+      {
+        "_path": "lib/R/library/tibble/R/tibble.rdb",
+        "path_type": "hardlink",
+        "sha256": "cc8e061b55b97d2da52f84ad73824542aa0ae2d6490710d262dcb920e0a6ae47",
+        "sha256_in_prefix": "cc8e061b55b97d2da52f84ad73824542aa0ae2d6490710d262dcb920e0a6ae47",
+        "size_in_bytes": 210669
+      },
+      {
+        "_path": "lib/R/library/tibble/R/tibble.rdx",
+        "path_type": "hardlink",
+        "sha256": "c0462aeb64d835b87f2fc9a0d77a663a7f87cf61552376db03e7a6d8719e0b76",
+        "sha256_in_prefix": "c0462aeb64d835b87f2fc9a0d77a663a7f87cf61552376db03e7a6d8719e0b76",
+        "size_in_bytes": 4804
+      },
+      {
+        "_path": "lib/R/library/tibble/doc/digits.R",
+        "path_type": "hardlink",
+        "sha256": "1b2005427854a9ba0fa065b56db8cec0903a991e5fbc30ed2a238dbe76858baf",
+        "sha256_in_prefix": "1b2005427854a9ba0fa065b56db8cec0903a991e5fbc30ed2a238dbe76858baf",
+        "size_in_bytes": 2061
+      },
+      {
+        "_path": "lib/R/library/tibble/doc/digits.Rmd",
+        "path_type": "hardlink",
+        "sha256": "23e17e170750c05607875afe29d09a58ab3859180c4836fad092a2c11d4bcc31",
+        "sha256_in_prefix": "23e17e170750c05607875afe29d09a58ab3859180c4836fad092a2c11d4bcc31",
+        "size_in_bytes": 4161
+      },
+      {
+        "_path": "lib/R/library/tibble/doc/digits.html",
+        "path_type": "hardlink",
+        "sha256": "26b6b5eed47fd0da4e8420e46640958261f86035a34c236052afbfa5fda46159",
+        "sha256_in_prefix": "26b6b5eed47fd0da4e8420e46640958261f86035a34c236052afbfa5fda46159",
+        "size_in_bytes": 33630
+      },
+      {
+        "_path": "lib/R/library/tibble/doc/extending.Rmd",
+        "path_type": "hardlink",
+        "sha256": "f6a6d2d8c820b84d25ff335a2b2475784971ae74d44c7798572e315fab0bdf26",
+        "sha256_in_prefix": "f6a6d2d8c820b84d25ff335a2b2475784971ae74d44c7798572e315fab0bdf26",
+        "size_in_bytes": 302
+      },
+      {
+        "_path": "lib/R/library/tibble/doc/extending.html",
+        "path_type": "hardlink",
+        "sha256": "87187d9a150fc360f99b0eee523fcfbc1a984fa8efd378002a54a88fbf98702b",
+        "sha256_in_prefix": "87187d9a150fc360f99b0eee523fcfbc1a984fa8efd378002a54a88fbf98702b",
+        "size_in_bytes": 7235
+      },
+      {
+        "_path": "lib/R/library/tibble/doc/formats.R",
+        "path_type": "hardlink",
+        "sha256": "01d9060dbac08818ed27c8930ee32e0bf3934e54a0b6992255536ac9cc8bf961",
+        "sha256_in_prefix": "01d9060dbac08818ed27c8930ee32e0bf3934e54a0b6992255536ac9cc8bf961",
+        "size_in_bytes": 2521
+      },
+      {
+        "_path": "lib/R/library/tibble/doc/formats.Rmd",
+        "path_type": "hardlink",
+        "sha256": "8159297088c2b596886a54fe350b902eb0e9aef4c1bc49bd958c8bd049be79d6",
+        "sha256_in_prefix": "8159297088c2b596886a54fe350b902eb0e9aef4c1bc49bd958c8bd049be79d6",
+        "size_in_bytes": 4274
+      },
+      {
+        "_path": "lib/R/library/tibble/doc/formats.html",
+        "path_type": "hardlink",
+        "sha256": "bdf4ffe5d29d6cddf73823ea0b82c931380b92b9a18fcf3c2533b34b52dc2d2d",
+        "sha256_in_prefix": "bdf4ffe5d29d6cddf73823ea0b82c931380b92b9a18fcf3c2533b34b52dc2d2d",
+        "size_in_bytes": 1205984
+      },
+      {
+        "_path": "lib/R/library/tibble/doc/index.html",
+        "path_type": "hardlink",
+        "sha256": "2b89bc6b8a51ef8f6c978c1ffade7be7c9a6e57510387d4b4109a564c24f2b18",
+        "sha256_in_prefix": "2b89bc6b8a51ef8f6c978c1ffade7be7c9a6e57510387d4b4109a564c24f2b18",
+        "size_in_bytes": 4189
+      },
+      {
+        "_path": "lib/R/library/tibble/doc/invariants.R",
+        "path_type": "hardlink",
+        "sha256": "d8bdcff963181c7e31c3c358e97778c17bfb093c7d1fb19482007bcb6ccfa47d",
+        "sha256_in_prefix": "d8bdcff963181c7e31c3c358e97778c17bfb093c7d1fb19482007bcb6ccfa47d",
+        "size_in_bytes": 17809
+      },
+      {
+        "_path": "lib/R/library/tibble/doc/invariants.Rmd",
+        "path_type": "hardlink",
+        "sha256": "061899b47f459990bd3a0bdfc36e7090c5785ad81910d3c650ef9f698ee1d52e",
+        "sha256_in_prefix": "061899b47f459990bd3a0bdfc36e7090c5785ad81910d3c650ef9f698ee1d52e",
+        "size_in_bytes": 22367
+      },
+      {
+        "_path": "lib/R/library/tibble/doc/invariants.html",
+        "path_type": "hardlink",
+        "sha256": "4bc5dfa0f2bcbd5903f54d97f27832a9f54913bf38d30d085b9376761d77ad17",
+        "sha256_in_prefix": "4bc5dfa0f2bcbd5903f54d97f27832a9f54913bf38d30d085b9376761d77ad17",
+        "size_in_bytes": 209467
+      },
+      {
+        "_path": "lib/R/library/tibble/doc/numbers.R",
+        "path_type": "hardlink",
+        "sha256": "85e37420a85bb726146a0e7fcaf535ba611243b8fda3bba63dfdee35ba91f423",
+        "sha256_in_prefix": "85e37420a85bb726146a0e7fcaf535ba611243b8fda3bba63dfdee35ba91f423",
+        "size_in_bytes": 2315
+      },
+      {
+        "_path": "lib/R/library/tibble/doc/numbers.Rmd",
+        "path_type": "hardlink",
+        "sha256": "c4bce11449e5c95383564d46c7ff959c4907eba5a4cc102d76891369e1620eda",
+        "sha256_in_prefix": "c4bce11449e5c95383564d46c7ff959c4907eba5a4cc102d76891369e1620eda",
+        "size_in_bytes": 4510
+      },
+      {
+        "_path": "lib/R/library/tibble/doc/numbers.html",
+        "path_type": "hardlink",
+        "sha256": "bd90dc32ca628763214f379aaaa5a00161396d00de4bde0ec2e09f5db7fdd167",
+        "sha256_in_prefix": "bd90dc32ca628763214f379aaaa5a00161396d00de4bde0ec2e09f5db7fdd167",
+        "size_in_bytes": 36295
+      },
+      {
+        "_path": "lib/R/library/tibble/doc/tibble.R",
+        "path_type": "hardlink",
+        "sha256": "59eade2bdff7e2974d25e35201fcbc7010ac3fd463dac38a6b2cc5555addc4a4",
+        "sha256_in_prefix": "59eade2bdff7e2974d25e35201fcbc7010ac3fd463dac38a6b2cc5555addc4a4",
+        "size_in_bytes": 2525
+      },
+      {
+        "_path": "lib/R/library/tibble/doc/tibble.Rmd",
+        "path_type": "hardlink",
+        "sha256": "bd64ec20684ee0915e97fdaf593836f2494a4ff02774d1ccc9fc8324444942f5",
+        "sha256_in_prefix": "bd64ec20684ee0915e97fdaf593836f2494a4ff02774d1ccc9fc8324444942f5",
+        "size_in_bytes": 5463
+      },
+      {
+        "_path": "lib/R/library/tibble/doc/tibble.html",
+        "path_type": "hardlink",
+        "sha256": "9d9e1f468448945a96009784af117546fc85c19e6e93ad11dd9e0d7b37faa42d",
+        "sha256_in_prefix": "9d9e1f468448945a96009784af117546fc85c19e6e93ad11dd9e0d7b37faa42d",
+        "size_in_bytes": 43518
+      },
+      {
+        "_path": "lib/R/library/tibble/doc/types.R",
+        "path_type": "hardlink",
+        "sha256": "b8c3d279d77bb754a340bfb1628cd1a8776cfbe820b9180634a84a1309b82634",
+        "sha256_in_prefix": "b8c3d279d77bb754a340bfb1628cd1a8776cfbe820b9180634a84a1309b82634",
+        "size_in_bytes": 3039
+      },
+      {
+        "_path": "lib/R/library/tibble/doc/types.Rmd",
+        "path_type": "hardlink",
+        "sha256": "6d4ea89f21f4e342f84f285bf13a10c0bd18e492a4e3ceefcdedbd60a4f69e7e",
+        "sha256_in_prefix": "6d4ea89f21f4e342f84f285bf13a10c0bd18e492a4e3ceefcdedbd60a4f69e7e",
+        "size_in_bytes": 3365
+      },
+      {
+        "_path": "lib/R/library/tibble/doc/types.html",
+        "path_type": "hardlink",
+        "sha256": "68017a1fae46db20ab577f50ae23d27a18ec11200f2777efb37d8775a7e8e9d9",
+        "sha256_in_prefix": "68017a1fae46db20ab577f50ae23d27a18ec11200f2777efb37d8775a7e8e9d9",
+        "size_in_bytes": 22595
+      },
+      {
+        "_path": "lib/R/library/tibble/help/AnIndex",
+        "path_type": "hardlink",
+        "sha256": "477ab8479e84fb1cfbe3d06d5b7b82fed31159cac1705aaa1025bdb340a8340d",
+        "sha256_in_prefix": "477ab8479e84fb1cfbe3d06d5b7b82fed31159cac1705aaa1025bdb340a8340d",
+        "size_in_bytes": 1685
+      },
+      {
+        "_path": "lib/R/library/tibble/help/aliases.rds",
+        "path_type": "hardlink",
+        "sha256": "586b1ce938be2a437feb653b69c0b50a44631418e3a2114fa3b67e9da7eb4f06",
+        "sha256_in_prefix": "586b1ce938be2a437feb653b69c0b50a44631418e3a2114fa3b67e9da7eb4f06",
+        "size_in_bytes": 664
+      },
+      {
+        "_path": "lib/R/library/tibble/help/figures/lifecycle-archived.svg",
+        "path_type": "hardlink",
+        "sha256": "e51548be52932d0b0468f5b11adcbebac08663898a7c043871864b0064710e86",
+        "sha256_in_prefix": "e51548be52932d0b0468f5b11adcbebac08663898a7c043871864b0064710e86",
+        "size_in_bytes": 967
+      },
+      {
+        "_path": "lib/R/library/tibble/help/figures/lifecycle-defunct.svg",
+        "path_type": "hardlink",
+        "sha256": "977a9d51157cf76f89e0d5562b8b57b06560682c4cc9e44333e9c394629fb520",
+        "sha256_in_prefix": "977a9d51157cf76f89e0d5562b8b57b06560682c4cc9e44333e9c394629fb520",
+        "size_in_bytes": 964
+      },
+      {
+        "_path": "lib/R/library/tibble/help/figures/lifecycle-deprecated.svg",
+        "path_type": "hardlink",
+        "sha256": "7fefe18cc3b7059272fa85ff40c4a95739bb271276d819fe782ac38db295a07c",
+        "sha256_in_prefix": "7fefe18cc3b7059272fa85ff40c4a95739bb271276d819fe782ac38db295a07c",
+        "size_in_bytes": 970
+      },
+      {
+        "_path": "lib/R/library/tibble/help/figures/lifecycle-experimental.svg",
+        "path_type": "hardlink",
+        "sha256": "ed1f8972de7fdeb5dedc1087ea043dc4953dca5d58f54286b4c0ab297eefbe90",
+        "sha256_in_prefix": "ed1f8972de7fdeb5dedc1087ea043dc4953dca5d58f54286b4c0ab297eefbe90",
+        "size_in_bytes": 974
+      },
+      {
+        "_path": "lib/R/library/tibble/help/figures/lifecycle-maturing.svg",
+        "path_type": "hardlink",
+        "sha256": "9f33b55a1806ad5a3d565a0855a91b47ae26b7cf1ff0f025758bbd15b4c3984a",
+        "sha256_in_prefix": "9f33b55a1806ad5a3d565a0855a91b47ae26b7cf1ff0f025758bbd15b4c3984a",
+        "size_in_bytes": 966
+      },
+      {
+        "_path": "lib/R/library/tibble/help/figures/lifecycle-questioning.svg",
+        "path_type": "hardlink",
+        "sha256": "2feb00c21e12843cd1cd2e821c941628331dddbb26e34e58c40bb11dcffea89a",
+        "sha256_in_prefix": "2feb00c21e12843cd1cd2e821c941628331dddbb26e34e58c40bb11dcffea89a",
+        "size_in_bytes": 972
+      },
+      {
+        "_path": "lib/R/library/tibble/help/figures/lifecycle-soft-deprecated.svg",
+        "path_type": "hardlink",
+        "sha256": "3a1280ea3869c1ffd2aa92d984e197eb9ac823746d018f000c5d53117ad257b1",
+        "sha256_in_prefix": "3a1280ea3869c1ffd2aa92d984e197eb9ac823746d018f000c5d53117ad257b1",
+        "size_in_bytes": 982
+      },
+      {
+        "_path": "lib/R/library/tibble/help/figures/lifecycle-stable.svg",
+        "path_type": "hardlink",
+        "sha256": "4817300514459f5ac876b1a379c7bad15d6049e1a954b71455ab78d76b83ffa0",
+        "sha256_in_prefix": "4817300514459f5ac876b1a379c7bad15d6049e1a954b71455ab78d76b83ffa0",
+        "size_in_bytes": 956
+      },
+      {
+        "_path": "lib/R/library/tibble/help/figures/lifecycle-superseded.svg",
+        "path_type": "hardlink",
+        "sha256": "3f20c14df4a11fed5c904d550701ea05391979d6a6e751d2b2119d32cd0d027d",
+        "sha256_in_prefix": "3f20c14df4a11fed5c904d550701ea05391979d6a6e751d2b2119d32cd0d027d",
+        "size_in_bytes": 971
+      },
+      {
+        "_path": "lib/R/library/tibble/help/figures/logo.png",
+        "path_type": "hardlink",
+        "sha256": "e269ba035f67bea889fb52b1427969a3348f81677c20ea5af16ace28ccb2d8d9",
+        "sha256_in_prefix": "e269ba035f67bea889fb52b1427969a3348f81677c20ea5af16ace28ccb2d8d9",
+        "size_in_bytes": 27136
+      },
+      {
+        "_path": "lib/R/library/tibble/help/paths.rds",
+        "path_type": "hardlink",
+        "sha256": "25da06f9fa9ae72b4cc4cc1a63d2b1bd4b96f65f9a2fd58f46de823f51d9303e",
+        "sha256_in_prefix": "25da06f9fa9ae72b4cc4cc1a63d2b1bd4b96f65f9a2fd58f46de823f51d9303e",
+        "size_in_bytes": 386
+      },
+      {
+        "_path": "lib/R/library/tibble/help/tibble.rdb",
+        "path_type": "hardlink",
+        "sha256": "091b11df52eebe270b13f9aca569dc6b9c3973a7895315c9a44974b0f640d1f4",
+        "sha256_in_prefix": "091b11df52eebe270b13f9aca569dc6b9c3973a7895315c9a44974b0f640d1f4",
+        "size_in_bytes": 81876
+      },
+      {
+        "_path": "lib/R/library/tibble/help/tibble.rdx",
+        "path_type": "hardlink",
+        "sha256": "3eba816490ebd701af0154f822a293f9458b48b7ef0c3a3a6432c8facb681cc1",
+        "sha256_in_prefix": "3eba816490ebd701af0154f822a293f9458b48b7ef0c3a3a6432c8facb681cc1",
+        "size_in_bytes": 731
+      },
+      {
+        "_path": "lib/R/library/tibble/html/00Index.html",
+        "path_type": "hardlink",
+        "sha256": "8c2b0c1ced2c1088b1f6bada8d5b4549fa0a2d6a927d402d02818f801cfde4f0",
+        "sha256_in_prefix": "8c2b0c1ced2c1088b1f6bada8d5b4549fa0a2d6a927d402d02818f801cfde4f0",
+        "size_in_bytes": 6831
+      },
+      {
+        "_path": "lib/R/library/tibble/html/R.css",
+        "path_type": "hardlink",
+        "sha256": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "sha256_in_prefix": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "size_in_bytes": 1335
+      },
+      {
+        "_path": "lib/R/library/tibble/libs/tibble.so",
+        "path_type": "hardlink",
+        "sha256": "95148317c635744deadb223fa97dfacda9a483c84a5eb5246f0a72acf94b934e",
+        "sha256_in_prefix": "95148317c635744deadb223fa97dfacda9a483c84a5eb5246f0a72acf94b934e",
+        "size_in_bytes": 21568
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "r-tibble==3.1.6=r41hcfec24a_0",
+  "sha256": "f0a681a4579042a4f11a85819d064c2bee2a9defae0e28399271c0b98490507a",
+  "size": 792660,
+  "subdir": "linux-64",
+  "timestamp": 1636316920000,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/r-tibble-3.1.6-r41hcfec24a_0.tar.bz2",
+  "version": "3.1.6"
+}

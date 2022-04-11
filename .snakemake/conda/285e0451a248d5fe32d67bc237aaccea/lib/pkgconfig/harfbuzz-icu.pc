@@ -1,0 +1,11 @@
+prefix=/omics/groups/OE0146/internal/Areeba/paper/Rapid-CNS2/.snakemake/conda/285e0451a248d5fe32d67bc237aaccea
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: harfbuzz-icu
+Description: HarfBuzz text shaping library ICU integration
+Version: 3.2.0
+Requires: harfbuzz =  3.2.0
+Requires.private: icu-uc
+Libs: -L${libdir} -lharfbuzz-icu
+Cflags: -I${includedir}/harfbuzz

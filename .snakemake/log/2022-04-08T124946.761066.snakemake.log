@@ -1,0 +1,4 @@
+Config file rapid_cns_snake.yaml is extended by additional config specified via the command line.
+NameError in line 4 of /omics/groups/OE0146/internal/Areeba/paper/Rapid-CNS2/Snakefile:
+name 'guppy_basecall_server' is not defined
+  File "/omics/groups/OE0146/internal/Areeba/paper/Rapid-CNS2/Snakefile", line 4, in <module>

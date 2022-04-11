@@ -1,0 +1,11 @@
+prefix=/omics/groups/OE0146/internal/Areeba/paper/Rapid-CNS2/.snakemake/conda/d75c34075870f1264aae8f40a2e60714
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: kadm-client
+Description: Kerberos administration client library
+Version: 1.19.1
+Requires.private: mit-krb5-gssapi gssrpc
+Cflags: -I${includedir}
+Libs: -L${libdir} -lkadm5clnt_mit

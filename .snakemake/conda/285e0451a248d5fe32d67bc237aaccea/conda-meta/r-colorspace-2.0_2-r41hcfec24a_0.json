@@ -1,0 +1,1420 @@
+{
+  "build": "r41hcfec24a_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "libgcc-ng >=9.3.0",
+    "r-base >=4.1,<4.2.0a0"
+  ],
+  "extracted_package_dir": "/omics/groups/OE0146/internal/Areeba/miniconda3/pkgs/r-colorspace-2.0_2-r41hcfec24a_0",
+  "features": "",
+  "files": [
+    "lib/R/library/colorspace/CITATION",
+    "lib/R/library/colorspace/DESCRIPTION",
+    "lib/R/library/colorspace/INDEX",
+    "lib/R/library/colorspace/LICENSE",
+    "lib/R/library/colorspace/Meta/Rd.rds",
+    "lib/R/library/colorspace/Meta/data.rds",
+    "lib/R/library/colorspace/Meta/demo.rds",
+    "lib/R/library/colorspace/Meta/features.rds",
+    "lib/R/library/colorspace/Meta/hsearch.rds",
+    "lib/R/library/colorspace/Meta/links.rds",
+    "lib/R/library/colorspace/Meta/nsInfo.rds",
+    "lib/R/library/colorspace/Meta/package.rds",
+    "lib/R/library/colorspace/Meta/vignette.rds",
+    "lib/R/library/colorspace/NAMESPACE",
+    "lib/R/library/colorspace/NEWS.md",
+    "lib/R/library/colorspace/R/colorspace",
+    "lib/R/library/colorspace/R/colorspace.rdb",
+    "lib/R/library/colorspace/R/colorspace.rdx",
+    "lib/R/library/colorspace/cvdemulator/html/appInfo.html",
+    "lib/R/library/colorspace/cvdemulator/html/info.html",
+    "lib/R/library/colorspace/cvdemulator/prepareStaticContent.R",
+    "lib/R/library/colorspace/cvdemulator/server.R",
+    "lib/R/library/colorspace/cvdemulator/ui.R",
+    "lib/R/library/colorspace/cvdemulator/www/cvdemulator.css",
+    "lib/R/library/colorspace/cvdemulator/www/cvdemulator_darkmode.css",
+    "lib/R/library/colorspace/cvdemulator/www/images/descimage.png",
+    "lib/R/library/colorspace/cvdemulator/www/images/rainbow_desaturate.png",
+    "lib/R/library/colorspace/cvdemulator/www/images/rainbow_deutan.png",
+    "lib/R/library/colorspace/cvdemulator/www/images/rainbow_orig.png",
+    "lib/R/library/colorspace/cvdemulator/www/images/rainbow_protan.png",
+    "lib/R/library/colorspace/cvdemulator/www/images/rainbow_tritan.png",
+    "lib/R/library/colorspace/data/Rdata.rdb",
+    "lib/R/library/colorspace/data/Rdata.rds",
+    "lib/R/library/colorspace/data/Rdata.rdx",
+    "lib/R/library/colorspace/demo/brewer.R",
+    "lib/R/library/colorspace/demo/carto.R",
+    "lib/R/library/colorspace/demo/scico.R",
+    "lib/R/library/colorspace/demo/viridis.R",
+    "lib/R/library/colorspace/doc/colorspace.R",
+    "lib/R/library/colorspace/doc/colorspace.Rmd",
+    "lib/R/library/colorspace/doc/colorspace.html",
+    "lib/R/library/colorspace/doc/hcl-colors.R",
+    "lib/R/library/colorspace/doc/hcl-colors.Rnw",
+    "lib/R/library/colorspace/doc/hcl-colors.pdf",
+    "lib/R/library/colorspace/doc/index.html",
+    "lib/R/library/colorspace/hclcolorpicker/html/info.html",
+    "lib/R/library/colorspace/hclcolorpicker/prepareStaticContent.R",
+    "lib/R/library/colorspace/hclcolorpicker/server.R",
+    "lib/R/library/colorspace/hclcolorpicker/ui.R",
+    "lib/R/library/colorspace/hclcolorpicker/www/hclcolorpicker.css",
+    "lib/R/library/colorspace/hclcolorpicker/www/hclcolorpicker_darkmode.css",
+    "lib/R/library/colorspace/hclwizard/html/GrADS.html",
+    "lib/R/library/colorspace/hclwizard/html/R.html",
+    "lib/R/library/colorspace/hclwizard/html/RReg.html",
+    "lib/R/library/colorspace/hclwizard/html/Register.html",
+    "lib/R/library/colorspace/hclwizard/html/RegisterRcode.html",
+    "lib/R/library/colorspace/hclwizard/html/colorplane.html",
+    "lib/R/library/colorspace/hclwizard/html/info.html",
+    "lib/R/library/colorspace/hclwizard/html/matlab.html",
+    "lib/R/library/colorspace/hclwizard/html/python-example.html",
+    "lib/R/library/colorspace/hclwizard/html/python.html",
+    "lib/R/library/colorspace/hclwizard/prepareStaticContent.R",
+    "lib/R/library/colorspace/hclwizard/server.R",
+    "lib/R/library/colorspace/hclwizard/ui.R",
+    "lib/R/library/colorspace/hclwizard/www/hclwizard.css",
+    "lib/R/library/colorspace/hclwizard/www/hclwizard_darkmode.css",
+    "lib/R/library/colorspace/hclwizard/www/images/pal_ag_grnyl.png",
+    "lib/R/library/colorspace/hclwizard/www/images/pal_ag_sunset.png",
+    "lib/R/library/colorspace/hclwizard/www/images/pal_batlow.png",
+    "lib/R/library/colorspace/hclwizard/www/images/pal_berlin.png",
+    "lib/R/library/colorspace/hclwizard/www/images/pal_blue-red.png",
+    "lib/R/library/colorspace/hclwizard/www/images/pal_blue-red_2.png",
+    "lib/R/library/colorspace/hclwizard/www/images/pal_blue-red_3.png",
+    "lib/R/library/colorspace/hclwizard/www/images/pal_blue-yellow.png",
+    "lib/R/library/colorspace/hclwizard/www/images/pal_blue-yellow_2.png",
+    "lib/R/library/colorspace/hclwizard/www/images/pal_blue-yellow_3.png",
+    "lib/R/library/colorspace/hclwizard/www/images/pal_blues.png",
+    "lib/R/library/colorspace/hclwizard/www/images/pal_blues_2.png",
+    "lib/R/library/colorspace/hclwizard/www/images/pal_blues_3.png",
+    "lib/R/library/colorspace/hclwizard/www/images/pal_blugrn.png",
+    "lib/R/library/colorspace/hclwizard/www/images/pal_bluyl.png",
+    "lib/R/library/colorspace/hclwizard/www/images/pal_bpy.png",
+    "lib/R/library/colorspace/hclwizard/www/images/pal_brwnyl.png",
+    "lib/R/library/colorspace/hclwizard/www/images/pal_bugn.png",
+    "lib/R/library/colorspace/hclwizard/www/images/pal_bupu.png",
+    "lib/R/library/colorspace/hclwizard/www/images/pal_burg.png",
+    "lib/R/library/colorspace/hclwizard/www/images/pal_burgyl.png",
+    "lib/R/library/colorspace/hclwizard/www/images/pal_cm.colors.png",
+    "lib/R/library/colorspace/hclwizard/www/images/pal_cold.png",
+    "lib/R/library/colorspace/hclwizard/www/images/pal_cork.png",
+    "lib/R/library/colorspace/hclwizard/www/images/pal_cyan-magenta.png",
+    "lib/R/library/colorspace/hclwizard/www/images/pal_dark_2.png",
+    "lib/R/library/colorspace/hclwizard/www/images/pal_dark_3.png",
+    "lib/R/library/colorspace/hclwizard/www/images/pal_dark_mint.png",
+    "lib/R/library/colorspace/hclwizard/www/images/pal_dynamic.png",
+    "lib/R/library/colorspace/hclwizard/www/images/pal_emrld.png",
+    "lib/R/library/colorspace/hclwizard/www/images/pal_gnbu.png",
+    "lib/R/library/colorspace/hclwizard/www/images/pal_grays.png",
+    "lib/R/library/colorspace/hclwizard/www/images/pal_green-brown.png",
+    "lib/R/library/colorspace/hclwizard/www/images/pal_green-orange.png",
+    "lib/R/library/colorspace/hclwizard/www/images/pal_green-yellow.png",
+    "lib/R/library/colorspace/hclwizard/www/images/pal_greens.png",
+    "lib/R/library/colorspace/hclwizard/www/images/pal_greens_2.png",
+    "lib/R/library/colorspace/hclwizard/www/images/pal_greens_3.png",
+    "lib/R/library/colorspace/hclwizard/www/images/pal_harmonic.png",
+    "lib/R/library/colorspace/hclwizard/www/images/pal_hawaii.png",
+    "lib/R/library/colorspace/hclwizard/www/images/pal_heat.colors.png",
+    "lib/R/library/colorspace/hclwizard/www/images/pal_heat.png",
+    "lib/R/library/colorspace/hclwizard/www/images/pal_heat_2.png",
+    "lib/R/library/colorspace/hclwizard/www/images/pal_inferno.png",
+    "lib/R/library/colorspace/hclwizard/www/images/pal_lajolla.png",
+    "lib/R/library/colorspace/hclwizard/www/images/pal_light_grays.png",
+    "lib/R/library/colorspace/hclwizard/www/images/pal_lisbon.png",
+    "lib/R/library/colorspace/hclwizard/www/images/pal_magenta.png",
+    "lib/R/library/colorspace/hclwizard/www/images/pal_mint.png",
+    "lib/R/library/colorspace/hclwizard/www/images/pal_oranges.png",
+    "lib/R/library/colorspace/hclwizard/www/images/pal_orrd.png",
+    "lib/R/library/colorspace/hclwizard/www/images/pal_oryel.png",
+    "lib/R/library/colorspace/hclwizard/www/images/pal_oslo.png",
+    "lib/R/library/colorspace/hclwizard/www/images/pal_pastel_1.png",
+    "lib/R/library/colorspace/hclwizard/www/images/pal_peach.png",
+    "lib/R/library/colorspace/hclwizard/www/images/pal_pinkyl.png",
+    "lib/R/library/colorspace/hclwizard/www/images/pal_plasma.png",
+    "lib/R/library/colorspace/hclwizard/www/images/pal_pubu.png",
+    "lib/R/library/colorspace/hclwizard/www/images/pal_pubugn.png",
+    "lib/R/library/colorspace/hclwizard/www/images/pal_purd.png",
+    "lib/R/library/colorspace/hclwizard/www/images/pal_purp.png",
+    "lib/R/library/colorspace/hclwizard/www/images/pal_purple-blue.png",
+    "lib/R/library/colorspace/hclwizard/www/images/pal_purple-brown.png",
+    "lib/R/library/colorspace/hclwizard/www/images/pal_purple-green.png",
+    "lib/R/library/colorspace/hclwizard/www/images/pal_purple-orange.png",
+    "lib/R/library/colorspace/hclwizard/www/images/pal_purple-yellow.png",
+    "lib/R/library/colorspace/hclwizard/www/images/pal_purples.png",
+    "lib/R/library/colorspace/hclwizard/www/images/pal_purples_2.png",
+    "lib/R/library/colorspace/hclwizard/www/images/pal_purples_3.png",
+    "lib/R/library/colorspace/hclwizard/www/images/pal_purpor.png",
+    "lib/R/library/colorspace/hclwizard/www/images/pal_rainbow.png",
+    "lib/R/library/colorspace/hclwizard/www/images/pal_rdpu.png",
+    "lib/R/library/colorspace/hclwizard/www/images/pal_red-blue.png",
+    "lib/R/library/colorspace/hclwizard/www/images/pal_red-green.png",
+    "lib/R/library/colorspace/hclwizard/www/images/pal_red-purple.png",
+    "lib/R/library/colorspace/hclwizard/www/images/pal_red-yellow.png",
+    "lib/R/library/colorspace/hclwizard/www/images/pal_redor.png",
+    "lib/R/library/colorspace/hclwizard/www/images/pal_reds.png",
+    "lib/R/library/colorspace/hclwizard/www/images/pal_reds_2.png",
+    "lib/R/library/colorspace/hclwizard/www/images/pal_reds_3.png",
+    "lib/R/library/colorspace/hclwizard/www/images/pal_set_2.png",
+    "lib/R/library/colorspace/hclwizard/www/images/pal_set_3.png",
+    "lib/R/library/colorspace/hclwizard/www/images/pal_sunset.png",
+    "lib/R/library/colorspace/hclwizard/www/images/pal_sunsetdark.png",
+    "lib/R/library/colorspace/hclwizard/www/images/pal_teal.png",
+    "lib/R/library/colorspace/hclwizard/www/images/pal_tealgrn.png",
+    "lib/R/library/colorspace/hclwizard/www/images/pal_terrain.colors.png",
+    "lib/R/library/colorspace/hclwizard/www/images/pal_terrain.png",
+    "lib/R/library/colorspace/hclwizard/www/images/pal_terrain_2.png",
+    "lib/R/library/colorspace/hclwizard/www/images/pal_tofino.png",
+    "lib/R/library/colorspace/hclwizard/www/images/pal_topo.colors.png",
+    "lib/R/library/colorspace/hclwizard/www/images/pal_tropic.png",
+    "lib/R/library/colorspace/hclwizard/www/images/pal_turku.png",
+    "lib/R/library/colorspace/hclwizard/www/images/pal_viridis.png",
+    "lib/R/library/colorspace/hclwizard/www/images/pal_warm.png",
+    "lib/R/library/colorspace/hclwizard/www/images/pal_ylgn.png",
+    "lib/R/library/colorspace/hclwizard/www/images/pal_ylgnbu.png",
+    "lib/R/library/colorspace/hclwizard/www/images/pal_ylorbr.png",
+    "lib/R/library/colorspace/hclwizard/www/images/pal_ylorrd.png",
+    "lib/R/library/colorspace/help/AnIndex",
+    "lib/R/library/colorspace/help/aliases.rds",
+    "lib/R/library/colorspace/help/colorspace.rdb",
+    "lib/R/library/colorspace/help/colorspace.rdx",
+    "lib/R/library/colorspace/help/paths.rds",
+    "lib/R/library/colorspace/html/00Index.html",
+    "lib/R/library/colorspace/html/R.css",
+    "lib/R/library/colorspace/libs/colorspace.so"
+  ],
+  "fn": "r-colorspace-2.0_2-r41hcfec24a_0.tar.bz2",
+  "license": "BSD-3-Clause",
+  "link": {
+    "source": "/omics/groups/OE0146/internal/Areeba/miniconda3/pkgs/r-colorspace-2.0_2-r41hcfec24a_0",
+    "type": 1
+  },
+  "md5": "5305575c0ad35cf3e7a67a9ff9176ecf",
+  "name": "r-colorspace",
+  "package_tarball_full_path": "/omics/groups/OE0146/internal/Areeba/miniconda3/pkgs/r-colorspace-2.0_2-r41hcfec24a_0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/R/library/colorspace/CITATION",
+        "path_type": "hardlink",
+        "sha256": "c74fceb43d575ac92af6135efd13b9370f22ee39dff8f135b07342ec25a5eab7",
+        "sha256_in_prefix": "c74fceb43d575ac92af6135efd13b9370f22ee39dff8f135b07342ec25a5eab7",
+        "size_in_bytes": 2900
+      },
+      {
+        "_path": "lib/R/library/colorspace/DESCRIPTION",
+        "path_type": "hardlink",
+        "sha256": "0602cbee9af01811de8e6ead519a6e7399857dd7be33151a70c8083ac21d8625",
+        "sha256_in_prefix": "0602cbee9af01811de8e6ead519a6e7399857dd7be33151a70c8083ac21d8625",
+        "size_in_bytes": 3821
+      },
+      {
+        "_path": "lib/R/library/colorspace/INDEX",
+        "path_type": "hardlink",
+        "sha256": "e07c0fb3127374150e7a34e204d2350a1e46907cc96b99fa739de200304d7acb",
+        "sha256_in_prefix": "e07c0fb3127374150e7a34e204d2350a1e46907cc96b99fa739de200304d7acb",
+        "size_in_bytes": 4017
+      },
+      {
+        "_path": "lib/R/library/colorspace/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "f91887789da4fc1f1184fffe89c342a2cc35e449e390ae26f4e5608c41557c57",
+        "sha256_in_prefix": "f91887789da4fc1f1184fffe89c342a2cc35e449e390ae26f4e5608c41557c57",
+        "size_in_bytes": 288
+      },
+      {
+        "_path": "lib/R/library/colorspace/Meta/Rd.rds",
+        "path_type": "hardlink",
+        "sha256": "c89997af6d63d9153672e268de9feb4285248b3ae6fe20f0ce50b5710c3055a3",
+        "sha256_in_prefix": "c89997af6d63d9153672e268de9feb4285248b3ae6fe20f0ce50b5710c3055a3",
+        "size_in_bytes": 2251
+      },
+      {
+        "_path": "lib/R/library/colorspace/Meta/data.rds",
+        "path_type": "hardlink",
+        "sha256": "82f6e894ffdace13a541416c3ed5711a30c26bc0922a850b8433f52ae01ad236",
+        "sha256_in_prefix": "82f6e894ffdace13a541416c3ed5711a30c26bc0922a850b8433f52ae01ad236",
+        "size_in_bytes": 207
+      },
+      {
+        "_path": "lib/R/library/colorspace/Meta/demo.rds",
+        "path_type": "hardlink",
+        "sha256": "1e519897340c2aa05f6824cc0e5087ed878f0504eaccb2b301aebd974bfdf081",
+        "sha256_in_prefix": "1e519897340c2aa05f6824cc0e5087ed878f0504eaccb2b301aebd974bfdf081",
+        "size_in_bytes": 198
+      },
+      {
+        "_path": "lib/R/library/colorspace/Meta/features.rds",
+        "path_type": "hardlink",
+        "sha256": "b84ca42483e79a917d4c89f07a99625c472773b7d3ba686c276da9b5514abeac",
+        "sha256_in_prefix": "b84ca42483e79a917d4c89f07a99625c472773b7d3ba686c276da9b5514abeac",
+        "size_in_bytes": 122
+      },
+      {
+        "_path": "lib/R/library/colorspace/Meta/hsearch.rds",
+        "path_type": "hardlink",
+        "sha256": "f91dc6ae86dc3ec4722d65a90837b78b3da7cf458a6b8b7b7bf23d95a70e2fd7",
+        "sha256_in_prefix": "f91dc6ae86dc3ec4722d65a90837b78b3da7cf458a6b8b7b7bf23d95a70e2fd7",
+        "size_in_bytes": 2241
+      },
+      {
+        "_path": "lib/R/library/colorspace/Meta/links.rds",
+        "path_type": "hardlink",
+        "sha256": "9d89db9eb1a49b044a57cdda952c01fc78d30d3d8e924e11419b3e2a4330727c",
+        "sha256_in_prefix": "9d89db9eb1a49b044a57cdda952c01fc78d30d3d8e924e11419b3e2a4330727c",
+        "size_in_bytes": 1257
+      },
+      {
+        "_path": "lib/R/library/colorspace/Meta/nsInfo.rds",
+        "path_type": "hardlink",
+        "sha256": "bf7a3b554af55e3208c23b42cdd48d235972f9fc5b340bd1d47e703365a21793",
+        "sha256_in_prefix": "bf7a3b554af55e3208c23b42cdd48d235972f9fc5b340bd1d47e703365a21793",
+        "size_in_bytes": 1176
+      },
+      {
+        "_path": "lib/R/library/colorspace/Meta/package.rds",
+        "path_type": "hardlink",
+        "sha256": "af462e5dab9b8f63f6bf0c6e57e80d47c46f1f5860392ad7c985e37115cc667a",
+        "sha256_in_prefix": "af462e5dab9b8f63f6bf0c6e57e80d47c46f1f5860392ad7c985e37115cc667a",
+        "size_in_bytes": 2227
+      },
+      {
+        "_path": "lib/R/library/colorspace/Meta/vignette.rds",
+        "path_type": "hardlink",
+        "sha256": "d8f2ccfbafb795ee28aa2229d32faa08e75f6f0202903c48546a17c616190d50",
+        "sha256_in_prefix": "d8f2ccfbafb795ee28aa2229d32faa08e75f6f0202903c48546a17c616190d50",
+        "size_in_bytes": 434
+      },
+      {
+        "_path": "lib/R/library/colorspace/NAMESPACE",
+        "path_type": "hardlink",
+        "sha256": "be8b23c87aee2b5397c097e8e78299d861ae42510575836c865d25c55d7f543a",
+        "sha256_in_prefix": "be8b23c87aee2b5397c097e8e78299d861ae42510575836c865d25c55d7f543a",
+        "size_in_bytes": 3820
+      },
+      {
+        "_path": "lib/R/library/colorspace/NEWS.md",
+        "path_type": "hardlink",
+        "sha256": "690495be08d58063f7c9524b529b7d3c4fc8d2fe85d88c5ac1d459a56a2d3db4",
+        "sha256_in_prefix": "690495be08d58063f7c9524b529b7d3c4fc8d2fe85d88c5ac1d459a56a2d3db4",
+        "size_in_bytes": 14168
+      },
+      {
+        "_path": "lib/R/library/colorspace/R/colorspace",
+        "path_type": "hardlink",
+        "sha256": "570ca456b280cdeb201ef5ebdf22dc8f80092e2c0c68e33c7f73340e420f3759",
+        "sha256_in_prefix": "570ca456b280cdeb201ef5ebdf22dc8f80092e2c0c68e33c7f73340e420f3759",
+        "size_in_bytes": 1058
+      },
+      {
+        "_path": "lib/R/library/colorspace/R/colorspace.rdb",
+        "path_type": "hardlink",
+        "sha256": "69235914b4946e459186a13d1fc728ff458d0d88d1cee9dadbbb139b1c21247d",
+        "sha256_in_prefix": "69235914b4946e459186a13d1fc728ff458d0d88d1cee9dadbbb139b1c21247d",
+        "size_in_bytes": 426579
+      },
+      {
+        "_path": "lib/R/library/colorspace/R/colorspace.rdx",
+        "path_type": "hardlink",
+        "sha256": "6e4680e10c52eb01aa2bf96544f17c7da399ab86a971aecf25a3524ab01a936f",
+        "sha256_in_prefix": "6e4680e10c52eb01aa2bf96544f17c7da399ab86a971aecf25a3524ab01a936f",
+        "size_in_bytes": 2656
+      },
+      {
+        "_path": "lib/R/library/colorspace/cvdemulator/html/appInfo.html",
+        "path_type": "hardlink",
+        "sha256": "30163154bbe17561636efe8a9338eae0d5ee5f2f2232ed4154ddd7cb8c9606ad",
+        "sha256_in_prefix": "30163154bbe17561636efe8a9338eae0d5ee5f2f2232ed4154ddd7cb8c9606ad",
+        "size_in_bytes": 835
+      },
+      {
+        "_path": "lib/R/library/colorspace/cvdemulator/html/info.html",
+        "path_type": "hardlink",
+        "sha256": "5f8db506ab2774aebd29733aec581ca4865bef0bb7a2353acaf87f106392e831",
+        "sha256_in_prefix": "5f8db506ab2774aebd29733aec581ca4865bef0bb7a2353acaf87f106392e831",
+        "size_in_bytes": 840
+      },
+      {
+        "_path": "lib/R/library/colorspace/cvdemulator/prepareStaticContent.R",
+        "path_type": "hardlink",
+        "sha256": "445e3e1fecad6ea4b4e2c1d0604f0508f7442ab9c15e769557a4b52e3db6f393",
+        "sha256_in_prefix": "445e3e1fecad6ea4b4e2c1d0604f0508f7442ab9c15e769557a4b52e3db6f393",
+        "size_in_bytes": 3836
+      },
+      {
+        "_path": "lib/R/library/colorspace/cvdemulator/server.R",
+        "path_type": "hardlink",
+        "sha256": "cc1612981055fd830be673795eb205d03c49817cfb6f930baa02ff6471cee715",
+        "sha256_in_prefix": "cc1612981055fd830be673795eb205d03c49817cfb6f930baa02ff6471cee715",
+        "size_in_bytes": 8636
+      },
+      {
+        "_path": "lib/R/library/colorspace/cvdemulator/ui.R",
+        "path_type": "hardlink",
+        "sha256": "02520db912b54454c9d4933e0ac9bdcc95be07f3baa7b3357186073367b523e0",
+        "sha256_in_prefix": "02520db912b54454c9d4933e0ac9bdcc95be07f3baa7b3357186073367b523e0",
+        "size_in_bytes": 5640
+      },
+      {
+        "_path": "lib/R/library/colorspace/cvdemulator/www/cvdemulator.css",
+        "path_type": "hardlink",
+        "sha256": "861527ac90b893be9e390743ceb747c581c77e7ce7fa94e174840302998dca9e",
+        "sha256_in_prefix": "861527ac90b893be9e390743ceb747c581c77e7ce7fa94e174840302998dca9e",
+        "size_in_bytes": 2253
+      },
+      {
+        "_path": "lib/R/library/colorspace/cvdemulator/www/cvdemulator_darkmode.css",
+        "path_type": "hardlink",
+        "sha256": "46f55150cdb4d921384401d6d8d97dcb22328ad107421cf835d41b3064d13901",
+        "sha256_in_prefix": "46f55150cdb4d921384401d6d8d97dcb22328ad107421cf835d41b3064d13901",
+        "size_in_bytes": 1810
+      },
+      {
+        "_path": "lib/R/library/colorspace/cvdemulator/www/images/descimage.png",
+        "path_type": "hardlink",
+        "sha256": "4ddd00b245d3383e2481b208202bdb1d4b6a96d4769d0c498bae41006b29e148",
+        "sha256_in_prefix": "4ddd00b245d3383e2481b208202bdb1d4b6a96d4769d0c498bae41006b29e148",
+        "size_in_bytes": 41768
+      },
+      {
+        "_path": "lib/R/library/colorspace/cvdemulator/www/images/rainbow_desaturate.png",
+        "path_type": "hardlink",
+        "sha256": "7bd7e69939215211269b260cc523d925e1714fdc6ffa215eb2862fd8bae0df7d",
+        "sha256_in_prefix": "7bd7e69939215211269b260cc523d925e1714fdc6ffa215eb2862fd8bae0df7d",
+        "size_in_bytes": 65773
+      },
+      {
+        "_path": "lib/R/library/colorspace/cvdemulator/www/images/rainbow_deutan.png",
+        "path_type": "hardlink",
+        "sha256": "f5033aabfea5c6c3042b1f70af2c158d08b8b9abbb3552144ddee8f3f70e0bf2",
+        "sha256_in_prefix": "f5033aabfea5c6c3042b1f70af2c158d08b8b9abbb3552144ddee8f3f70e0bf2",
+        "size_in_bytes": 182051
+      },
+      {
+        "_path": "lib/R/library/colorspace/cvdemulator/www/images/rainbow_orig.png",
+        "path_type": "hardlink",
+        "sha256": "cd993201cc901ace8aa46a7c43a3c0f993ed29668fea7c407950cc1918ba70e9",
+        "sha256_in_prefix": "cd993201cc901ace8aa46a7c43a3c0f993ed29668fea7c407950cc1918ba70e9",
+        "size_in_bytes": 158586
+      },
+      {
+        "_path": "lib/R/library/colorspace/cvdemulator/www/images/rainbow_protan.png",
+        "path_type": "hardlink",
+        "sha256": "8597e5a0668b576ed3c6f4786fa71b4527c0524898b591d80e32367daaaf2b61",
+        "sha256_in_prefix": "8597e5a0668b576ed3c6f4786fa71b4527c0524898b591d80e32367daaaf2b61",
+        "size_in_bytes": 162893
+      },
+      {
+        "_path": "lib/R/library/colorspace/cvdemulator/www/images/rainbow_tritan.png",
+        "path_type": "hardlink",
+        "sha256": "1f1d64bead7dee6a0527200cc831d539a711b421fdacdf846595c00f7713ce23",
+        "sha256_in_prefix": "1f1d64bead7dee6a0527200cc831d539a711b421fdacdf846595c00f7713ce23",
+        "size_in_bytes": 161748
+      },
+      {
+        "_path": "lib/R/library/colorspace/data/Rdata.rdb",
+        "path_type": "hardlink",
+        "sha256": "dd8d2611cdd1bdf0a8adc5c9cf7a8eb35ced9c86d6ad93997118d8fbbfb64bf7",
+        "sha256_in_prefix": "dd8d2611cdd1bdf0a8adc5c9cf7a8eb35ced9c86d6ad93997118d8fbbfb64bf7",
+        "size_in_bytes": 202258
+      },
+      {
+        "_path": "lib/R/library/colorspace/data/Rdata.rds",
+        "path_type": "hardlink",
+        "sha256": "0605717ea2ec1df77dc34e0a7b8d0c9ae81eac86a83ddd97479e2e40b21d9b86",
+        "sha256_in_prefix": "0605717ea2ec1df77dc34e0a7b8d0c9ae81eac86a83ddd97479e2e40b21d9b86",
+        "size_in_bytes": 113
+      },
+      {
+        "_path": "lib/R/library/colorspace/data/Rdata.rdx",
+        "path_type": "hardlink",
+        "sha256": "d755454041d9ad36d9d2084a7e190b532fd95bc7b15801554e80ae4c4b4ccc67",
+        "sha256_in_prefix": "d755454041d9ad36d9d2084a7e190b532fd95bc7b15801554e80ae4c4b4ccc67",
+        "size_in_bytes": 179
+      },
+      {
+        "_path": "lib/R/library/colorspace/demo/brewer.R",
+        "path_type": "hardlink",
+        "sha256": "af9add2100c68615a8266955bd52d9f15419e52cf09176629a8bde3a6a215b1f",
+        "sha256_in_prefix": "af9add2100c68615a8266955bd52d9f15419e52cf09176629a8bde3a6a215b1f",
+        "size_in_bytes": 546
+      },
+      {
+        "_path": "lib/R/library/colorspace/demo/carto.R",
+        "path_type": "hardlink",
+        "sha256": "d40418d7a3051dc0f8a657766176491d70dd3a3ebe982e6906ffc143591c6510",
+        "sha256_in_prefix": "d40418d7a3051dc0f8a657766176491d70dd3a3ebe982e6906ffc143591c6510",
+        "size_in_bytes": 615
+      },
+      {
+        "_path": "lib/R/library/colorspace/demo/scico.R",
+        "path_type": "hardlink",
+        "sha256": "a43c0e50ab6f4c1eaba0a3b1bedd94b586b557a5f477a6374972816d4be3c1ad",
+        "sha256_in_prefix": "a43c0e50ab6f4c1eaba0a3b1bedd94b586b557a5f477a6374972816d4be3c1ad",
+        "size_in_bytes": 572
+      },
+      {
+        "_path": "lib/R/library/colorspace/demo/viridis.R",
+        "path_type": "hardlink",
+        "sha256": "10aa542237cddbfd89bb7c20e630a5fc52ba212feed588c91da2747aa9dcc4e5",
+        "sha256_in_prefix": "10aa542237cddbfd89bb7c20e630a5fc52ba212feed588c91da2747aa9dcc4e5",
+        "size_in_bytes": 524
+      },
+      {
+        "_path": "lib/R/library/colorspace/doc/colorspace.R",
+        "path_type": "hardlink",
+        "sha256": "f751c323b9447c099f6dcdb99e3c0ebec35536356278f62c4fc73c429716e866",
+        "sha256_in_prefix": "f751c323b9447c099f6dcdb99e3c0ebec35536356278f62c4fc73c429716e866",
+        "size_in_bytes": 4016
+      },
+      {
+        "_path": "lib/R/library/colorspace/doc/colorspace.Rmd",
+        "path_type": "hardlink",
+        "sha256": "8f8d0efe0c7fb7bc2f29fca60a5234a164adedf1cdb2104693bfb806430cbd8d",
+        "sha256_in_prefix": "8f8d0efe0c7fb7bc2f29fca60a5234a164adedf1cdb2104693bfb806430cbd8d",
+        "size_in_bytes": 12703
+      },
+      {
+        "_path": "lib/R/library/colorspace/doc/colorspace.html",
+        "path_type": "hardlink",
+        "sha256": "4a3a921b9c93511645ef5b769a4dd74b79dba546c3a16c64ffc5b4013c513af0",
+        "sha256_in_prefix": "4a3a921b9c93511645ef5b769a4dd74b79dba546c3a16c64ffc5b4013c513af0",
+        "size_in_bytes": 1802039
+      },
+      {
+        "_path": "lib/R/library/colorspace/doc/hcl-colors.R",
+        "path_type": "hardlink",
+        "sha256": "b0447cf50b3bd5e81d7c717f92d19f24b98e28f8ff42662a9aecdc946043c128",
+        "sha256_in_prefix": "b0447cf50b3bd5e81d7c717f92d19f24b98e28f8ff42662a9aecdc946043c128",
+        "size_in_bytes": 10098
+      },
+      {
+        "_path": "lib/R/library/colorspace/doc/hcl-colors.Rnw",
+        "path_type": "hardlink",
+        "sha256": "37fd100e9b002ace327bcfbc180a471041ee12a442432991851a5575479fa03f",
+        "sha256_in_prefix": "37fd100e9b002ace327bcfbc180a471041ee12a442432991851a5575479fa03f",
+        "size_in_bytes": 21383
+      },
+      {
+        "_path": "lib/R/library/colorspace/doc/hcl-colors.pdf",
+        "path_type": "hardlink",
+        "sha256": "a7b858cc7ae476206952fa2b11f616ec927b0113445bec99db36a5df955ae652",
+        "sha256_in_prefix": "a7b858cc7ae476206952fa2b11f616ec927b0113445bec99db36a5df955ae652",
+        "size_in_bytes": 195359
+      },
+      {
+        "_path": "lib/R/library/colorspace/doc/index.html",
+        "path_type": "hardlink",
+        "sha256": "0e19067ced30b42bbded60d2424c5fd3ff1e33f9655d9dac31dfaaf5af8bdcd3",
+        "sha256_in_prefix": "0e19067ced30b42bbded60d2424c5fd3ff1e33f9655d9dac31dfaaf5af8bdcd3",
+        "size_in_bytes": 1922
+      },
+      {
+        "_path": "lib/R/library/colorspace/hclcolorpicker/html/info.html",
+        "path_type": "hardlink",
+        "sha256": "0991659eca3e824ca9afd16d3aa7497650dfe40df0867864b4616b4d50c58f7e",
+        "sha256_in_prefix": "0991659eca3e824ca9afd16d3aa7497650dfe40df0867864b4616b4d50c58f7e",
+        "size_in_bytes": 994
+      },
+      {
+        "_path": "lib/R/library/colorspace/hclcolorpicker/prepareStaticContent.R",
+        "path_type": "hardlink",
+        "sha256": "d6e88407d8725030b3a5f8b2f5ab882e5ae72229d1a8ab162800d636f8905931",
+        "sha256_in_prefix": "d6e88407d8725030b3a5f8b2f5ab882e5ae72229d1a8ab162800d636f8905931",
+        "size_in_bytes": 3644
+      },
+      {
+        "_path": "lib/R/library/colorspace/hclcolorpicker/server.R",
+        "path_type": "hardlink",
+        "sha256": "f5f1ee285570c50895a18e2afaa57adc57b210e60b9aa0b28cc98177a21d621e",
+        "sha256_in_prefix": "f5f1ee285570c50895a18e2afaa57adc57b210e60b9aa0b28cc98177a21d621e",
+        "size_in_bytes": 29095
+      },
+      {
+        "_path": "lib/R/library/colorspace/hclcolorpicker/ui.R",
+        "path_type": "hardlink",
+        "sha256": "e5acdffb7212c7f90ed372c3f2483428567266f860a5a1bc56cab0e3a08d2a97",
+        "sha256_in_prefix": "e5acdffb7212c7f90ed372c3f2483428567266f860a5a1bc56cab0e3a08d2a97",
+        "size_in_bytes": 6398
+      },
+      {
+        "_path": "lib/R/library/colorspace/hclcolorpicker/www/hclcolorpicker.css",
+        "path_type": "hardlink",
+        "sha256": "b0931e64f9c60245efe69fe336a0104b0e9d91252bf8bfeab9a30cc7d8a8d194",
+        "sha256_in_prefix": "b0931e64f9c60245efe69fe336a0104b0e9d91252bf8bfeab9a30cc7d8a8d194",
+        "size_in_bytes": 1002
+      },
+      {
+        "_path": "lib/R/library/colorspace/hclcolorpicker/www/hclcolorpicker_darkmode.css",
+        "path_type": "hardlink",
+        "sha256": "46f55150cdb4d921384401d6d8d97dcb22328ad107421cf835d41b3064d13901",
+        "sha256_in_prefix": "46f55150cdb4d921384401d6d8d97dcb22328ad107421cf835d41b3064d13901",
+        "size_in_bytes": 1810
+      },
+      {
+        "_path": "lib/R/library/colorspace/hclwizard/html/GrADS.html",
+        "path_type": "hardlink",
+        "sha256": "f901c63e5c2e651d5142a2c5ee515b21ee63996e7d85c13ba18509a67021065b",
+        "sha256_in_prefix": "f901c63e5c2e651d5142a2c5ee515b21ee63996e7d85c13ba18509a67021065b",
+        "size_in_bytes": 591
+      },
+      {
+        "_path": "lib/R/library/colorspace/hclwizard/html/R.html",
+        "path_type": "hardlink",
+        "sha256": "63adb83e8eb9724cee35cd12e182e7ec5f985e5cd710cecd29591db08edde481",
+        "sha256_in_prefix": "63adb83e8eb9724cee35cd12e182e7ec5f985e5cd710cecd29591db08edde481",
+        "size_in_bytes": 660
+      },
+      {
+        "_path": "lib/R/library/colorspace/hclwizard/html/RReg.html",
+        "path_type": "hardlink",
+        "sha256": "1bcca3796ae7d50f5038325b69db259ca6c9e0f6805db7f802e72f03cd56cc02",
+        "sha256_in_prefix": "1bcca3796ae7d50f5038325b69db259ca6c9e0f6805db7f802e72f03cd56cc02",
+        "size_in_bytes": 846
+      },
+      {
+        "_path": "lib/R/library/colorspace/hclwizard/html/Register.html",
+        "path_type": "hardlink",
+        "sha256": "c7af57cb2084cae60cf9fa23941b2eca6235d2abd42eb3d1fe5ed63c7e62581f",
+        "sha256_in_prefix": "c7af57cb2084cae60cf9fa23941b2eca6235d2abd42eb3d1fe5ed63c7e62581f",
+        "size_in_bytes": 472
+      },
+      {
+        "_path": "lib/R/library/colorspace/hclwizard/html/RegisterRcode.html",
+        "path_type": "hardlink",
+        "sha256": "8aec0d47dd157117aa328d2bd884bb67f7adb829f03b380f09670289628f9c65",
+        "sha256_in_prefix": "8aec0d47dd157117aa328d2bd884bb67f7adb829f03b380f09670289628f9c65",
+        "size_in_bytes": 356
+      },
+      {
+        "_path": "lib/R/library/colorspace/hclwizard/html/colorplane.html",
+        "path_type": "hardlink",
+        "sha256": "36ca4bfd9995a865208271793d8a56b03705353823203858cc68366315928907",
+        "sha256_in_prefix": "36ca4bfd9995a865208271793d8a56b03705353823203858cc68366315928907",
+        "size_in_bytes": 370
+      },
+      {
+        "_path": "lib/R/library/colorspace/hclwizard/html/info.html",
+        "path_type": "hardlink",
+        "sha256": "373f307734b20c976915d288c112b3e67930d8d2b8402aa9d3244a0a9e1cf416",
+        "sha256_in_prefix": "373f307734b20c976915d288c112b3e67930d8d2b8402aa9d3244a0a9e1cf416",
+        "size_in_bytes": 15747
+      },
+      {
+        "_path": "lib/R/library/colorspace/hclwizard/html/matlab.html",
+        "path_type": "hardlink",
+        "sha256": "463dc79a5ff22de10f9765e63f029d58740351c5df5f42321d655198511096f4",
+        "sha256_in_prefix": "463dc79a5ff22de10f9765e63f029d58740351c5df5f42321d655198511096f4",
+        "size_in_bytes": 354
+      },
+      {
+        "_path": "lib/R/library/colorspace/hclwizard/html/python-example.html",
+        "path_type": "hardlink",
+        "sha256": "c6b9ccf6ebc43627bc65922ad846690167a64010524f825661a6d248592e73ba",
+        "sha256_in_prefix": "c6b9ccf6ebc43627bc65922ad846690167a64010524f825661a6d248592e73ba",
+        "size_in_bytes": 1505
+      },
+      {
+        "_path": "lib/R/library/colorspace/hclwizard/html/python.html",
+        "path_type": "hardlink",
+        "sha256": "a27c487d84121589873dc45df3bf3e03aed70ea6f677e12c4766100707eff3e0",
+        "sha256_in_prefix": "a27c487d84121589873dc45df3bf3e03aed70ea6f677e12c4766100707eff3e0",
+        "size_in_bytes": 627
+      },
+      {
+        "_path": "lib/R/library/colorspace/hclwizard/prepareStaticContent.R",
+        "path_type": "hardlink",
+        "sha256": "ed100c49d0eb98540cbb0cd3f2cca8d2765c9522eb912884af85f96298f09f78",
+        "sha256_in_prefix": "ed100c49d0eb98540cbb0cd3f2cca8d2765c9522eb912884af85f96298f09f78",
+        "size_in_bytes": 6151
+      },
+      {
+        "_path": "lib/R/library/colorspace/hclwizard/server.R",
+        "path_type": "hardlink",
+        "sha256": "257e7a7a84b4551987b4b10035fdf47652aceecfe39e861a3551e6ef4f9865ca",
+        "sha256_in_prefix": "257e7a7a84b4551987b4b10035fdf47652aceecfe39e861a3551e6ef4f9865ca",
+        "size_in_bytes": 28523
+      },
+      {
+        "_path": "lib/R/library/colorspace/hclwizard/ui.R",
+        "path_type": "hardlink",
+        "sha256": "2d4f3f403c56281ca130fa15bd78d7da0b39090fb5826ec4856115933a943d90",
+        "sha256_in_prefix": "2d4f3f403c56281ca130fa15bd78d7da0b39090fb5826ec4856115933a943d90",
+        "size_in_bytes": 17282
+      },
+      {
+        "_path": "lib/R/library/colorspace/hclwizard/www/hclwizard.css",
+        "path_type": "hardlink",
+        "sha256": "313e09817d2ef93f05e419948df3a85bdfac53e8c93c4817db89e0d371c6441a",
+        "sha256_in_prefix": "313e09817d2ef93f05e419948df3a85bdfac53e8c93c4817db89e0d371c6441a",
+        "size_in_bytes": 6520
+      },
+      {
+        "_path": "lib/R/library/colorspace/hclwizard/www/hclwizard_darkmode.css",
+        "path_type": "hardlink",
+        "sha256": "e1619212d082f2b505312f0395dc09a8433ecf50a42d70019fbba85e128b7e4c",
+        "sha256_in_prefix": "e1619212d082f2b505312f0395dc09a8433ecf50a42d70019fbba85e128b7e4c",
+        "size_in_bytes": 1895
+      },
+      {
+        "_path": "lib/R/library/colorspace/hclwizard/www/images/pal_ag_grnyl.png",
+        "path_type": "hardlink",
+        "sha256": "14334b55d09bba5a8286450d9de9f51c1c0d21e1650e84c1f4931bca7f482071",
+        "sha256_in_prefix": "14334b55d09bba5a8286450d9de9f51c1c0d21e1650e84c1f4931bca7f482071",
+        "size_in_bytes": 119
+      },
+      {
+        "_path": "lib/R/library/colorspace/hclwizard/www/images/pal_ag_sunset.png",
+        "path_type": "hardlink",
+        "sha256": "4d65c4eac2b2a88bf8af7fdb95e306ecb72ac60d5927677c656b386f193ae26b",
+        "sha256_in_prefix": "4d65c4eac2b2a88bf8af7fdb95e306ecb72ac60d5927677c656b386f193ae26b",
+        "size_in_bytes": 119
+      },
+      {
+        "_path": "lib/R/library/colorspace/hclwizard/www/images/pal_batlow.png",
+        "path_type": "hardlink",
+        "sha256": "0f7f16f196c6826b632c2f76af062bfb40dbe09385e4e994622ae8b4c49b3b35",
+        "sha256_in_prefix": "0f7f16f196c6826b632c2f76af062bfb40dbe09385e4e994622ae8b4c49b3b35",
+        "size_in_bytes": 119
+      },
+      {
+        "_path": "lib/R/library/colorspace/hclwizard/www/images/pal_berlin.png",
+        "path_type": "hardlink",
+        "sha256": "a9ffcbf5ce38eeaaa30ef34a82fbaecb8583f73b757d020ceddfb51f8f28f33b",
+        "sha256_in_prefix": "a9ffcbf5ce38eeaaa30ef34a82fbaecb8583f73b757d020ceddfb51f8f28f33b",
+        "size_in_bytes": 119
+      },
+      {
+        "_path": "lib/R/library/colorspace/hclwizard/www/images/pal_blue-red.png",
+        "path_type": "hardlink",
+        "sha256": "3df4728b3a9dc78b98bc2f9fe7eb7850e444ee24f9f27d9b035a583d72ef2a5a",
+        "sha256_in_prefix": "3df4728b3a9dc78b98bc2f9fe7eb7850e444ee24f9f27d9b035a583d72ef2a5a",
+        "size_in_bytes": 119
+      },
+      {
+        "_path": "lib/R/library/colorspace/hclwizard/www/images/pal_blue-red_2.png",
+        "path_type": "hardlink",
+        "sha256": "20cecfbc9a093488efaa2c399dc3d4397077427d24ec2de46a6ed0a020a97688",
+        "sha256_in_prefix": "20cecfbc9a093488efaa2c399dc3d4397077427d24ec2de46a6ed0a020a97688",
+        "size_in_bytes": 119
+      },
+      {
+        "_path": "lib/R/library/colorspace/hclwizard/www/images/pal_blue-red_3.png",
+        "path_type": "hardlink",
+        "sha256": "993889b417f547d4da1f7e1335d3cfeb2430a8f9fd984a6c4a31bb03bc42f151",
+        "sha256_in_prefix": "993889b417f547d4da1f7e1335d3cfeb2430a8f9fd984a6c4a31bb03bc42f151",
+        "size_in_bytes": 119
+      },
+      {
+        "_path": "lib/R/library/colorspace/hclwizard/www/images/pal_blue-yellow.png",
+        "path_type": "hardlink",
+        "sha256": "e6d4ecf468578faf4d0abe1b5042d9046b40a9daaf246f44b7e91f05a1861021",
+        "sha256_in_prefix": "e6d4ecf468578faf4d0abe1b5042d9046b40a9daaf246f44b7e91f05a1861021",
+        "size_in_bytes": 119
+      },
+      {
+        "_path": "lib/R/library/colorspace/hclwizard/www/images/pal_blue-yellow_2.png",
+        "path_type": "hardlink",
+        "sha256": "7722c1e1236461f6e1c6ee82738d743a0d8259079a2a1c8144f3a5e0109238ed",
+        "sha256_in_prefix": "7722c1e1236461f6e1c6ee82738d743a0d8259079a2a1c8144f3a5e0109238ed",
+        "size_in_bytes": 119
+      },
+      {
+        "_path": "lib/R/library/colorspace/hclwizard/www/images/pal_blue-yellow_3.png",
+        "path_type": "hardlink",
+        "sha256": "53139c1a0b4f3da65ce4849f4d5bf1db6b8c25131b2825b60a52dc2fef1ff825",
+        "sha256_in_prefix": "53139c1a0b4f3da65ce4849f4d5bf1db6b8c25131b2825b60a52dc2fef1ff825",
+        "size_in_bytes": 119
+      },
+      {
+        "_path": "lib/R/library/colorspace/hclwizard/www/images/pal_blues.png",
+        "path_type": "hardlink",
+        "sha256": "669c5315d1f436d4b81292178d2d90d847806fe3da9af2df566aefe0f6f65b4e",
+        "sha256_in_prefix": "669c5315d1f436d4b81292178d2d90d847806fe3da9af2df566aefe0f6f65b4e",
+        "size_in_bytes": 119
+      },
+      {
+        "_path": "lib/R/library/colorspace/hclwizard/www/images/pal_blues_2.png",
+        "path_type": "hardlink",
+        "sha256": "c5d191950c07de758e1e5280c70ec30b62ab82c6b934f16511caaee00235f731",
+        "sha256_in_prefix": "c5d191950c07de758e1e5280c70ec30b62ab82c6b934f16511caaee00235f731",
+        "size_in_bytes": 119
+      },
+      {
+        "_path": "lib/R/library/colorspace/hclwizard/www/images/pal_blues_3.png",
+        "path_type": "hardlink",
+        "sha256": "5ca8a000f3c13efb8a481735f2fc535ea507654549f23d74bb01e8411f97f558",
+        "sha256_in_prefix": "5ca8a000f3c13efb8a481735f2fc535ea507654549f23d74bb01e8411f97f558",
+        "size_in_bytes": 119
+      },
+      {
+        "_path": "lib/R/library/colorspace/hclwizard/www/images/pal_blugrn.png",
+        "path_type": "hardlink",
+        "sha256": "7fde8b667ea244d6c2d4cddf7fab7f2e720b656725566486458bf645cd00dbbe",
+        "sha256_in_prefix": "7fde8b667ea244d6c2d4cddf7fab7f2e720b656725566486458bf645cd00dbbe",
+        "size_in_bytes": 119
+      },
+      {
+        "_path": "lib/R/library/colorspace/hclwizard/www/images/pal_bluyl.png",
+        "path_type": "hardlink",
+        "sha256": "02b0fc66e6158de9241427be9e7d227ded658d713f372cfeb2f39d2505ab49cb",
+        "sha256_in_prefix": "02b0fc66e6158de9241427be9e7d227ded658d713f372cfeb2f39d2505ab49cb",
+        "size_in_bytes": 119
+      },
+      {
+        "_path": "lib/R/library/colorspace/hclwizard/www/images/pal_bpy.png",
+        "path_type": "hardlink",
+        "sha256": "a2197c8ceb22e570603d42e76852fd01fce4e21ca7010bd2c47be2e4759d3b2f",
+        "sha256_in_prefix": "a2197c8ceb22e570603d42e76852fd01fce4e21ca7010bd2c47be2e4759d3b2f",
+        "size_in_bytes": 119
+      },
+      {
+        "_path": "lib/R/library/colorspace/hclwizard/www/images/pal_brwnyl.png",
+        "path_type": "hardlink",
+        "sha256": "97c219c0a953c87cf4c5b8526769afdccf43a25118d8fa3609328f13a96b74df",
+        "sha256_in_prefix": "97c219c0a953c87cf4c5b8526769afdccf43a25118d8fa3609328f13a96b74df",
+        "size_in_bytes": 119
+      },
+      {
+        "_path": "lib/R/library/colorspace/hclwizard/www/images/pal_bugn.png",
+        "path_type": "hardlink",
+        "sha256": "60920cf819c8f597c0bba6f9d4b59812c72ff1df6bed81eb72809203d59a1d04",
+        "sha256_in_prefix": "60920cf819c8f597c0bba6f9d4b59812c72ff1df6bed81eb72809203d59a1d04",
+        "size_in_bytes": 119
+      },
+      {
+        "_path": "lib/R/library/colorspace/hclwizard/www/images/pal_bupu.png",
+        "path_type": "hardlink",
+        "sha256": "63ad5317cdf004c3239e882947819c9ed8bd4a66c1ccd54a9184f182dd4f87cf",
+        "sha256_in_prefix": "63ad5317cdf004c3239e882947819c9ed8bd4a66c1ccd54a9184f182dd4f87cf",
+        "size_in_bytes": 119
+      },
+      {
+        "_path": "lib/R/library/colorspace/hclwizard/www/images/pal_burg.png",
+        "path_type": "hardlink",
+        "sha256": "a3eaeac6d17489395960106c7000a9d313e09459243b6629328760b758f5d8b7",
+        "sha256_in_prefix": "a3eaeac6d17489395960106c7000a9d313e09459243b6629328760b758f5d8b7",
+        "size_in_bytes": 119
+      },
+      {
+        "_path": "lib/R/library/colorspace/hclwizard/www/images/pal_burgyl.png",
+        "path_type": "hardlink",
+        "sha256": "43585a76f4e24b67e3268e0f1e951d4065902454927d56775c178a363f4794ca",
+        "sha256_in_prefix": "43585a76f4e24b67e3268e0f1e951d4065902454927d56775c178a363f4794ca",
+        "size_in_bytes": 119
+      },
+      {
+        "_path": "lib/R/library/colorspace/hclwizard/www/images/pal_cm.colors.png",
+        "path_type": "hardlink",
+        "sha256": "1a2f300195b44945b4d760edf3b037a82f3042624d2c69ddd35a290d65dba524",
+        "sha256_in_prefix": "1a2f300195b44945b4d760edf3b037a82f3042624d2c69ddd35a290d65dba524",
+        "size_in_bytes": 119
+      },
+      {
+        "_path": "lib/R/library/colorspace/hclwizard/www/images/pal_cold.png",
+        "path_type": "hardlink",
+        "sha256": "9e7e39bc3e13b552f842b481c8aac80e26294f2a8c5f4f1702c5bff671a2c583",
+        "sha256_in_prefix": "9e7e39bc3e13b552f842b481c8aac80e26294f2a8c5f4f1702c5bff671a2c583",
+        "size_in_bytes": 119
+      },
+      {
+        "_path": "lib/R/library/colorspace/hclwizard/www/images/pal_cork.png",
+        "path_type": "hardlink",
+        "sha256": "1eaa4ab33de107e959e2b7c0dd72aec8d75da9559f16c43fd5c02ef5474b2ff2",
+        "sha256_in_prefix": "1eaa4ab33de107e959e2b7c0dd72aec8d75da9559f16c43fd5c02ef5474b2ff2",
+        "size_in_bytes": 119
+      },
+      {
+        "_path": "lib/R/library/colorspace/hclwizard/www/images/pal_cyan-magenta.png",
+        "path_type": "hardlink",
+        "sha256": "13b949a6348255dfaef1502c16d3f706316e402496076ab831d790d82814195f",
+        "sha256_in_prefix": "13b949a6348255dfaef1502c16d3f706316e402496076ab831d790d82814195f",
+        "size_in_bytes": 119
+      },
+      {
+        "_path": "lib/R/library/colorspace/hclwizard/www/images/pal_dark_2.png",
+        "path_type": "hardlink",
+        "sha256": "fff703e190c2c843c24ea26d9b7b692f7c2844a6d59b739d5c3b1828a28d5189",
+        "sha256_in_prefix": "fff703e190c2c843c24ea26d9b7b692f7c2844a6d59b739d5c3b1828a28d5189",
+        "size_in_bytes": 116
+      },
+      {
+        "_path": "lib/R/library/colorspace/hclwizard/www/images/pal_dark_3.png",
+        "path_type": "hardlink",
+        "sha256": "1156ab2670d0e5b5113c88f3ececa8ff3718c311882657c00dd70573aee4d8ff",
+        "sha256_in_prefix": "1156ab2670d0e5b5113c88f3ececa8ff3718c311882657c00dd70573aee4d8ff",
+        "size_in_bytes": 116
+      },
+      {
+        "_path": "lib/R/library/colorspace/hclwizard/www/images/pal_dark_mint.png",
+        "path_type": "hardlink",
+        "sha256": "30eb7d904ab792a0625340ec2725440da76b0c57b291b3a87a6aed38291fbfdd",
+        "sha256_in_prefix": "30eb7d904ab792a0625340ec2725440da76b0c57b291b3a87a6aed38291fbfdd",
+        "size_in_bytes": 119
+      },
+      {
+        "_path": "lib/R/library/colorspace/hclwizard/www/images/pal_dynamic.png",
+        "path_type": "hardlink",
+        "sha256": "e0081e38aad45e3d89703327c5e0c807852de42703d55b16501e77b060bf9930",
+        "sha256_in_prefix": "e0081e38aad45e3d89703327c5e0c807852de42703d55b16501e77b060bf9930",
+        "size_in_bytes": 116
+      },
+      {
+        "_path": "lib/R/library/colorspace/hclwizard/www/images/pal_emrld.png",
+        "path_type": "hardlink",
+        "sha256": "bec85d2f3aff87c4dee7c145149669bc6ae6e17a484abb05c1ddb4cf857cb16a",
+        "sha256_in_prefix": "bec85d2f3aff87c4dee7c145149669bc6ae6e17a484abb05c1ddb4cf857cb16a",
+        "size_in_bytes": 119
+      },
+      {
+        "_path": "lib/R/library/colorspace/hclwizard/www/images/pal_gnbu.png",
+        "path_type": "hardlink",
+        "sha256": "6ad0b8105cf63814fab5a63cef411ade59954ffe973e4d3e592efdcc01e6376f",
+        "sha256_in_prefix": "6ad0b8105cf63814fab5a63cef411ade59954ffe973e4d3e592efdcc01e6376f",
+        "size_in_bytes": 119
+      },
+      {
+        "_path": "lib/R/library/colorspace/hclwizard/www/images/pal_grays.png",
+        "path_type": "hardlink",
+        "sha256": "53047e8c0f332592bd9d6a414843e225f67f851c17a0ee76637ddc4b54f84852",
+        "sha256_in_prefix": "53047e8c0f332592bd9d6a414843e225f67f851c17a0ee76637ddc4b54f84852",
+        "size_in_bytes": 119
+      },
+      {
+        "_path": "lib/R/library/colorspace/hclwizard/www/images/pal_green-brown.png",
+        "path_type": "hardlink",
+        "sha256": "adb828fa6750d3f62ee769f8edab23ea3608217e9c41ee440e48088799d4e73d",
+        "sha256_in_prefix": "adb828fa6750d3f62ee769f8edab23ea3608217e9c41ee440e48088799d4e73d",
+        "size_in_bytes": 119
+      },
+      {
+        "_path": "lib/R/library/colorspace/hclwizard/www/images/pal_green-orange.png",
+        "path_type": "hardlink",
+        "sha256": "3a79c577b5fc81fe9f44ed913046e026b2bbc36c3b0496422efe59639e1535ac",
+        "sha256_in_prefix": "3a79c577b5fc81fe9f44ed913046e026b2bbc36c3b0496422efe59639e1535ac",
+        "size_in_bytes": 119
+      },
+      {
+        "_path": "lib/R/library/colorspace/hclwizard/www/images/pal_green-yellow.png",
+        "path_type": "hardlink",
+        "sha256": "d939d8bfc8173d533ac875527119dae9f9d4649c25569cd3c4dccad3122539a1",
+        "sha256_in_prefix": "d939d8bfc8173d533ac875527119dae9f9d4649c25569cd3c4dccad3122539a1",
+        "size_in_bytes": 119
+      },
+      {
+        "_path": "lib/R/library/colorspace/hclwizard/www/images/pal_greens.png",
+        "path_type": "hardlink",
+        "sha256": "e969b56c65cf38974807cb25572912a6efc8b5c297775c0b33a663255b77446c",
+        "sha256_in_prefix": "e969b56c65cf38974807cb25572912a6efc8b5c297775c0b33a663255b77446c",
+        "size_in_bytes": 119
+      },
+      {
+        "_path": "lib/R/library/colorspace/hclwizard/www/images/pal_greens_2.png",
+        "path_type": "hardlink",
+        "sha256": "aef7725ee10a06ad5bd55aa06b3ddc906aa92be0add4eddabdc44e7db62d3d5c",
+        "sha256_in_prefix": "aef7725ee10a06ad5bd55aa06b3ddc906aa92be0add4eddabdc44e7db62d3d5c",
+        "size_in_bytes": 119
+      },
+      {
+        "_path": "lib/R/library/colorspace/hclwizard/www/images/pal_greens_3.png",
+        "path_type": "hardlink",
+        "sha256": "407af1fb602f72aabf94456a231cca06955ffb9ddfdaf41566e6fbbe1f9eb170",
+        "sha256_in_prefix": "407af1fb602f72aabf94456a231cca06955ffb9ddfdaf41566e6fbbe1f9eb170",
+        "size_in_bytes": 119
+      },
+      {
+        "_path": "lib/R/library/colorspace/hclwizard/www/images/pal_harmonic.png",
+        "path_type": "hardlink",
+        "sha256": "20cb1c7ee0fca34a95042cc18ef48f7ef132fbda66ce95e1feba214d0977eeb4",
+        "sha256_in_prefix": "20cb1c7ee0fca34a95042cc18ef48f7ef132fbda66ce95e1feba214d0977eeb4",
+        "size_in_bytes": 119
+      },
+      {
+        "_path": "lib/R/library/colorspace/hclwizard/www/images/pal_hawaii.png",
+        "path_type": "hardlink",
+        "sha256": "430709e18eeaa33544bb0cbc1447a66bb3a2ecce194bfc63116878058efa6755",
+        "sha256_in_prefix": "430709e18eeaa33544bb0cbc1447a66bb3a2ecce194bfc63116878058efa6755",
+        "size_in_bytes": 119
+      },
+      {
+        "_path": "lib/R/library/colorspace/hclwizard/www/images/pal_heat.colors.png",
+        "path_type": "hardlink",
+        "sha256": "6ecbbe3a18cfc3133fba4fa2c153c7cceaa5233c1615a2037bc586eb9d47a247",
+        "sha256_in_prefix": "6ecbbe3a18cfc3133fba4fa2c153c7cceaa5233c1615a2037bc586eb9d47a247",
+        "size_in_bytes": 119
+      },
+      {
+        "_path": "lib/R/library/colorspace/hclwizard/www/images/pal_heat.png",
+        "path_type": "hardlink",
+        "sha256": "f5a7ec6b02531d6f6eb901f845b2d4744bf95dd601b725cfc2f9eb2be4289766",
+        "sha256_in_prefix": "f5a7ec6b02531d6f6eb901f845b2d4744bf95dd601b725cfc2f9eb2be4289766",
+        "size_in_bytes": 119
+      },
+      {
+        "_path": "lib/R/library/colorspace/hclwizard/www/images/pal_heat_2.png",
+        "path_type": "hardlink",
+        "sha256": "514e5c8e49e808d773edaff59242aa9bdcb3fdea85d19f9297021e707c11e987",
+        "sha256_in_prefix": "514e5c8e49e808d773edaff59242aa9bdcb3fdea85d19f9297021e707c11e987",
+        "size_in_bytes": 119
+      },
+      {
+        "_path": "lib/R/library/colorspace/hclwizard/www/images/pal_inferno.png",
+        "path_type": "hardlink",
+        "sha256": "bc4d2818d7b106f89ab3d6f07060e4edefc1d9224a02789ea2b80d6760fed0e0",
+        "sha256_in_prefix": "bc4d2818d7b106f89ab3d6f07060e4edefc1d9224a02789ea2b80d6760fed0e0",
+        "size_in_bytes": 119
+      },
+      {
+        "_path": "lib/R/library/colorspace/hclwizard/www/images/pal_lajolla.png",
+        "path_type": "hardlink",
+        "sha256": "14ec9dd130e45d7d6d1183d5b47607f609c443b4778ad352a98a7954211fe6d2",
+        "sha256_in_prefix": "14ec9dd130e45d7d6d1183d5b47607f609c443b4778ad352a98a7954211fe6d2",
+        "size_in_bytes": 119
+      },
+      {
+        "_path": "lib/R/library/colorspace/hclwizard/www/images/pal_light_grays.png",
+        "path_type": "hardlink",
+        "sha256": "37b50f23ea50c87fc9f0cdaead2a4e6af945534c4806d89da399fbca2d4e5643",
+        "sha256_in_prefix": "37b50f23ea50c87fc9f0cdaead2a4e6af945534c4806d89da399fbca2d4e5643",
+        "size_in_bytes": 119
+      },
+      {
+        "_path": "lib/R/library/colorspace/hclwizard/www/images/pal_lisbon.png",
+        "path_type": "hardlink",
+        "sha256": "6042581dd941d0b71f967d513122888fcd4bd0ad702a1551038fa7e5f3c8d1ee",
+        "sha256_in_prefix": "6042581dd941d0b71f967d513122888fcd4bd0ad702a1551038fa7e5f3c8d1ee",
+        "size_in_bytes": 119
+      },
+      {
+        "_path": "lib/R/library/colorspace/hclwizard/www/images/pal_magenta.png",
+        "path_type": "hardlink",
+        "sha256": "047dd1a0907623ebfd01997617a666a5c4fbcf1e662190a87d19216bc9dc8539",
+        "sha256_in_prefix": "047dd1a0907623ebfd01997617a666a5c4fbcf1e662190a87d19216bc9dc8539",
+        "size_in_bytes": 119
+      },
+      {
+        "_path": "lib/R/library/colorspace/hclwizard/www/images/pal_mint.png",
+        "path_type": "hardlink",
+        "sha256": "0e78e27d926371e7a669f9aafe68ff89db96f71086383287182c38a54aecd541",
+        "sha256_in_prefix": "0e78e27d926371e7a669f9aafe68ff89db96f71086383287182c38a54aecd541",
+        "size_in_bytes": 119
+      },
+      {
+        "_path": "lib/R/library/colorspace/hclwizard/www/images/pal_oranges.png",
+        "path_type": "hardlink",
+        "sha256": "aa001e4786ea9d60d84a1e43d1af9aa18c3df87c1aac98e06ebe2f78f748f3e9",
+        "sha256_in_prefix": "aa001e4786ea9d60d84a1e43d1af9aa18c3df87c1aac98e06ebe2f78f748f3e9",
+        "size_in_bytes": 119
+      },
+      {
+        "_path": "lib/R/library/colorspace/hclwizard/www/images/pal_orrd.png",
+        "path_type": "hardlink",
+        "sha256": "8070324e7939fa2e5dd78a6b35028adb225c1cf7aab1a374eada05c2aa22c6da",
+        "sha256_in_prefix": "8070324e7939fa2e5dd78a6b35028adb225c1cf7aab1a374eada05c2aa22c6da",
+        "size_in_bytes": 119
+      },
+      {
+        "_path": "lib/R/library/colorspace/hclwizard/www/images/pal_oryel.png",
+        "path_type": "hardlink",
+        "sha256": "925b0a6709eec34cdc355ed56d1a6b814c19d2fe570854b5ab273ec9f66199e2",
+        "sha256_in_prefix": "925b0a6709eec34cdc355ed56d1a6b814c19d2fe570854b5ab273ec9f66199e2",
+        "size_in_bytes": 119
+      },
+      {
+        "_path": "lib/R/library/colorspace/hclwizard/www/images/pal_oslo.png",
+        "path_type": "hardlink",
+        "sha256": "9cf756b0dd500b599a2970e92f5c1c5b29047b4ff916e1ad78efede28cab7e0e",
+        "sha256_in_prefix": "9cf756b0dd500b599a2970e92f5c1c5b29047b4ff916e1ad78efede28cab7e0e",
+        "size_in_bytes": 119
+      },
+      {
+        "_path": "lib/R/library/colorspace/hclwizard/www/images/pal_pastel_1.png",
+        "path_type": "hardlink",
+        "sha256": "006f4404ed1a5736a56058f0a71b8244dfc62477607d4c943ac1466b4a8ab84f",
+        "sha256_in_prefix": "006f4404ed1a5736a56058f0a71b8244dfc62477607d4c943ac1466b4a8ab84f",
+        "size_in_bytes": 116
+      },
+      {
+        "_path": "lib/R/library/colorspace/hclwizard/www/images/pal_peach.png",
+        "path_type": "hardlink",
+        "sha256": "7abd7fd655d57156f6c11b97e56614686100afc4618e0e2a4b2b11d00889888c",
+        "sha256_in_prefix": "7abd7fd655d57156f6c11b97e56614686100afc4618e0e2a4b2b11d00889888c",
+        "size_in_bytes": 119
+      },
+      {
+        "_path": "lib/R/library/colorspace/hclwizard/www/images/pal_pinkyl.png",
+        "path_type": "hardlink",
+        "sha256": "414afb3d25b1389ef9e11e59b0efaec9bb8ad0b8b3f3266ba420ff9518c0190e",
+        "sha256_in_prefix": "414afb3d25b1389ef9e11e59b0efaec9bb8ad0b8b3f3266ba420ff9518c0190e",
+        "size_in_bytes": 119
+      },
+      {
+        "_path": "lib/R/library/colorspace/hclwizard/www/images/pal_plasma.png",
+        "path_type": "hardlink",
+        "sha256": "e4d588283c4ff5d38fdc8fd45c6790f611bde4723e8afe8c31d3a436e9220957",
+        "sha256_in_prefix": "e4d588283c4ff5d38fdc8fd45c6790f611bde4723e8afe8c31d3a436e9220957",
+        "size_in_bytes": 119
+      },
+      {
+        "_path": "lib/R/library/colorspace/hclwizard/www/images/pal_pubu.png",
+        "path_type": "hardlink",
+        "sha256": "4294894077851993e01a5b856f1d7b9f7a0976969256a20a089ac1580171ddb0",
+        "sha256_in_prefix": "4294894077851993e01a5b856f1d7b9f7a0976969256a20a089ac1580171ddb0",
+        "size_in_bytes": 119
+      },
+      {
+        "_path": "lib/R/library/colorspace/hclwizard/www/images/pal_pubugn.png",
+        "path_type": "hardlink",
+        "sha256": "4bd6667a767e58b042ad46fd821e6e457953ef28ccaf8f460ecc18de6f3d3541",
+        "sha256_in_prefix": "4bd6667a767e58b042ad46fd821e6e457953ef28ccaf8f460ecc18de6f3d3541",
+        "size_in_bytes": 119
+      },
+      {
+        "_path": "lib/R/library/colorspace/hclwizard/www/images/pal_purd.png",
+        "path_type": "hardlink",
+        "sha256": "d03c807f28555217ced48030a03105a52616dca7238bdc5bebb13e82d50373c5",
+        "sha256_in_prefix": "d03c807f28555217ced48030a03105a52616dca7238bdc5bebb13e82d50373c5",
+        "size_in_bytes": 119
+      },
+      {
+        "_path": "lib/R/library/colorspace/hclwizard/www/images/pal_purp.png",
+        "path_type": "hardlink",
+        "sha256": "aa8cf3d13b03fe158d2957e598bd11f68564745f2b6f6a219aaab5df4fc1ff90",
+        "sha256_in_prefix": "aa8cf3d13b03fe158d2957e598bd11f68564745f2b6f6a219aaab5df4fc1ff90",
+        "size_in_bytes": 119
+      },
+      {
+        "_path": "lib/R/library/colorspace/hclwizard/www/images/pal_purple-blue.png",
+        "path_type": "hardlink",
+        "sha256": "2736ea1e4afecd76bbea2bd4907325ed56599f798a724581cfa839c21fa2ede7",
+        "sha256_in_prefix": "2736ea1e4afecd76bbea2bd4907325ed56599f798a724581cfa839c21fa2ede7",
+        "size_in_bytes": 119
+      },
+      {
+        "_path": "lib/R/library/colorspace/hclwizard/www/images/pal_purple-brown.png",
+        "path_type": "hardlink",
+        "sha256": "d4c612182ea168860ce433a8ae5d55d96ea73b6d1851e74f50e6f8dd4d6558aa",
+        "sha256_in_prefix": "d4c612182ea168860ce433a8ae5d55d96ea73b6d1851e74f50e6f8dd4d6558aa",
+        "size_in_bytes": 119
+      },
+      {
+        "_path": "lib/R/library/colorspace/hclwizard/www/images/pal_purple-green.png",
+        "path_type": "hardlink",
+        "sha256": "4f6b6547775fdb45f6b75176ffc752bc4185ea76a43391dc721d5e855b750e9a",
+        "sha256_in_prefix": "4f6b6547775fdb45f6b75176ffc752bc4185ea76a43391dc721d5e855b750e9a",
+        "size_in_bytes": 119
+      },
+      {
+        "_path": "lib/R/library/colorspace/hclwizard/www/images/pal_purple-orange.png",
+        "path_type": "hardlink",
+        "sha256": "ff129d2698c4980534952205f4da375be4066003623385a25a6023f19659a900",
+        "sha256_in_prefix": "ff129d2698c4980534952205f4da375be4066003623385a25a6023f19659a900",
+        "size_in_bytes": 119
+      },
+      {
+        "_path": "lib/R/library/colorspace/hclwizard/www/images/pal_purple-yellow.png",
+        "path_type": "hardlink",
+        "sha256": "207006885252fa2e5dd8bd9d63ec60ee560b23db02617bd654ba355c0bae606a",
+        "sha256_in_prefix": "207006885252fa2e5dd8bd9d63ec60ee560b23db02617bd654ba355c0bae606a",
+        "size_in_bytes": 119
+      },
+      {
+        "_path": "lib/R/library/colorspace/hclwizard/www/images/pal_purples.png",
+        "path_type": "hardlink",
+        "sha256": "3dddfa474d7909c4847fdba82f76626176472ed895656057c042deb85abae5af",
+        "sha256_in_prefix": "3dddfa474d7909c4847fdba82f76626176472ed895656057c042deb85abae5af",
+        "size_in_bytes": 119
+      },
+      {
+        "_path": "lib/R/library/colorspace/hclwizard/www/images/pal_purples_2.png",
+        "path_type": "hardlink",
+        "sha256": "fbaeebe7dd6f1577175f237ee0bd043f988cb645e03e2ff04127d2e83dd4c7c7",
+        "sha256_in_prefix": "fbaeebe7dd6f1577175f237ee0bd043f988cb645e03e2ff04127d2e83dd4c7c7",
+        "size_in_bytes": 119
+      },
+      {
+        "_path": "lib/R/library/colorspace/hclwizard/www/images/pal_purples_3.png",
+        "path_type": "hardlink",
+        "sha256": "54eabcd951bfa7e5aa6ccb4ef23fe7d85d2ea31728c07a45ae11c35d43b22c65",
+        "sha256_in_prefix": "54eabcd951bfa7e5aa6ccb4ef23fe7d85d2ea31728c07a45ae11c35d43b22c65",
+        "size_in_bytes": 119
+      },
+      {
+        "_path": "lib/R/library/colorspace/hclwizard/www/images/pal_purpor.png",
+        "path_type": "hardlink",
+        "sha256": "6298a23e5890b39388fff01edb89a17a47905ef57df38dbcad203d57abc3fdaa",
+        "sha256_in_prefix": "6298a23e5890b39388fff01edb89a17a47905ef57df38dbcad203d57abc3fdaa",
+        "size_in_bytes": 119
+      },
+      {
+        "_path": "lib/R/library/colorspace/hclwizard/www/images/pal_rainbow.png",
+        "path_type": "hardlink",
+        "sha256": "d66550034092804b84d659594005c8933af67c3ad6a3ae8187c7344027b2740e",
+        "sha256_in_prefix": "d66550034092804b84d659594005c8933af67c3ad6a3ae8187c7344027b2740e",
+        "size_in_bytes": 119
+      },
+      {
+        "_path": "lib/R/library/colorspace/hclwizard/www/images/pal_rdpu.png",
+        "path_type": "hardlink",
+        "sha256": "b61acc30f9700d976cac1406c5720d6736165a27da9d8298c8926a570378cc15",
+        "sha256_in_prefix": "b61acc30f9700d976cac1406c5720d6736165a27da9d8298c8926a570378cc15",
+        "size_in_bytes": 119
+      },
+      {
+        "_path": "lib/R/library/colorspace/hclwizard/www/images/pal_red-blue.png",
+        "path_type": "hardlink",
+        "sha256": "c81307864c02529b723334d914d96209248e243747b552ac41636718f41bbf37",
+        "sha256_in_prefix": "c81307864c02529b723334d914d96209248e243747b552ac41636718f41bbf37",
+        "size_in_bytes": 119
+      },
+      {
+        "_path": "lib/R/library/colorspace/hclwizard/www/images/pal_red-green.png",
+        "path_type": "hardlink",
+        "sha256": "9394f7ef9b9be424fa6e2045645a7571ce7fc8b3e9de10648440ce34f01d3f13",
+        "sha256_in_prefix": "9394f7ef9b9be424fa6e2045645a7571ce7fc8b3e9de10648440ce34f01d3f13",
+        "size_in_bytes": 119
+      },
+      {
+        "_path": "lib/R/library/colorspace/hclwizard/www/images/pal_red-purple.png",
+        "path_type": "hardlink",
+        "sha256": "67ffbdd6a40eb3014e736ab0630dc4d86775c2f7ee5265ce1cdb2db92b718635",
+        "sha256_in_prefix": "67ffbdd6a40eb3014e736ab0630dc4d86775c2f7ee5265ce1cdb2db92b718635",
+        "size_in_bytes": 119
+      },
+      {
+        "_path": "lib/R/library/colorspace/hclwizard/www/images/pal_red-yellow.png",
+        "path_type": "hardlink",
+        "sha256": "265709f5453fbffc4c39fb435dde260a5d862d452cd284602670bf5a77782fe9",
+        "sha256_in_prefix": "265709f5453fbffc4c39fb435dde260a5d862d452cd284602670bf5a77782fe9",
+        "size_in_bytes": 119
+      },
+      {
+        "_path": "lib/R/library/colorspace/hclwizard/www/images/pal_redor.png",
+        "path_type": "hardlink",
+        "sha256": "de076e554628eb1e9ea99b7dc670c50e9feb83cd7518d6a5d0be44081b234aa7",
+        "sha256_in_prefix": "de076e554628eb1e9ea99b7dc670c50e9feb83cd7518d6a5d0be44081b234aa7",
+        "size_in_bytes": 119
+      },
+      {
+        "_path": "lib/R/library/colorspace/hclwizard/www/images/pal_reds.png",
+        "path_type": "hardlink",
+        "sha256": "13caec75190052cdc6aed4e3cd4c08e2c3c11b9538552507e95fee517e805f9c",
+        "sha256_in_prefix": "13caec75190052cdc6aed4e3cd4c08e2c3c11b9538552507e95fee517e805f9c",
+        "size_in_bytes": 119
+      },
+      {
+        "_path": "lib/R/library/colorspace/hclwizard/www/images/pal_reds_2.png",
+        "path_type": "hardlink",
+        "sha256": "0d64e4ea4b60b0dc72e8a289359e206a30d087b7a913ccee25df580f3478b4e7",
+        "sha256_in_prefix": "0d64e4ea4b60b0dc72e8a289359e206a30d087b7a913ccee25df580f3478b4e7",
+        "size_in_bytes": 119
+      },
+      {
+        "_path": "lib/R/library/colorspace/hclwizard/www/images/pal_reds_3.png",
+        "path_type": "hardlink",
+        "sha256": "4e89bba7ed9c2984211e1dd125293ed6085c8467f680a11ce4b70d9d9fc00e47",
+        "sha256_in_prefix": "4e89bba7ed9c2984211e1dd125293ed6085c8467f680a11ce4b70d9d9fc00e47",
+        "size_in_bytes": 119
+      },
+      {
+        "_path": "lib/R/library/colorspace/hclwizard/www/images/pal_set_2.png",
+        "path_type": "hardlink",
+        "sha256": "13bca7196771d41224896cbb2fe531fb614a3b56e6f262ddeb79edb7876093d4",
+        "sha256_in_prefix": "13bca7196771d41224896cbb2fe531fb614a3b56e6f262ddeb79edb7876093d4",
+        "size_in_bytes": 116
+      },
+      {
+        "_path": "lib/R/library/colorspace/hclwizard/www/images/pal_set_3.png",
+        "path_type": "hardlink",
+        "sha256": "d0873eadef0ed7c74eaadba10bb47126e55c537a378baa8b901946a54732968e",
+        "sha256_in_prefix": "d0873eadef0ed7c74eaadba10bb47126e55c537a378baa8b901946a54732968e",
+        "size_in_bytes": 116
+      },
+      {
+        "_path": "lib/R/library/colorspace/hclwizard/www/images/pal_sunset.png",
+        "path_type": "hardlink",
+        "sha256": "90e508774439ddbc5e75ca3fc57072d319ac33209bce4d2dc8e1e84d36ed32c5",
+        "sha256_in_prefix": "90e508774439ddbc5e75ca3fc57072d319ac33209bce4d2dc8e1e84d36ed32c5",
+        "size_in_bytes": 119
+      },
+      {
+        "_path": "lib/R/library/colorspace/hclwizard/www/images/pal_sunsetdark.png",
+        "path_type": "hardlink",
+        "sha256": "fda79d4b55fa3b1507bf8a02b5f5b557d09f1405c230174e9d057d2a56c22b72",
+        "sha256_in_prefix": "fda79d4b55fa3b1507bf8a02b5f5b557d09f1405c230174e9d057d2a56c22b72",
+        "size_in_bytes": 119
+      },
+      {
+        "_path": "lib/R/library/colorspace/hclwizard/www/images/pal_teal.png",
+        "path_type": "hardlink",
+        "sha256": "0d7b98768b489366045e091a83fa52b858776397c14f48eac8b520fdabc8007b",
+        "sha256_in_prefix": "0d7b98768b489366045e091a83fa52b858776397c14f48eac8b520fdabc8007b",
+        "size_in_bytes": 119
+      },
+      {
+        "_path": "lib/R/library/colorspace/hclwizard/www/images/pal_tealgrn.png",
+        "path_type": "hardlink",
+        "sha256": "0b317420e801a1efa6e589424c6b456f0409be0490308f4a674363e7d18c389c",
+        "sha256_in_prefix": "0b317420e801a1efa6e589424c6b456f0409be0490308f4a674363e7d18c389c",
+        "size_in_bytes": 119
+      },
+      {
+        "_path": "lib/R/library/colorspace/hclwizard/www/images/pal_terrain.colors.png",
+        "path_type": "hardlink",
+        "sha256": "fab86bd308982ee93de83461d9340321e8454bcda57de041f0b0a065992313ed",
+        "sha256_in_prefix": "fab86bd308982ee93de83461d9340321e8454bcda57de041f0b0a065992313ed",
+        "size_in_bytes": 119
+      },
+      {
+        "_path": "lib/R/library/colorspace/hclwizard/www/images/pal_terrain.png",
+        "path_type": "hardlink",
+        "sha256": "8ca07367056544134b0e9c06399a7ab4c3293ed06c0ed5a7f25434d0d3725894",
+        "sha256_in_prefix": "8ca07367056544134b0e9c06399a7ab4c3293ed06c0ed5a7f25434d0d3725894",
+        "size_in_bytes": 119
+      },
+      {
+        "_path": "lib/R/library/colorspace/hclwizard/www/images/pal_terrain_2.png",
+        "path_type": "hardlink",
+        "sha256": "87d7db66dc789f762960c9f1b6a12bb4d2a185f28dac0de961145103438073f1",
+        "sha256_in_prefix": "87d7db66dc789f762960c9f1b6a12bb4d2a185f28dac0de961145103438073f1",
+        "size_in_bytes": 119
+      },
+      {
+        "_path": "lib/R/library/colorspace/hclwizard/www/images/pal_tofino.png",
+        "path_type": "hardlink",
+        "sha256": "ee8cb167d3b2f3aa062e21894e619cbc994ec051397fde56e3360106dfa14ee6",
+        "sha256_in_prefix": "ee8cb167d3b2f3aa062e21894e619cbc994ec051397fde56e3360106dfa14ee6",
+        "size_in_bytes": 119
+      },
+      {
+        "_path": "lib/R/library/colorspace/hclwizard/www/images/pal_topo.colors.png",
+        "path_type": "hardlink",
+        "sha256": "a07b855aece2442f56b7840075bb7daad02c11a30f564a5bd41d8b22392efa26",
+        "sha256_in_prefix": "a07b855aece2442f56b7840075bb7daad02c11a30f564a5bd41d8b22392efa26",
+        "size_in_bytes": 119
+      },
+      {
+        "_path": "lib/R/library/colorspace/hclwizard/www/images/pal_tropic.png",
+        "path_type": "hardlink",
+        "sha256": "c6e7769c62c3f236a2d660de191318982258f8870e7c18efbcab2bd71d34159b",
+        "sha256_in_prefix": "c6e7769c62c3f236a2d660de191318982258f8870e7c18efbcab2bd71d34159b",
+        "size_in_bytes": 119
+      },
+      {
+        "_path": "lib/R/library/colorspace/hclwizard/www/images/pal_turku.png",
+        "path_type": "hardlink",
+        "sha256": "8c1a5ad5177d5886263a0ca043c15cd35ccdea7eb80c6a47c56e0c3850b51d44",
+        "sha256_in_prefix": "8c1a5ad5177d5886263a0ca043c15cd35ccdea7eb80c6a47c56e0c3850b51d44",
+        "size_in_bytes": 119
+      },
+      {
+        "_path": "lib/R/library/colorspace/hclwizard/www/images/pal_viridis.png",
+        "path_type": "hardlink",
+        "sha256": "e832dc9233c777fe6306df3fd3f9ba978865414c0859f2f43dc08b3adaf1d8f4",
+        "sha256_in_prefix": "e832dc9233c777fe6306df3fd3f9ba978865414c0859f2f43dc08b3adaf1d8f4",
+        "size_in_bytes": 119
+      },
+      {
+        "_path": "lib/R/library/colorspace/hclwizard/www/images/pal_warm.png",
+        "path_type": "hardlink",
+        "sha256": "1d55e73197aa7f72f39faeee73c3327b1638da1edc11e969deb7cc49e3f8316b",
+        "sha256_in_prefix": "1d55e73197aa7f72f39faeee73c3327b1638da1edc11e969deb7cc49e3f8316b",
+        "size_in_bytes": 119
+      },
+      {
+        "_path": "lib/R/library/colorspace/hclwizard/www/images/pal_ylgn.png",
+        "path_type": "hardlink",
+        "sha256": "6ae987e5eb961fd259b5df30ed09788f59d7d2d1ae00c5555ff38b90ac9d12f2",
+        "sha256_in_prefix": "6ae987e5eb961fd259b5df30ed09788f59d7d2d1ae00c5555ff38b90ac9d12f2",
+        "size_in_bytes": 119
+      },
+      {
+        "_path": "lib/R/library/colorspace/hclwizard/www/images/pal_ylgnbu.png",
+        "path_type": "hardlink",
+        "sha256": "031a4852ea420724d6fe37420635c01c8bd05e264325dae011bbb6b13e45990a",
+        "sha256_in_prefix": "031a4852ea420724d6fe37420635c01c8bd05e264325dae011bbb6b13e45990a",
+        "size_in_bytes": 119
+      },
+      {
+        "_path": "lib/R/library/colorspace/hclwizard/www/images/pal_ylorbr.png",
+        "path_type": "hardlink",
+        "sha256": "0119435e88e0d7011d071001f226cdea4717813031449f4130cd9446866492aa",
+        "sha256_in_prefix": "0119435e88e0d7011d071001f226cdea4717813031449f4130cd9446866492aa",
+        "size_in_bytes": 119
+      },
+      {
+        "_path": "lib/R/library/colorspace/hclwizard/www/images/pal_ylorrd.png",
+        "path_type": "hardlink",
+        "sha256": "6e2a7f73cd02251b08d02267dafe9ca53d375f547f9a6f1decd59fd31dffbd10",
+        "sha256_in_prefix": "6e2a7f73cd02251b08d02267dafe9ca53d375f547f9a6f1decd59fd31dffbd10",
+        "size_in_bytes": 119
+      },
+      {
+        "_path": "lib/R/library/colorspace/help/AnIndex",
+        "path_type": "hardlink",
+        "sha256": "02f831969913481ebd9c69619fc7da1614197fafde43af66e1caf9fc220bbafd",
+        "sha256_in_prefix": "02f831969913481ebd9c69619fc7da1614197fafde43af66e1caf9fc220bbafd",
+        "size_in_bytes": 4440
+      },
+      {
+        "_path": "lib/R/library/colorspace/help/aliases.rds",
+        "path_type": "hardlink",
+        "sha256": "d30b83df40738ee19968999c07aec8a17cd8ce994fe66dc1a1dcbd43b43a8cc0",
+        "sha256_in_prefix": "d30b83df40738ee19968999c07aec8a17cd8ce994fe66dc1a1dcbd43b43a8cc0",
+        "size_in_bytes": 1057
+      },
+      {
+        "_path": "lib/R/library/colorspace/help/colorspace.rdb",
+        "path_type": "hardlink",
+        "sha256": "b83b238f0a13157f332492fe0c749cc59d8538981706a818e6a3e075fafb87f9",
+        "sha256_in_prefix": "b83b238f0a13157f332492fe0c749cc59d8538981706a818e6a3e075fafb87f9",
+        "size_in_bytes": 186062
+      },
+      {
+        "_path": "lib/R/library/colorspace/help/colorspace.rdx",
+        "path_type": "hardlink",
+        "sha256": "f52f30f0818191c586ef898e33d13d5b4d771ac7d5b04cbc6e3a86bda7db317e",
+        "sha256_in_prefix": "f52f30f0818191c586ef898e33d13d5b4d771ac7d5b04cbc6e3a86bda7db317e",
+        "size_in_bytes": 1272
+      },
+      {
+        "_path": "lib/R/library/colorspace/help/paths.rds",
+        "path_type": "hardlink",
+        "sha256": "3f58152358edf21f73de48807986b8b3362158161e7764b876fabde6cdc641f0",
+        "sha256_in_prefix": "3f58152358edf21f73de48807986b8b3362158161e7764b876fabde6cdc641f0",
+        "size_in_bytes": 579
+      },
+      {
+        "_path": "lib/R/library/colorspace/html/00Index.html",
+        "path_type": "hardlink",
+        "sha256": "fe43080ca2e90ea30a07b156fbcf6c9481153c66863487afd670c190ddf5f652",
+        "sha256_in_prefix": "fe43080ca2e90ea30a07b156fbcf6c9481153c66863487afd670c190ddf5f652",
+        "size_in_bytes": 18961
+      },
+      {
+        "_path": "lib/R/library/colorspace/html/R.css",
+        "path_type": "hardlink",
+        "sha256": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "sha256_in_prefix": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "size_in_bytes": 1335
+      },
+      {
+        "_path": "lib/R/library/colorspace/libs/colorspace.so",
+        "path_type": "hardlink",
+        "sha256": "73df1694bda4b7d6e428fcd66848fb963a119f47ffa26e3e62483ea12ed82495",
+        "sha256_in_prefix": "73df1694bda4b7d6e428fcd66848fb963a119f47ffa26e3e62483ea12ed82495",
+        "size_in_bytes": 63592
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "r-colorspace==2.0_2=r41hcfec24a_0",
+  "sha256": "4efe7efe9ea65bfa6c6669ee353e0343624a8bcd5c9ccce23d154a14fbad4049",
+  "size": 2686319,
+  "subdir": "linux-64",
+  "timestamp": 1624529626000,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/r-colorspace-2.0_2-r41hcfec24a_0.tar.bz2",
+  "version": "2.0_2"
+}

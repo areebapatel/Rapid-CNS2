@@ -1,0 +1,224 @@
+{
+  "build": "r41h03ef668_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "r-matrix",
+    "r-rcppeigen",
+    "libgcc-ng >=9.3.0",
+    "libstdcxx-ng >=9.3.0",
+    "r-base >=4.1,<4.2.0a0",
+    "r-rcpp >=0.11.2"
+  ],
+  "extracted_package_dir": "/omics/groups/OE0146/internal/Areeba/miniconda3/pkgs/r-ranger-0.13.1-r41h03ef668_0",
+  "features": "",
+  "files": [
+    "lib/R/library/ranger/CITATION",
+    "lib/R/library/ranger/DESCRIPTION",
+    "lib/R/library/ranger/INDEX",
+    "lib/R/library/ranger/Meta/Rd.rds",
+    "lib/R/library/ranger/Meta/features.rds",
+    "lib/R/library/ranger/Meta/hsearch.rds",
+    "lib/R/library/ranger/Meta/links.rds",
+    "lib/R/library/ranger/Meta/nsInfo.rds",
+    "lib/R/library/ranger/Meta/package.rds",
+    "lib/R/library/ranger/NAMESPACE",
+    "lib/R/library/ranger/NEWS",
+    "lib/R/library/ranger/R/ranger",
+    "lib/R/library/ranger/R/ranger.rdb",
+    "lib/R/library/ranger/R/ranger.rdx",
+    "lib/R/library/ranger/help/AnIndex",
+    "lib/R/library/ranger/help/aliases.rds",
+    "lib/R/library/ranger/help/paths.rds",
+    "lib/R/library/ranger/help/ranger.rdb",
+    "lib/R/library/ranger/help/ranger.rdx",
+    "lib/R/library/ranger/html/00Index.html",
+    "lib/R/library/ranger/html/R.css",
+    "lib/R/library/ranger/include/ranger.h",
+    "lib/R/library/ranger/libs/ranger.so"
+  ],
+  "fn": "r-ranger-0.13.1-r41h03ef668_0.tar.bz2",
+  "license": "GPL-3.0-only",
+  "link": {
+    "source": "/omics/groups/OE0146/internal/Areeba/miniconda3/pkgs/r-ranger-0.13.1-r41h03ef668_0",
+    "type": 1
+  },
+  "md5": "f84c275b37a36ee1dac8ae8f3b878206",
+  "name": "r-ranger",
+  "package_tarball_full_path": "/omics/groups/OE0146/internal/Areeba/miniconda3/pkgs/r-ranger-0.13.1-r41h03ef668_0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/R/library/ranger/CITATION",
+        "path_type": "hardlink",
+        "sha256": "a17540fb55ab96cf0c72633c3589bd32ef011b8a405e14d19af770192a14a93c",
+        "sha256_in_prefix": "a17540fb55ab96cf0c72633c3589bd32ef011b8a405e14d19af770192a14a93c",
+        "size_in_bytes": 913
+      },
+      {
+        "_path": "lib/R/library/ranger/DESCRIPTION",
+        "path_type": "hardlink",
+        "sha256": "b051cb0549dcf9679e2dc00947bb53afdd2356ac4e3b09c821a665a8235e333c",
+        "sha256_in_prefix": "b051cb0549dcf9679e2dc00947bb53afdd2356ac4e3b09c821a665a8235e333c",
+        "size_in_bytes": 1147
+      },
+      {
+        "_path": "lib/R/library/ranger/INDEX",
+        "path_type": "hardlink",
+        "sha256": "87e9f71c66e43acb14865705ac5a55b154999139e01a9c334228282affa848f8",
+        "sha256_in_prefix": "87e9f71c66e43acb14865705ac5a55b154999139e01a9c334228282affa848f8",
+        "size_in_bytes": 873
+      },
+      {
+        "_path": "lib/R/library/ranger/Meta/Rd.rds",
+        "path_type": "hardlink",
+        "sha256": "2e52a837014a9e4521da54049b11ff07256e190501cb1b650e51cb704b8ff703",
+        "sha256_in_prefix": "2e52a837014a9e4521da54049b11ff07256e190501cb1b650e51cb704b8ff703",
+        "size_in_bytes": 670
+      },
+      {
+        "_path": "lib/R/library/ranger/Meta/features.rds",
+        "path_type": "hardlink",
+        "sha256": "b84ca42483e79a917d4c89f07a99625c472773b7d3ba686c276da9b5514abeac",
+        "sha256_in_prefix": "b84ca42483e79a917d4c89f07a99625c472773b7d3ba686c276da9b5514abeac",
+        "size_in_bytes": 122
+      },
+      {
+        "_path": "lib/R/library/ranger/Meta/hsearch.rds",
+        "path_type": "hardlink",
+        "sha256": "dca2732d6f4b2f656db84de0f84c48f0860cb4e696a3ff5aeb60cc70018517bb",
+        "sha256_in_prefix": "dca2732d6f4b2f656db84de0f84c48f0860cb4e696a3ff5aeb60cc70018517bb",
+        "size_in_bytes": 689
+      },
+      {
+        "_path": "lib/R/library/ranger/Meta/links.rds",
+        "path_type": "hardlink",
+        "sha256": "6a2a3373da8d9280722b956d310288a6fa20fcc1b817c0bf755ed7bfe4a74b28",
+        "sha256_in_prefix": "6a2a3373da8d9280722b956d310288a6fa20fcc1b817c0bf755ed7bfe4a74b28",
+        "size_in_bytes": 371
+      },
+      {
+        "_path": "lib/R/library/ranger/Meta/nsInfo.rds",
+        "path_type": "hardlink",
+        "sha256": "76757084d5c2c9795748c9b6b8371f6f2f4f9b2f1815f28928ac7ee5558ef289",
+        "sha256_in_prefix": "76757084d5c2c9795748c9b6b8371f6f2f4f9b2f1815f28928ac7ee5558ef289",
+        "size_in_bytes": 459
+      },
+      {
+        "_path": "lib/R/library/ranger/Meta/package.rds",
+        "path_type": "hardlink",
+        "sha256": "7565993a6932d4d3f45fec748645e2dde3154d3ae7d33da1ef078ae7399991f6",
+        "sha256_in_prefix": "7565993a6932d4d3f45fec748645e2dde3154d3ae7d33da1ef078ae7399991f6",
+        "size_in_bytes": 1112
+      },
+      {
+        "_path": "lib/R/library/ranger/NAMESPACE",
+        "path_type": "hardlink",
+        "sha256": "947544752ad56349497c0c31dfcf1ea0d8dd9a13e6d647d71cc54f1fae6fcd00",
+        "sha256_in_prefix": "947544752ad56349497c0c31dfcf1ea0d8dd9a13e6d647d71cc54f1fae6fcd00",
+        "size_in_bytes": 648
+      },
+      {
+        "_path": "lib/R/library/ranger/NEWS",
+        "path_type": "hardlink",
+        "sha256": "286ff68b4a4f929c7f84318bf8ef8a841aa3cd60af3196820bdb04e7ea6543cd",
+        "sha256_in_prefix": "286ff68b4a4f929c7f84318bf8ef8a841aa3cd60af3196820bdb04e7ea6543cd",
+        "size_in_bytes": 5949
+      },
+      {
+        "_path": "lib/R/library/ranger/R/ranger",
+        "path_type": "hardlink",
+        "sha256": "570ca456b280cdeb201ef5ebdf22dc8f80092e2c0c68e33c7f73340e420f3759",
+        "sha256_in_prefix": "570ca456b280cdeb201ef5ebdf22dc8f80092e2c0c68e33c7f73340e420f3759",
+        "size_in_bytes": 1058
+      },
+      {
+        "_path": "lib/R/library/ranger/R/ranger.rdb",
+        "path_type": "hardlink",
+        "sha256": "68a72506cd41e1de64b1315896a4cabf03ae52af11a289eb1c45607f51984a14",
+        "sha256_in_prefix": "68a72506cd41e1de64b1315896a4cabf03ae52af11a289eb1c45607f51984a14",
+        "size_in_bytes": 91915
+      },
+      {
+        "_path": "lib/R/library/ranger/R/ranger.rdx",
+        "path_type": "hardlink",
+        "sha256": "2e216e27e4790179c7d60fbdec689e5187e300d32bfc183fb01076b9a4e7758d",
+        "sha256_in_prefix": "2e216e27e4790179c7d60fbdec689e5187e300d32bfc183fb01076b9a4e7758d",
+        "size_in_bytes": 762
+      },
+      {
+        "_path": "lib/R/library/ranger/help/AnIndex",
+        "path_type": "hardlink",
+        "sha256": "b176c5d0dfd37d1e7d420c808ec97cd6d014a4f82d6dd83a3fd801c128fa84b3",
+        "sha256_in_prefix": "b176c5d0dfd37d1e7d420c808ec97cd6d014a4f82d6dd83a3fd801c128fa84b3",
+        "size_in_bytes": 682
+      },
+      {
+        "_path": "lib/R/library/ranger/help/aliases.rds",
+        "path_type": "hardlink",
+        "sha256": "9f82a39dde0f49e7be1955d64e01a72a6fa11995d6aa9b3a3c5d84472695b2dc",
+        "sha256_in_prefix": "9f82a39dde0f49e7be1955d64e01a72a6fa11995d6aa9b3a3c5d84472695b2dc",
+        "size_in_bytes": 261
+      },
+      {
+        "_path": "lib/R/library/ranger/help/paths.rds",
+        "path_type": "hardlink",
+        "sha256": "3224dcaa4475c69ec194580de81f2297cb11aa764ae10226c5f8b99b5d769cdd",
+        "sha256_in_prefix": "3224dcaa4475c69ec194580de81f2297cb11aa764ae10226c5f8b99b5d769cdd",
+        "size_in_bytes": 321
+      },
+      {
+        "_path": "lib/R/library/ranger/help/ranger.rdb",
+        "path_type": "hardlink",
+        "sha256": "3b6b6d5aa018a845729040c5e856ff3a2cf8b5c975b5ab350e0b0cf42ed80b01",
+        "sha256_in_prefix": "3b6b6d5aa018a845729040c5e856ff3a2cf8b5c975b5ab350e0b0cf42ed80b01",
+        "size_in_bytes": 54533
+      },
+      {
+        "_path": "lib/R/library/ranger/help/ranger.rdx",
+        "path_type": "hardlink",
+        "sha256": "7f25c75df344d640c0fcf4e8ca276a6c25fca543fbc3ee09f53b75acfe113778",
+        "sha256_in_prefix": "7f25c75df344d640c0fcf4e8ca276a6c25fca543fbc3ee09f53b75acfe113778",
+        "size_in_bytes": 555
+      },
+      {
+        "_path": "lib/R/library/ranger/html/00Index.html",
+        "path_type": "hardlink",
+        "sha256": "721fc11bbf21fd223711ea994222589ba0a8c6ecd77f5f818aa0c3a63f71789a",
+        "sha256_in_prefix": "721fc11bbf21fd223711ea994222589ba0a8c6ecd77f5f818aa0c3a63f71789a",
+        "size_in_bytes": 3446
+      },
+      {
+        "_path": "lib/R/library/ranger/html/R.css",
+        "path_type": "hardlink",
+        "sha256": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "sha256_in_prefix": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "size_in_bytes": 1335
+      },
+      {
+        "_path": "lib/R/library/ranger/include/ranger.h",
+        "path_type": "hardlink",
+        "sha256": "a7cf3dfe25a3c4858e3816b949ae92ce06a38fa7bbdb5cb8108c2e8ec0d5f4b6",
+        "sha256_in_prefix": "a7cf3dfe25a3c4858e3816b949ae92ce06a38fa7bbdb5cb8108c2e8ec0d5f4b6",
+        "size_in_bytes": 55
+      },
+      {
+        "_path": "lib/R/library/ranger/libs/ranger.so",
+        "path_type": "hardlink",
+        "sha256": "ba33525fe15a04d36a9a04604b0ecd22aec8a69175fa7586110c8a279ca93611",
+        "sha256_in_prefix": "ba33525fe15a04d36a9a04604b0ecd22aec8a69175fa7586110c8a279ca93611",
+        "size_in_bytes": 694640
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "r-ranger==0.13.1=r41h03ef668_0",
+  "sha256": "a1a378506ce0257b92ee5175bc7e3da2b0818223776d6921ecf6886a2fd71dfd",
+  "size": 439779,
+  "subdir": "linux-64",
+  "timestamp": 1626270812000,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/r-ranger-0.13.1-r41h03ef668_0.tar.bz2",
+  "version": "0.13.1"
+}

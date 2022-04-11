@@ -1,0 +1,261 @@
+{
+  "build": "r41hc72bb7e_3",
+  "build_number": 3,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "r-base >=4.1,<4.2.0a0"
+  ],
+  "extracted_package_dir": "/omics/groups/OE0146/internal/Areeba/miniconda3/pkgs/r-gtable-0.3.0-r41hc72bb7e_3",
+  "features": "",
+  "files": [
+    "lib/R/library/gtable/DESCRIPTION",
+    "lib/R/library/gtable/INDEX",
+    "lib/R/library/gtable/Meta/Rd.rds",
+    "lib/R/library/gtable/Meta/features.rds",
+    "lib/R/library/gtable/Meta/hsearch.rds",
+    "lib/R/library/gtable/Meta/links.rds",
+    "lib/R/library/gtable/Meta/nsInfo.rds",
+    "lib/R/library/gtable/Meta/package.rds",
+    "lib/R/library/gtable/Meta/vignette.rds",
+    "lib/R/library/gtable/NAMESPACE",
+    "lib/R/library/gtable/NEWS.md",
+    "lib/R/library/gtable/R/gtable",
+    "lib/R/library/gtable/R/gtable.rdb",
+    "lib/R/library/gtable/R/gtable.rdx",
+    "lib/R/library/gtable/doc/index.html",
+    "lib/R/library/gtable/doc/profiling.R",
+    "lib/R/library/gtable/doc/profiling.Rmd",
+    "lib/R/library/gtable/doc/profiling.html",
+    "lib/R/library/gtable/help/AnIndex",
+    "lib/R/library/gtable/help/aliases.rds",
+    "lib/R/library/gtable/help/figures/README-unnamed-chunk-2-1.png",
+    "lib/R/library/gtable/help/figures/README-unnamed-chunk-3-1.png",
+    "lib/R/library/gtable/help/figures/logo.png",
+    "lib/R/library/gtable/help/gtable.rdb",
+    "lib/R/library/gtable/help/gtable.rdx",
+    "lib/R/library/gtable/help/paths.rds",
+    "lib/R/library/gtable/html/00Index.html",
+    "lib/R/library/gtable/html/R.css"
+  ],
+  "fn": "r-gtable-0.3.0-r41hc72bb7e_3.tar.bz2",
+  "license": "GPL-2",
+  "link": {
+    "source": "/omics/groups/OE0146/internal/Areeba/miniconda3/pkgs/r-gtable-0.3.0-r41hc72bb7e_3",
+    "type": 1
+  },
+  "md5": "c2265bc91dceb28f25d533e9d93212fa",
+  "name": "r-gtable",
+  "noarch": "generic",
+  "package_tarball_full_path": "/omics/groups/OE0146/internal/Areeba/miniconda3/pkgs/r-gtable-0.3.0-r41hc72bb7e_3.tar.bz2",
+  "package_type": "noarch_generic",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/R/library/gtable/DESCRIPTION",
+        "path_type": "hardlink",
+        "sha256": "25031b2866c94bcfffc4273739d8be3807d62a07e70cd63251fbcf9cb4ada5f4",
+        "sha256_in_prefix": "25031b2866c94bcfffc4273739d8be3807d62a07e70cd63251fbcf9cb4ada5f4",
+        "size_in_bytes": 1570
+      },
+      {
+        "_path": "lib/R/library/gtable/INDEX",
+        "path_type": "hardlink",
+        "sha256": "36fc8c2573b4fe3c7e82b628a2359b99652b0254bb525d82d3c9e32eabddf0f9",
+        "sha256_in_prefix": "36fc8c2573b4fe3c7e82b628a2359b99652b0254bb525d82d3c9e32eabddf0f9",
+        "size_in_bytes": 1116
+      },
+      {
+        "_path": "lib/R/library/gtable/Meta/Rd.rds",
+        "path_type": "hardlink",
+        "sha256": "96359a060ec2b23836ea6f684703fd4719ed30551666a57aa5b257d8986be24d",
+        "sha256_in_prefix": "96359a060ec2b23836ea6f684703fd4719ed30551666a57aa5b257d8986be24d",
+        "size_in_bytes": 918
+      },
+      {
+        "_path": "lib/R/library/gtable/Meta/features.rds",
+        "path_type": "hardlink",
+        "sha256": "b84ca42483e79a917d4c89f07a99625c472773b7d3ba686c276da9b5514abeac",
+        "sha256_in_prefix": "b84ca42483e79a917d4c89f07a99625c472773b7d3ba686c276da9b5514abeac",
+        "size_in_bytes": 122
+      },
+      {
+        "_path": "lib/R/library/gtable/Meta/hsearch.rds",
+        "path_type": "hardlink",
+        "sha256": "b5d3eab1cae567f2d13f64498cb682f5ab89074ae2d68a7e22abcbcade8c5c7e",
+        "sha256_in_prefix": "b5d3eab1cae567f2d13f64498cb682f5ab89074ae2d68a7e22abcbcade8c5c7e",
+        "size_in_bytes": 969
+      },
+      {
+        "_path": "lib/R/library/gtable/Meta/links.rds",
+        "path_type": "hardlink",
+        "sha256": "fcfeaf3dca8a9f797f2cd6f77a20e79833a73955c806ca2a11b36d2aefe44519",
+        "sha256_in_prefix": "fcfeaf3dca8a9f797f2cd6f77a20e79833a73955c806ca2a11b36d2aefe44519",
+        "size_in_bytes": 360
+      },
+      {
+        "_path": "lib/R/library/gtable/Meta/nsInfo.rds",
+        "path_type": "hardlink",
+        "sha256": "f45fa87b19cacfee1025f6341bd0f5b49395760a89ca88e025bea21ce63651f1",
+        "sha256_in_prefix": "f45fa87b19cacfee1025f6341bd0f5b49395760a89ca88e025bea21ce63651f1",
+        "size_in_bytes": 429
+      },
+      {
+        "_path": "lib/R/library/gtable/Meta/package.rds",
+        "path_type": "hardlink",
+        "sha256": "ccf39967ff79adc6d69bf086f790dc777bc4c11802941acdac7fcee94c197a6f",
+        "sha256_in_prefix": "ccf39967ff79adc6d69bf086f790dc777bc4c11802941acdac7fcee94c197a6f",
+        "size_in_bytes": 1252
+      },
+      {
+        "_path": "lib/R/library/gtable/Meta/vignette.rds",
+        "path_type": "hardlink",
+        "sha256": "fbf0d35216274558e997453d8cf534a321600da8bb8297395e6d5901e5ae769f",
+        "sha256_in_prefix": "fbf0d35216274558e997453d8cf534a321600da8bb8297395e6d5901e5ae769f",
+        "size_in_bytes": 210
+      },
+      {
+        "_path": "lib/R/library/gtable/NAMESPACE",
+        "path_type": "hardlink",
+        "sha256": "919fdaf79a830729c909985218421bff1beb6d4a1bac62dfb780d444418030c5",
+        "sha256_in_prefix": "919fdaf79a830729c909985218421bff1beb6d4a1bac62dfb780d444418030c5",
+        "size_in_bytes": 858
+      },
+      {
+        "_path": "lib/R/library/gtable/NEWS.md",
+        "path_type": "hardlink",
+        "sha256": "a0cd044426dc035557aad5817b412935e1c45a13ac507b71658a9dac056ab39c",
+        "sha256_in_prefix": "a0cd044426dc035557aad5817b412935e1c45a13ac507b71658a9dac056ab39c",
+        "size_in_bytes": 1653
+      },
+      {
+        "_path": "lib/R/library/gtable/R/gtable",
+        "path_type": "hardlink",
+        "sha256": "570ca456b280cdeb201ef5ebdf22dc8f80092e2c0c68e33c7f73340e420f3759",
+        "sha256_in_prefix": "570ca456b280cdeb201ef5ebdf22dc8f80092e2c0c68e33c7f73340e420f3759",
+        "size_in_bytes": 1058
+      },
+      {
+        "_path": "lib/R/library/gtable/R/gtable.rdb",
+        "path_type": "hardlink",
+        "sha256": "3f6ee25f0343ff41aa19e40276071a7becb7fd0a5915b4fe2d7308bc037cc84d",
+        "sha256_in_prefix": "3f6ee25f0343ff41aa19e40276071a7becb7fd0a5915b4fe2d7308bc037cc84d",
+        "size_in_bytes": 48907
+      },
+      {
+        "_path": "lib/R/library/gtable/R/gtable.rdx",
+        "path_type": "hardlink",
+        "sha256": "32db41cc3041486701585e91fb60c57bb71681d4f20a70458d046ef8a248895b",
+        "sha256_in_prefix": "32db41cc3041486701585e91fb60c57bb71681d4f20a70458d046ef8a248895b",
+        "size_in_bytes": 989
+      },
+      {
+        "_path": "lib/R/library/gtable/doc/index.html",
+        "path_type": "hardlink",
+        "sha256": "876e944e3b6e2a412f0deecd5cc978c26201f99e113f64f8434aa63d78807d5b",
+        "sha256_in_prefix": "876e944e3b6e2a412f0deecd5cc978c26201f99e113f64f8434aa63d78807d5b",
+        "size_in_bytes": 1338
+      },
+      {
+        "_path": "lib/R/library/gtable/doc/profiling.R",
+        "path_type": "hardlink",
+        "sha256": "893f3441a751d861f19814ea15d31c2352483ce06351ed51b36e5d0356fff603",
+        "sha256_in_prefix": "893f3441a751d861f19814ea15d31c2352483ce06351ed51b36e5d0356fff603",
+        "size_in_bytes": 599
+      },
+      {
+        "_path": "lib/R/library/gtable/doc/profiling.Rmd",
+        "path_type": "hardlink",
+        "sha256": "940ac12cb70eefb7d40b41bc5df3bef1eddaad962b7d61cac7666c212da11ba9",
+        "sha256_in_prefix": "940ac12cb70eefb7d40b41bc5df3bef1eddaad962b7d61cac7666c212da11ba9",
+        "size_in_bytes": 2509
+      },
+      {
+        "_path": "lib/R/library/gtable/doc/profiling.html",
+        "path_type": "hardlink",
+        "sha256": "278010dbcdbb75f46899edc9c656651f22b336bb1e199ade22f28537fd5dc91e",
+        "sha256_in_prefix": "278010dbcdbb75f46899edc9c656651f22b336bb1e199ade22f28537fd5dc91e",
+        "size_in_bytes": 1837629
+      },
+      {
+        "_path": "lib/R/library/gtable/help/AnIndex",
+        "path_type": "hardlink",
+        "sha256": "857793b3ed7493fe71a404356e6b8c7ce417a16452650aaed26f9ea301d0a2b9",
+        "sha256_in_prefix": "857793b3ed7493fe71a404356e6b8c7ce417a16452650aaed26f9ea301d0a2b9",
+        "size_in_bytes": 658
+      },
+      {
+        "_path": "lib/R/library/gtable/help/aliases.rds",
+        "path_type": "hardlink",
+        "sha256": "35d86efe05e18173dca6b30fc9a757d4d06d24d890b2c9818182fc8a14867641",
+        "sha256_in_prefix": "35d86efe05e18173dca6b30fc9a757d4d06d24d890b2c9818182fc8a14867641",
+        "size_in_bytes": 257
+      },
+      {
+        "_path": "lib/R/library/gtable/help/figures/README-unnamed-chunk-2-1.png",
+        "path_type": "hardlink",
+        "sha256": "2839b754027822a73383f655226c23fca524f56736be97f5743c661c0de81042",
+        "sha256_in_prefix": "2839b754027822a73383f655226c23fca524f56736be97f5743c661c0de81042",
+        "size_in_bytes": 22140
+      },
+      {
+        "_path": "lib/R/library/gtable/help/figures/README-unnamed-chunk-3-1.png",
+        "path_type": "hardlink",
+        "sha256": "90d78f7b96a2efcfeb6c33b6334bc46356501a0169528b8467925b23a7c002a7",
+        "sha256_in_prefix": "90d78f7b96a2efcfeb6c33b6334bc46356501a0169528b8467925b23a7c002a7",
+        "size_in_bytes": 20985
+      },
+      {
+        "_path": "lib/R/library/gtable/help/figures/logo.png",
+        "path_type": "hardlink",
+        "sha256": "a6a596157ff95dc2f80607b7bdf2188e0203d0c8da9850c63b480555646b69fa",
+        "sha256_in_prefix": "a6a596157ff95dc2f80607b7bdf2188e0203d0c8da9850c63b480555646b69fa",
+        "size_in_bytes": 18816
+      },
+      {
+        "_path": "lib/R/library/gtable/help/gtable.rdb",
+        "path_type": "hardlink",
+        "sha256": "34dae4262c5140ad67a8f25d2cb14fc28f4e2880ebc1315744fff3653cdc592c",
+        "sha256_in_prefix": "34dae4262c5140ad67a8f25d2cb14fc28f4e2880ebc1315744fff3653cdc592c",
+        "size_in_bytes": 41228
+      },
+      {
+        "_path": "lib/R/library/gtable/help/gtable.rdx",
+        "path_type": "hardlink",
+        "sha256": "632440e26960681d82281bfac92446df1201e91ab53fec965ab43fa018c413aa",
+        "sha256_in_prefix": "632440e26960681d82281bfac92446df1201e91ab53fec965ab43fa018c413aa",
+        "size_in_bytes": 571
+      },
+      {
+        "_path": "lib/R/library/gtable/help/paths.rds",
+        "path_type": "hardlink",
+        "sha256": "d5d24f80c33acf07f7eeddc61eff704c232521c6e8232b50ee70a45993966b96",
+        "sha256_in_prefix": "d5d24f80c33acf07f7eeddc61eff704c232521c6e8232b50ee70a45993966b96",
+        "size_in_bytes": 308
+      },
+      {
+        "_path": "lib/R/library/gtable/html/00Index.html",
+        "path_type": "hardlink",
+        "sha256": "3c2ccfb2efc9b6d87eec898ce0b76f10c3b591bfcd8317b2dc7dee41179e2a6a",
+        "sha256_in_prefix": "3c2ccfb2efc9b6d87eec898ce0b76f10c3b591bfcd8317b2dc7dee41179e2a6a",
+        "size_in_bytes": 4059
+      },
+      {
+        "_path": "lib/R/library/gtable/html/R.css",
+        "path_type": "hardlink",
+        "sha256": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "sha256_in_prefix": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "size_in_bytes": 1335
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "r-gtable==0.3.0=r41hc72bb7e_3",
+  "sha256": "7d4800145766efcfeaf1e2b9f302ba560feb4a5649fb49b0f4044f53bd2d407f",
+  "size": 433500,
+  "subdir": "noarch",
+  "timestamp": 1621839836000,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/r-gtable-0.3.0-r41hc72bb7e_3.tar.bz2",
+  "version": "0.3.0"
+}

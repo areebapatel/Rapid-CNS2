@@ -1,0 +1,326 @@
+{
+  "build": "r41hc72bb7e_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "r-backports",
+    "r-base >=4.1,<4.2.0a0"
+  ],
+  "extracted_package_dir": "/omics/groups/OE0146/internal/Areeba/miniconda3/pkgs/r-rprojroot-2.0.2-r41hc72bb7e_0",
+  "features": "",
+  "files": [
+    "lib/R/library/rprojroot/DESCRIPTION",
+    "lib/R/library/rprojroot/INDEX",
+    "lib/R/library/rprojroot/LICENSE",
+    "lib/R/library/rprojroot/Meta/Rd.rds",
+    "lib/R/library/rprojroot/Meta/features.rds",
+    "lib/R/library/rprojroot/Meta/hsearch.rds",
+    "lib/R/library/rprojroot/Meta/links.rds",
+    "lib/R/library/rprojroot/Meta/nsInfo.rds",
+    "lib/R/library/rprojroot/Meta/package.rds",
+    "lib/R/library/rprojroot/Meta/vignette.rds",
+    "lib/R/library/rprojroot/NAMESPACE",
+    "lib/R/library/rprojroot/NEWS.md",
+    "lib/R/library/rprojroot/R/rprojroot",
+    "lib/R/library/rprojroot/R/rprojroot.rdb",
+    "lib/R/library/rprojroot/R/rprojroot.rdx",
+    "lib/R/library/rprojroot/WORDLIST",
+    "lib/R/library/rprojroot/doc/index.html",
+    "lib/R/library/rprojroot/doc/rprojroot.R",
+    "lib/R/library/rprojroot/doc/rprojroot.Rmd",
+    "lib/R/library/rprojroot/doc/rprojroot.html",
+    "lib/R/library/rprojroot/help/AnIndex",
+    "lib/R/library/rprojroot/help/aliases.rds",
+    "lib/R/library/rprojroot/help/figures/lifecycle-archived.svg",
+    "lib/R/library/rprojroot/help/figures/lifecycle-defunct.svg",
+    "lib/R/library/rprojroot/help/figures/lifecycle-deprecated.svg",
+    "lib/R/library/rprojroot/help/figures/lifecycle-experimental.svg",
+    "lib/R/library/rprojroot/help/figures/lifecycle-maturing.svg",
+    "lib/R/library/rprojroot/help/figures/lifecycle-questioning.svg",
+    "lib/R/library/rprojroot/help/figures/lifecycle-soft-deprecated.svg",
+    "lib/R/library/rprojroot/help/figures/lifecycle-stable.svg",
+    "lib/R/library/rprojroot/help/figures/lifecycle-superseded.svg",
+    "lib/R/library/rprojroot/help/paths.rds",
+    "lib/R/library/rprojroot/help/rprojroot.rdb",
+    "lib/R/library/rprojroot/help/rprojroot.rdx",
+    "lib/R/library/rprojroot/html/00Index.html",
+    "lib/R/library/rprojroot/html/R.css"
+  ],
+  "fn": "r-rprojroot-2.0.2-r41hc72bb7e_0.tar.bz2",
+  "license": "GPL-3",
+  "link": {
+    "source": "/omics/groups/OE0146/internal/Areeba/miniconda3/pkgs/r-rprojroot-2.0.2-r41hc72bb7e_0",
+    "type": 1
+  },
+  "md5": "54e034bbb14fb28865357e2b6f7cedcb",
+  "name": "r-rprojroot",
+  "noarch": "generic",
+  "package_tarball_full_path": "/omics/groups/OE0146/internal/Areeba/miniconda3/pkgs/r-rprojroot-2.0.2-r41hc72bb7e_0.tar.bz2",
+  "package_type": "noarch_generic",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/R/library/rprojroot/DESCRIPTION",
+        "path_type": "hardlink",
+        "sha256": "b1a7126ec7d16af31999164b6dde573cf524776f5c7bded0cb1fbea01263027b",
+        "sha256_in_prefix": "b1a7126ec7d16af31999164b6dde573cf524776f5c7bded0cb1fbea01263027b",
+        "size_in_bytes": 1166
+      },
+      {
+        "_path": "lib/R/library/rprojroot/INDEX",
+        "path_type": "hardlink",
+        "sha256": "2e5e60d0a9db05ab004653c9f6d64787469702cdab9b7d52e7358a8596ac6f6b",
+        "sha256_in_prefix": "2e5e60d0a9db05ab004653c9f6d64787469702cdab9b7d52e7358a8596ac6f6b",
+        "size_in_bytes": 370
+      },
+      {
+        "_path": "lib/R/library/rprojroot/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "4d31f876560893dbeaf9f99b6fcfcc30c1e55976a7b4862c088e255ac475c8d6",
+        "sha256_in_prefix": "4d31f876560893dbeaf9f99b6fcfcc30c1e55976a7b4862c088e255ac475c8d6",
+        "size_in_bytes": 47
+      },
+      {
+        "_path": "lib/R/library/rprojroot/Meta/Rd.rds",
+        "path_type": "hardlink",
+        "sha256": "e0467825303294f1256b5c6a4efce0ba3c6ca98bb412a2099603fd65575c2432",
+        "sha256_in_prefix": "e0467825303294f1256b5c6a4efce0ba3c6ca98bb412a2099603fd65575c2432",
+        "size_in_bytes": 703
+      },
+      {
+        "_path": "lib/R/library/rprojroot/Meta/features.rds",
+        "path_type": "hardlink",
+        "sha256": "b84ca42483e79a917d4c89f07a99625c472773b7d3ba686c276da9b5514abeac",
+        "sha256_in_prefix": "b84ca42483e79a917d4c89f07a99625c472773b7d3ba686c276da9b5514abeac",
+        "size_in_bytes": 122
+      },
+      {
+        "_path": "lib/R/library/rprojroot/Meta/hsearch.rds",
+        "path_type": "hardlink",
+        "sha256": "4e5e1d0cb3df6f6dbcaa3323ebd2a5baca160a071b8a3140a09db4f17c2de6ce",
+        "sha256_in_prefix": "4e5e1d0cb3df6f6dbcaa3323ebd2a5baca160a071b8a3140a09db4f17c2de6ce",
+        "size_in_bytes": 801
+      },
+      {
+        "_path": "lib/R/library/rprojroot/Meta/links.rds",
+        "path_type": "hardlink",
+        "sha256": "cdeb8e38ee11afa1f881c8ba775ae5da705b9e4ddff562d5776e2a28e8587e3c",
+        "sha256_in_prefix": "cdeb8e38ee11afa1f881c8ba775ae5da705b9e4ddff562d5776e2a28e8587e3c",
+        "size_in_bytes": 430
+      },
+      {
+        "_path": "lib/R/library/rprojroot/Meta/nsInfo.rds",
+        "path_type": "hardlink",
+        "sha256": "3a15f71c3c3dd260dc2602ea9a3c2ab337f4c61f07f819c8888058e0a718a2de",
+        "sha256_in_prefix": "3a15f71c3c3dd260dc2602ea9a3c2ab337f4c61f07f819c8888058e0a718a2de",
+        "size_in_bytes": 498
+      },
+      {
+        "_path": "lib/R/library/rprojroot/Meta/package.rds",
+        "path_type": "hardlink",
+        "sha256": "1cc7d14e8ba17e2df559612dbf3903b4cf1ea513f922c2bfe3d53a0ec2df9db7",
+        "sha256_in_prefix": "1cc7d14e8ba17e2df559612dbf3903b4cf1ea513f922c2bfe3d53a0ec2df9db7",
+        "size_in_bytes": 1141
+      },
+      {
+        "_path": "lib/R/library/rprojroot/Meta/vignette.rds",
+        "path_type": "hardlink",
+        "sha256": "be50862b1f1c31494021b8ff8251f1bb03902720b2e74721e33c43c6bf47cdf2",
+        "sha256_in_prefix": "be50862b1f1c31494021b8ff8251f1bb03902720b2e74721e33c43c6bf47cdf2",
+        "size_in_bytes": 225
+      },
+      {
+        "_path": "lib/R/library/rprojroot/NAMESPACE",
+        "path_type": "hardlink",
+        "sha256": "dcbb3286e8ea6f581bbc03b307be90dc657f6ef85dc74516a0fad7c7580150de",
+        "sha256_in_prefix": "dcbb3286e8ea6f581bbc03b307be90dc657f6ef85dc74516a0fad7c7580150de",
+        "size_in_bytes": 1070
+      },
+      {
+        "_path": "lib/R/library/rprojroot/NEWS.md",
+        "path_type": "hardlink",
+        "sha256": "08857653603b5ff3d304612248db7eef02948c0cf0b4350a392fcdf78737bf54",
+        "sha256_in_prefix": "08857653603b5ff3d304612248db7eef02948c0cf0b4350a392fcdf78737bf54",
+        "size_in_bytes": 4206
+      },
+      {
+        "_path": "lib/R/library/rprojroot/R/rprojroot",
+        "path_type": "hardlink",
+        "sha256": "570ca456b280cdeb201ef5ebdf22dc8f80092e2c0c68e33c7f73340e420f3759",
+        "sha256_in_prefix": "570ca456b280cdeb201ef5ebdf22dc8f80092e2c0c68e33c7f73340e420f3759",
+        "size_in_bytes": 1058
+      },
+      {
+        "_path": "lib/R/library/rprojroot/R/rprojroot.rdb",
+        "path_type": "hardlink",
+        "sha256": "603f32f28998e10aa4fea97a80782b7e9922f516fb196efb3f0d15661c0c4058",
+        "sha256_in_prefix": "603f32f28998e10aa4fea97a80782b7e9922f516fb196efb3f0d15661c0c4058",
+        "size_in_bytes": 45927
+      },
+      {
+        "_path": "lib/R/library/rprojroot/R/rprojroot.rdx",
+        "path_type": "hardlink",
+        "sha256": "04547765f679e5ec18d31f2f6219a7c78a16d5a6bbae578d93e27c7125f61d27",
+        "sha256_in_prefix": "04547765f679e5ec18d31f2f6219a7c78a16d5a6bbae578d93e27c7125f61d27",
+        "size_in_bytes": 1214
+      },
+      {
+        "_path": "lib/R/library/rprojroot/WORDLIST",
+        "path_type": "hardlink",
+        "sha256": "a189719ceccff7a24358773e718d3fd41bc80287d2c05031d2516bc88a695b45",
+        "sha256_in_prefix": "a189719ceccff7a24358773e718d3fd41bc80287d2c05031d2516bc88a695b45",
+        "size_in_bytes": 159
+      },
+      {
+        "_path": "lib/R/library/rprojroot/doc/index.html",
+        "path_type": "hardlink",
+        "sha256": "2c4821dc7473ee9d8d97c615da26173c92aeddf397e6d27a04765ab50eef02a8",
+        "sha256_in_prefix": "2c4821dc7473ee9d8d97c615da26173c92aeddf397e6d27a04765ab50eef02a8",
+        "size_in_bytes": 1374
+      },
+      {
+        "_path": "lib/R/library/rprojroot/doc/rprojroot.R",
+        "path_type": "hardlink",
+        "sha256": "31ba90a0acf3172b96bdbf2ce91e571d7c9f596ceeddb171cf88120de8648736",
+        "sha256_in_prefix": "31ba90a0acf3172b96bdbf2ce91e571d7c9f596ceeddb171cf88120de8648736",
+        "size_in_bytes": 5884
+      },
+      {
+        "_path": "lib/R/library/rprojroot/doc/rprojroot.Rmd",
+        "path_type": "hardlink",
+        "sha256": "88b6d56700b97253caeb0f2eeb9154b6059493950937bebe4b253ba61770cdf6",
+        "sha256_in_prefix": "88b6d56700b97253caeb0f2eeb9154b6059493950937bebe4b253ba61770cdf6",
+        "size_in_bytes": 13933
+      },
+      {
+        "_path": "lib/R/library/rprojroot/doc/rprojroot.html",
+        "path_type": "hardlink",
+        "sha256": "a43898c897986e316268340dd9934ee64edd80fdf0e5699e1f5885baa1faba0b",
+        "sha256_in_prefix": "a43898c897986e316268340dd9934ee64edd80fdf0e5699e1f5885baa1faba0b",
+        "size_in_bytes": 50686
+      },
+      {
+        "_path": "lib/R/library/rprojroot/help/AnIndex",
+        "path_type": "hardlink",
+        "sha256": "20713fdda77ee5f99945a6dc3c80da250c60dffd4b70a9ca467ce478aa0b5a41",
+        "sha256_in_prefix": "20713fdda77ee5f99945a6dc3c80da250c60dffd4b70a9ca467ce478aa0b5a41",
+        "size_in_bytes": 1061
+      },
+      {
+        "_path": "lib/R/library/rprojroot/help/aliases.rds",
+        "path_type": "hardlink",
+        "sha256": "7e4e6fd47b447e0001cc8ae64d6fa46c0f4781900495f7619f95dd6e74718817",
+        "sha256_in_prefix": "7e4e6fd47b447e0001cc8ae64d6fa46c0f4781900495f7619f95dd6e74718817",
+        "size_in_bytes": 405
+      },
+      {
+        "_path": "lib/R/library/rprojroot/help/figures/lifecycle-archived.svg",
+        "path_type": "hardlink",
+        "sha256": "e51548be52932d0b0468f5b11adcbebac08663898a7c043871864b0064710e86",
+        "sha256_in_prefix": "e51548be52932d0b0468f5b11adcbebac08663898a7c043871864b0064710e86",
+        "size_in_bytes": 967
+      },
+      {
+        "_path": "lib/R/library/rprojroot/help/figures/lifecycle-defunct.svg",
+        "path_type": "hardlink",
+        "sha256": "977a9d51157cf76f89e0d5562b8b57b06560682c4cc9e44333e9c394629fb520",
+        "sha256_in_prefix": "977a9d51157cf76f89e0d5562b8b57b06560682c4cc9e44333e9c394629fb520",
+        "size_in_bytes": 964
+      },
+      {
+        "_path": "lib/R/library/rprojroot/help/figures/lifecycle-deprecated.svg",
+        "path_type": "hardlink",
+        "sha256": "7fefe18cc3b7059272fa85ff40c4a95739bb271276d819fe782ac38db295a07c",
+        "sha256_in_prefix": "7fefe18cc3b7059272fa85ff40c4a95739bb271276d819fe782ac38db295a07c",
+        "size_in_bytes": 970
+      },
+      {
+        "_path": "lib/R/library/rprojroot/help/figures/lifecycle-experimental.svg",
+        "path_type": "hardlink",
+        "sha256": "ed1f8972de7fdeb5dedc1087ea043dc4953dca5d58f54286b4c0ab297eefbe90",
+        "sha256_in_prefix": "ed1f8972de7fdeb5dedc1087ea043dc4953dca5d58f54286b4c0ab297eefbe90",
+        "size_in_bytes": 974
+      },
+      {
+        "_path": "lib/R/library/rprojroot/help/figures/lifecycle-maturing.svg",
+        "path_type": "hardlink",
+        "sha256": "9f33b55a1806ad5a3d565a0855a91b47ae26b7cf1ff0f025758bbd15b4c3984a",
+        "sha256_in_prefix": "9f33b55a1806ad5a3d565a0855a91b47ae26b7cf1ff0f025758bbd15b4c3984a",
+        "size_in_bytes": 966
+      },
+      {
+        "_path": "lib/R/library/rprojroot/help/figures/lifecycle-questioning.svg",
+        "path_type": "hardlink",
+        "sha256": "2feb00c21e12843cd1cd2e821c941628331dddbb26e34e58c40bb11dcffea89a",
+        "sha256_in_prefix": "2feb00c21e12843cd1cd2e821c941628331dddbb26e34e58c40bb11dcffea89a",
+        "size_in_bytes": 972
+      },
+      {
+        "_path": "lib/R/library/rprojroot/help/figures/lifecycle-soft-deprecated.svg",
+        "path_type": "hardlink",
+        "sha256": "3a1280ea3869c1ffd2aa92d984e197eb9ac823746d018f000c5d53117ad257b1",
+        "sha256_in_prefix": "3a1280ea3869c1ffd2aa92d984e197eb9ac823746d018f000c5d53117ad257b1",
+        "size_in_bytes": 982
+      },
+      {
+        "_path": "lib/R/library/rprojroot/help/figures/lifecycle-stable.svg",
+        "path_type": "hardlink",
+        "sha256": "4817300514459f5ac876b1a379c7bad15d6049e1a954b71455ab78d76b83ffa0",
+        "sha256_in_prefix": "4817300514459f5ac876b1a379c7bad15d6049e1a954b71455ab78d76b83ffa0",
+        "size_in_bytes": 956
+      },
+      {
+        "_path": "lib/R/library/rprojroot/help/figures/lifecycle-superseded.svg",
+        "path_type": "hardlink",
+        "sha256": "c425824d3301dc7d4dc0100d408c4b469f488a8488be748a1fbe61abae5bab9e",
+        "sha256_in_prefix": "c425824d3301dc7d4dc0100d408c4b469f488a8488be748a1fbe61abae5bab9e",
+        "size_in_bytes": 971
+      },
+      {
+        "_path": "lib/R/library/rprojroot/help/paths.rds",
+        "path_type": "hardlink",
+        "sha256": "7c0904a7c5ed44bfc67132967ac9e0ae292b8a0c1fc2ca1ea9042b62d59cb1bc",
+        "sha256_in_prefix": "7c0904a7c5ed44bfc67132967ac9e0ae292b8a0c1fc2ca1ea9042b62d59cb1bc",
+        "size_in_bytes": 225
+      },
+      {
+        "_path": "lib/R/library/rprojroot/help/rprojroot.rdb",
+        "path_type": "hardlink",
+        "sha256": "c95a9fc0ffb0108cbb68d72224c8aee954e01f4da391d7c00fa43eb8022512c0",
+        "sha256_in_prefix": "c95a9fc0ffb0108cbb68d72224c8aee954e01f4da391d7c00fa43eb8022512c0",
+        "size_in_bytes": 20187
+      },
+      {
+        "_path": "lib/R/library/rprojroot/help/rprojroot.rdx",
+        "path_type": "hardlink",
+        "sha256": "3308d7d5ded88e8b048ea7d1d63dd171f1f03131bf68cdefe2db23ac960daaac",
+        "sha256_in_prefix": "3308d7d5ded88e8b048ea7d1d63dd171f1f03131bf68cdefe2db23ac960daaac",
+        "size_in_bytes": 321
+      },
+      {
+        "_path": "lib/R/library/rprojroot/html/00Index.html",
+        "path_type": "hardlink",
+        "sha256": "a09dd9ec0463266f687d915e583d261cb5581807715b8dbcd43d92cc371b0711",
+        "sha256_in_prefix": "a09dd9ec0463266f687d915e583d261cb5581807715b8dbcd43d92cc371b0711",
+        "size_in_bytes": 4938
+      },
+      {
+        "_path": "lib/R/library/rprojroot/html/R.css",
+        "path_type": "hardlink",
+        "sha256": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "sha256_in_prefix": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "size_in_bytes": 1335
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "r-rprojroot==2.0.2=r41hc72bb7e_0",
+  "sha256": "e42950b8e37b499d8d315a86fa6f96053c3cd6b4323db272f803051d37c8fe10",
+  "size": 112978,
+  "subdir": "noarch",
+  "timestamp": 1621839617000,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/r-rprojroot-2.0.2-r41hc72bb7e_0.tar.bz2",
+  "version": "2.0.2"
+}

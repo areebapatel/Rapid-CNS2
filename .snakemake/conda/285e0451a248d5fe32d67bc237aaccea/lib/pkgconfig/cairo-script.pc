@@ -1,0 +1,12 @@
+prefix=/omics/groups/OE0146/internal/Areeba/paper/Rapid-CNS2/.snakemake/conda/285e0451a248d5fe32d67bc237aaccea
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: cairo-script
+Description: script surface backend for cairo graphics library
+Version: 1.16.0
+
+Requires: cairo 
+Libs: -lz 
+Cflags: -I${includedir}/cairo 

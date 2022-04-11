@@ -1,0 +1,52 @@
+{
+  "build": "hf3e587d_4",
+  "build_number": 4,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "sysroot_linux-64",
+    "binutils_impl_linux-64 2.36.*"
+  ],
+  "extracted_package_dir": "/omics/groups/OE0146/internal/Areeba/miniconda3/pkgs/binutils_linux-64-2.36-hf3e587d_4",
+  "features": "",
+  "files": [
+    "etc/conda/activate.d/activate-binutils_linux-64.sh",
+    "etc/conda/deactivate.d/deactivate-binutils_linux-64.sh"
+  ],
+  "fn": "binutils_linux-64-2.36-hf3e587d_4.tar.bz2",
+  "license": "BSD-3-Clause",
+  "link": {
+    "source": "/omics/groups/OE0146/internal/Areeba/miniconda3/pkgs/binutils_linux-64-2.36-hf3e587d_4",
+    "type": 1
+  },
+  "md5": "a6d24ed098bb6850f4ef44aeea1be61d",
+  "name": "binutils_linux-64",
+  "package_tarball_full_path": "/omics/groups/OE0146/internal/Areeba/miniconda3/pkgs/binutils_linux-64-2.36-hf3e587d_4.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "etc/conda/activate.d/activate-binutils_linux-64.sh",
+        "path_type": "hardlink",
+        "sha256": "f904f3850e8ee62b67cb37e19d124b62110b6e2be7c23441162a8a8bfaf4382e",
+        "sha256_in_prefix": "f904f3850e8ee62b67cb37e19d124b62110b6e2be7c23441162a8a8bfaf4382e",
+        "size_in_bytes": 3778
+      },
+      {
+        "_path": "etc/conda/deactivate.d/deactivate-binutils_linux-64.sh",
+        "path_type": "hardlink",
+        "sha256": "82825e79eaa449eb88be5e16eeaeb751ec313a59390cb8772fca3b060e6c8c92",
+        "sha256_in_prefix": "82825e79eaa449eb88be5e16eeaeb751ec313a59390cb8772fca3b060e6c8c92",
+        "size_in_bytes": 3778
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "binutils_linux-64==2.36=hf3e587d_4",
+  "sha256": "3e85465438c7d44e6cf1fac327c3f1bb09f7233cb6fca329b586151c12a84f7c",
+  "size": 24400,
+  "subdir": "linux-64",
+  "timestamp": 1641560928000,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/binutils_linux-64-2.36-hf3e587d_4.tar.bz2",
+  "version": "2.36"
+}

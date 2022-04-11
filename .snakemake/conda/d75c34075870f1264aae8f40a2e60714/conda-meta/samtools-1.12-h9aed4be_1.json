@@ -1,0 +1,496 @@
+{
+  "build": "h9aed4be_1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/bioconda/linux-64",
+  "constrains": [],
+  "depends": [
+    "htslib >=1.12,<1.13.0a0",
+    "libgcc-ng >=9.3.0",
+    "ncurses >=6.2,<6.3.0a0",
+    "zlib >=1.2.11,<1.3.0a0"
+  ],
+  "extracted_package_dir": "/omics/groups/OE0146/internal/Areeba/miniconda3/pkgs/samtools-1.12-h9aed4be_1",
+  "features": "",
+  "files": [
+    "bin/ace2sam",
+    "bin/blast2sam.pl",
+    "bin/bowtie2sam.pl",
+    "bin/export2sam.pl",
+    "bin/fasta-sanitize.pl",
+    "bin/interpolate_sam.pl",
+    "bin/maq2sam-long",
+    "bin/maq2sam-short",
+    "bin/md5fa",
+    "bin/md5sum-lite",
+    "bin/novo2sam.pl",
+    "bin/plot-ampliconstats",
+    "bin/plot-bamstats",
+    "bin/psl2sam.pl",
+    "bin/sam2vcf.pl",
+    "bin/samtools",
+    "bin/samtools.pl",
+    "bin/seq_cache_populate.pl",
+    "bin/soap2sam.pl",
+    "bin/wgsim",
+    "bin/wgsim_eval.pl",
+    "bin/zoom2sam.pl",
+    "share/man/man1/samtools-addreplacerg.1",
+    "share/man/man1/samtools-ampliconclip.1",
+    "share/man/man1/samtools-ampliconstats.1",
+    "share/man/man1/samtools-bedcov.1",
+    "share/man/man1/samtools-calmd.1",
+    "share/man/man1/samtools-cat.1",
+    "share/man/man1/samtools-collate.1",
+    "share/man/man1/samtools-coverage.1",
+    "share/man/man1/samtools-depad.1",
+    "share/man/man1/samtools-depth.1",
+    "share/man/man1/samtools-dict.1",
+    "share/man/man1/samtools-faidx.1",
+    "share/man/man1/samtools-fasta.1",
+    "share/man/man1/samtools-fastq.1",
+    "share/man/man1/samtools-fixmate.1",
+    "share/man/man1/samtools-flags.1",
+    "share/man/man1/samtools-flagstat.1",
+    "share/man/man1/samtools-fqidx.1",
+    "share/man/man1/samtools-idxstats.1",
+    "share/man/man1/samtools-index.1",
+    "share/man/man1/samtools-markdup.1",
+    "share/man/man1/samtools-merge.1",
+    "share/man/man1/samtools-mpileup.1",
+    "share/man/man1/samtools-phase.1",
+    "share/man/man1/samtools-quickcheck.1",
+    "share/man/man1/samtools-reheader.1",
+    "share/man/man1/samtools-rmdup.1",
+    "share/man/man1/samtools-sort.1",
+    "share/man/man1/samtools-split.1",
+    "share/man/man1/samtools-stats.1",
+    "share/man/man1/samtools-targetcut.1",
+    "share/man/man1/samtools-tview.1",
+    "share/man/man1/samtools-view.1",
+    "share/man/man1/samtools.1",
+    "share/man/man1/wgsim.1"
+  ],
+  "fn": "samtools-1.12-h9aed4be_1.tar.bz2",
+  "license": "MIT",
+  "link": {
+    "source": "/omics/groups/OE0146/internal/Areeba/miniconda3/pkgs/samtools-1.12-h9aed4be_1",
+    "type": 1
+  },
+  "md5": "28d45e53917d0a4b5fb8fb5b3bcf86fc",
+  "name": "samtools",
+  "package_tarball_full_path": "/omics/groups/OE0146/internal/Areeba/miniconda3/pkgs/samtools-1.12-h9aed4be_1.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "bin/ace2sam",
+        "path_type": "hardlink",
+        "sha256": "eae468a55a8755e1540453892ef0f5563e74eb72b7bfc834190583e60cd17091",
+        "sha256_in_prefix": "eae468a55a8755e1540453892ef0f5563e74eb72b7bfc834190583e60cd17091",
+        "size_in_bytes": 26136
+      },
+      {
+        "_path": "bin/blast2sam.pl",
+        "path_type": "hardlink",
+        "sha256": "ed2ef3f383a183702b847d10ba19c40909bd8716bcbece0d700fcff37549d88d",
+        "sha256_in_prefix": "ed2ef3f383a183702b847d10ba19c40909bd8716bcbece0d700fcff37549d88d",
+        "size_in_bytes": 5447
+      },
+      {
+        "_path": "bin/bowtie2sam.pl",
+        "path_type": "hardlink",
+        "sha256": "44378bc61de934a6a07cd62c75405636c51f1e96fa1aada3304cd5ec4868d876",
+        "sha256_in_prefix": "44378bc61de934a6a07cd62c75405636c51f1e96fa1aada3304cd5ec4868d876",
+        "size_in_bytes": 3364
+      },
+      {
+        "_path": "bin/export2sam.pl",
+        "path_type": "hardlink",
+        "sha256": "6508ea333d70840833be0c6ee6c39cfa7630472b417347e45e750dbade07c26e",
+        "sha256_in_prefix": "6508ea333d70840833be0c6ee6c39cfa7630472b417347e45e750dbade07c26e",
+        "size_in_bytes": 18000
+      },
+      {
+        "_path": "bin/fasta-sanitize.pl",
+        "path_type": "hardlink",
+        "sha256": "043c727d6db25be74be06507f7ddafd33865c25f39710285771a3e3cb7c52d87",
+        "sha256_in_prefix": "043c727d6db25be74be06507f7ddafd33865c25f39710285771a3e3cb7c52d87",
+        "size_in_bytes": 3304
+      },
+      {
+        "_path": "bin/interpolate_sam.pl",
+        "path_type": "hardlink",
+        "sha256": "3b05d8dac6abd6499a45ff8ddd01fc558815ad863f16b7380da861ea09fc11dd",
+        "sha256_in_prefix": "3b05d8dac6abd6499a45ff8ddd01fc558815ad863f16b7380da861ea09fc11dd",
+        "size_in_bytes": 6125
+      },
+      {
+        "_path": "bin/maq2sam-long",
+        "path_type": "hardlink",
+        "sha256": "38eba89d9b29a651679ed40b129ff07d9fa906254d4dae477b55adbe46460cf6",
+        "sha256_in_prefix": "38eba89d9b29a651679ed40b129ff07d9fa906254d4dae477b55adbe46460cf6",
+        "size_in_bytes": 17568
+      },
+      {
+        "_path": "bin/maq2sam-short",
+        "path_type": "hardlink",
+        "sha256": "dfc78d1cd7db3a1d0c23a19ae95aeca7bd73b24fd950563b19935bf213875f38",
+        "sha256_in_prefix": "dfc78d1cd7db3a1d0c23a19ae95aeca7bd73b24fd950563b19935bf213875f38",
+        "size_in_bytes": 17568
+      },
+      {
+        "_path": "bin/md5fa",
+        "path_type": "hardlink",
+        "sha256": "7c4f245be31e0cc61797700e057f963ed446354a607cb092aafbdf390d6c9b33",
+        "sha256_in_prefix": "7c4f245be31e0cc61797700e057f963ed446354a607cb092aafbdf390d6c9b33",
+        "size_in_bytes": 17696
+      },
+      {
+        "_path": "bin/md5sum-lite",
+        "path_type": "hardlink",
+        "sha256": "c625479d43fcbbc258717267f0e333d629d46913722a0933240a06bfb3795799",
+        "sha256_in_prefix": "c625479d43fcbbc258717267f0e333d629d46913722a0933240a06bfb3795799",
+        "size_in_bytes": 17296
+      },
+      {
+        "_path": "bin/novo2sam.pl",
+        "path_type": "hardlink",
+        "sha256": "e0f95f766b61bd156ae1456312a62c174c3e0e4247270311219c37ad5228893e",
+        "sha256_in_prefix": "e0f95f766b61bd156ae1456312a62c174c3e0e4247270311219c37ad5228893e",
+        "size_in_bytes": 7973
+      },
+      {
+        "_path": "bin/plot-ampliconstats",
+        "path_type": "hardlink",
+        "sha256": "fe552ba095fe34fd99b18263dad85e70c70b900201ec03b508a9bae0d72480f3",
+        "sha256_in_prefix": "fe552ba095fe34fd99b18263dad85e70c70b900201ec03b508a9bae0d72480f3",
+        "size_in_bytes": 42989
+      },
+      {
+        "_path": "bin/plot-bamstats",
+        "path_type": "hardlink",
+        "sha256": "85b13359b7d8dbabc7a37ad8c8419fbfdcd290db6c94740c760da35be7d55280",
+        "sha256_in_prefix": "85b13359b7d8dbabc7a37ad8c8419fbfdcd290db6c94740c760da35be7d55280",
+        "size_in_bytes": 50477
+      },
+      {
+        "_path": "bin/psl2sam.pl",
+        "path_type": "hardlink",
+        "sha256": "cb3b63aa7e52d5d382549f14d775bb3d9e3ee16f7c38d3fa7433dfd102e009f9",
+        "sha256_in_prefix": "cb3b63aa7e52d5d382549f14d775bb3d9e3ee16f7c38d3fa7433dfd102e009f9",
+        "size_in_bytes": 3208
+      },
+      {
+        "_path": "bin/sam2vcf.pl",
+        "path_type": "hardlink",
+        "sha256": "9b462294867cacbc49aabc26188ab3066ace629f5ab03a664780b92abb11f8c0",
+        "sha256_in_prefix": "9b462294867cacbc49aabc26188ab3066ace629f5ab03a664780b92abb11f8c0",
+        "size_in_bytes": 8961
+      },
+      {
+        "_path": "bin/samtools",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/samtools_1616892191687/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_plac",
+        "sha256": "f03ad1eeac324ba7eadd04b46aee2695b45cf9eb24c046ce6ef57f2f4e366878",
+        "sha256_in_prefix": "67109c417a72c7691b587ff63366bca902e6ea30ae76ef8b6e17956b1bfa339b",
+        "size_in_bytes": 638536
+      },
+      {
+        "_path": "bin/samtools.pl",
+        "path_type": "hardlink",
+        "sha256": "0e59d966a74db4c2da0431e6a73c5737ca10f5bbc42ee0695ecf7cd0b5c11c2e",
+        "sha256_in_prefix": "0e59d966a74db4c2da0431e6a73c5737ca10f5bbc42ee0695ecf7cd0b5c11c2e",
+        "size_in_bytes": 16478
+      },
+      {
+        "_path": "bin/seq_cache_populate.pl",
+        "path_type": "hardlink",
+        "sha256": "8df8d011096620f4aa2a5cd5329be67f00d04c532b7bd146c07d268abb5b4ee5",
+        "sha256_in_prefix": "8df8d011096620f4aa2a5cd5329be67f00d04c532b7bd146c07d268abb5b4ee5",
+        "size_in_bytes": 11337
+      },
+      {
+        "_path": "bin/soap2sam.pl",
+        "path_type": "hardlink",
+        "sha256": "ad4b0819220a711483023235e441e762e9912eb6040aacec65049d781e4357e7",
+        "sha256_in_prefix": "ad4b0819220a711483023235e441e762e9912eb6040aacec65049d781e4357e7",
+        "size_in_bytes": 3909
+      },
+      {
+        "_path": "bin/wgsim",
+        "path_type": "hardlink",
+        "sha256": "54f8a7777c9a981ba2bfbdfe73a4caea4c50e3e276219e232a4a9e3bc38fb09b",
+        "sha256_in_prefix": "54f8a7777c9a981ba2bfbdfe73a4caea4c50e3e276219e232a4a9e3bc38fb09b",
+        "size_in_bytes": 26896
+      },
+      {
+        "_path": "bin/wgsim_eval.pl",
+        "path_type": "hardlink",
+        "sha256": "c88d255ff881f502c12698b2cfa7db82c4fad59cd97936c6bb2eb2261f8a8c82",
+        "sha256_in_prefix": "c88d255ff881f502c12698b2cfa7db82c4fad59cd97936c6bb2eb2261f8a8c82",
+        "size_in_bytes": 12546
+      },
+      {
+        "_path": "bin/zoom2sam.pl",
+        "path_type": "hardlink",
+        "sha256": "b6ce3d3d3814569b76bfb8df69a458a11f11efdc56183c922eeefe2e17d08900",
+        "sha256_in_prefix": "b6ce3d3d3814569b76bfb8df69a458a11f11efdc56183c922eeefe2e17d08900",
+        "size_in_bytes": 3583
+      },
+      {
+        "_path": "share/man/man1/samtools-addreplacerg.1",
+        "path_type": "hardlink",
+        "sha256": "3a9d88cdcdd895060a147f3d0c9a4e443ff7eebf0fcbb820f18d24d65540937e",
+        "sha256_in_prefix": "3a9d88cdcdd895060a147f3d0c9a4e443ff7eebf0fcbb820f18d24d65540937e",
+        "size_in_bytes": 3020
+      },
+      {
+        "_path": "share/man/man1/samtools-ampliconclip.1",
+        "path_type": "hardlink",
+        "sha256": "d79ec536b5836ff0d5f25add5c3b28e8b0e9680700a59b9d90454a24c5cf946a",
+        "sha256_in_prefix": "d79ec536b5836ff0d5f25add5c3b28e8b0e9680700a59b9d90454a24c5cf946a",
+        "size_in_bytes": 4286
+      },
+      {
+        "_path": "share/man/man1/samtools-ampliconstats.1",
+        "path_type": "hardlink",
+        "sha256": "1d07fc13f232cd27b58030a1e4af348e9ff328145693ee44600041ed434f24c1",
+        "sha256_in_prefix": "1d07fc13f232cd27b58030a1e4af348e9ff328145693ee44600041ed434f24c1",
+        "size_in_bytes": 13995
+      },
+      {
+        "_path": "share/man/man1/samtools-bedcov.1",
+        "path_type": "hardlink",
+        "sha256": "22269b17ed7c15dc4cbb18883719a7b770b399eede7f9fa11fda460d9475e3a9",
+        "sha256_in_prefix": "22269b17ed7c15dc4cbb18883719a7b770b399eede7f9fa11fda460d9475e3a9",
+        "size_in_bytes": 3531
+      },
+      {
+        "_path": "share/man/man1/samtools-calmd.1",
+        "path_type": "hardlink",
+        "sha256": "272f1b8d98752000e5d67f46c8acbd4347f99551e845aa2caa28c70110a5c2fc",
+        "sha256_in_prefix": "272f1b8d98752000e5d67f46c8acbd4347f99551e845aa2caa28c70110a5c2fc",
+        "size_in_bytes": 3860
+      },
+      {
+        "_path": "share/man/man1/samtools-cat.1",
+        "path_type": "hardlink",
+        "sha256": "21b5802c9028c0b2b5f86a1a88969757a93626e65ee2ca57bf7a54a87dadee72",
+        "sha256_in_prefix": "21b5802c9028c0b2b5f86a1a88969757a93626e65ee2ca57bf7a54a87dadee72",
+        "size_in_bytes": 2881
+      },
+      {
+        "_path": "share/man/man1/samtools-collate.1",
+        "path_type": "hardlink",
+        "sha256": "f0ccab4fd5a20780267f95538a7ce93878ec108526a3c9a52c31b007d28161e4",
+        "sha256_in_prefix": "f0ccab4fd5a20780267f95538a7ce93878ec108526a3c9a52c31b007d28161e4",
+        "size_in_bytes": 4598
+      },
+      {
+        "_path": "share/man/man1/samtools-coverage.1",
+        "path_type": "hardlink",
+        "sha256": "971fd698a844e85be89939d9a37af0b3f5df24710daba35288afe8e037dcbe35",
+        "sha256_in_prefix": "971fd698a844e85be89939d9a37af0b3f5df24710daba35288afe8e037dcbe35",
+        "size_in_bytes": 4649
+      },
+      {
+        "_path": "share/man/man1/samtools-depad.1",
+        "path_type": "hardlink",
+        "sha256": "76102aa0653457f7def7f1fd08da1c47f31e1e4bd457d677b182c663633896a5",
+        "sha256_in_prefix": "76102aa0653457f7def7f1fd08da1c47f31e1e4bd457d677b182c663633896a5",
+        "size_in_bytes": 3360
+      },
+      {
+        "_path": "share/man/man1/samtools-depth.1",
+        "path_type": "hardlink",
+        "sha256": "6c451cc45341c908851207b2e774828b454e9b72a0cd71f00fb7e6185696de4b",
+        "sha256_in_prefix": "6c451cc45341c908851207b2e774828b454e9b72a0cd71f00fb7e6185696de4b",
+        "size_in_bytes": 5179
+      },
+      {
+        "_path": "share/man/man1/samtools-dict.1",
+        "path_type": "hardlink",
+        "sha256": "f8430d6f5425b1855e70234d592af501adab67ab6cd8a557f1949727a89f5d30",
+        "sha256_in_prefix": "f8430d6f5425b1855e70234d592af501adab67ab6cd8a557f1949727a89f5d30",
+        "size_in_bytes": 2958
+      },
+      {
+        "_path": "share/man/man1/samtools-faidx.1",
+        "path_type": "hardlink",
+        "sha256": "b3f5996535f9a45c6640f0255f758fd204709be47f304bf689d1abf2dbab707b",
+        "sha256_in_prefix": "b3f5996535f9a45c6640f0255f758fd204709be47f304bf689d1abf2dbab707b",
+        "size_in_bytes": 4234
+      },
+      {
+        "_path": "share/man/man1/samtools-fasta.1",
+        "path_type": "hardlink",
+        "sha256": "e8ca1f16b43d6c36ea74ba61cb54de43de47e6815904cf41f797644174279b05",
+        "sha256_in_prefix": "e8ca1f16b43d6c36ea74ba61cb54de43de47e6815904cf41f797644174279b05",
+        "size_in_bytes": 8715
+      },
+      {
+        "_path": "share/man/man1/samtools-fastq.1",
+        "path_type": "hardlink",
+        "sha256": "8f9967a5488028f0fd31aba1bd4441d6bb00d57933cad7099456b12bdcb23e2c",
+        "sha256_in_prefix": "8f9967a5488028f0fd31aba1bd4441d6bb00d57933cad7099456b12bdcb23e2c",
+        "size_in_bytes": 21
+      },
+      {
+        "_path": "share/man/man1/samtools-fixmate.1",
+        "path_type": "hardlink",
+        "sha256": "1b48d3a91cbea27c042f21a536707bcb70cdb10852bb05be6a4f983ab9b8c718",
+        "sha256_in_prefix": "1b48d3a91cbea27c042f21a536707bcb70cdb10852bb05be6a4f983ab9b8c718",
+        "size_in_bytes": 2765
+      },
+      {
+        "_path": "share/man/man1/samtools-flags.1",
+        "path_type": "hardlink",
+        "sha256": "369743bddea9f7519074daaf9b7419d882cb2f50238e3a29f93907108f93c066",
+        "sha256_in_prefix": "369743bddea9f7519074daaf9b7419d882cb2f50238e3a29f93907108f93c066",
+        "size_in_bytes": 2502
+      },
+      {
+        "_path": "share/man/man1/samtools-flagstat.1",
+        "path_type": "hardlink",
+        "sha256": "53fd4fffae5eebbf97e41ff1355d346a3e1dc31be582be3835503b733a190105",
+        "sha256_in_prefix": "53fd4fffae5eebbf97e41ff1355d346a3e1dc31be582be3835503b733a190105",
+        "size_in_bytes": 5314
+      },
+      {
+        "_path": "share/man/man1/samtools-fqidx.1",
+        "path_type": "hardlink",
+        "sha256": "5927233950901455fd97dbe47b8c5fb3edb26da9b8ba90523da04c75d187d6e6",
+        "sha256_in_prefix": "5927233950901455fd97dbe47b8c5fb3edb26da9b8ba90523da04c75d187d6e6",
+        "size_in_bytes": 4284
+      },
+      {
+        "_path": "share/man/man1/samtools-idxstats.1",
+        "path_type": "hardlink",
+        "sha256": "f423948566eb319ef8fa5eda811894bf6da8f9c8d6e9a7c9861b3809a97a61c0",
+        "sha256_in_prefix": "f423948566eb319ef8fa5eda811894bf6da8f9c8d6e9a7c9861b3809a97a61c0",
+        "size_in_bytes": 2557
+      },
+      {
+        "_path": "share/man/man1/samtools-index.1",
+        "path_type": "hardlink",
+        "sha256": "7b2f29000a7ec8aca8dad60c6c9b76fb656de3de28b0e0a048501427e605bd20",
+        "sha256_in_prefix": "7b2f29000a7ec8aca8dad60c6c9b76fb656de3de28b0e0a048501427e605bd20",
+        "size_in_bytes": 3285
+      },
+      {
+        "_path": "share/man/man1/samtools-markdup.1",
+        "path_type": "hardlink",
+        "sha256": "511f2f0ede47ade1e7f50b3233bf11cbab300e7fe9afb770cd7e5defd04a4044",
+        "sha256_in_prefix": "511f2f0ede47ade1e7f50b3233bf11cbab300e7fe9afb770cd7e5defd04a4044",
+        "size_in_bytes": 6799
+      },
+      {
+        "_path": "share/man/man1/samtools-merge.1",
+        "path_type": "hardlink",
+        "sha256": "aeb81834e2ee0b2b020a90bb0cb7f880738a69a641659e519f82329a50b2d139",
+        "sha256_in_prefix": "aeb81834e2ee0b2b020a90bb0cb7f880738a69a641659e519f82329a50b2d139",
+        "size_in_bytes": 6012
+      },
+      {
+        "_path": "share/man/man1/samtools-mpileup.1",
+        "path_type": "hardlink",
+        "sha256": "964d97217e68b4c07fe693639f147b823bc027074ba62f7525553cdca447648c",
+        "sha256_in_prefix": "964d97217e68b4c07fe693639f147b823bc027074ba62f7525553cdca447648c",
+        "size_in_bytes": 15159
+      },
+      {
+        "_path": "share/man/man1/samtools-phase.1",
+        "path_type": "hardlink",
+        "sha256": "b69a6840b7bc9386125fb43cabf846daf05cbd1fa9a557b23ca5fa1f67bce8ea",
+        "sha256_in_prefix": "b69a6840b7bc9386125fb43cabf846daf05cbd1fa9a557b23ca5fa1f67bce8ea",
+        "size_in_bytes": 2617
+      },
+      {
+        "_path": "share/man/man1/samtools-quickcheck.1",
+        "path_type": "hardlink",
+        "sha256": "9d71e9622bf78bb26a8ba0d264aa4d19b71aee18714736c0df7ecd6dfdda0d69",
+        "sha256_in_prefix": "9d71e9622bf78bb26a8ba0d264aa4d19b71aee18714736c0df7ecd6dfdda0d69",
+        "size_in_bytes": 3075
+      },
+      {
+        "_path": "share/man/man1/samtools-reheader.1",
+        "path_type": "hardlink",
+        "sha256": "683f04c7a83e6f0211a19f43d2dbc05c056c14cd8b7c403bf1022c22203b2d3a",
+        "sha256_in_prefix": "683f04c7a83e6f0211a19f43d2dbc05c056c14cd8b7c403bf1022c22203b2d3a",
+        "size_in_bytes": 3734
+      },
+      {
+        "_path": "share/man/man1/samtools-rmdup.1",
+        "path_type": "hardlink",
+        "sha256": "b54407a0ca599db96dba90faf18580563c0c567138ba8758b3c8bee7cd8890e4",
+        "sha256_in_prefix": "b54407a0ca599db96dba90faf18580563c0c567138ba8758b3c8bee7cd8890e4",
+        "size_in_bytes": 2677
+      },
+      {
+        "_path": "share/man/man1/samtools-sort.1",
+        "path_type": "hardlink",
+        "sha256": "d9312b8f770cc7d5eb4cc589dbc14b2253aa50c9733ae8324688f79d636a61fb",
+        "sha256_in_prefix": "d9312b8f770cc7d5eb4cc589dbc14b2253aa50c9733ae8324688f79d636a61fb",
+        "size_in_bytes": 7650
+      },
+      {
+        "_path": "share/man/man1/samtools-split.1",
+        "path_type": "hardlink",
+        "sha256": "867ee45e89c3f46c7590463443ec39aebeaa85ce5db8a4e12fa45af49e8823aa",
+        "sha256_in_prefix": "867ee45e89c3f46c7590463443ec39aebeaa85ce5db8a4e12fa45af49e8823aa",
+        "size_in_bytes": 3025
+      },
+      {
+        "_path": "share/man/man1/samtools-stats.1",
+        "path_type": "hardlink",
+        "sha256": "8d59f4006a98ff35c81a16a34b319a39c95542690eff0ec981965ae4dbd05d98",
+        "sha256_in_prefix": "8d59f4006a98ff35c81a16a34b319a39c95542690eff0ec981965ae4dbd05d98",
+        "size_in_bytes": 16376
+      },
+      {
+        "_path": "share/man/man1/samtools-targetcut.1",
+        "path_type": "hardlink",
+        "sha256": "693aaf0b2a80d0ef201b6bb151d03cdc3ab1f9b9bb0f22f0e2a003ec6f0be900",
+        "sha256_in_prefix": "693aaf0b2a80d0ef201b6bb151d03cdc3ab1f9b9bb0f22f0e2a003ec6f0be900",
+        "size_in_bytes": 2596
+      },
+      {
+        "_path": "share/man/man1/samtools-tview.1",
+        "path_type": "hardlink",
+        "sha256": "54ee56048a64c1d566cec57f5a02de7cdad089fc1c3781ed8399f12f02bbc53a",
+        "sha256_in_prefix": "54ee56048a64c1d566cec57f5a02de7cdad089fc1c3781ed8399f12f02bbc53a",
+        "size_in_bytes": 2904
+      },
+      {
+        "_path": "share/man/man1/samtools-view.1",
+        "path_type": "hardlink",
+        "sha256": "e8f643f100d10ab796d7da2ab75e9860451550f21d2eb4c08bae020cb47ff626",
+        "sha256_in_prefix": "e8f643f100d10ab796d7da2ab75e9860451550f21d2eb4c08bae020cb47ff626",
+        "size_in_bytes": 12886
+      },
+      {
+        "_path": "share/man/man1/samtools.1",
+        "path_type": "hardlink",
+        "sha256": "91af2735fadfff29da3bd6893c21f025a343ae6cba02f3a1f8e2c149d1b0243e",
+        "sha256_in_prefix": "91af2735fadfff29da3bd6893c21f025a343ae6cba02f3a1f8e2c149d1b0243e",
+        "size_in_bytes": 37749
+      },
+      {
+        "_path": "share/man/man1/wgsim.1",
+        "path_type": "hardlink",
+        "sha256": "068e1eefdf00fc6b4f49c00e81b3abfd9b7f488f286446a5889fb2284bf7aeb7",
+        "sha256_in_prefix": "068e1eefdf00fc6b4f49c00e81b3abfd9b7f488f286446a5889fb2284bf7aeb7",
+        "size_in_bytes": 1192
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "samtools==1.12=h9aed4be_1",
+  "sha256": "20159e5615f848914cc25b79929e154c15b594530ce7d475f86c0712e969d747",
+  "size": 394938,
+  "subdir": "linux-64",
+  "timestamp": 1616892395000,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/bioconda/linux-64/samtools-1.12-h9aed4be_1.tar.bz2",
+  "version": "1.12"
+}

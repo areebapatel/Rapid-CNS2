@@ -76,11 +76,11 @@ pip install .
 
 7. Download Rapid-CNS<sup>2</sup> Git repo `git clone https://github.com/areebapatel/Rapid_CNS2.git`
 
-8. Edit `rapid_cns_snake.config` to specify paths
+8. Edit `rapid_cns_snake.yaml` to specify paths
 
 9. Run pipeline as
  ```
- snakemake --directory=<PATH/TO/OUTPUT/DIRECTORY> --use-conda
+ snakemake --use-conda --config FAST5_dir=<path to FAST5 files> outdir=<path to output directory for library> <output file eg. (sample)_cnvpytor_100k.png>
  ```
 
 

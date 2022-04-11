@@ -1,0 +1,41 @@
+Sender: LSF System <lsfadmin@odcf-cn23u23>
+Subject: Job 11278281: <megalodon.unique> in cluster <ODCF> Exited
+
+Job <megalodon.unique> was submitted from host <odcf-cn34u03s11> by user <a390l> in cluster <ODCF> at Fri Apr  8 13:23:22 2022
+Job was executed on host(s) <odcf-cn23u23>, in queue <short>, as user <a390l> in cluster <ODCF> at Fri Apr  8 13:23:24 2022
+</home/a390l> was used as the home directory.
+</omics/groups/OE0146/internal/Areeba/paper/Rapid-CNS2> was used as the working directory.
+Started at Fri Apr  8 13:23:24 2022
+Terminated at Fri Apr  8 13:24:11 2022
+Results reported at Fri Apr  8 13:24:11 2022
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+/omics/groups/OE0146/internal/Areeba/paper/Rapid-CNS2/.snakemake/tmp.gxeudyug/snakejob.megalodon.1.sh
+------------------------------------------------------------
+
+Exited with exit code 1.
+
+Resource usage summary:
+
+    CPU time :                                   1.74 sec.
+    Max Memory :                                 90 MB
+    Average Memory :                             59.67 MB
+    Total Requested Memory :                     1024.00 MB
+    Delta Memory :                               934.00 MB
+    Max Swap :                                   -
+    Max Processes :                              6
+    Max Threads :                                8
+    Run time :                                   47 sec.
+    Turnaround time :                            49 sec.
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <logs/cluster/megalodon/unique/jobid1_03275b09-2599-4be8-be19-0db6f69f93db.err> for stderr output of this job.
+

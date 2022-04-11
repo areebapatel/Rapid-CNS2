@@ -1,0 +1,1454 @@
+{
+  "build": "r41h03ef668_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "r-glue",
+    "libgcc-ng >=9.4.0",
+    "libstdcxx-ng >=9.4.0",
+    "r-base >=4.1,<4.2.0a0"
+  ],
+  "extracted_package_dir": "/omics/groups/OE0146/internal/Areeba/miniconda3/pkgs/r-cli-3.1.1-r41h03ef668_0",
+  "features": "",
+  "files": [
+    "lib/R/library/cli/DESCRIPTION",
+    "lib/R/library/cli/INDEX",
+    "lib/R/library/cli/LICENSE",
+    "lib/R/library/cli/Meta/Rd.rds",
+    "lib/R/library/cli/Meta/features.rds",
+    "lib/R/library/cli/Meta/hsearch.rds",
+    "lib/R/library/cli/Meta/links.rds",
+    "lib/R/library/cli/Meta/nsInfo.rds",
+    "lib/R/library/cli/Meta/package.rds",
+    "lib/R/library/cli/NAMESPACE",
+    "lib/R/library/cli/NEWS.md",
+    "lib/R/library/cli/R/cli",
+    "lib/R/library/cli/R/cli.rdb",
+    "lib/R/library/cli/R/cli.rdx",
+    "lib/R/library/cli/R/sysdata.rdb",
+    "lib/R/library/cli/R/sysdata.rdx",
+    "lib/R/library/cli/examples/apps/news.R",
+    "lib/R/library/cli/examples/apps/outdated.R",
+    "lib/R/library/cli/examples/apps/search.R",
+    "lib/R/library/cli/examples/apps/up.R",
+    "lib/R/library/cli/help/AnIndex",
+    "lib/R/library/cli/help/aliases.rds",
+    "lib/R/library/cli/help/cli.rdb",
+    "lib/R/library/cli/help/cli.rdx",
+    "lib/R/library/cli/help/figures/alert-danger.svg",
+    "lib/R/library/cli/help/figures/alert-info.svg",
+    "lib/R/library/cli/help/figures/alert-success.svg",
+    "lib/R/library/cli/help/figures/alert-warning.svg",
+    "lib/R/library/cli/help/figures/alert-wrap.svg",
+    "lib/R/library/cli/help/figures/ansi-align-center.svg",
+    "lib/R/library/cli/help/figures/ansi-align-right.svg",
+    "lib/R/library/cli/help/figures/ansi-align.svg",
+    "lib/R/library/cli/help/figures/ansi-column.svg",
+    "lib/R/library/cli/help/figures/box-bg-color.svg",
+    "lib/R/library/cli/help/figures/box-border-color.svg",
+    "lib/R/library/cli/help/figures/box-border.svg",
+    "lib/R/library/cli/help/figures/box-custom.svg",
+    "lib/R/library/cli/help/figures/box-default.svg",
+    "lib/R/library/cli/help/figures/box-float.svg",
+    "lib/R/library/cli/help/figures/box-label-align.svg",
+    "lib/R/library/cli/help/figures/box-lines.svg",
+    "lib/R/library/cli/help/figures/box-padding.svg",
+    "lib/R/library/cli/help/figures/box-text-color.svg",
+    "lib/R/library/cli/help/figures/builtin-theme.svg",
+    "lib/R/library/cli/help/figures/cli-abort-2.svg",
+    "lib/R/library/cli/help/figures/cli-abort.svg",
+    "lib/R/library/cli/help/figures/cli-blockquote.svg",
+    "lib/R/library/cli/help/figures/cli-bullets.svg",
+    "lib/R/library/cli/help/figures/cli-cli.svg",
+    "lib/R/library/cli/help/figures/cli-code.svg",
+    "lib/R/library/cli/help/figures/cli-div-close.svg",
+    "lib/R/library/cli/help/figures/cli-div.svg",
+    "lib/R/library/cli/help/figures/cli-dl-2.svg",
+    "lib/R/library/cli/help/figures/cli-dl.svg",
+    "lib/R/library/cli/help/figures/cli-end-debug.svg",
+    "lib/R/library/cli/help/figures/cli-end-many.svg",
+    "lib/R/library/cli/help/figures/cli-end-noid.svg",
+    "lib/R/library/cli/help/figures/cli-end.svg",
+    "lib/R/library/cli/help/figures/cli-format-class.svg",
+    "lib/R/library/cli/help/figures/cli-format-default.svg",
+    "lib/R/library/cli/help/figures/cli-format-num.svg",
+    "lib/R/library/cli/help/figures/cli-format-theme.svg",
+    "lib/R/library/cli/help/figures/cli-h1.svg",
+    "lib/R/library/cli/help/figures/cli-li.svg",
+    "lib/R/library/cli/help/figures/cli-ol-2.svg",
+    "lib/R/library/cli/help/figures/cli-ol-3.svg",
+    "lib/R/library/cli/help/figures/cli-ol.svg",
+    "lib/R/library/cli/help/figures/cli-par.svg",
+    "lib/R/library/cli/help/figures/cli-rule-line-type.svg",
+    "lib/R/library/cli/help/figures/cli-rule.svg",
+    "lib/R/library/cli/help/figures/cli-text-concat.svg",
+    "lib/R/library/cli/help/figures/cli-text-containers.svg",
+    "lib/R/library/cli/help/figures/cli-text-glue-style.svg",
+    "lib/R/library/cli/help/figures/cli-text-glue.svg",
+    "lib/R/library/cli/help/figures/cli-text-markup.svg",
+    "lib/R/library/cli/help/figures/cli-text-newline.svg",
+    "lib/R/library/cli/help/figures/cli-text.svg",
+    "lib/R/library/cli/help/figures/cli-ul-2.svg",
+    "lib/R/library/cli/help/figures/cli-ul.svg",
+    "lib/R/library/cli/help/figures/cli-vec-2.svg",
+    "lib/R/library/cli/help/figures/cli-vec.svg",
+    "lib/R/library/cli/help/figures/cli-verbatim-2.svg",
+    "lib/R/library/cli/help/figures/cli-verbatim.svg",
+    "lib/R/library/cli/help/figures/cnt-auto-close.svg",
+    "lib/R/library/cli/help/figures/cnt-debug.svg",
+    "lib/R/library/cli/help/figures/cnt-theme.svg",
+    "lib/R/library/cli/help/figures/demo-spinners.svg",
+    "lib/R/library/cli/help/figures/format-error-2.svg",
+    "lib/R/library/cli/help/figures/format-error.svg",
+    "lib/R/library/cli/help/figures/get-spinner.svg",
+    "lib/R/library/cli/help/figures/inline-collapse-2.svg",
+    "lib/R/library/cli/help/figures/inline-collapse-trunc.svg",
+    "lib/R/library/cli/help/figures/inline-collapse.svg",
+    "lib/R/library/cli/help/figures/inline-escape-2.svg",
+    "lib/R/library/cli/help/figures/inline-escape.svg",
+    "lib/R/library/cli/help/figures/inline-examples.svg",
+    "lib/R/library/cli/help/figures/inline-newclass.svg",
+    "lib/R/library/cli/help/figures/inline-plural.svg",
+    "lib/R/library/cli/help/figures/inline-text-2.svg",
+    "lib/R/library/cli/help/figures/inline-text-3.svg",
+    "lib/R/library/cli/help/figures/inline-text.svg",
+    "lib/R/library/cli/help/figures/make-spinner-custom.svg",
+    "lib/R/library/cli/help/figures/make-spinner-default.svg",
+    "lib/R/library/cli/help/figures/make-spinner-template.svg",
+    "lib/R/library/cli/help/figures/progress-1.svg",
+    "lib/R/library/cli/help/figures/progress-after.svg",
+    "lib/R/library/cli/help/figures/progress-along-1.svg",
+    "lib/R/library/cli/help/figures/progress-along-2.svg",
+    "lib/R/library/cli/help/figures/progress-along-3.svg",
+    "lib/R/library/cli/help/figures/progress-clear.svg",
+    "lib/R/library/cli/help/figures/progress-current.svg",
+    "lib/R/library/cli/help/figures/progress-format.svg",
+    "lib/R/library/cli/help/figures/progress-message.svg",
+    "lib/R/library/cli/help/figures/progress-natotal.svg",
+    "lib/R/library/cli/help/figures/progress-output.svg",
+    "lib/R/library/cli/help/figures/progress-output2.svg",
+    "lib/R/library/cli/help/figures/progress-step-dynamic.svg",
+    "lib/R/library/cli/help/figures/progress-step-msg.svg",
+    "lib/R/library/cli/help/figures/progress-step-spin.svg",
+    "lib/R/library/cli/help/figures/progress-step.svg",
+    "lib/R/library/cli/help/figures/progress-style.svg",
+    "lib/R/library/cli/help/figures/progress-tasks.svg",
+    "lib/R/library/cli/help/figures/progress-var-bar.svg",
+    "lib/R/library/cli/help/figures/progress-var-current-bytes.svg",
+    "lib/R/library/cli/help/figures/progress-var-current.svg",
+    "lib/R/library/cli/help/figures/progress-var-elapsed-clock.svg",
+    "lib/R/library/cli/help/figures/progress-var-elapsed-raw.svg",
+    "lib/R/library/cli/help/figures/progress-var-elapsed.svg",
+    "lib/R/library/cli/help/figures/progress-var-eta-raw.svg",
+    "lib/R/library/cli/help/figures/progress-var-eta-str.svg",
+    "lib/R/library/cli/help/figures/progress-var-eta.svg",
+    "lib/R/library/cli/help/figures/progress-var-extra.svg",
+    "lib/R/library/cli/help/figures/progress-var-id.svg",
+    "lib/R/library/cli/help/figures/progress-var-name.svg",
+    "lib/R/library/cli/help/figures/progress-var-percent.svg",
+    "lib/R/library/cli/help/figures/progress-var-rate-bytes.svg",
+    "lib/R/library/cli/help/figures/progress-var-rate-raw.svg",
+    "lib/R/library/cli/help/figures/progress-var-rate.svg",
+    "lib/R/library/cli/help/figures/progress-var-status.svg",
+    "lib/R/library/cli/help/figures/progress-var-timestamp.svg",
+    "lib/R/library/cli/help/figures/rule-bars.svg",
+    "lib/R/library/cli/help/figures/rule-center-label.svg",
+    "lib/R/library/cli/help/figures/rule-colored-label.svg",
+    "lib/R/library/cli/help/figures/rule-colored-line.svg",
+    "lib/R/library/cli/help/figures/rule-custom-line-2.svg",
+    "lib/R/library/cli/help/figures/rule-custom-line-3.svg",
+    "lib/R/library/cli/help/figures/rule-custom-line.svg",
+    "lib/R/library/cli/help/figures/rule-double.svg",
+    "lib/R/library/cli/help/figures/rule-left-label.svg",
+    "lib/R/library/cli/help/figures/rule-simple.svg",
+    "lib/R/library/cli/help/figures/simple-theme.svg",
+    "lib/R/library/cli/help/figures/spark-bar-1.svg",
+    "lib/R/library/cli/help/figures/spark-bar-2.svg",
+    "lib/R/library/cli/help/figures/spark-bar-3.svg",
+    "lib/R/library/cli/help/figures/spark-bar-na.svg",
+    "lib/R/library/cli/help/figures/spark-line.svg",
+    "lib/R/library/cli/help/figures/tree-colored.svg",
+    "lib/R/library/cli/help/figures/tree-root.svg",
+    "lib/R/library/cli/help/figures/tree-trim-mark.svg",
+    "lib/R/library/cli/help/figures/tree-trimming.svg",
+    "lib/R/library/cli/help/figures/tree.svg",
+    "lib/R/library/cli/help/figures/unnamed-chunk-1.svg",
+    "lib/R/library/cli/help/paths.rds",
+    "lib/R/library/cli/html/00Index.html",
+    "lib/R/library/cli/html/R.css",
+    "lib/R/library/cli/include/cli/progress.h",
+    "lib/R/library/cli/libs/cli.so",
+    "lib/R/library/cli/logo.txt",
+    "lib/R/library/cli/scripts/news.R",
+    "lib/R/library/cli/scripts/outdated.R",
+    "lib/R/library/cli/scripts/search.R",
+    "lib/R/library/cli/scripts/up.R",
+    "lib/R/library/cli/shiny/along/app.R",
+    "lib/R/library/cli/shiny/format/app.R",
+    "lib/R/library/cli/shiny/nested/app.R",
+    "lib/R/library/cli/shiny/output/app.R",
+    "lib/R/library/cli/shiny/simple/app.R"
+  ],
+  "fn": "r-cli-3.1.1-r41h03ef668_0.tar.bz2",
+  "license": "MIT",
+  "link": {
+    "source": "/omics/groups/OE0146/internal/Areeba/miniconda3/pkgs/r-cli-3.1.1-r41h03ef668_0",
+    "type": 1
+  },
+  "md5": "0cdd70d629fbd48ef3cae48be00bcb2f",
+  "name": "r-cli",
+  "package_tarball_full_path": "/omics/groups/OE0146/internal/Areeba/miniconda3/pkgs/r-cli-3.1.1-r41h03ef668_0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/R/library/cli/DESCRIPTION",
+        "path_type": "hardlink",
+        "sha256": "f0c9c2327736fdadf8620fa1cce74f9c5e3417cb0a192d8d270200c3aef8b2d4",
+        "sha256_in_prefix": "f0c9c2327736fdadf8620fa1cce74f9c5e3417cb0a192d8d270200c3aef8b2d4",
+        "size_in_bytes": 1628
+      },
+      {
+        "_path": "lib/R/library/cli/INDEX",
+        "path_type": "hardlink",
+        "sha256": "30fe969437639257139dbb4a6249561c611636fc5e7a4493ccc1781743c82454",
+        "sha256_in_prefix": "30fe969437639257139dbb4a6249561c611636fc5e7a4493ccc1781743c82454",
+        "size_in_bytes": 6164
+      },
+      {
+        "_path": "lib/R/library/cli/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "cb0b4cc2c4113b19accefd9330a21b7a82c027bf46bc5dd1c5fff61507987af0",
+        "sha256_in_prefix": "cb0b4cc2c4113b19accefd9330a21b7a82c027bf46bc5dd1c5fff61507987af0",
+        "size_in_bytes": 41
+      },
+      {
+        "_path": "lib/R/library/cli/Meta/Rd.rds",
+        "path_type": "hardlink",
+        "sha256": "77f31ad87e8391592c32c5193f636e29ce3b1a1a00b81c3be5c1731cada80dba",
+        "sha256_in_prefix": "77f31ad87e8391592c32c5193f636e29ce3b1a1a00b81c3be5c1731cada80dba",
+        "size_in_bytes": 4507
+      },
+      {
+        "_path": "lib/R/library/cli/Meta/features.rds",
+        "path_type": "hardlink",
+        "sha256": "afa04c711628a6de0e93c59b08985fa661af90c9502d5620f12a5f20d9ef9eaa",
+        "sha256_in_prefix": "afa04c711628a6de0e93c59b08985fa661af90c9502d5620f12a5f20d9ef9eaa",
+        "size_in_bytes": 123
+      },
+      {
+        "_path": "lib/R/library/cli/Meta/hsearch.rds",
+        "path_type": "hardlink",
+        "sha256": "c0553bcb2bc36d7e37464d15c4f20dd67c45883841249dff371d1b050ef31b2a",
+        "sha256_in_prefix": "c0553bcb2bc36d7e37464d15c4f20dd67c45883841249dff371d1b050ef31b2a",
+        "size_in_bytes": 4116
+      },
+      {
+        "_path": "lib/R/library/cli/Meta/links.rds",
+        "path_type": "hardlink",
+        "sha256": "8bea1e4f410feb28e1e98493a418ddc0483b275c2694347cdbde6dd232fa70b5",
+        "sha256_in_prefix": "8bea1e4f410feb28e1e98493a418ddc0483b275c2694347cdbde6dd232fa70b5",
+        "size_in_bytes": 2283
+      },
+      {
+        "_path": "lib/R/library/cli/Meta/nsInfo.rds",
+        "path_type": "hardlink",
+        "sha256": "fc83f14bceda12ba88c38a2cea6adde75cc3008d712d56fa49d49ea93eee7328",
+        "sha256_in_prefix": "fc83f14bceda12ba88c38a2cea6adde75cc3008d712d56fa49d49ea93eee7328",
+        "size_in_bytes": 1699
+      },
+      {
+        "_path": "lib/R/library/cli/Meta/package.rds",
+        "path_type": "hardlink",
+        "sha256": "38369f68f6e30afebf2b89000582aa0c07816fd07d4cfbcf59c31f09d818333f",
+        "sha256_in_prefix": "38369f68f6e30afebf2b89000582aa0c07816fd07d4cfbcf59c31f09d818333f",
+        "size_in_bytes": 1548
+      },
+      {
+        "_path": "lib/R/library/cli/NAMESPACE",
+        "path_type": "hardlink",
+        "sha256": "7b138a22fb5cc7a266494cd3a52b103063b1a8d2f6eb2dd3873b36aebc2b3eca",
+        "sha256_in_prefix": "7b138a22fb5cc7a266494cd3a52b103063b1a8d2f6eb2dd3873b36aebc2b3eca",
+        "size_in_bytes": 5126
+      },
+      {
+        "_path": "lib/R/library/cli/NEWS.md",
+        "path_type": "hardlink",
+        "sha256": "90a8fce46e81857b3b0a5111655364c84afc8c4c1aa857683b87bd1f6660cd34",
+        "sha256_in_prefix": "90a8fce46e81857b3b0a5111655364c84afc8c4c1aa857683b87bd1f6660cd34",
+        "size_in_bytes": 9746
+      },
+      {
+        "_path": "lib/R/library/cli/R/cli",
+        "path_type": "hardlink",
+        "sha256": "570ca456b280cdeb201ef5ebdf22dc8f80092e2c0c68e33c7f73340e420f3759",
+        "sha256_in_prefix": "570ca456b280cdeb201ef5ebdf22dc8f80092e2c0c68e33c7f73340e420f3759",
+        "size_in_bytes": 1058
+      },
+      {
+        "_path": "lib/R/library/cli/R/cli.rdb",
+        "path_type": "hardlink",
+        "sha256": "2d2784046bd18a793f6e5f68d5c62b881ddd01c2e7a732ce3b1d7dc579f4b391",
+        "sha256_in_prefix": "2d2784046bd18a793f6e5f68d5c62b881ddd01c2e7a732ce3b1d7dc579f4b391",
+        "size_in_bytes": 491249
+      },
+      {
+        "_path": "lib/R/library/cli/R/cli.rdx",
+        "path_type": "hardlink",
+        "sha256": "bc340994bfc19727e38aacc6df9c30fe94d5365a95769d9f98e0e1dd68901fae",
+        "sha256_in_prefix": "bc340994bfc19727e38aacc6df9c30fe94d5365a95769d9f98e0e1dd68901fae",
+        "size_in_bytes": 7593
+      },
+      {
+        "_path": "lib/R/library/cli/R/sysdata.rdb",
+        "path_type": "hardlink",
+        "sha256": "bb85ae0fbdc0cebd182c39f850b56a73b3d66db5b5a1389eafb3ffc2033165d7",
+        "sha256_in_prefix": "bb85ae0fbdc0cebd182c39f850b56a73b3d66db5b5a1389eafb3ffc2033165d7",
+        "size_in_bytes": 139222
+      },
+      {
+        "_path": "lib/R/library/cli/R/sysdata.rdx",
+        "path_type": "hardlink",
+        "sha256": "dde29b8a47350477650a5205b7586eddc7de7cbf36d4e617f55853f918d1b143",
+        "sha256_in_prefix": "dde29b8a47350477650a5205b7586eddc7de7cbf36d4e617f55853f918d1b143",
+        "size_in_bytes": 248
+      },
+      {
+        "_path": "lib/R/library/cli/examples/apps/news.R",
+        "path_type": "hardlink",
+        "sha256": "1de48ae950f6f95a805bfdbd81cbec66734cf158d10f9433788d2211f125ef12",
+        "sha256_in_prefix": "1de48ae950f6f95a805bfdbd81cbec66734cf158d10f9433788d2211f125ef12",
+        "size_in_bytes": 2987
+      },
+      {
+        "_path": "lib/R/library/cli/examples/apps/outdated.R",
+        "path_type": "hardlink",
+        "sha256": "0052b0c3993ce7485d8c5de812e45d74285ed591453ebd933f6cbccc41587a69",
+        "sha256_in_prefix": "0052b0c3993ce7485d8c5de812e45d74285ed591453ebd933f6cbccc41587a69",
+        "size_in_bytes": 2072
+      },
+      {
+        "_path": "lib/R/library/cli/examples/apps/search.R",
+        "path_type": "hardlink",
+        "sha256": "6818e862eeadf45c258460f5d8e63d16dafafd38b1a5d3df25bcf0206756ab11",
+        "sha256_in_prefix": "6818e862eeadf45c258460f5d8e63d16dafafd38b1a5d3df25bcf0206756ab11",
+        "size_in_bytes": 2074
+      },
+      {
+        "_path": "lib/R/library/cli/examples/apps/up.R",
+        "path_type": "hardlink",
+        "sha256": "12407b1aa61c9a7d2a730fe5d313bce4efab719b0835f812f8a86e8bc04d6708",
+        "sha256_in_prefix": "12407b1aa61c9a7d2a730fe5d313bce4efab719b0835f812f8a86e8bc04d6708",
+        "size_in_bytes": 1534
+      },
+      {
+        "_path": "lib/R/library/cli/help/AnIndex",
+        "path_type": "hardlink",
+        "sha256": "d6f4d4b6dc26c25bf010407556f1e3e92e2a7a38bbfcb1606fdad8791dcfc5ef",
+        "sha256_in_prefix": "d6f4d4b6dc26c25bf010407556f1e3e92e2a7a38bbfcb1606fdad8791dcfc5ef",
+        "size_in_bytes": 6601
+      },
+      {
+        "_path": "lib/R/library/cli/help/aliases.rds",
+        "path_type": "hardlink",
+        "sha256": "c545747cac7945ed1d7b7f32538d9872ff3049d943445a34c67dcaa9649a7be4",
+        "sha256_in_prefix": "c545747cac7945ed1d7b7f32538d9872ff3049d943445a34c67dcaa9649a7be4",
+        "size_in_bytes": 1814
+      },
+      {
+        "_path": "lib/R/library/cli/help/cli.rdb",
+        "path_type": "hardlink",
+        "sha256": "c195b4c23e55e7aa04e5863c18c4d5fc6b8d01da9509938d3c326a0f983b8953",
+        "sha256_in_prefix": "c195b4c23e55e7aa04e5863c18c4d5fc6b8d01da9509938d3c326a0f983b8953",
+        "size_in_bytes": 337412
+      },
+      {
+        "_path": "lib/R/library/cli/help/cli.rdx",
+        "path_type": "hardlink",
+        "sha256": "637076e8ec26b24a13d09ddb166409e12b42567158f3618b67ac8ef3a13b0a67",
+        "sha256_in_prefix": "637076e8ec26b24a13d09ddb166409e12b42567158f3618b67ac8ef3a13b0a67",
+        "size_in_bytes": 2442
+      },
+      {
+        "_path": "lib/R/library/cli/help/figures/alert-danger.svg",
+        "path_type": "hardlink",
+        "sha256": "66609f20aa0a74f0f25cff2358e62d4590b49f030deeb8ab7e830555279c20b6",
+        "sha256_in_prefix": "66609f20aa0a74f0f25cff2358e62d4590b49f030deeb8ab7e830555279c20b6",
+        "size_in_bytes": 1483
+      },
+      {
+        "_path": "lib/R/library/cli/help/figures/alert-info.svg",
+        "path_type": "hardlink",
+        "sha256": "9f59a2496bd1899a2def819a9e93ee9cc97261d7aba1f96315b26b98fbdcb996",
+        "sha256_in_prefix": "9f59a2496bd1899a2def819a9e93ee9cc97261d7aba1f96315b26b98fbdcb996",
+        "size_in_bytes": 1372
+      },
+      {
+        "_path": "lib/R/library/cli/help/figures/alert-success.svg",
+        "path_type": "hardlink",
+        "sha256": "5c5867d6742bdb0899ad347d0f73309258b87cd0c6eacdb8b88cf86d43109902",
+        "sha256_in_prefix": "5c5867d6742bdb0899ad347d0f73309258b87cd0c6eacdb8b88cf86d43109902",
+        "size_in_bytes": 1414
+      },
+      {
+        "_path": "lib/R/library/cli/help/figures/alert-warning.svg",
+        "path_type": "hardlink",
+        "sha256": "7eda4c2d9718c96c5cd2ca26bde8c906f3f493cd174001d581a6b71997536af3",
+        "sha256_in_prefix": "7eda4c2d9718c96c5cd2ca26bde8c906f3f493cd174001d581a6b71997536af3",
+        "size_in_bytes": 1472
+      },
+      {
+        "_path": "lib/R/library/cli/help/figures/alert-wrap.svg",
+        "path_type": "hardlink",
+        "sha256": "11e043d06eae03eb5061a0ef91f3201bf588bacdeabe5cdff8a44be457faa09a",
+        "sha256_in_prefix": "11e043d06eae03eb5061a0ef91f3201bf588bacdeabe5cdff8a44be457faa09a",
+        "size_in_bytes": 4060
+      },
+      {
+        "_path": "lib/R/library/cli/help/figures/ansi-align-center.svg",
+        "path_type": "hardlink",
+        "sha256": "3b78cc6ad3cb6d7039303babcd2561e9ee5dad5e5b001a1222b777549f00a89a",
+        "sha256_in_prefix": "3b78cc6ad3cb6d7039303babcd2561e9ee5dad5e5b001a1222b777549f00a89a",
+        "size_in_bytes": 2043
+      },
+      {
+        "_path": "lib/R/library/cli/help/figures/ansi-align-right.svg",
+        "path_type": "hardlink",
+        "sha256": "cb1aeb9c5c8f6023ea0ae4a7d267390eb92576d682e39bd59b169c5464d69e4e",
+        "sha256_in_prefix": "cb1aeb9c5c8f6023ea0ae4a7d267390eb92576d682e39bd59b169c5464d69e4e",
+        "size_in_bytes": 2043
+      },
+      {
+        "_path": "lib/R/library/cli/help/figures/ansi-align.svg",
+        "path_type": "hardlink",
+        "sha256": "21c997e8356d061f552da53ad4b088bd3e8600703abfe568ca188f8ea18505ca",
+        "sha256_in_prefix": "21c997e8356d061f552da53ad4b088bd3e8600703abfe568ca188f8ea18505ca",
+        "size_in_bytes": 2003
+      },
+      {
+        "_path": "lib/R/library/cli/help/figures/ansi-column.svg",
+        "path_type": "hardlink",
+        "sha256": "aaf18f33d3c90fdb6cb682b22154881a24805724b9c6401255d89598fc461d12",
+        "sha256_in_prefix": "aaf18f33d3c90fdb6cb682b22154881a24805724b9c6401255d89598fc461d12",
+        "size_in_bytes": 2883
+      },
+      {
+        "_path": "lib/R/library/cli/help/figures/box-bg-color.svg",
+        "path_type": "hardlink",
+        "sha256": "ac1d19b425d817dea3cb8c52f1563fed312d5f4d36c4e0574d2105289fc73d32",
+        "sha256_in_prefix": "ac1d19b425d817dea3cb8c52f1563fed312d5f4d36c4e0574d2105289fc73d32",
+        "size_in_bytes": 2537
+      },
+      {
+        "_path": "lib/R/library/cli/help/figures/box-border-color.svg",
+        "path_type": "hardlink",
+        "sha256": "b5ed527bff534fc6de0dcb90c6aed99d4174a1701cb11ed78425103a006c7a35",
+        "sha256_in_prefix": "b5ed527bff534fc6de0dcb90c6aed99d4174a1701cb11ed78425103a006c7a35",
+        "size_in_bytes": 2277
+      },
+      {
+        "_path": "lib/R/library/cli/help/figures/box-border.svg",
+        "path_type": "hardlink",
+        "sha256": "4773c8ba2bbeaafda09b9ae7b2293aad40d8c1976eb0f02755fb64dbd6acb964",
+        "sha256_in_prefix": "4773c8ba2bbeaafda09b9ae7b2293aad40d8c1976eb0f02755fb64dbd6acb964",
+        "size_in_bytes": 1537
+      },
+      {
+        "_path": "lib/R/library/cli/help/figures/box-custom.svg",
+        "path_type": "hardlink",
+        "sha256": "beb7dda4e86ab895111b60dd899a075069cf40714488470422368fc88c736993",
+        "sha256_in_prefix": "beb7dda4e86ab895111b60dd899a075069cf40714488470422368fc88c736993",
+        "size_in_bytes": 2581
+      },
+      {
+        "_path": "lib/R/library/cli/help/figures/box-default.svg",
+        "path_type": "hardlink",
+        "sha256": "d3ce1f90ffca6ea38265bdcf4652cd4fbe63f034aabca64a9987e378dd562955",
+        "sha256_in_prefix": "d3ce1f90ffca6ea38265bdcf4652cd4fbe63f034aabca64a9987e378dd562955",
+        "size_in_bytes": 1537
+      },
+      {
+        "_path": "lib/R/library/cli/help/figures/box-float.svg",
+        "path_type": "hardlink",
+        "sha256": "44fab9d9f60fc3aadcc8340a04e99d436a9a0c272805f90190db5b9db7c76784",
+        "sha256_in_prefix": "44fab9d9f60fc3aadcc8340a04e99d436a9a0c272805f90190db5b9db7c76784",
+        "size_in_bytes": 2264
+      },
+      {
+        "_path": "lib/R/library/cli/help/figures/box-label-align.svg",
+        "path_type": "hardlink",
+        "sha256": "98c1d882724b82b635c9dfb579d67e33965e4ef4f86dd176c54aa91300a2bdbc",
+        "sha256_in_prefix": "98c1d882724b82b635c9dfb579d67e33965e4ef4f86dd176c54aa91300a2bdbc",
+        "size_in_bytes": 2840
+      },
+      {
+        "_path": "lib/R/library/cli/help/figures/box-lines.svg",
+        "path_type": "hardlink",
+        "sha256": "3016bd2e03196eef70f45bdc46c60c385d91ea3ea5a0b30864b9db51ef0d9575",
+        "sha256_in_prefix": "3016bd2e03196eef70f45bdc46c60c385d91ea3ea5a0b30864b9db51ef0d9575",
+        "size_in_bytes": 1554
+      },
+      {
+        "_path": "lib/R/library/cli/help/figures/box-padding.svg",
+        "path_type": "hardlink",
+        "sha256": "df62dd5a4c38d92426acb4b845f2640ff87b259f4740ddd52280be1e76faecf5",
+        "sha256_in_prefix": "df62dd5a4c38d92426acb4b845f2640ff87b259f4740ddd52280be1e76faecf5",
+        "size_in_bytes": 2220
+      },
+      {
+        "_path": "lib/R/library/cli/help/figures/box-text-color.svg",
+        "path_type": "hardlink",
+        "sha256": "bfa73e50ef50c0538e46edbc5a07a86dd2a50c8ebc32f4b34e8811a9a449f3ec",
+        "sha256_in_prefix": "bfa73e50ef50c0538e46edbc5a07a86dd2a50c8ebc32f4b34e8811a9a449f3ec",
+        "size_in_bytes": 1624
+      },
+      {
+        "_path": "lib/R/library/cli/help/figures/builtin-theme.svg",
+        "path_type": "hardlink",
+        "sha256": "55ed66c73ef502d782a0acc0dca007b6d3db73bf2b220bd357dc5e0f0418f4ff",
+        "sha256_in_prefix": "55ed66c73ef502d782a0acc0dca007b6d3db73bf2b220bd357dc5e0f0418f4ff",
+        "size_in_bytes": 6854
+      },
+      {
+        "_path": "lib/R/library/cli/help/figures/cli-abort-2.svg",
+        "path_type": "hardlink",
+        "sha256": "9a196e800f1a934e52504ebb6ced5263ac5bb829167572c4595579306eeaf3c9",
+        "sha256_in_prefix": "9a196e800f1a934e52504ebb6ced5263ac5bb829167572c4595579306eeaf3c9",
+        "size_in_bytes": 2598
+      },
+      {
+        "_path": "lib/R/library/cli/help/figures/cli-abort.svg",
+        "path_type": "hardlink",
+        "sha256": "55266197af482bcabf0b60171fcc72f2643d7b5061ceabf9a4536a76922f58e2",
+        "sha256_in_prefix": "55266197af482bcabf0b60171fcc72f2643d7b5061ceabf9a4536a76922f58e2",
+        "size_in_bytes": 2464
+      },
+      {
+        "_path": "lib/R/library/cli/help/figures/cli-blockquote.svg",
+        "path_type": "hardlink",
+        "sha256": "9c59dc94807b9037b3e24401297e55b8dd65486dc6c2907dc6ec544e559300e9",
+        "sha256_in_prefix": "9c59dc94807b9037b3e24401297e55b8dd65486dc6c2907dc6ec544e559300e9",
+        "size_in_bytes": 3652
+      },
+      {
+        "_path": "lib/R/library/cli/help/figures/cli-bullets.svg",
+        "path_type": "hardlink",
+        "sha256": "92131ccfe58a3758cefda992009aec1cf2c56a4006e1f57be356e46e90832665",
+        "sha256_in_prefix": "92131ccfe58a3758cefda992009aec1cf2c56a4006e1f57be356e46e90832665",
+        "size_in_bytes": 1815
+      },
+      {
+        "_path": "lib/R/library/cli/help/figures/cli-cli.svg",
+        "path_type": "hardlink",
+        "sha256": "cd25f1845afa66b564aa96d3362b81700e0af6760e6d365127fa70fd063585fe",
+        "sha256_in_prefix": "cd25f1845afa66b564aa96d3362b81700e0af6760e6d365127fa70fd063585fe",
+        "size_in_bytes": 1879
+      },
+      {
+        "_path": "lib/R/library/cli/help/figures/cli-code.svg",
+        "path_type": "hardlink",
+        "sha256": "aeed8ed5042f20c3d2cb33bbd1aacfc68cccf6a576e979f184fa269aa44911cf",
+        "sha256_in_prefix": "aeed8ed5042f20c3d2cb33bbd1aacfc68cccf6a576e979f184fa269aa44911cf",
+        "size_in_bytes": 2212
+      },
+      {
+        "_path": "lib/R/library/cli/help/figures/cli-div-close.svg",
+        "path_type": "hardlink",
+        "sha256": "5bf5d4ea149e798f4cda26ba521353d4a609ccd7baa15074f81953c07341b593",
+        "sha256_in_prefix": "5bf5d4ea149e798f4cda26ba521353d4a609ccd7baa15074f81953c07341b593",
+        "size_in_bytes": 1518
+      },
+      {
+        "_path": "lib/R/library/cli/help/figures/cli-div.svg",
+        "path_type": "hardlink",
+        "sha256": "af4f71163e1f5b92cec001c04b84421780d7508c6bbf69b152ad52249bb615b8",
+        "sha256_in_prefix": "af4f71163e1f5b92cec001c04b84421780d7508c6bbf69b152ad52249bb615b8",
+        "size_in_bytes": 1112
+      },
+      {
+        "_path": "lib/R/library/cli/help/figures/cli-dl-2.svg",
+        "path_type": "hardlink",
+        "sha256": "f2c623c9a110976cd253e45f47d16e763f815de65a9effb0a4be7d2539ec7f01",
+        "sha256_in_prefix": "f2c623c9a110976cd253e45f47d16e763f815de65a9effb0a4be7d2539ec7f01",
+        "size_in_bytes": 1278
+      },
+      {
+        "_path": "lib/R/library/cli/help/figures/cli-dl.svg",
+        "path_type": "hardlink",
+        "sha256": "707e3e14b7b761a37947c38d0490ce8e98e44b7eea34293deb63598780f6757e",
+        "sha256_in_prefix": "707e3e14b7b761a37947c38d0490ce8e98e44b7eea34293deb63598780f6757e",
+        "size_in_bytes": 1219
+      },
+      {
+        "_path": "lib/R/library/cli/help/figures/cli-end-debug.svg",
+        "path_type": "hardlink",
+        "sha256": "3ffebf09d87c453b76b975236b7a2d4a62846dcfdaab7854ba0ee87d4043fe7d",
+        "sha256_in_prefix": "3ffebf09d87c453b76b975236b7a2d4a62846dcfdaab7854ba0ee87d4043fe7d",
+        "size_in_bytes": 1564
+      },
+      {
+        "_path": "lib/R/library/cli/help/figures/cli-end-many.svg",
+        "path_type": "hardlink",
+        "sha256": "e193ebc422b21cbdacfaa6039a32882474f83b219f3b05406406add0a6efb86b",
+        "sha256_in_prefix": "e193ebc422b21cbdacfaa6039a32882474f83b219f3b05406406add0a6efb86b",
+        "size_in_bytes": 1732
+      },
+      {
+        "_path": "lib/R/library/cli/help/figures/cli-end-noid.svg",
+        "path_type": "hardlink",
+        "sha256": "bf29a432dd504b26a18049700029ee8dbfb9ea433d3084fd8506413806bbc7fd",
+        "sha256_in_prefix": "bf29a432dd504b26a18049700029ee8dbfb9ea433d3084fd8506413806bbc7fd",
+        "size_in_bytes": 1168
+      },
+      {
+        "_path": "lib/R/library/cli/help/figures/cli-end.svg",
+        "path_type": "hardlink",
+        "sha256": "08fac2501d11d8bafeeb7373f4e89688dc932c1ac32135fece4b77e58825a3ef",
+        "sha256_in_prefix": "08fac2501d11d8bafeeb7373f4e89688dc932c1ac32135fece4b77e58825a3ef",
+        "size_in_bytes": 1170
+      },
+      {
+        "_path": "lib/R/library/cli/help/figures/cli-format-class.svg",
+        "path_type": "hardlink",
+        "sha256": "89ea036bc9ade5d05cf292de67ca687c5bf892154f89cc2e0122e79ea2fe87a6",
+        "sha256_in_prefix": "89ea036bc9ade5d05cf292de67ca687c5bf892154f89cc2e0122e79ea2fe87a6",
+        "size_in_bytes": 1343
+      },
+      {
+        "_path": "lib/R/library/cli/help/figures/cli-format-default.svg",
+        "path_type": "hardlink",
+        "sha256": "ae53545dc4ea8431f9dedfea0e1e977f014ee08a337db3f470e6877de26e17c3",
+        "sha256_in_prefix": "ae53545dc4ea8431f9dedfea0e1e977f014ee08a337db3f470e6877de26e17c3",
+        "size_in_bytes": 1368
+      },
+      {
+        "_path": "lib/R/library/cli/help/figures/cli-format-num.svg",
+        "path_type": "hardlink",
+        "sha256": "dba57a4a4aaaa6763888a31f5f2f140ce6a84794e3839e1e19a730ad17c3aee3",
+        "sha256_in_prefix": "dba57a4a4aaaa6763888a31f5f2f140ce6a84794e3839e1e19a730ad17c3aee3",
+        "size_in_bytes": 1643
+      },
+      {
+        "_path": "lib/R/library/cli/help/figures/cli-format-theme.svg",
+        "path_type": "hardlink",
+        "sha256": "9cf580b7f2ea905ae7cb80b016b933f0eb24d1552694066221c4361b5602dfe8",
+        "sha256_in_prefix": "9cf580b7f2ea905ae7cb80b016b933f0eb24d1552694066221c4361b5602dfe8",
+        "size_in_bytes": 1521
+      },
+      {
+        "_path": "lib/R/library/cli/help/figures/cli-h1.svg",
+        "path_type": "hardlink",
+        "sha256": "9b5d6ce1e01ef662a4d7add4138ad5cb99b7684047b3b5d81de581874d4de6b2",
+        "sha256_in_prefix": "9b5d6ce1e01ef662a4d7add4138ad5cb99b7684047b3b5d81de581874d4de6b2",
+        "size_in_bytes": 1903
+      },
+      {
+        "_path": "lib/R/library/cli/help/figures/cli-li.svg",
+        "path_type": "hardlink",
+        "sha256": "65a2baec6a9d52f390e640274bb585f5066b70b59aef24a6e939774dc94a51e1",
+        "sha256_in_prefix": "65a2baec6a9d52f390e640274bb585f5066b70b59aef24a6e939774dc94a51e1",
+        "size_in_bytes": 1492
+      },
+      {
+        "_path": "lib/R/library/cli/help/figures/cli-ol-2.svg",
+        "path_type": "hardlink",
+        "sha256": "65a49e595a8be2396e4dc0e1e3ac3c49fd072c900fcd0ab50c96437adb75555f",
+        "sha256_in_prefix": "65a49e595a8be2396e4dc0e1e3ac3c49fd072c900fcd0ab50c96437adb75555f",
+        "size_in_bytes": 1275
+      },
+      {
+        "_path": "lib/R/library/cli/help/figures/cli-ol-3.svg",
+        "path_type": "hardlink",
+        "sha256": "0516df2e1bd0e62ccb22617b4018fa62d6be323f81821eac504f3b71d74b1d19",
+        "sha256_in_prefix": "0516df2e1bd0e62ccb22617b4018fa62d6be323f81821eac504f3b71d74b1d19",
+        "size_in_bytes": 1458
+      },
+      {
+        "_path": "lib/R/library/cli/help/figures/cli-ol.svg",
+        "path_type": "hardlink",
+        "sha256": "6d6848e2db4892bfbf32f3ede5184db3c7b7ba2efe7771ea40a938ac56e2157a",
+        "sha256_in_prefix": "6d6848e2db4892bfbf32f3ede5184db3c7b7ba2efe7771ea40a938ac56e2157a",
+        "size_in_bytes": 1216
+      },
+      {
+        "_path": "lib/R/library/cli/help/figures/cli-par.svg",
+        "path_type": "hardlink",
+        "sha256": "2bb22132d4c1918931d3ebc5b06a0b84bd5dab01626decd1aa399677670da7f5",
+        "sha256_in_prefix": "2bb22132d4c1918931d3ebc5b06a0b84bd5dab01626decd1aa399677670da7f5",
+        "size_in_bytes": 7706
+      },
+      {
+        "_path": "lib/R/library/cli/help/figures/cli-rule-line-type.svg",
+        "path_type": "hardlink",
+        "sha256": "519d00f45124ad53b3efc8a04f2d27c5f82107e6a724455928f6e5c0c12967ce",
+        "sha256_in_prefix": "519d00f45124ad53b3efc8a04f2d27c5f82107e6a724455928f6e5c0c12967ce",
+        "size_in_bytes": 1394
+      },
+      {
+        "_path": "lib/R/library/cli/help/figures/cli-rule.svg",
+        "path_type": "hardlink",
+        "sha256": "b8135439b253abaff25ddf55e6f00783de920bdd591aacad63e2ea687ee50687",
+        "sha256_in_prefix": "b8135439b253abaff25ddf55e6f00783de920bdd591aacad63e2ea687ee50687",
+        "size_in_bytes": 1354
+      },
+      {
+        "_path": "lib/R/library/cli/help/figures/cli-text-concat.svg",
+        "path_type": "hardlink",
+        "sha256": "d009d05d901f8f998787da4abbbbc48fe9d38e83e23335c4f00be3da42396a4d",
+        "sha256_in_prefix": "d009d05d901f8f998787da4abbbbc48fe9d38e83e23335c4f00be3da42396a4d",
+        "size_in_bytes": 1265
+      },
+      {
+        "_path": "lib/R/library/cli/help/figures/cli-text-containers.svg",
+        "path_type": "hardlink",
+        "sha256": "5a34e6db0cadf5caa8fed602307263cd034f7cb82a00667c004871c2c55d3eec",
+        "sha256_in_prefix": "5a34e6db0cadf5caa8fed602307263cd034f7cb82a00667c004871c2c55d3eec",
+        "size_in_bytes": 1735
+      },
+      {
+        "_path": "lib/R/library/cli/help/figures/cli-text-glue-style.svg",
+        "path_type": "hardlink",
+        "sha256": "8b3217749d14fc7ef827c70dd2cdfdac59b0e47bf458810639995ef85a46bca3",
+        "sha256_in_prefix": "8b3217749d14fc7ef827c70dd2cdfdac59b0e47bf458810639995ef85a46bca3",
+        "size_in_bytes": 1481
+      },
+      {
+        "_path": "lib/R/library/cli/help/figures/cli-text-glue.svg",
+        "path_type": "hardlink",
+        "sha256": "c9f3fcdcfb52aba1d7f0a75f17bae902ad1c346272709dde198c979eb2a09ad4",
+        "sha256_in_prefix": "c9f3fcdcfb52aba1d7f0a75f17bae902ad1c346272709dde198c979eb2a09ad4",
+        "size_in_bytes": 1476
+      },
+      {
+        "_path": "lib/R/library/cli/help/figures/cli-text-markup.svg",
+        "path_type": "hardlink",
+        "sha256": "abb30ada7d7cdccadb7d5ee0113e60470345f2a860e8b231ba6fa7751ef41aa7",
+        "sha256_in_prefix": "abb30ada7d7cdccadb7d5ee0113e60470345f2a860e8b231ba6fa7751ef41aa7",
+        "size_in_bytes": 1481
+      },
+      {
+        "_path": "lib/R/library/cli/help/figures/cli-text-newline.svg",
+        "path_type": "hardlink",
+        "sha256": "0da93668688c3572d4a6a620348b80c2c66cc8f05a47e8cbc0c9ac15f5faf140",
+        "sha256_in_prefix": "0da93668688c3572d4a6a620348b80c2c66cc8f05a47e8cbc0c9ac15f5faf140",
+        "size_in_bytes": 1185
+      },
+      {
+        "_path": "lib/R/library/cli/help/figures/cli-text.svg",
+        "path_type": "hardlink",
+        "sha256": "b0996da6fa034bed9a16bda7212c6005219e6bff5adef96f6f347f0b08378bb1",
+        "sha256_in_prefix": "b0996da6fa034bed9a16bda7212c6005219e6bff5adef96f6f347f0b08378bb1",
+        "size_in_bytes": 3625
+      },
+      {
+        "_path": "lib/R/library/cli/help/figures/cli-ul-2.svg",
+        "path_type": "hardlink",
+        "sha256": "0467365c1b3f3d5c21baa1629c9a79c0a4d9d22260fb58af1a4f6697db83b845",
+        "sha256_in_prefix": "0467365c1b3f3d5c21baa1629c9a79c0a4d9d22260fb58af1a4f6697db83b845",
+        "size_in_bytes": 1278
+      },
+      {
+        "_path": "lib/R/library/cli/help/figures/cli-ul.svg",
+        "path_type": "hardlink",
+        "sha256": "0a33ab234d306660d50f23e1580f8a7a89241a9ed0c06d1d9144d3c58852914c",
+        "sha256_in_prefix": "0a33ab234d306660d50f23e1580f8a7a89241a9ed0c06d1d9144d3c58852914c",
+        "size_in_bytes": 1219
+      },
+      {
+        "_path": "lib/R/library/cli/help/figures/cli-vec-2.svg",
+        "path_type": "hardlink",
+        "sha256": "ffdad3c7a6194374186af35fea49aa6780716f77a5c7c7f936428db31248a966",
+        "sha256_in_prefix": "ffdad3c7a6194374186af35fea49aa6780716f77a5c7c7f936428db31248a966",
+        "size_in_bytes": 1295
+      },
+      {
+        "_path": "lib/R/library/cli/help/figures/cli-vec.svg",
+        "path_type": "hardlink",
+        "sha256": "a3f7edc69718bad96205971793df9a9a58531b120fecd7e95017bbfa8d65f4c9",
+        "sha256_in_prefix": "a3f7edc69718bad96205971793df9a9a58531b120fecd7e95017bbfa8d65f4c9",
+        "size_in_bytes": 1338
+      },
+      {
+        "_path": "lib/R/library/cli/help/figures/cli-verbatim-2.svg",
+        "path_type": "hardlink",
+        "sha256": "e813d835dc24c15628ba28affa2500b100ee31df118cc1fea88263dafcea2430",
+        "sha256_in_prefix": "e813d835dc24c15628ba28affa2500b100ee31df118cc1fea88263dafcea2430",
+        "size_in_bytes": 1327
+      },
+      {
+        "_path": "lib/R/library/cli/help/figures/cli-verbatim.svg",
+        "path_type": "hardlink",
+        "sha256": "b9ad65b7ad0a3529698849c4311cc8b55e10aaa30b9131650071903ec0792156",
+        "sha256_in_prefix": "b9ad65b7ad0a3529698849c4311cc8b55e10aaa30b9131650071903ec0792156",
+        "size_in_bytes": 1117
+      },
+      {
+        "_path": "lib/R/library/cli/help/figures/cnt-auto-close.svg",
+        "path_type": "hardlink",
+        "sha256": "5bf5d4ea149e798f4cda26ba521353d4a609ccd7baa15074f81953c07341b593",
+        "sha256_in_prefix": "5bf5d4ea149e798f4cda26ba521353d4a609ccd7baa15074f81953c07341b593",
+        "size_in_bytes": 1518
+      },
+      {
+        "_path": "lib/R/library/cli/help/figures/cnt-debug.svg",
+        "path_type": "hardlink",
+        "sha256": "25d8c0093057bd64bfc15676dbadbf2da06f09a1b423e1a670cd3efd10d2d4ee",
+        "sha256_in_prefix": "25d8c0093057bd64bfc15676dbadbf2da06f09a1b423e1a670cd3efd10d2d4ee",
+        "size_in_bytes": 1537
+      },
+      {
+        "_path": "lib/R/library/cli/help/figures/cnt-theme.svg",
+        "path_type": "hardlink",
+        "sha256": "4ea2b591cd1395a28c872682add8c770ddfd30261f1efeb2ecfddb4cf6ac70df",
+        "sha256_in_prefix": "4ea2b591cd1395a28c872682add8c770ddfd30261f1efeb2ecfddb4cf6ac70df",
+        "size_in_bytes": 1112
+      },
+      {
+        "_path": "lib/R/library/cli/help/figures/demo-spinners.svg",
+        "path_type": "hardlink",
+        "sha256": "9c0fe8d27e1b440fe476feb6e13422fc98b7d89ba734c61380a4950021a61895",
+        "sha256_in_prefix": "9c0fe8d27e1b440fe476feb6e13422fc98b7d89ba734c61380a4950021a61895",
+        "size_in_bytes": 5387
+      },
+      {
+        "_path": "lib/R/library/cli/help/figures/format-error-2.svg",
+        "path_type": "hardlink",
+        "sha256": "9cc951ef908ede8b3d1aee0826447784bfca31187ac5f25352b25dc980397de3",
+        "sha256_in_prefix": "9cc951ef908ede8b3d1aee0826447784bfca31187ac5f25352b25dc980397de3",
+        "size_in_bytes": 2100
+      },
+      {
+        "_path": "lib/R/library/cli/help/figures/format-error.svg",
+        "path_type": "hardlink",
+        "sha256": "97e3b3ecea9c3f61363aecf6b987e51d39cef55ab73af4c2e6104ac8eb4e9e76",
+        "sha256_in_prefix": "97e3b3ecea9c3f61363aecf6b987e51d39cef55ab73af4c2e6104ac8eb4e9e76",
+        "size_in_bytes": 2037
+      },
+      {
+        "_path": "lib/R/library/cli/help/figures/get-spinner.svg",
+        "path_type": "hardlink",
+        "sha256": "40561157a7f7c532450d995c1eb0ebbbab125a5a5c973dbbaa0e1b0f9160ac10",
+        "sha256_in_prefix": "40561157a7f7c532450d995c1eb0ebbbab125a5a5c973dbbaa0e1b0f9160ac10",
+        "size_in_bytes": 23940
+      },
+      {
+        "_path": "lib/R/library/cli/help/figures/inline-collapse-2.svg",
+        "path_type": "hardlink",
+        "sha256": "f292f762b731305b49b1325a14daeed3a2e6f41dc8fbf30e4ea4cfeaca519bc8",
+        "sha256_in_prefix": "f292f762b731305b49b1325a14daeed3a2e6f41dc8fbf30e4ea4cfeaca519bc8",
+        "size_in_bytes": 1456
+      },
+      {
+        "_path": "lib/R/library/cli/help/figures/inline-collapse-trunc.svg",
+        "path_type": "hardlink",
+        "sha256": "cce4a3a088b5936fa49ed325d05577a6d66de40b1eb08ad4603252a0a35e5047",
+        "sha256_in_prefix": "cce4a3a088b5936fa49ed325d05577a6d66de40b1eb08ad4603252a0a35e5047",
+        "size_in_bytes": 1388
+      },
+      {
+        "_path": "lib/R/library/cli/help/figures/inline-collapse.svg",
+        "path_type": "hardlink",
+        "sha256": "426fa02672d638864007e398f64120afb9d8da9497fbc2753f75a7a54e4efc34",
+        "sha256_in_prefix": "426fa02672d638864007e398f64120afb9d8da9497fbc2753f75a7a54e4efc34",
+        "size_in_bytes": 1765
+      },
+      {
+        "_path": "lib/R/library/cli/help/figures/inline-escape-2.svg",
+        "path_type": "hardlink",
+        "sha256": "7d1c1a280e1aef285d1cecdd1557cf4ed1b98eef38b8697aeecf5384b40260a8",
+        "sha256_in_prefix": "7d1c1a280e1aef285d1cecdd1557cf4ed1b98eef38b8697aeecf5384b40260a8",
+        "size_in_bytes": 1335
+      },
+      {
+        "_path": "lib/R/library/cli/help/figures/inline-escape.svg",
+        "path_type": "hardlink",
+        "sha256": "d8b506105ca350396a25bb8b1992d09bdccc4ad5dde5d6958fc413b13ae7ad78",
+        "sha256_in_prefix": "d8b506105ca350396a25bb8b1992d09bdccc4ad5dde5d6958fc413b13ae7ad78",
+        "size_in_bytes": 1590
+      },
+      {
+        "_path": "lib/R/library/cli/help/figures/inline-examples.svg",
+        "path_type": "hardlink",
+        "sha256": "4e9f65799e29cde28071170f9b8e643733308318bf3f13f4669de183bab2350f",
+        "sha256_in_prefix": "4e9f65799e29cde28071170f9b8e643733308318bf3f13f4669de183bab2350f",
+        "size_in_bytes": 4540
+      },
+      {
+        "_path": "lib/R/library/cli/help/figures/inline-newclass.svg",
+        "path_type": "hardlink",
+        "sha256": "224c87f4d336af47f1276c1206416b4627ef2f93785b5f75de5856a1522fdb3b",
+        "sha256_in_prefix": "224c87f4d336af47f1276c1206416b4627ef2f93785b5f75de5856a1522fdb3b",
+        "size_in_bytes": 1307
+      },
+      {
+        "_path": "lib/R/library/cli/help/figures/inline-plural.svg",
+        "path_type": "hardlink",
+        "sha256": "c10aec604a932dab18447cf70924a2c4f5006796ca9ce30d0f3d54f39e4fcdc4",
+        "sha256_in_prefix": "c10aec604a932dab18447cf70924a2c4f5006796ca9ce30d0f3d54f39e4fcdc4",
+        "size_in_bytes": 2026
+      },
+      {
+        "_path": "lib/R/library/cli/help/figures/inline-text-2.svg",
+        "path_type": "hardlink",
+        "sha256": "ce2379e2f2d6527d5a1905f1def7454bade218dfde529ec28bbe310ed9ff358b",
+        "sha256_in_prefix": "ce2379e2f2d6527d5a1905f1def7454bade218dfde529ec28bbe310ed9ff358b",
+        "size_in_bytes": 1201
+      },
+      {
+        "_path": "lib/R/library/cli/help/figures/inline-text-3.svg",
+        "path_type": "hardlink",
+        "sha256": "603d92f077a1ecfd814b081c31bbbc34a0fde68dd880a9943bf3aa62bf3bfd5e",
+        "sha256_in_prefix": "603d92f077a1ecfd814b081c31bbbc34a0fde68dd880a9943bf3aa62bf3bfd5e",
+        "size_in_bytes": 1291
+      },
+      {
+        "_path": "lib/R/library/cli/help/figures/inline-text.svg",
+        "path_type": "hardlink",
+        "sha256": "9c16554558eab6ae6ceaf2c56616ec581ba3c2306ca3d567d931c10ff595b019",
+        "sha256_in_prefix": "9c16554558eab6ae6ceaf2c56616ec581ba3c2306ca3d567d931c10ff595b019",
+        "size_in_bytes": 1205
+      },
+      {
+        "_path": "lib/R/library/cli/help/figures/make-spinner-custom.svg",
+        "path_type": "hardlink",
+        "sha256": "d53ebcf2ce8a4a3aab7eb0fa6ff2082fa7ba97a47a5047c49b6676fb7ad34a95",
+        "sha256_in_prefix": "d53ebcf2ce8a4a3aab7eb0fa6ff2082fa7ba97a47a5047c49b6676fb7ad34a95",
+        "size_in_bytes": 5188
+      },
+      {
+        "_path": "lib/R/library/cli/help/figures/make-spinner-default.svg",
+        "path_type": "hardlink",
+        "sha256": "04523f4bd14e06da7ffe64090005860e3f77202c834487d10bad8b098d475d6b",
+        "sha256_in_prefix": "04523f4bd14e06da7ffe64090005860e3f77202c834487d10bad8b098d475d6b",
+        "size_in_bytes": 8096
+      },
+      {
+        "_path": "lib/R/library/cli/help/figures/make-spinner-template.svg",
+        "path_type": "hardlink",
+        "sha256": "a7e69185c0453db5c8a33e0f418ec008a6e498b1c4a5b2dd5988b4b0d2a3ac01",
+        "sha256_in_prefix": "a7e69185c0453db5c8a33e0f418ec008a6e498b1c4a5b2dd5988b4b0d2a3ac01",
+        "size_in_bytes": 8525
+      },
+      {
+        "_path": "lib/R/library/cli/help/figures/progress-1.svg",
+        "path_type": "hardlink",
+        "sha256": "dc1a89b8f22738e38dee590f520de392a7c9e203e0c88d3715a7a33d5a983599",
+        "sha256_in_prefix": "dc1a89b8f22738e38dee590f520de392a7c9e203e0c88d3715a7a33d5a983599",
+        "size_in_bytes": 29642
+      },
+      {
+        "_path": "lib/R/library/cli/help/figures/progress-after.svg",
+        "path_type": "hardlink",
+        "sha256": "9455ff220e09b34646b1ec3c54df24075bd4b647b5a82f208102c12ccf4edd15",
+        "sha256_in_prefix": "9455ff220e09b34646b1ec3c54df24075bd4b647b5a82f208102c12ccf4edd15",
+        "size_in_bytes": 14804
+      },
+      {
+        "_path": "lib/R/library/cli/help/figures/progress-along-1.svg",
+        "path_type": "hardlink",
+        "sha256": "88e9084438d77cb004ebf1299eb69df511aa8ab8972712c06f07b7ca10de85b7",
+        "sha256_in_prefix": "88e9084438d77cb004ebf1299eb69df511aa8ab8972712c06f07b7ca10de85b7",
+        "size_in_bytes": 21120
+      },
+      {
+        "_path": "lib/R/library/cli/help/figures/progress-along-2.svg",
+        "path_type": "hardlink",
+        "sha256": "bbdcba37a42da7a266e11aca5a548950ad5fd363dd1665d4fc596f30dd2bf9fd",
+        "sha256_in_prefix": "bbdcba37a42da7a266e11aca5a548950ad5fd363dd1665d4fc596f30dd2bf9fd",
+        "size_in_bytes": 21359
+      },
+      {
+        "_path": "lib/R/library/cli/help/figures/progress-along-3.svg",
+        "path_type": "hardlink",
+        "sha256": "1d6b43670d766bb7bab570e1656f6ca54aa7679c174ef35a90f7b925a8dc6422",
+        "sha256_in_prefix": "1d6b43670d766bb7bab570e1656f6ca54aa7679c174ef35a90f7b925a8dc6422",
+        "size_in_bytes": 14021
+      },
+      {
+        "_path": "lib/R/library/cli/help/figures/progress-clear.svg",
+        "path_type": "hardlink",
+        "sha256": "103631398cf8587c1afbf396ab583e3891167987a0fbd766ad14eb615574503f",
+        "sha256_in_prefix": "103631398cf8587c1afbf396ab583e3891167987a0fbd766ad14eb615574503f",
+        "size_in_bytes": 35699
+      },
+      {
+        "_path": "lib/R/library/cli/help/figures/progress-current.svg",
+        "path_type": "hardlink",
+        "sha256": "807730a584f27efa3ab7cbf58974224213c5c228209bd2a3711253132e7cc169",
+        "sha256_in_prefix": "807730a584f27efa3ab7cbf58974224213c5c228209bd2a3711253132e7cc169",
+        "size_in_bytes": 28605
+      },
+      {
+        "_path": "lib/R/library/cli/help/figures/progress-format.svg",
+        "path_type": "hardlink",
+        "sha256": "4ce4218cff5f50716aa4a3137bd88bfcc972a18f98a473b0b2c171ff37b0304e",
+        "sha256_in_prefix": "4ce4218cff5f50716aa4a3137bd88bfcc972a18f98a473b0b2c171ff37b0304e",
+        "size_in_bytes": 5579
+      },
+      {
+        "_path": "lib/R/library/cli/help/figures/progress-message.svg",
+        "path_type": "hardlink",
+        "sha256": "240faddcad72b1e548db66d481da2ccf2b9fe3104a45a288a6c3b60fe689da7d",
+        "sha256_in_prefix": "240faddcad72b1e548db66d481da2ccf2b9fe3104a45a288a6c3b60fe689da7d",
+        "size_in_bytes": 4603
+      },
+      {
+        "_path": "lib/R/library/cli/help/figures/progress-natotal.svg",
+        "path_type": "hardlink",
+        "sha256": "17fa0f5d621c669e9bd04bde2680c9c6e546f36f257f71afc5aeefaea92833a9",
+        "sha256_in_prefix": "17fa0f5d621c669e9bd04bde2680c9c6e546f36f257f71afc5aeefaea92833a9",
+        "size_in_bytes": 19835
+      },
+      {
+        "_path": "lib/R/library/cli/help/figures/progress-output.svg",
+        "path_type": "hardlink",
+        "sha256": "f8f2097d58d61692c2d551d1366d4d191101ca98678fbc5202e238b864305ae4",
+        "sha256_in_prefix": "f8f2097d58d61692c2d551d1366d4d191101ca98678fbc5202e238b864305ae4",
+        "size_in_bytes": 27246
+      },
+      {
+        "_path": "lib/R/library/cli/help/figures/progress-output2.svg",
+        "path_type": "hardlink",
+        "sha256": "a406185dc70c22ac203eea48540eee97ec1faefd72b14376964a58ef4b6fe1f2",
+        "sha256_in_prefix": "a406185dc70c22ac203eea48540eee97ec1faefd72b14376964a58ef4b6fe1f2",
+        "size_in_bytes": 27671
+      },
+      {
+        "_path": "lib/R/library/cli/help/figures/progress-step-dynamic.svg",
+        "path_type": "hardlink",
+        "sha256": "38d2b618b8c612a529559da2aa4787d1ef898885d400cc793497dd2fc63f08e6",
+        "sha256_in_prefix": "38d2b618b8c612a529559da2aa4787d1ef898885d400cc793497dd2fc63f08e6",
+        "size_in_bytes": 23256
+      },
+      {
+        "_path": "lib/R/library/cli/help/figures/progress-step-msg.svg",
+        "path_type": "hardlink",
+        "sha256": "56fc90df5dbed2e07f4c09db8380abfb492188326f879da3d1f600f32d67a592",
+        "sha256_in_prefix": "56fc90df5dbed2e07f4c09db8380abfb492188326f879da3d1f600f32d67a592",
+        "size_in_bytes": 7699
+      },
+      {
+        "_path": "lib/R/library/cli/help/figures/progress-step-spin.svg",
+        "path_type": "hardlink",
+        "sha256": "b07438826f12447b9e48d4aae70da0bc386f735813e456342f338847d76d8697",
+        "sha256_in_prefix": "b07438826f12447b9e48d4aae70da0bc386f735813e456342f338847d76d8697",
+        "size_in_bytes": 18533
+      },
+      {
+        "_path": "lib/R/library/cli/help/figures/progress-step.svg",
+        "path_type": "hardlink",
+        "sha256": "b5b921505a593a821c67419cd80c9ce88ffcb08d843d71b6da775e47d62538d0",
+        "sha256_in_prefix": "b5b921505a593a821c67419cd80c9ce88ffcb08d843d71b6da775e47d62538d0",
+        "size_in_bytes": 5047
+      },
+      {
+        "_path": "lib/R/library/cli/help/figures/progress-style.svg",
+        "path_type": "hardlink",
+        "sha256": "ad616291cfe1ef8a7fd692b427868a4b949122373a3fca0c75104a063673302f",
+        "sha256_in_prefix": "ad616291cfe1ef8a7fd692b427868a4b949122373a3fca0c75104a063673302f",
+        "size_in_bytes": 3640
+      },
+      {
+        "_path": "lib/R/library/cli/help/figures/progress-tasks.svg",
+        "path_type": "hardlink",
+        "sha256": "635ca6cec9954f887970e574ae0d43dd5a09af4d76fb3255747ee81f468b51b9",
+        "sha256_in_prefix": "635ca6cec9954f887970e574ae0d43dd5a09af4d76fb3255747ee81f468b51b9",
+        "size_in_bytes": 2686
+      },
+      {
+        "_path": "lib/R/library/cli/help/figures/progress-var-bar.svg",
+        "path_type": "hardlink",
+        "sha256": "e230d255d0d3c113cf07030a54e07cad37878ed74e75055528a0d9af356b3f70",
+        "sha256_in_prefix": "e230d255d0d3c113cf07030a54e07cad37878ed74e75055528a0d9af356b3f70",
+        "size_in_bytes": 1263
+      },
+      {
+        "_path": "lib/R/library/cli/help/figures/progress-var-current-bytes.svg",
+        "path_type": "hardlink",
+        "sha256": "d8d4e66f57379d8cdc43ab33a8fc1426a1a2933d30ab787ca6bd1159e0edf5ca",
+        "sha256_in_prefix": "d8d4e66f57379d8cdc43ab33a8fc1426a1a2933d30ab787ca6bd1159e0edf5ca",
+        "size_in_bytes": 1210
+      },
+      {
+        "_path": "lib/R/library/cli/help/figures/progress-var-current.svg",
+        "path_type": "hardlink",
+        "sha256": "c5b1b77ab137a9b9ecfa69aeeefcc6d34185383269fcbc3d5a3f89677d3cc78a",
+        "sha256_in_prefix": "c5b1b77ab137a9b9ecfa69aeeefcc6d34185383269fcbc3d5a3f89677d3cc78a",
+        "size_in_bytes": 1163
+      },
+      {
+        "_path": "lib/R/library/cli/help/figures/progress-var-elapsed-clock.svg",
+        "path_type": "hardlink",
+        "sha256": "0c2aac51fb11a80d27980e21b6f7dcf4d125ae760c61f33cfa0f1e4aa8b4dca5",
+        "sha256_in_prefix": "0c2aac51fb11a80d27980e21b6f7dcf4d125ae760c61f33cfa0f1e4aa8b4dca5",
+        "size_in_bytes": 1218
+      },
+      {
+        "_path": "lib/R/library/cli/help/figures/progress-var-elapsed-raw.svg",
+        "path_type": "hardlink",
+        "sha256": "48929f4b7ba9a4ee1f87b86e994ab66e352fe182f5dfd2d818481109458bdf3c",
+        "sha256_in_prefix": "48929f4b7ba9a4ee1f87b86e994ab66e352fe182f5dfd2d818481109458bdf3c",
+        "size_in_bytes": 1212
+      },
+      {
+        "_path": "lib/R/library/cli/help/figures/progress-var-elapsed.svg",
+        "path_type": "hardlink",
+        "sha256": "48929f4b7ba9a4ee1f87b86e994ab66e352fe182f5dfd2d818481109458bdf3c",
+        "sha256_in_prefix": "48929f4b7ba9a4ee1f87b86e994ab66e352fe182f5dfd2d818481109458bdf3c",
+        "size_in_bytes": 1212
+      },
+      {
+        "_path": "lib/R/library/cli/help/figures/progress-var-eta-raw.svg",
+        "path_type": "hardlink",
+        "sha256": "1cbad71eee873bdd458ca5efbb0b281d5f4eb0f35874f51430219c6dceb311c1",
+        "sha256_in_prefix": "1cbad71eee873bdd458ca5efbb0b281d5f4eb0f35874f51430219c6dceb311c1",
+        "size_in_bytes": 1312
+      },
+      {
+        "_path": "lib/R/library/cli/help/figures/progress-var-eta-str.svg",
+        "path_type": "hardlink",
+        "sha256": "7f62ed11372a5f143e8b6eff9b25ab0a88b5a4addd47239b0fe035cd860f8fbd",
+        "sha256_in_prefix": "7f62ed11372a5f143e8b6eff9b25ab0a88b5a4addd47239b0fe035cd860f8fbd",
+        "size_in_bytes": 1311
+      },
+      {
+        "_path": "lib/R/library/cli/help/figures/progress-var-eta.svg",
+        "path_type": "hardlink",
+        "sha256": "7f62ed11372a5f143e8b6eff9b25ab0a88b5a4addd47239b0fe035cd860f8fbd",
+        "sha256_in_prefix": "7f62ed11372a5f143e8b6eff9b25ab0a88b5a4addd47239b0fe035cd860f8fbd",
+        "size_in_bytes": 1311
+      },
+      {
+        "_path": "lib/R/library/cli/help/figures/progress-var-extra.svg",
+        "path_type": "hardlink",
+        "sha256": "f815ddeac1e4e240f635151ebc22c0a7dc8d886ba68d4f940449e2596db5631f",
+        "sha256_in_prefix": "f815ddeac1e4e240f635151ebc22c0a7dc8d886ba68d4f940449e2596db5631f",
+        "size_in_bytes": 1358
+      },
+      {
+        "_path": "lib/R/library/cli/help/figures/progress-var-id.svg",
+        "path_type": "hardlink",
+        "sha256": "73460702f8e1666104987882d0d0b96ab8fad1f2e71d2fe2f74d2a0d80cee394",
+        "sha256_in_prefix": "73460702f8e1666104987882d0d0b96ab8fad1f2e71d2fe2f74d2a0d80cee394",
+        "size_in_bytes": 1309
+      },
+      {
+        "_path": "lib/R/library/cli/help/figures/progress-var-name.svg",
+        "path_type": "hardlink",
+        "sha256": "965ea1329533a11d937689c8a9ae75c784878d0eb2c189b3101c01263171ee46",
+        "sha256_in_prefix": "965ea1329533a11d937689c8a9ae75c784878d0eb2c189b3101c01263171ee46",
+        "size_in_bytes": 1313
+      },
+      {
+        "_path": "lib/R/library/cli/help/figures/progress-var-percent.svg",
+        "path_type": "hardlink",
+        "sha256": "dbd82cb5df5eb093b1dd4b32e549b02ec49a99a5b3af13fa0eb86219836f7c87",
+        "sha256_in_prefix": "dbd82cb5df5eb093b1dd4b32e549b02ec49a99a5b3af13fa0eb86219836f7c87",
+        "size_in_bytes": 1154
+      },
+      {
+        "_path": "lib/R/library/cli/help/figures/progress-var-rate-bytes.svg",
+        "path_type": "hardlink",
+        "sha256": "3df0f6f673edc21d16147917ddcc77c53a93fad15812a6223fbb190f32eba4e9",
+        "sha256_in_prefix": "3df0f6f673edc21d16147917ddcc77c53a93fad15812a6223fbb190f32eba4e9",
+        "size_in_bytes": 1314
+      },
+      {
+        "_path": "lib/R/library/cli/help/figures/progress-var-rate-raw.svg",
+        "path_type": "hardlink",
+        "sha256": "b21d6906fb9dfce32d568b6ee92af16c1a4d036958a782a44f2747548e52e8ee",
+        "sha256_in_prefix": "b21d6906fb9dfce32d568b6ee92af16c1a4d036958a782a44f2747548e52e8ee",
+        "size_in_bytes": 1215
+      },
+      {
+        "_path": "lib/R/library/cli/help/figures/progress-var-rate.svg",
+        "path_type": "hardlink",
+        "sha256": "b21d6906fb9dfce32d568b6ee92af16c1a4d036958a782a44f2747548e52e8ee",
+        "sha256_in_prefix": "b21d6906fb9dfce32d568b6ee92af16c1a4d036958a782a44f2747548e52e8ee",
+        "size_in_bytes": 1215
+      },
+      {
+        "_path": "lib/R/library/cli/help/figures/progress-var-status.svg",
+        "path_type": "hardlink",
+        "sha256": "3c8e85bf8efade841d12db8b0aa34f74d9ec330e7cdaf20421d293dd473a9606",
+        "sha256_in_prefix": "3c8e85bf8efade841d12db8b0aa34f74d9ec330e7cdaf20421d293dd473a9606",
+        "size_in_bytes": 1326
+      },
+      {
+        "_path": "lib/R/library/cli/help/figures/progress-var-timestamp.svg",
+        "path_type": "hardlink",
+        "sha256": "6240c5f8994a91d28ba9da82a453b70e94c1d7157ce889f489b8edbc65a7f50b",
+        "sha256_in_prefix": "6240c5f8994a91d28ba9da82a453b70e94c1d7157ce889f489b8edbc65a7f50b",
+        "size_in_bytes": 1136
+      },
+      {
+        "_path": "lib/R/library/cli/help/figures/rule-bars.svg",
+        "path_type": "hardlink",
+        "sha256": "3b8a2ba627ca361b272a9c3770cc7a6e5293c9f9e11f56702a26899bad1e06be",
+        "sha256_in_prefix": "3b8a2ba627ca361b272a9c3770cc7a6e5293c9f9e11f56702a26899bad1e06be",
+        "size_in_bytes": 1474
+      },
+      {
+        "_path": "lib/R/library/cli/help/figures/rule-center-label.svg",
+        "path_type": "hardlink",
+        "sha256": "1eabac4a5faf53ce48dafe47a01f7b1a77cc4447689dc0adfb11717b19ee6e49",
+        "sha256_in_prefix": "1eabac4a5faf53ce48dafe47a01f7b1a77cc4447689dc0adfb11717b19ee6e49",
+        "size_in_bytes": 1361
+      },
+      {
+        "_path": "lib/R/library/cli/help/figures/rule-colored-label.svg",
+        "path_type": "hardlink",
+        "sha256": "9a51965747ae32ca509b2f4d7f5b16cdca06a7c6577d30d3f2442ac72e79ae75",
+        "sha256_in_prefix": "9a51965747ae32ca509b2f4d7f5b16cdca06a7c6577d30d3f2442ac72e79ae75",
+        "size_in_bytes": 1402
+      },
+      {
+        "_path": "lib/R/library/cli/help/figures/rule-colored-line.svg",
+        "path_type": "hardlink",
+        "sha256": "2e0e0254312649e2f96d94e07e209282bec1e9db3ea00e69fc7838903827cc7a",
+        "sha256_in_prefix": "2e0e0254312649e2f96d94e07e209282bec1e9db3ea00e69fc7838903827cc7a",
+        "size_in_bytes": 1361
+      },
+      {
+        "_path": "lib/R/library/cli/help/figures/rule-custom-line-2.svg",
+        "path_type": "hardlink",
+        "sha256": "aa2a3f724bf33a1f1d2eaeb41cc6215ae53c71749e2befbcbf23d821ead2100e",
+        "sha256_in_prefix": "aa2a3f724bf33a1f1d2eaeb41cc6215ae53c71749e2befbcbf23d821ead2100e",
+        "size_in_bytes": 1223
+      },
+      {
+        "_path": "lib/R/library/cli/help/figures/rule-custom-line-3.svg",
+        "path_type": "hardlink",
+        "sha256": "f621d375053af0f75d59f81b9f6a29469daeda971936f0000632fa935e77884a",
+        "sha256_in_prefix": "f621d375053af0f75d59f81b9f6a29469daeda971936f0000632fa935e77884a",
+        "size_in_bytes": 1433
+      },
+      {
+        "_path": "lib/R/library/cli/help/figures/rule-custom-line.svg",
+        "path_type": "hardlink",
+        "sha256": "703e2ab2e2a99945ab3eef269861e73c5410e1a54e728c5df7356dc9e598919a",
+        "sha256_in_prefix": "703e2ab2e2a99945ab3eef269861e73c5410e1a54e728c5df7356dc9e598919a",
+        "size_in_bytes": 1182
+      },
+      {
+        "_path": "lib/R/library/cli/help/figures/rule-double.svg",
+        "path_type": "hardlink",
+        "sha256": "1c2d381dcc02cc5181a55b29fc139a38b03d6d2d0d0c3c0a9f49bef82d801969",
+        "sha256_in_prefix": "1c2d381dcc02cc5181a55b29fc139a38b03d6d2d0d0c3c0a9f49bef82d801969",
+        "size_in_bytes": 1214
+      },
+      {
+        "_path": "lib/R/library/cli/help/figures/rule-left-label.svg",
+        "path_type": "hardlink",
+        "sha256": "3e925b5584d6ca0b5d3daa957b6a0539832034ec0cdeacb343c861cfd10e33ed",
+        "sha256_in_prefix": "3e925b5584d6ca0b5d3daa957b6a0539832034ec0cdeacb343c861cfd10e33ed",
+        "size_in_bytes": 1291
+      },
+      {
+        "_path": "lib/R/library/cli/help/figures/rule-simple.svg",
+        "path_type": "hardlink",
+        "sha256": "198aa2ac53127bd9556f7f54658080506dab1458b4c18fd91184bbdce4311d1b",
+        "sha256_in_prefix": "198aa2ac53127bd9556f7f54658080506dab1458b4c18fd91184bbdce4311d1b",
+        "size_in_bytes": 1214
+      },
+      {
+        "_path": "lib/R/library/cli/help/figures/simple-theme.svg",
+        "path_type": "hardlink",
+        "sha256": "26bc768ad355ad20b14fb95dd6060cb94fea2a0f3f406a3af7fb7bb653587443",
+        "sha256_in_prefix": "26bc768ad355ad20b14fb95dd6060cb94fea2a0f3f406a3af7fb7bb653587443",
+        "size_in_bytes": 6967
+      },
+      {
+        "_path": "lib/R/library/cli/help/figures/spark-bar-1.svg",
+        "path_type": "hardlink",
+        "sha256": "d211704fb6fedd5210a6fbbacad057c2b2868d8d132037de89e83b3c9f197a7e",
+        "sha256_in_prefix": "d211704fb6fedd5210a6fbbacad057c2b2868d8d132037de89e83b3c9f197a7e",
+        "size_in_bytes": 1022
+      },
+      {
+        "_path": "lib/R/library/cli/help/figures/spark-bar-2.svg",
+        "path_type": "hardlink",
+        "sha256": "fc95f06f9e49b227619ca19d3d5c7c62b48dee82686f4c540df696bf2b8d99fe",
+        "sha256_in_prefix": "fc95f06f9e49b227619ca19d3d5c7c62b48dee82686f4c540df696bf2b8d99fe",
+        "size_in_bytes": 1022
+      },
+      {
+        "_path": "lib/R/library/cli/help/figures/spark-bar-3.svg",
+        "path_type": "hardlink",
+        "sha256": "faf429ac1ac7b608cbd90f2263c551bc21be9de62be22958929453cc56f338b9",
+        "sha256_in_prefix": "faf429ac1ac7b608cbd90f2263c551bc21be9de62be22958929453cc56f338b9",
+        "size_in_bytes": 1028
+      },
+      {
+        "_path": "lib/R/library/cli/help/figures/spark-bar-na.svg",
+        "path_type": "hardlink",
+        "sha256": "ff9de95ad4561a23dc4f1c42c3bfb88a6f4e73b26d26d9f473caf8f1c965fe89",
+        "sha256_in_prefix": "ff9de95ad4561a23dc4f1c42c3bfb88a6f4e73b26d26d9f473caf8f1c965fe89",
+        "size_in_bytes": 1097
+      },
+      {
+        "_path": "lib/R/library/cli/help/figures/spark-line.svg",
+        "path_type": "hardlink",
+        "sha256": "3a70ffc3d2d3c8922c2b48e43741898d255cd5831e4a526964a8c9d11e43889a",
+        "sha256_in_prefix": "3a70ffc3d2d3c8922c2b48e43741898d255cd5831e4a526964a8c9d11e43889a",
+        "size_in_bytes": 1019
+      },
+      {
+        "_path": "lib/R/library/cli/help/figures/tree-colored.svg",
+        "path_type": "hardlink",
+        "sha256": "84c8e4c960afd327357338d3a1b91a1a1a09ade4f6a42cc8b382f4ebf3b927b0",
+        "sha256_in_prefix": "84c8e4c960afd327357338d3a1b91a1a1a09ade4f6a42cc8b382f4ebf3b927b0",
+        "size_in_bytes": 5001
+      },
+      {
+        "_path": "lib/R/library/cli/help/figures/tree-root.svg",
+        "path_type": "hardlink",
+        "sha256": "84b25cb9cac09479fc2a09b43b659edb758118cafa45aa609f1980e93dc95984",
+        "sha256_in_prefix": "84b25cb9cac09479fc2a09b43b659edb758118cafa45aa609f1980e93dc95984",
+        "size_in_bytes": 3370
+      },
+      {
+        "_path": "lib/R/library/cli/help/figures/tree-trim-mark.svg",
+        "path_type": "hardlink",
+        "sha256": "1fe0f61f51997a313d826b95703d096b97327b06e4ea897c7fa82db501adca1d",
+        "sha256_in_prefix": "1fe0f61f51997a313d826b95703d096b97327b06e4ea897c7fa82db501adca1d",
+        "size_in_bytes": 5709
+      },
+      {
+        "_path": "lib/R/library/cli/help/figures/tree-trimming.svg",
+        "path_type": "hardlink",
+        "sha256": "4d1f4d836b448bd147a6df5c6ce4a48d822d1db827764edf73ec3e024c2c2a4c",
+        "sha256_in_prefix": "4d1f4d836b448bd147a6df5c6ce4a48d822d1db827764edf73ec3e024c2c2a4c",
+        "size_in_bytes": 4903
+      },
+      {
+        "_path": "lib/R/library/cli/help/figures/tree.svg",
+        "path_type": "hardlink",
+        "sha256": "6b06339dc0d36ea9e5033a0ec5a34ae59e216b2324f6344ce63fe50eb7450b41",
+        "sha256_in_prefix": "6b06339dc0d36ea9e5033a0ec5a34ae59e216b2324f6344ce63fe50eb7450b41",
+        "size_in_bytes": 1296
+      },
+      {
+        "_path": "lib/R/library/cli/help/figures/unnamed-chunk-1.svg",
+        "path_type": "hardlink",
+        "sha256": "85a20390b9ceab96a506846ff0182093190c6b9e885b9a127cfe0aa6b7c152ab",
+        "sha256_in_prefix": "85a20390b9ceab96a506846ff0182093190c6b9e885b9a127cfe0aa6b7c152ab",
+        "size_in_bytes": 925
+      },
+      {
+        "_path": "lib/R/library/cli/help/paths.rds",
+        "path_type": "hardlink",
+        "sha256": "a5df68efbe60993884ae4d2df0ee55e9732325a139a43306e3d911862ed2441f",
+        "sha256_in_prefix": "a5df68efbe60993884ae4d2df0ee55e9732325a139a43306e3d911862ed2441f",
+        "size_in_bytes": 1033
+      },
+      {
+        "_path": "lib/R/library/cli/html/00Index.html",
+        "path_type": "hardlink",
+        "sha256": "b4f13cb5025bf7a42539706dde1a2802485291ce18a7bd206459ef8c09c449de",
+        "sha256_in_prefix": "b4f13cb5025bf7a42539706dde1a2802485291ce18a7bd206459ef8c09c449de",
+        "size_in_bytes": 31543
+      },
+      {
+        "_path": "lib/R/library/cli/html/R.css",
+        "path_type": "hardlink",
+        "sha256": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "sha256_in_prefix": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "size_in_bytes": 1335
+      },
+      {
+        "_path": "lib/R/library/cli/include/cli/progress.h",
+        "path_type": "hardlink",
+        "sha256": "1bb3ff0a874335527c8afca9e1607a48d76b7609ba056a5dcd6f2e7d4f878708",
+        "sha256_in_prefix": "1bb3ff0a874335527c8afca9e1607a48d76b7609ba056a5dcd6f2e7d4f878708",
+        "size_in_bytes": 11748
+      },
+      {
+        "_path": "lib/R/library/cli/libs/cli.so",
+        "path_type": "hardlink",
+        "sha256": "5da65164d9bd1a9c12cbfe4692a3bfa5f5a233097be3df642d2a47d040e59543",
+        "sha256_in_prefix": "5da65164d9bd1a9c12cbfe4692a3bfa5f5a233097be3df642d2a47d040e59543",
+        "size_in_bytes": 154144
+      },
+      {
+        "_path": "lib/R/library/cli/logo.txt",
+        "path_type": "hardlink",
+        "sha256": "09754cf35ed9f7a49824f564701b1182fbb92e85cffea94386ba0508a7815e2a",
+        "sha256_in_prefix": "09754cf35ed9f7a49824f564701b1182fbb92e85cffea94386ba0508a7815e2a",
+        "size_in_bytes": 2742
+      },
+      {
+        "_path": "lib/R/library/cli/scripts/news.R",
+        "path_type": "hardlink",
+        "sha256": "1de48ae950f6f95a805bfdbd81cbec66734cf158d10f9433788d2211f125ef12",
+        "sha256_in_prefix": "1de48ae950f6f95a805bfdbd81cbec66734cf158d10f9433788d2211f125ef12",
+        "size_in_bytes": 2987
+      },
+      {
+        "_path": "lib/R/library/cli/scripts/outdated.R",
+        "path_type": "hardlink",
+        "sha256": "3a95394ec4aee51eea834fac5311964c7a06e1d8d4d998caf038c5b3afa6e4ad",
+        "sha256_in_prefix": "3a95394ec4aee51eea834fac5311964c7a06e1d8d4d998caf038c5b3afa6e4ad",
+        "size_in_bytes": 2033
+      },
+      {
+        "_path": "lib/R/library/cli/scripts/search.R",
+        "path_type": "hardlink",
+        "sha256": "35cb0d67fe3b9da847525ec540ca9cbda5f6382da3620837f462f8e6620e1522",
+        "sha256_in_prefix": "35cb0d67fe3b9da847525ec540ca9cbda5f6382da3620837f462f8e6620e1522",
+        "size_in_bytes": 2071
+      },
+      {
+        "_path": "lib/R/library/cli/scripts/up.R",
+        "path_type": "hardlink",
+        "sha256": "cceed73f982c14dd0440dc995eaf29f980fbe9ef48d8da9ade096b2b3c06882b",
+        "sha256_in_prefix": "cceed73f982c14dd0440dc995eaf29f980fbe9ef48d8da9ade096b2b3c06882b",
+        "size_in_bytes": 1528
+      },
+      {
+        "_path": "lib/R/library/cli/shiny/along/app.R",
+        "path_type": "hardlink",
+        "sha256": "978071879afe829b8470e08286a0eeeecdeae732ba2aa669fe444461b4b12fdd",
+        "sha256_in_prefix": "978071879afe829b8470e08286a0eeeecdeae732ba2aa669fe444461b4b12fdd",
+        "size_in_bytes": 1344
+      },
+      {
+        "_path": "lib/R/library/cli/shiny/format/app.R",
+        "path_type": "hardlink",
+        "sha256": "e60ebbda648cdd8a5e5405c7a0bb0ac43de18d58f61275a48f7db58fdeb77aed",
+        "sha256_in_prefix": "e60ebbda648cdd8a5e5405c7a0bb0ac43de18d58f61275a48f7db58fdeb77aed",
+        "size_in_bytes": 1395
+      },
+      {
+        "_path": "lib/R/library/cli/shiny/nested/app.R",
+        "path_type": "hardlink",
+        "sha256": "0cc3f5788a19644f2184286a2a0e7c0dd2dc8a6e9809a3a9af0546e82fc09df5",
+        "sha256_in_prefix": "0cc3f5788a19644f2184286a2a0e7c0dd2dc8a6e9809a3a9af0546e82fc09df5",
+        "size_in_bytes": 1694
+      },
+      {
+        "_path": "lib/R/library/cli/shiny/output/app.R",
+        "path_type": "hardlink",
+        "sha256": "9c23fad5619c9fcd5b33dae2d3988190195fa2f15bc3b1408e1d568c685874c3",
+        "sha256_in_prefix": "9c23fad5619c9fcd5b33dae2d3988190195fa2f15bc3b1408e1d568c685874c3",
+        "size_in_bytes": 1415
+      },
+      {
+        "_path": "lib/R/library/cli/shiny/simple/app.R",
+        "path_type": "hardlink",
+        "sha256": "6e92caf34f9c182f420cfece48b15de72e5f02fc493ebc26cffdd97da27f72f4",
+        "sha256_in_prefix": "6e92caf34f9c182f420cfece48b15de72e5f02fc493ebc26cffdd97da27f72f4",
+        "size_in_bytes": 1357
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "r-cli==3.1.1=r41h03ef668_0",
+  "sha256": "24cea5e3f1afe3a956516d41b60c69685c86307a7bdd71ff3d9c27577bbb84ab",
+  "size": 1103884,
+  "subdir": "linux-64",
+  "timestamp": 1642759547000,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/r-cli-3.1.1-r41h03ef668_0.tar.bz2",
+  "version": "3.1.1"
+}

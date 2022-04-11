@@ -1,0 +1,11 @@
+prefix=/omics/groups/OE0146/internal/Areeba/paper/Rapid-CNS2/.snakemake/conda/285e0451a248d5fe32d67bc237aaccea
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: XCB Record
+Description: XCB Record Extension
+Version: 1.13
+Requires.private: xcb
+Libs: -L${libdir} -lxcb-record
+Cflags: -I${includedir}

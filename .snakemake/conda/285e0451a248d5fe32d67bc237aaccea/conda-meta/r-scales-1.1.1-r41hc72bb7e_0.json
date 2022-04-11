@@ -1,0 +1,324 @@
+{
+  "build": "r41hc72bb7e_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "r-r6",
+    "r-rcolorbrewer",
+    "r-lifecycle",
+    "r-viridislite",
+    "r-labeling",
+    "r-base >=4.1,<4.2.0a0",
+    "r-munsell >=0.5",
+    "r-farver >=2.0.0"
+  ],
+  "extracted_package_dir": "/omics/groups/OE0146/internal/Areeba/miniconda3/pkgs/r-scales-1.1.1-r41hc72bb7e_0",
+  "features": "",
+  "files": [
+    "lib/R/library/scales/DESCRIPTION",
+    "lib/R/library/scales/INDEX",
+    "lib/R/library/scales/LICENSE",
+    "lib/R/library/scales/Meta/Rd.rds",
+    "lib/R/library/scales/Meta/features.rds",
+    "lib/R/library/scales/Meta/hsearch.rds",
+    "lib/R/library/scales/Meta/links.rds",
+    "lib/R/library/scales/Meta/nsInfo.rds",
+    "lib/R/library/scales/Meta/package.rds",
+    "lib/R/library/scales/NAMESPACE",
+    "lib/R/library/scales/NEWS.md",
+    "lib/R/library/scales/R/scales",
+    "lib/R/library/scales/R/scales.rdb",
+    "lib/R/library/scales/R/scales.rdx",
+    "lib/R/library/scales/help/AnIndex",
+    "lib/R/library/scales/help/aliases.rds",
+    "lib/R/library/scales/help/figures/README-labels-1.png",
+    "lib/R/library/scales/help/figures/README-labels-2.png",
+    "lib/R/library/scales/help/figures/README-palettes-1.png",
+    "lib/R/library/scales/help/figures/README-transforms-1.png",
+    "lib/R/library/scales/help/figures/lifecycle-archived.svg",
+    "lib/R/library/scales/help/figures/lifecycle-defunct.svg",
+    "lib/R/library/scales/help/figures/lifecycle-deprecated.svg",
+    "lib/R/library/scales/help/figures/lifecycle-experimental.svg",
+    "lib/R/library/scales/help/figures/lifecycle-maturing.svg",
+    "lib/R/library/scales/help/figures/lifecycle-questioning.svg",
+    "lib/R/library/scales/help/figures/lifecycle-retired.svg",
+    "lib/R/library/scales/help/figures/lifecycle-soft-deprecated.svg",
+    "lib/R/library/scales/help/figures/lifecycle-stable.svg",
+    "lib/R/library/scales/help/figures/logo.png",
+    "lib/R/library/scales/help/paths.rds",
+    "lib/R/library/scales/help/scales.rdb",
+    "lib/R/library/scales/help/scales.rdx",
+    "lib/R/library/scales/html/00Index.html",
+    "lib/R/library/scales/html/R.css"
+  ],
+  "fn": "r-scales-1.1.1-r41hc72bb7e_0.tar.bz2",
+  "license": "MIT",
+  "link": {
+    "source": "/omics/groups/OE0146/internal/Areeba/miniconda3/pkgs/r-scales-1.1.1-r41hc72bb7e_0",
+    "type": 1
+  },
+  "md5": "9fe89d86037848cb044399fd561ebad0",
+  "name": "r-scales",
+  "noarch": "generic",
+  "package_tarball_full_path": "/omics/groups/OE0146/internal/Areeba/miniconda3/pkgs/r-scales-1.1.1-r41hc72bb7e_0.tar.bz2",
+  "package_type": "noarch_generic",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/R/library/scales/DESCRIPTION",
+        "path_type": "hardlink",
+        "sha256": "fd6c023b8460a48942fc9f51474fb70060695beb3e1d0379f290908035883046",
+        "sha256_in_prefix": "fd6c023b8460a48942fc9f51474fb70060695beb3e1d0379f290908035883046",
+        "size_in_bytes": 1223
+      },
+      {
+        "_path": "lib/R/library/scales/INDEX",
+        "path_type": "hardlink",
+        "sha256": "033c0c0b7829fcf94d68c8b9af35332091e212c74e09f934bc45dd449220235c",
+        "sha256_in_prefix": "033c0c0b7829fcf94d68c8b9af35332091e212c74e09f934bc45dd449220235c",
+        "size_in_bytes": 3831
+      },
+      {
+        "_path": "lib/R/library/scales/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "6e59a13b42f775df155db9229c9a3180889dfac12f7fc6be86eebfa3a12f93dd",
+        "sha256_in_prefix": "6e59a13b42f775df155db9229c9a3180889dfac12f7fc6be86eebfa3a12f93dd",
+        "size_in_bytes": 49
+      },
+      {
+        "_path": "lib/R/library/scales/Meta/Rd.rds",
+        "path_type": "hardlink",
+        "sha256": "9747536b3d532268eb8d02ea0806d1e53ac01a927e6603a8b71f2d8edb937911",
+        "sha256_in_prefix": "9747536b3d532268eb8d02ea0806d1e53ac01a927e6603a8b71f2d8edb937911",
+        "size_in_bytes": 3116
+      },
+      {
+        "_path": "lib/R/library/scales/Meta/features.rds",
+        "path_type": "hardlink",
+        "sha256": "b84ca42483e79a917d4c89f07a99625c472773b7d3ba686c276da9b5514abeac",
+        "sha256_in_prefix": "b84ca42483e79a917d4c89f07a99625c472773b7d3ba686c276da9b5514abeac",
+        "size_in_bytes": 122
+      },
+      {
+        "_path": "lib/R/library/scales/Meta/hsearch.rds",
+        "path_type": "hardlink",
+        "sha256": "9950c51e8c2ae411d0a296bf1f30d732294f64cb72288f38f122ba2ac4fb95c7",
+        "sha256_in_prefix": "9950c51e8c2ae411d0a296bf1f30d732294f64cb72288f38f122ba2ac4fb95c7",
+        "size_in_bytes": 3007
+      },
+      {
+        "_path": "lib/R/library/scales/Meta/links.rds",
+        "path_type": "hardlink",
+        "sha256": "1fee87b6ccf6ec70dfd119e25332c74307f81f27fc376ccc971cc2d30c5a7b1e",
+        "sha256_in_prefix": "1fee87b6ccf6ec70dfd119e25332c74307f81f27fc376ccc971cc2d30c5a7b1e",
+        "size_in_bytes": 1544
+      },
+      {
+        "_path": "lib/R/library/scales/Meta/nsInfo.rds",
+        "path_type": "hardlink",
+        "sha256": "0c4f1397e72e721c51dd577533417a6a95007dbb3808ede0730ccd559061dc0b",
+        "sha256_in_prefix": "0c4f1397e72e721c51dd577533417a6a95007dbb3808ede0730ccd559061dc0b",
+        "size_in_bytes": 1184
+      },
+      {
+        "_path": "lib/R/library/scales/Meta/package.rds",
+        "path_type": "hardlink",
+        "sha256": "0914aadec1c705cf0c6ec6345047589c321a8186b77eddc43427946b40b472fd",
+        "sha256_in_prefix": "0914aadec1c705cf0c6ec6345047589c321a8186b77eddc43427946b40b472fd",
+        "size_in_bytes": 1209
+      },
+      {
+        "_path": "lib/R/library/scales/NAMESPACE",
+        "path_type": "hardlink",
+        "sha256": "aefef9a25463e1d979223d1d5af831a9752c0ca26d4a574c0721fcf0f00f8312",
+        "sha256_in_prefix": "aefef9a25463e1d979223d1d5af831a9752c0ca26d4a574c0721fcf0f00f8312",
+        "size_in_bytes": 3573
+      },
+      {
+        "_path": "lib/R/library/scales/NEWS.md",
+        "path_type": "hardlink",
+        "sha256": "95cf36d10c08e3a81f3f70a272a98581a30c4c24a37bbfb2f9bc23bd56853a9a",
+        "sha256_in_prefix": "95cf36d10c08e3a81f3f70a272a98581a30c4c24a37bbfb2f9bc23bd56853a9a",
+        "size_in_bytes": 14786
+      },
+      {
+        "_path": "lib/R/library/scales/R/scales",
+        "path_type": "hardlink",
+        "sha256": "570ca456b280cdeb201ef5ebdf22dc8f80092e2c0c68e33c7f73340e420f3759",
+        "sha256_in_prefix": "570ca456b280cdeb201ef5ebdf22dc8f80092e2c0c68e33c7f73340e420f3759",
+        "size_in_bytes": 1058
+      },
+      {
+        "_path": "lib/R/library/scales/R/scales.rdb",
+        "path_type": "hardlink",
+        "sha256": "d1a5c7a583b958ccc66c34a8d122935f370ad68f7ece3111ef29e4ab1fec36d4",
+        "sha256_in_prefix": "d1a5c7a583b958ccc66c34a8d122935f370ad68f7ece3111ef29e4ab1fec36d4",
+        "size_in_bytes": 228989
+      },
+      {
+        "_path": "lib/R/library/scales/R/scales.rdx",
+        "path_type": "hardlink",
+        "sha256": "0eed6263936883ddd87abdbca0ef1881a7ffce2e1f26f50c4ccdfc9bbb7233cb",
+        "sha256_in_prefix": "0eed6263936883ddd87abdbca0ef1881a7ffce2e1f26f50c4ccdfc9bbb7233cb",
+        "size_in_bytes": 2847
+      },
+      {
+        "_path": "lib/R/library/scales/help/AnIndex",
+        "path_type": "hardlink",
+        "sha256": "90aaeb42fccbada3de7beb67da830e4a8383abfc4d361a9e59d9f9e282fca025",
+        "sha256_in_prefix": "90aaeb42fccbada3de7beb67da830e4a8383abfc4d361a9e59d9f9e282fca025",
+        "size_in_bytes": 3659
+      },
+      {
+        "_path": "lib/R/library/scales/help/aliases.rds",
+        "path_type": "hardlink",
+        "sha256": "235a087965e40625a18d917f50342c1aa15f187d893e46932c4a90dc8df2fb2e",
+        "sha256_in_prefix": "235a087965e40625a18d917f50342c1aa15f187d893e46932c4a90dc8df2fb2e",
+        "size_in_bytes": 1215
+      },
+      {
+        "_path": "lib/R/library/scales/help/figures/README-labels-1.png",
+        "path_type": "hardlink",
+        "sha256": "a9c452761522eacb13afea6b0a4c35e3eb992c8db318b6498c8f95ecff7ab4b3",
+        "sha256_in_prefix": "a9c452761522eacb13afea6b0a4c35e3eb992c8db318b6498c8f95ecff7ab4b3",
+        "size_in_bytes": 56316
+      },
+      {
+        "_path": "lib/R/library/scales/help/figures/README-labels-2.png",
+        "path_type": "hardlink",
+        "sha256": "2ca431361bd0e4b8b2d68230fc2e96dabe75382382bba75b806e488177b50b5f",
+        "sha256_in_prefix": "2ca431361bd0e4b8b2d68230fc2e96dabe75382382bba75b806e488177b50b5f",
+        "size_in_bytes": 26890
+      },
+      {
+        "_path": "lib/R/library/scales/help/figures/README-palettes-1.png",
+        "path_type": "hardlink",
+        "sha256": "f8353e80b08a1f8ca6ac413945ae26fa9cc751a9ec1e641f16bc1da2510e4d8a",
+        "sha256_in_prefix": "f8353e80b08a1f8ca6ac413945ae26fa9cc751a9ec1e641f16bc1da2510e4d8a",
+        "size_in_bytes": 28737
+      },
+      {
+        "_path": "lib/R/library/scales/help/figures/README-transforms-1.png",
+        "path_type": "hardlink",
+        "sha256": "a3670f2602ec75f745db265a54f4ccd2038f0358f46924fa2903aa2a74a1e0ed",
+        "sha256_in_prefix": "a3670f2602ec75f745db265a54f4ccd2038f0358f46924fa2903aa2a74a1e0ed",
+        "size_in_bytes": 25823
+      },
+      {
+        "_path": "lib/R/library/scales/help/figures/lifecycle-archived.svg",
+        "path_type": "hardlink",
+        "sha256": "e51548be52932d0b0468f5b11adcbebac08663898a7c043871864b0064710e86",
+        "sha256_in_prefix": "e51548be52932d0b0468f5b11adcbebac08663898a7c043871864b0064710e86",
+        "size_in_bytes": 967
+      },
+      {
+        "_path": "lib/R/library/scales/help/figures/lifecycle-defunct.svg",
+        "path_type": "hardlink",
+        "sha256": "977a9d51157cf76f89e0d5562b8b57b06560682c4cc9e44333e9c394629fb520",
+        "sha256_in_prefix": "977a9d51157cf76f89e0d5562b8b57b06560682c4cc9e44333e9c394629fb520",
+        "size_in_bytes": 964
+      },
+      {
+        "_path": "lib/R/library/scales/help/figures/lifecycle-deprecated.svg",
+        "path_type": "hardlink",
+        "sha256": "7fefe18cc3b7059272fa85ff40c4a95739bb271276d819fe782ac38db295a07c",
+        "sha256_in_prefix": "7fefe18cc3b7059272fa85ff40c4a95739bb271276d819fe782ac38db295a07c",
+        "size_in_bytes": 970
+      },
+      {
+        "_path": "lib/R/library/scales/help/figures/lifecycle-experimental.svg",
+        "path_type": "hardlink",
+        "sha256": "ed1f8972de7fdeb5dedc1087ea043dc4953dca5d58f54286b4c0ab297eefbe90",
+        "sha256_in_prefix": "ed1f8972de7fdeb5dedc1087ea043dc4953dca5d58f54286b4c0ab297eefbe90",
+        "size_in_bytes": 974
+      },
+      {
+        "_path": "lib/R/library/scales/help/figures/lifecycle-maturing.svg",
+        "path_type": "hardlink",
+        "sha256": "9f33b55a1806ad5a3d565a0855a91b47ae26b7cf1ff0f025758bbd15b4c3984a",
+        "sha256_in_prefix": "9f33b55a1806ad5a3d565a0855a91b47ae26b7cf1ff0f025758bbd15b4c3984a",
+        "size_in_bytes": 966
+      },
+      {
+        "_path": "lib/R/library/scales/help/figures/lifecycle-questioning.svg",
+        "path_type": "hardlink",
+        "sha256": "2feb00c21e12843cd1cd2e821c941628331dddbb26e34e58c40bb11dcffea89a",
+        "sha256_in_prefix": "2feb00c21e12843cd1cd2e821c941628331dddbb26e34e58c40bb11dcffea89a",
+        "size_in_bytes": 972
+      },
+      {
+        "_path": "lib/R/library/scales/help/figures/lifecycle-retired.svg",
+        "path_type": "hardlink",
+        "sha256": "a74f73ab22058d1f9f2dfd41857933759cf1b8e3d03cc18bf1eddc1ab7f2daee",
+        "sha256_in_prefix": "a74f73ab22058d1f9f2dfd41857933759cf1b8e3d03cc18bf1eddc1ab7f2daee",
+        "size_in_bytes": 965
+      },
+      {
+        "_path": "lib/R/library/scales/help/figures/lifecycle-soft-deprecated.svg",
+        "path_type": "hardlink",
+        "sha256": "3a1280ea3869c1ffd2aa92d984e197eb9ac823746d018f000c5d53117ad257b1",
+        "sha256_in_prefix": "3a1280ea3869c1ffd2aa92d984e197eb9ac823746d018f000c5d53117ad257b1",
+        "size_in_bytes": 982
+      },
+      {
+        "_path": "lib/R/library/scales/help/figures/lifecycle-stable.svg",
+        "path_type": "hardlink",
+        "sha256": "4817300514459f5ac876b1a379c7bad15d6049e1a954b71455ab78d76b83ffa0",
+        "sha256_in_prefix": "4817300514459f5ac876b1a379c7bad15d6049e1a954b71455ab78d76b83ffa0",
+        "size_in_bytes": 956
+      },
+      {
+        "_path": "lib/R/library/scales/help/figures/logo.png",
+        "path_type": "hardlink",
+        "sha256": "e73c982e548093c7b37540e3d39580be0d5de4d3b6212f965593748450d857c8",
+        "sha256_in_prefix": "e73c982e548093c7b37540e3d39580be0d5de4d3b6212f965593748450d857c8",
+        "size_in_bytes": 29885
+      },
+      {
+        "_path": "lib/R/library/scales/help/paths.rds",
+        "path_type": "hardlink",
+        "sha256": "6a1f13b3e2f427ffa064efd178e475af92b63d178831381dffa91cbda7c0f0bf",
+        "sha256_in_prefix": "6a1f13b3e2f427ffa064efd178e475af92b63d178831381dffa91cbda7c0f0bf",
+        "size_in_bytes": 801
+      },
+      {
+        "_path": "lib/R/library/scales/help/scales.rdb",
+        "path_type": "hardlink",
+        "sha256": "4f46db0b854e546081efecef48dbd0496b352b41c1534e10051b19c228fb91df",
+        "sha256_in_prefix": "4f46db0b854e546081efecef48dbd0496b352b41c1534e10051b19c228fb91df",
+        "size_in_bytes": 149570
+      },
+      {
+        "_path": "lib/R/library/scales/help/scales.rdx",
+        "path_type": "hardlink",
+        "sha256": "a775da82ccf5580c27cde3ba648185bfca1f94ce02edeef2aec562411abda53f",
+        "sha256_in_prefix": "a775da82ccf5580c27cde3ba648185bfca1f94ce02edeef2aec562411abda53f",
+        "size_in_bytes": 1759
+      },
+      {
+        "_path": "lib/R/library/scales/html/00Index.html",
+        "path_type": "hardlink",
+        "sha256": "822a6a86ef1af481991394d5e3a4633abdf646db9b18e25235709380e6ff4061",
+        "sha256_in_prefix": "822a6a86ef1af481991394d5e3a4633abdf646db9b18e25235709380e6ff4061",
+        "size_in_bytes": 18604
+      },
+      {
+        "_path": "lib/R/library/scales/html/R.css",
+        "path_type": "hardlink",
+        "sha256": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "sha256_in_prefix": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "size_in_bytes": 1335
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "r-scales==1.1.1=r41hc72bb7e_0",
+  "sha256": "d35aafd66b0079a2111077666e670965bef6a38468d9f1c6426c599aefb4498f",
+  "size": 570153,
+  "subdir": "noarch",
+  "timestamp": 1621858974000,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/r-scales-1.1.1-r41hc72bb7e_0.tar.bz2",
+  "version": "1.1.1"
+}

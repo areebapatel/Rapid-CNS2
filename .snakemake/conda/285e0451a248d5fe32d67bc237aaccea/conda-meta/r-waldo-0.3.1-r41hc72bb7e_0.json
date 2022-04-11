@@ -1,0 +1,212 @@
+{
+  "build": "r41hc72bb7e_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "r-rlang",
+    "r-tibble",
+    "r-glue",
+    "r-cli",
+    "r-rematch2",
+    "r-fansi",
+    "r-diffobj",
+    "r-base >=4.1,<4.2.0a0"
+  ],
+  "extracted_package_dir": "/omics/groups/OE0146/internal/Areeba/miniconda3/pkgs/r-waldo-0.3.1-r41hc72bb7e_0",
+  "features": "",
+  "files": [
+    "lib/R/library/waldo/DESCRIPTION",
+    "lib/R/library/waldo/INDEX",
+    "lib/R/library/waldo/LICENSE",
+    "lib/R/library/waldo/Meta/Rd.rds",
+    "lib/R/library/waldo/Meta/features.rds",
+    "lib/R/library/waldo/Meta/hsearch.rds",
+    "lib/R/library/waldo/Meta/links.rds",
+    "lib/R/library/waldo/Meta/nsInfo.rds",
+    "lib/R/library/waldo/Meta/package.rds",
+    "lib/R/library/waldo/NAMESPACE",
+    "lib/R/library/waldo/NEWS.md",
+    "lib/R/library/waldo/R/waldo",
+    "lib/R/library/waldo/R/waldo.rdb",
+    "lib/R/library/waldo/R/waldo.rdx",
+    "lib/R/library/waldo/help/AnIndex",
+    "lib/R/library/waldo/help/aliases.rds",
+    "lib/R/library/waldo/help/paths.rds",
+    "lib/R/library/waldo/help/waldo.rdb",
+    "lib/R/library/waldo/help/waldo.rdx",
+    "lib/R/library/waldo/html/00Index.html",
+    "lib/R/library/waldo/html/R.css"
+  ],
+  "fn": "r-waldo-0.3.1-r41hc72bb7e_0.tar.bz2",
+  "license": "MIT",
+  "link": {
+    "source": "/omics/groups/OE0146/internal/Areeba/miniconda3/pkgs/r-waldo-0.3.1-r41hc72bb7e_0",
+    "type": 1
+  },
+  "md5": "93499d4d32c6671db040f52c4e1ca9fe",
+  "name": "r-waldo",
+  "noarch": "generic",
+  "package_tarball_full_path": "/omics/groups/OE0146/internal/Areeba/miniconda3/pkgs/r-waldo-0.3.1-r41hc72bb7e_0.tar.bz2",
+  "package_type": "noarch_generic",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/R/library/waldo/DESCRIPTION",
+        "path_type": "hardlink",
+        "sha256": "c1aebdc15a470044ae491ad9ff3fd7d6035d42d30cbd97fe160f20a33e549ce5",
+        "sha256_in_prefix": "c1aebdc15a470044ae491ad9ff3fd7d6035d42d30cbd97fe160f20a33e549ce5",
+        "size_in_bytes": 1145
+      },
+      {
+        "_path": "lib/R/library/waldo/INDEX",
+        "path_type": "hardlink",
+        "sha256": "40c84972677cb994f6a91ab1a80e79a3b8fc19de41e996490aade32d0213ffba",
+        "sha256_in_prefix": "40c84972677cb994f6a91ab1a80e79a3b8fc19de41e996490aade32d0213ffba",
+        "size_in_bytes": 95
+      },
+      {
+        "_path": "lib/R/library/waldo/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "6654d97ff54de7e7bcddc25d4e31e7634f25380cff8f41510ba5bf10a173e42a",
+        "sha256_in_prefix": "6654d97ff54de7e7bcddc25d4e31e7634f25380cff8f41510ba5bf10a173e42a",
+        "size_in_bytes": 37
+      },
+      {
+        "_path": "lib/R/library/waldo/Meta/Rd.rds",
+        "path_type": "hardlink",
+        "sha256": "0165fbf5ff811d4fe54f6b99b683a65281c7444ccde58353d56f1a027a9481bd",
+        "sha256_in_prefix": "0165fbf5ff811d4fe54f6b99b683a65281c7444ccde58353d56f1a027a9481bd",
+        "size_in_bytes": 333
+      },
+      {
+        "_path": "lib/R/library/waldo/Meta/features.rds",
+        "path_type": "hardlink",
+        "sha256": "51d50d1afdf7fa236c2e547a1cac49aa6f6cee803f935a626cac903fa66f4373",
+        "sha256_in_prefix": "51d50d1afdf7fa236c2e547a1cac49aa6f6cee803f935a626cac903fa66f4373",
+        "size_in_bytes": 123
+      },
+      {
+        "_path": "lib/R/library/waldo/Meta/hsearch.rds",
+        "path_type": "hardlink",
+        "sha256": "c401d8f29cbd7e870855214be92cbea8ae933b37ad65d0a51294fd582964fab4",
+        "sha256_in_prefix": "c401d8f29cbd7e870855214be92cbea8ae933b37ad65d0a51294fd582964fab4",
+        "size_in_bytes": 359
+      },
+      {
+        "_path": "lib/R/library/waldo/Meta/links.rds",
+        "path_type": "hardlink",
+        "sha256": "862ec4bbaf9a327fccf9b70367f632be2281b95255a6a84acbf7df730dad0078",
+        "sha256_in_prefix": "862ec4bbaf9a327fccf9b70367f632be2281b95255a6a84acbf7df730dad0078",
+        "size_in_bytes": 143
+      },
+      {
+        "_path": "lib/R/library/waldo/Meta/nsInfo.rds",
+        "path_type": "hardlink",
+        "sha256": "7664504419878ba73be8813718120d6a6cf60b449dba731283263478ea2a36a0",
+        "sha256_in_prefix": "7664504419878ba73be8813718120d6a6cf60b449dba731283263478ea2a36a0",
+        "size_in_bytes": 371
+      },
+      {
+        "_path": "lib/R/library/waldo/Meta/package.rds",
+        "path_type": "hardlink",
+        "sha256": "1d0f442412cd2229b23bad9b4d1644cdf56c7c02120ec89c4955ac675085fcae",
+        "sha256_in_prefix": "1d0f442412cd2229b23bad9b4d1644cdf56c7c02120ec89c4955ac675085fcae",
+        "size_in_bytes": 1156
+      },
+      {
+        "_path": "lib/R/library/waldo/NAMESPACE",
+        "path_type": "hardlink",
+        "sha256": "25e4d848fd437f1ab7487f2648bbbbf2397ee79111de8a53b363f97575687215",
+        "sha256_in_prefix": "25e4d848fd437f1ab7487f2648bbbbf2397ee79111de8a53b363f97575687215",
+        "size_in_bytes": 669
+      },
+      {
+        "_path": "lib/R/library/waldo/NEWS.md",
+        "path_type": "hardlink",
+        "sha256": "9c25ed9f5b3c5d07d66a132f932358b13dce0e6fbada9533521264c1aa63730c",
+        "sha256_in_prefix": "9c25ed9f5b3c5d07d66a132f932358b13dce0e6fbada9533521264c1aa63730c",
+        "size_in_bytes": 5008
+      },
+      {
+        "_path": "lib/R/library/waldo/R/waldo",
+        "path_type": "hardlink",
+        "sha256": "570ca456b280cdeb201ef5ebdf22dc8f80092e2c0c68e33c7f73340e420f3759",
+        "sha256_in_prefix": "570ca456b280cdeb201ef5ebdf22dc8f80092e2c0c68e33c7f73340e420f3759",
+        "size_in_bytes": 1058
+      },
+      {
+        "_path": "lib/R/library/waldo/R/waldo.rdb",
+        "path_type": "hardlink",
+        "sha256": "2244bfa1899fee9d77c6f290c79f09bd59f34076ed9aeef5c50728e2acfab14f",
+        "sha256_in_prefix": "2244bfa1899fee9d77c6f290c79f09bd59f34076ed9aeef5c50728e2acfab14f",
+        "size_in_bytes": 78142
+      },
+      {
+        "_path": "lib/R/library/waldo/R/waldo.rdx",
+        "path_type": "hardlink",
+        "sha256": "04a42aa23570e4f0f11f8c72b55d1845f5d446120ae513207f4d0726c294d028",
+        "sha256_in_prefix": "04a42aa23570e4f0f11f8c72b55d1845f5d446120ae513207f4d0726c294d028",
+        "size_in_bytes": 1483
+      },
+      {
+        "_path": "lib/R/library/waldo/help/AnIndex",
+        "path_type": "hardlink",
+        "sha256": "ac9a20bdb0f32290d5df4ae20f8607c9de37843c85ef7cf420970e6003ea6518",
+        "sha256_in_prefix": "ac9a20bdb0f32290d5df4ae20f8607c9de37843c85ef7cf420970e6003ea6518",
+        "size_in_bytes": 92
+      },
+      {
+        "_path": "lib/R/library/waldo/help/aliases.rds",
+        "path_type": "hardlink",
+        "sha256": "0e33a38d05e1b002a9b469374106e248b46183371c9bb287aa04cd829a5d6609",
+        "sha256_in_prefix": "0e33a38d05e1b002a9b469374106e248b46183371c9bb287aa04cd829a5d6609",
+        "size_in_bytes": 112
+      },
+      {
+        "_path": "lib/R/library/waldo/help/paths.rds",
+        "path_type": "hardlink",
+        "sha256": "d93a916892881eae7e74ef1e0c5851b33e46020da9bd67e0fe7f0d8acab0ad26",
+        "sha256_in_prefix": "d93a916892881eae7e74ef1e0c5851b33e46020da9bd67e0fe7f0d8acab0ad26",
+        "size_in_bytes": 182
+      },
+      {
+        "_path": "lib/R/library/waldo/help/waldo.rdb",
+        "path_type": "hardlink",
+        "sha256": "f1814c88d17812cd1ddb2d9d4111892eeb6f762f4ea124f22c4e6c46c13d47b2",
+        "sha256_in_prefix": "f1814c88d17812cd1ddb2d9d4111892eeb6f762f4ea124f22c4e6c46c13d47b2",
+        "size_in_bytes": 11486
+      },
+      {
+        "_path": "lib/R/library/waldo/help/waldo.rdx",
+        "path_type": "hardlink",
+        "sha256": "fd1e2f4b5de4d5e5e8e783467707b917cea9575275da033b58186e395ccfd4ff",
+        "sha256_in_prefix": "fd1e2f4b5de4d5e5e8e783467707b917cea9575275da033b58186e395ccfd4ff",
+        "size_in_bytes": 220
+      },
+      {
+        "_path": "lib/R/library/waldo/html/00Index.html",
+        "path_type": "hardlink",
+        "sha256": "a162bedf2e1451f2e72b7289f249b6de8deb6f42a61b2594d219955feb31a996",
+        "sha256_in_prefix": "a162bedf2e1451f2e72b7289f249b6de8deb6f42a61b2594d219955feb31a996",
+        "size_in_bytes": 1285
+      },
+      {
+        "_path": "lib/R/library/waldo/html/R.css",
+        "path_type": "hardlink",
+        "sha256": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "sha256_in_prefix": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "size_in_bytes": 1335
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "r-waldo==0.3.1=r41hc72bb7e_0",
+  "sha256": "49fccfb6880cce0b4f6b40b14dab502b45be2c417e798502ce6f6c54f82b99ee",
+  "size": 105446,
+  "subdir": "noarch",
+  "timestamp": 1631657216000,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/r-waldo-0.3.1-r41hc72bb7e_0.tar.bz2",
+  "version": "0.3.1"
+}

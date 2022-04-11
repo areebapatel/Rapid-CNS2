@@ -1,0 +1,45 @@
+{
+  "build": "h9a82719_3",
+  "build_number": 3,
+  "channel": "https://conda.anaconda.org/bioconda/linux-64",
+  "constrains": [],
+  "depends": [
+    "libgcc-ng >=9.3.0",
+    "libstdcxx-ng >=9.3.0",
+    "zlib >=1.2.11,<1.3.0a0"
+  ],
+  "extracted_package_dir": "/omics/groups/OE0146/internal/Areeba/miniconda3/pkgs/ngmlr-0.2.7-h9a82719_3",
+  "features": "",
+  "files": [
+    "bin/ngmlr"
+  ],
+  "fn": "ngmlr-0.2.7-h9a82719_3.tar.bz2",
+  "license": "MIT",
+  "link": {
+    "source": "/omics/groups/OE0146/internal/Areeba/miniconda3/pkgs/ngmlr-0.2.7-h9a82719_3",
+    "type": 1
+  },
+  "md5": "42a46341b5d770867654eca1f3dd80bb",
+  "name": "ngmlr",
+  "package_tarball_full_path": "/omics/groups/OE0146/internal/Areeba/miniconda3/pkgs/ngmlr-0.2.7-h9a82719_3.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "bin/ngmlr",
+        "path_type": "hardlink",
+        "sha256": "532d26411e6b810cff7263398e1ea2cc19a561b0c36695a97f6eeb05b6a8b8a5",
+        "sha256_in_prefix": "532d26411e6b810cff7263398e1ea2cc19a561b0c36695a97f6eeb05b6a8b8a5",
+        "size_in_bytes": 499872
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "ngmlr==0.2.7=h9a82719_3",
+  "sha256": "30eabeca62848f1329d2231b30ad184dff66af8ee86d8b452fc0aaaf619e966f",
+  "size": 205642,
+  "subdir": "linux-64",
+  "timestamp": 1616839532000,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/bioconda/linux-64/ngmlr-0.2.7-h9a82719_3.tar.bz2",
+  "version": "0.2.7"
+}

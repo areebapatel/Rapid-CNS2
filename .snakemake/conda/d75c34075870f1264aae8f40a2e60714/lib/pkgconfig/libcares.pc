@@ -1,0 +1,20 @@
+#***************************************************************************
+# Project        ___       __ _ _ __ ___  ___ 
+#               / __|____ / _` | '__/ _ \/ __|
+#              | (_|_____| (_| | | |  __/\__ \
+#               \___|     \__,_|_|  \___||___/
+#
+prefix=/omics/groups/OE0146/internal/Areeba/paper/Rapid-CNS2/.snakemake/conda/d75c34075870f1264aae8f40a2e60714
+exec_prefix=${prefix}/bin
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: c-ares
+URL: https://c-ares.haxx.se/
+Description: asynchronous DNS lookup library
+Version: 1.17.1
+Requires: 
+Requires.private: 
+Cflags: -I${includedir} 
+Libs: -L${libdir} -lcares
+Libs.private: 

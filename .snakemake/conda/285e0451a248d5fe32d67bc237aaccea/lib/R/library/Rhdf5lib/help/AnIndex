@@ -1,0 +1,5 @@
+.curlStatus	dot-curlStatus
+.getDynamicLinks	dot-getDynamicLinks
+getHdf5Version	getHdf5Version
+pkgconfig	pkgconfig
+Rhdf5lib	Rhdf5lib

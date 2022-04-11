@@ -1,0 +1,4 @@
+Config file rapid_cns_snake.yaml is extended by additional config specified via the command line.
+KeyError in line 130 of /omics/groups/OE0146/internal/Areeba/paper/Rapid-CNS2/Snakefile:
+'ref_hg19_mmi'
+  File "/omics/groups/OE0146/internal/Areeba/paper/Rapid-CNS2/Snakefile", line 130, in <module>

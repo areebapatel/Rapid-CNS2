@@ -1,0 +1,873 @@
+{
+  "build": "py_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/bioconda/noarch",
+  "constrains": [],
+  "depends": [
+    "deeptoolsintervals >=0.1.8",
+    "matplotlib-base >=3.1.0",
+    "numpy >=1.9.0",
+    "plotly >=2.0.0",
+    "py2bit >=0.2.0",
+    "pybigwig >=0.2.3",
+    "pysam >=0.14.0",
+    "python >=3",
+    "scipy >=0.17.0"
+  ],
+  "extracted_package_dir": "/omics/groups/OE0146/internal/Areeba/miniconda3/pkgs/deeptools-3.5.1-py_0",
+  "features": "",
+  "files": [
+    "bin/alignmentSieve",
+    "bin/bamCompare",
+    "bin/bamCoverage",
+    "bin/bamPEFragmentSize",
+    "bin/bigwigCompare",
+    "bin/computeGCBias",
+    "bin/computeMatrix",
+    "bin/computeMatrixOperations",
+    "bin/correctGCBias",
+    "bin/deeptools",
+    "bin/estimateReadFiltering",
+    "bin/estimateScaleFactor",
+    "bin/multiBamSummary",
+    "bin/multiBigwigSummary",
+    "bin/plotCorrelation",
+    "bin/plotCoverage",
+    "bin/plotEnrichment",
+    "bin/plotFingerprint",
+    "bin/plotHeatmap",
+    "bin/plotPCA",
+    "bin/plotProfile",
+    "lib/python3.8/site-packages/deepTools-3.5.1.dist-info/INSTALLER",
+    "lib/python3.8/site-packages/deepTools-3.5.1.dist-info/LICENSE.txt",
+    "lib/python3.8/site-packages/deepTools-3.5.1.dist-info/METADATA",
+    "lib/python3.8/site-packages/deepTools-3.5.1.dist-info/RECORD",
+    "lib/python3.8/site-packages/deepTools-3.5.1.dist-info/REQUESTED",
+    "lib/python3.8/site-packages/deepTools-3.5.1.dist-info/WHEEL",
+    "lib/python3.8/site-packages/deepTools-3.5.1.dist-info/direct_url.json",
+    "lib/python3.8/site-packages/deepTools-3.5.1.dist-info/top_level.txt",
+    "lib/python3.8/site-packages/deepTools-3.5.1.dist-info/zip-safe",
+    "lib/python3.8/site-packages/deeptools/SES_scaleFactor.py",
+    "lib/python3.8/site-packages/deeptools/__init__.py",
+    "lib/python3.8/site-packages/deeptools/_version.py",
+    "lib/python3.8/site-packages/deeptools/alignmentSieve.py",
+    "lib/python3.8/site-packages/deeptools/bamCompare.py",
+    "lib/python3.8/site-packages/deeptools/bamCoverage.py",
+    "lib/python3.8/site-packages/deeptools/bamHandler.py",
+    "lib/python3.8/site-packages/deeptools/bamPEFragmentSize.py",
+    "lib/python3.8/site-packages/deeptools/bigwigCompare.py",
+    "lib/python3.8/site-packages/deeptools/cm.py",
+    "lib/python3.8/site-packages/deeptools/computeGCBias.py",
+    "lib/python3.8/site-packages/deeptools/computeMatrix.py",
+    "lib/python3.8/site-packages/deeptools/computeMatrixOperations.py",
+    "lib/python3.8/site-packages/deeptools/correctGCBias.py",
+    "lib/python3.8/site-packages/deeptools/correlation.py",
+    "lib/python3.8/site-packages/deeptools/correlation_heatmap.py",
+    "lib/python3.8/site-packages/deeptools/countReadsPerBin.py",
+    "lib/python3.8/site-packages/deeptools/deepBlue.py",
+    "lib/python3.8/site-packages/deeptools/deeptools_list_tools.py",
+    "lib/python3.8/site-packages/deeptools/estimateReadFiltering.py",
+    "lib/python3.8/site-packages/deeptools/getFragmentAndReadSize.py",
+    "lib/python3.8/site-packages/deeptools/getRatio.py",
+    "lib/python3.8/site-packages/deeptools/getScaleFactor.py",
+    "lib/python3.8/site-packages/deeptools/getScorePerBigWigBin.py",
+    "lib/python3.8/site-packages/deeptools/heatmapper.py",
+    "lib/python3.8/site-packages/deeptools/heatmapper_utilities.py",
+    "lib/python3.8/site-packages/deeptools/mapReduce.py",
+    "lib/python3.8/site-packages/deeptools/misc.py",
+    "lib/python3.8/site-packages/deeptools/multiBamSummary.py",
+    "lib/python3.8/site-packages/deeptools/multiBigwigSummary.py",
+    "lib/python3.8/site-packages/deeptools/parserCommon.py",
+    "lib/python3.8/site-packages/deeptools/plotCorrelation.py",
+    "lib/python3.8/site-packages/deeptools/plotCoverage.py",
+    "lib/python3.8/site-packages/deeptools/plotEnrichment.py",
+    "lib/python3.8/site-packages/deeptools/plotFingerprint.py",
+    "lib/python3.8/site-packages/deeptools/plotHeatmap.py",
+    "lib/python3.8/site-packages/deeptools/plotPCA.py",
+    "lib/python3.8/site-packages/deeptools/plotProfile.py",
+    "lib/python3.8/site-packages/deeptools/sumCoveragePerBin.py",
+    "lib/python3.8/site-packages/deeptools/utilities.py",
+    "lib/python3.8/site-packages/deeptools/writeBedGraph.py",
+    "lib/python3.8/site-packages/deeptools/writeBedGraph_bam_and_bw.py",
+    "lib/python3.8/site-packages/deeptools/__pycache__/SES_scaleFactor.cpython-38.pyc",
+    "lib/python3.8/site-packages/deeptools/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/deeptools/__pycache__/_version.cpython-38.pyc",
+    "lib/python3.8/site-packages/deeptools/__pycache__/alignmentSieve.cpython-38.pyc",
+    "lib/python3.8/site-packages/deeptools/__pycache__/bamCompare.cpython-38.pyc",
+    "lib/python3.8/site-packages/deeptools/__pycache__/bamCoverage.cpython-38.pyc",
+    "lib/python3.8/site-packages/deeptools/__pycache__/bamHandler.cpython-38.pyc",
+    "lib/python3.8/site-packages/deeptools/__pycache__/bamPEFragmentSize.cpython-38.pyc",
+    "lib/python3.8/site-packages/deeptools/__pycache__/bigwigCompare.cpython-38.pyc",
+    "lib/python3.8/site-packages/deeptools/__pycache__/cm.cpython-38.pyc",
+    "lib/python3.8/site-packages/deeptools/__pycache__/computeGCBias.cpython-38.pyc",
+    "lib/python3.8/site-packages/deeptools/__pycache__/computeMatrix.cpython-38.pyc",
+    "lib/python3.8/site-packages/deeptools/__pycache__/computeMatrixOperations.cpython-38.pyc",
+    "lib/python3.8/site-packages/deeptools/__pycache__/correctGCBias.cpython-38.pyc",
+    "lib/python3.8/site-packages/deeptools/__pycache__/correlation.cpython-38.pyc",
+    "lib/python3.8/site-packages/deeptools/__pycache__/correlation_heatmap.cpython-38.pyc",
+    "lib/python3.8/site-packages/deeptools/__pycache__/countReadsPerBin.cpython-38.pyc",
+    "lib/python3.8/site-packages/deeptools/__pycache__/deepBlue.cpython-38.pyc",
+    "lib/python3.8/site-packages/deeptools/__pycache__/deeptools_list_tools.cpython-38.pyc",
+    "lib/python3.8/site-packages/deeptools/__pycache__/estimateReadFiltering.cpython-38.pyc",
+    "lib/python3.8/site-packages/deeptools/__pycache__/getFragmentAndReadSize.cpython-38.pyc",
+    "lib/python3.8/site-packages/deeptools/__pycache__/getRatio.cpython-38.pyc",
+    "lib/python3.8/site-packages/deeptools/__pycache__/getScaleFactor.cpython-38.pyc",
+    "lib/python3.8/site-packages/deeptools/__pycache__/getScorePerBigWigBin.cpython-38.pyc",
+    "lib/python3.8/site-packages/deeptools/__pycache__/heatmapper.cpython-38.pyc",
+    "lib/python3.8/site-packages/deeptools/__pycache__/heatmapper_utilities.cpython-38.pyc",
+    "lib/python3.8/site-packages/deeptools/__pycache__/mapReduce.cpython-38.pyc",
+    "lib/python3.8/site-packages/deeptools/__pycache__/misc.cpython-38.pyc",
+    "lib/python3.8/site-packages/deeptools/__pycache__/multiBamSummary.cpython-38.pyc",
+    "lib/python3.8/site-packages/deeptools/__pycache__/multiBigwigSummary.cpython-38.pyc",
+    "lib/python3.8/site-packages/deeptools/__pycache__/parserCommon.cpython-38.pyc",
+    "lib/python3.8/site-packages/deeptools/__pycache__/plotCorrelation.cpython-38.pyc",
+    "lib/python3.8/site-packages/deeptools/__pycache__/plotCoverage.cpython-38.pyc",
+    "lib/python3.8/site-packages/deeptools/__pycache__/plotEnrichment.cpython-38.pyc",
+    "lib/python3.8/site-packages/deeptools/__pycache__/plotFingerprint.cpython-38.pyc",
+    "lib/python3.8/site-packages/deeptools/__pycache__/plotHeatmap.cpython-38.pyc",
+    "lib/python3.8/site-packages/deeptools/__pycache__/plotPCA.cpython-38.pyc",
+    "lib/python3.8/site-packages/deeptools/__pycache__/plotProfile.cpython-38.pyc",
+    "lib/python3.8/site-packages/deeptools/__pycache__/sumCoveragePerBin.cpython-38.pyc",
+    "lib/python3.8/site-packages/deeptools/__pycache__/utilities.cpython-38.pyc",
+    "lib/python3.8/site-packages/deeptools/__pycache__/writeBedGraph.cpython-38.pyc",
+    "lib/python3.8/site-packages/deeptools/__pycache__/writeBedGraph_bam_and_bw.cpython-38.pyc"
+  ],
+  "fn": "deeptools-3.5.1-py_0.tar.bz2",
+  "license": "GPL3",
+  "link": {
+    "source": "/omics/groups/OE0146/internal/Areeba/miniconda3/pkgs/deeptools-3.5.1-py_0",
+    "type": 1
+  },
+  "md5": "fa353b6db1b9a17bc90e129f90db52be",
+  "name": "deeptools",
+  "noarch": "python",
+  "package_tarball_full_path": "/omics/groups/OE0146/internal/Areeba/miniconda3/pkgs/deeptools-3.5.1-py_0.tar.bz2",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "python-scripts/alignmentSieve",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/deeptools_1615994437470/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla",
+        "sha256": "8e77c68da5df8163cd2405504cdfef8f551288792df3a23ea5036ae82bcabb24",
+        "sha256_in_prefix": "c29a6e0622c5708d00788b3aea582c4fb4e14bd7a06d8bf33ea509950a72ea34",
+        "size_in_bytes": 480
+      },
+      {
+        "_path": "python-scripts/bamCompare",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/deeptools_1615994437470/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla",
+        "sha256": "bf48105ec03231cab16a3a3b55d298dc1c4caa58f8089e7bfc37d67181759a03",
+        "sha256_in_prefix": "1a1ac0d4e4888258b1e20de5b9b42ec9e4191e8ffa20c453098b1177332832da",
+        "size_in_bytes": 476
+      },
+      {
+        "_path": "python-scripts/bamCoverage",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/deeptools_1615994437470/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla",
+        "sha256": "435f97af3a21a4402c8207dd9d0c475ab7f6ab78cab53266542eb1fa4d2ce641",
+        "sha256_in_prefix": "c4665d1ee5ad23c2c02bb99b8fafafa7c9d9d463615a54fdb34be81df2b66dd1",
+        "size_in_bytes": 477
+      },
+      {
+        "_path": "python-scripts/bamPEFragmentSize",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/deeptools_1615994437470/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla",
+        "sha256": "9596ce814fd08be241b871bdedc9b563e192a976f55c1664001db131972be3f1",
+        "sha256_in_prefix": "494f1094b541da1fdadfa8fb0bdef76a47dde9bd01fe67e2aa7bac80115de716",
+        "size_in_bytes": 483
+      },
+      {
+        "_path": "python-scripts/bigwigCompare",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/deeptools_1615994437470/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla",
+        "sha256": "33c8a1041756ab506ef4421b2ceb4dceb8ed9aac9d296f7a7bc01ed3ac73c646",
+        "sha256_in_prefix": "937df361d622f9fb2a0be92ac15eaf92677ecc3429aab1adefc0844206a84af8",
+        "size_in_bytes": 479
+      },
+      {
+        "_path": "python-scripts/computeGCBias",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/deeptools_1615994437470/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla",
+        "sha256": "15cb03d6dcefd84db869287e9a2f19e71382e4f53a234bf6176d4c59224da199",
+        "sha256_in_prefix": "3b7bf7f291c131da7165a949976eb230acced3189838d0823132fea44956fc02",
+        "size_in_bytes": 479
+      },
+      {
+        "_path": "python-scripts/computeMatrix",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/deeptools_1615994437470/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla",
+        "sha256": "0cc9aaa13dbed2949d37b2c3d32d26ceec515a4c090c211f8bdc5ac37f6571c8",
+        "sha256_in_prefix": "e0ba56bdc290ae6c1664afa7fe7053ee3eabd00ff9b7f7eca0404620002e0e31",
+        "size_in_bytes": 573
+      },
+      {
+        "_path": "python-scripts/computeMatrixOperations",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/deeptools_1615994437470/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla",
+        "sha256": "3df890cd728d548685ce2be7a0c68fb081065dd3a1b41847089295845a00e4ee",
+        "sha256_in_prefix": "cf89f7e14b4597f5fd32076a8b2f69ccf5fe32de93d3af1caf4ad5da432144f2",
+        "size_in_bytes": 489
+      },
+      {
+        "_path": "python-scripts/correctGCBias",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/deeptools_1615994437470/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla",
+        "sha256": "7990aab98175f6570fe13c28c40a53b35a8da977a5273faf3a8511e4f4d144dd",
+        "sha256_in_prefix": "f9fcf4aa9bf473b435cf33538a99ebe00864a8dc9913fbbc24109a094869ab76",
+        "size_in_bytes": 479
+      },
+      {
+        "_path": "python-scripts/deeptools",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/deeptools_1615994437470/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla",
+        "sha256": "af8f4a117f133d3f4da5855df5132d60d46ee4467bd81d60fb1c34e7de01c8df",
+        "sha256_in_prefix": "934b75da2620851be86d26b4a178edd809a1c0f52d233d77ff47880525125803",
+        "size_in_bytes": 486
+      },
+      {
+        "_path": "python-scripts/estimateReadFiltering",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/deeptools_1615994437470/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla",
+        "sha256": "18fe2017bc0340d38e32b65e0edc62b7bb00f1c9d13feb5f834f41a711df6e89",
+        "sha256_in_prefix": "c527ab723427e892829d5ecdd79a39617871716d27f848ef4bd7741493d2c0bf",
+        "size_in_bytes": 488
+      },
+      {
+        "_path": "python-scripts/estimateScaleFactor",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/deeptools_1615994437470/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla",
+        "sha256": "046551aeef0816208d2e7ceb0a2ec14d8990d34cc595a5cea4dd6a00b6ea86f9",
+        "sha256_in_prefix": "b4d3d521989be315dc0ecd08322dc9c3925ebf274ea077cbbff8b1035ce9abd6",
+        "size_in_bytes": 4902
+      },
+      {
+        "_path": "python-scripts/multiBamSummary",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/deeptools_1615994437470/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla",
+        "sha256": "60207bed2fad304e3ef2355588430889fb28fd97b74a9d84528b18b67a1d49d5",
+        "sha256_in_prefix": "cbae06fef927d1edb088d6eb121d829719ffce02387cf20de93efd0c784b11ca",
+        "size_in_bytes": 573
+      },
+      {
+        "_path": "python-scripts/multiBigwigSummary",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/deeptools_1615994437470/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla",
+        "sha256": "af829bc00dcf0dda19a58c226701a523a268d96a735a768ee1abef29a485eaa1",
+        "sha256_in_prefix": "e1b73a0d84f2d5c5eb07afbcae26446ad0eeacea976f2445b8ea7676b1c15864",
+        "size_in_bytes": 576
+      },
+      {
+        "_path": "python-scripts/plotCorrelation",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/deeptools_1615994437470/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla",
+        "sha256": "cd704fc6028012b0496b9e6227b8a5a0d0526c5c06c2737486acb6c707c79a13",
+        "sha256_in_prefix": "ce96a1af18ee4eff700a8f4080b92d589bcd8f2193fec93d4a3fcb9b50582c9a",
+        "size_in_bytes": 481
+      },
+      {
+        "_path": "python-scripts/plotCoverage",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/deeptools_1615994437470/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla",
+        "sha256": "2196b4d25c214a5663fc4f9ecafe7d2b7daab56c965cd3332611c5fa08b9a09d",
+        "sha256_in_prefix": "959dbe1066aa2b860c50436202da6b6766beefc47d34033fa51b581c9f5777d0",
+        "size_in_bytes": 479
+      },
+      {
+        "_path": "python-scripts/plotEnrichment",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/deeptools_1615994437470/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla",
+        "sha256": "a92ef1d3e69b284cecd504930d9be16f4371fd6349b430b55381fbba43683497",
+        "sha256_in_prefix": "30aec614ead2e6634cc71b130d14a28a4776f4f2a1a84d18d962b968ff4d7dd4",
+        "size_in_bytes": 481
+      },
+      {
+        "_path": "python-scripts/plotFingerprint",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/deeptools_1615994437470/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla",
+        "sha256": "9650bdf0f014e5cdde248a49de1da381468e6767fdccb2a1f4789f6623a62b43",
+        "sha256_in_prefix": "58a0f9eac913582564537baf0ccbf22b7d8ea08ee86f365b14c90ffd9f4e294c",
+        "size_in_bytes": 481
+      },
+      {
+        "_path": "python-scripts/plotHeatmap",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/deeptools_1615994437470/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla",
+        "sha256": "cc2c48fa9d2598c3c0ee76476a1fe5a662d219250e1112bb98fb564cb7afb6db",
+        "sha256_in_prefix": "25bcc2f71a7d58fedda6b3ed3e69ea96185b1ff62622e582b3820e9f2b89ac80",
+        "size_in_bytes": 477
+      },
+      {
+        "_path": "python-scripts/plotPCA",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/deeptools_1615994437470/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla",
+        "sha256": "2379e7a75f91e3a7f2aa40ff6bba44222d81ccd29f940c5b8aa3007ccd18967e",
+        "sha256_in_prefix": "e7022b1a4e090562e07430a684c6b4ede43e5d7f292f4e5b17dbf153d8d5c815",
+        "size_in_bytes": 473
+      },
+      {
+        "_path": "python-scripts/plotProfile",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/deeptools_1615994437470/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla",
+        "sha256": "623c295e9ba3a73e9795ba854c521bb262971f3a5ddbd1bc23b0ba0807193da1",
+        "sha256_in_prefix": "e62827680e83c19803648dbf666fa189e09f29dcd5422358a06029681d1d58e1",
+        "size_in_bytes": 477
+      },
+      {
+        "_path": "site-packages/deepTools-3.5.1.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/deepTools-3.5.1.dist-info/LICENSE.txt",
+        "path_type": "hardlink",
+        "sha256": "279ca30e5c2f04fcde1c9ee231a180471d8c69e3300ba3a50afe14aef318420d",
+        "sha256_in_prefix": "279ca30e5c2f04fcde1c9ee231a180471d8c69e3300ba3a50afe14aef318420d",
+        "size_in_bytes": 1241
+      },
+      {
+        "_path": "site-packages/deepTools-3.5.1.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "3a7305e6f2600412ce2d561a34cad2b5273ba593beb90d947f19dd4ed4b4ae52",
+        "sha256_in_prefix": "3a7305e6f2600412ce2d561a34cad2b5273ba593beb90d947f19dd4ed4b4ae52",
+        "size_in_bytes": 2276
+      },
+      {
+        "_path": "site-packages/deepTools-3.5.1.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "c867dd7251189e62f56d11dafc2e26638d7e2772c603c4d9ae23e3ed11f69422",
+        "sha256_in_prefix": "c867dd7251189e62f56d11dafc2e26638d7e2772c603c4d9ae23e3ed11f69422",
+        "size_in_bytes": 8392
+      },
+      {
+        "_path": "site-packages/deepTools-3.5.1.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/deepTools-3.5.1.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "3aa464174798e461ecb0ca2b16395b4c8ab4ef6be91e917ad1f21003a952f710",
+        "sha256_in_prefix": "3aa464174798e461ecb0ca2b16395b4c8ab4ef6be91e917ad1f21003a952f710",
+        "size_in_bytes": 92
+      },
+      {
+        "_path": "site-packages/deepTools-3.5.1.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "75499231c0dda30fa69b4c6d0dba265a0993b0f7144992c65bcf86fd97ee753c",
+        "sha256_in_prefix": "75499231c0dda30fa69b4c6d0dba265a0993b0f7144992c65bcf86fd97ee753c",
+        "size_in_bytes": 83
+      },
+      {
+        "_path": "site-packages/deepTools-3.5.1.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "5644500afada1723d68c9aaffc44e59312addbe0a27e7cbb43b002bbc5bbb919",
+        "sha256_in_prefix": "5644500afada1723d68c9aaffc44e59312addbe0a27e7cbb43b002bbc5bbb919",
+        "size_in_bytes": 10
+      },
+      {
+        "_path": "site-packages/deepTools-3.5.1.dist-info/zip-safe",
+        "path_type": "hardlink",
+        "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "sha256_in_prefix": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "size_in_bytes": 1
+      },
+      {
+        "_path": "site-packages/deeptools/SES_scaleFactor.py",
+        "path_type": "hardlink",
+        "sha256": "406e1f7f8ecf71225e7c7d0062badbfef228822c049bc1ab63395a2494d254db",
+        "sha256_in_prefix": "406e1f7f8ecf71225e7c7d0062badbfef228822c049bc1ab63395a2494d254db",
+        "size_in_bytes": 7008
+      },
+      {
+        "_path": "site-packages/deeptools/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/deeptools/_version.py",
+        "path_type": "hardlink",
+        "sha256": "38c96cfac210c40028f7bdc4d6a72d62ce9636c757d1b56aed4d446bed7f14d1",
+        "sha256_in_prefix": "38c96cfac210c40028f7bdc4d6a72d62ce9636c757d1b56aed4d446bed7f14d1",
+        "size_in_bytes": 179
+      },
+      {
+        "_path": "site-packages/deeptools/alignmentSieve.py",
+        "path_type": "hardlink",
+        "sha256": "f3838e6ad9aac541e85b026769a5bc1ced5647a37f41a89d2f0d0fc2fff18d13",
+        "sha256_in_prefix": "f3838e6ad9aac541e85b026769a5bc1ced5647a37f41a89d2f0d0fc2fff18d13",
+        "size_in_bytes": 17702
+      },
+      {
+        "_path": "site-packages/deeptools/bamCompare.py",
+        "path_type": "hardlink",
+        "sha256": "22ba9ad21ade651feeea0a5c2a0e6640b69460b5b76d830cc132e55efbc7b547",
+        "sha256_in_prefix": "22ba9ad21ade651feeea0a5c2a0e6640b69460b5b76d830cc132e55efbc7b547",
+        "size_in_bytes": 14239
+      },
+      {
+        "_path": "site-packages/deeptools/bamCoverage.py",
+        "path_type": "hardlink",
+        "sha256": "653f6ad9fed78df3f3c9cf98dfca42be1fb7d3e458ae8580a3e5eabd5e87dd3f",
+        "sha256_in_prefix": "653f6ad9fed78df3f3c9cf98dfca42be1fb7d3e458ae8580a3e5eabd5e87dd3f",
+        "size_in_bytes": 18596
+      },
+      {
+        "_path": "site-packages/deeptools/bamHandler.py",
+        "path_type": "hardlink",
+        "sha256": "54018e8cc33a7a1a77b7e0974c6478c0dba2f07fc5dbf1e92a3e07cdbdb30981",
+        "sha256_in_prefix": "54018e8cc33a7a1a77b7e0974c6478c0dba2f07fc5dbf1e92a3e07cdbdb30981",
+        "size_in_bytes": 3346
+      },
+      {
+        "_path": "site-packages/deeptools/bamPEFragmentSize.py",
+        "path_type": "hardlink",
+        "sha256": "8ac8685c9d9a2e1025e4e6f3e1f0ca770cca272791450e30460a5c33feca62fa",
+        "sha256_in_prefix": "8ac8685c9d9a2e1025e4e6f3e1f0ca770cca272791450e30460a5c33feca62fa",
+        "size_in_bytes": 21011
+      },
+      {
+        "_path": "site-packages/deeptools/bigwigCompare.py",
+        "path_type": "hardlink",
+        "sha256": "5620c26efb79452eaea1707b76a1a6070a28e7ce7f94b4f9231df84edb169eab",
+        "sha256_in_prefix": "5620c26efb79452eaea1707b76a1a6070a28e7ce7f94b4f9231df84edb169eab",
+        "size_in_bytes": 8069
+      },
+      {
+        "_path": "site-packages/deeptools/cm.py",
+        "path_type": "hardlink",
+        "sha256": "9eb5079b5dd3b6fe50ceb7bbe9dea36ed253d9cd775e7d3e27a12b6e44ccb875",
+        "sha256_in_prefix": "9eb5079b5dd3b6fe50ceb7bbe9dea36ed253d9cd775e7d3e27a12b6e44ccb875",
+        "size_in_bytes": 44831
+      },
+      {
+        "_path": "site-packages/deeptools/computeGCBias.py",
+        "path_type": "hardlink",
+        "sha256": "8b05c5f61353bd496b9297be08e7eba24e5ea5d82c7f61255aed479c130e61c3",
+        "sha256_in_prefix": "8b05c5f61353bd496b9297be08e7eba24e5ea5d82c7f61255aed479c130e61c3",
+        "size_in_bytes": 30962
+      },
+      {
+        "_path": "site-packages/deeptools/computeMatrix.py",
+        "path_type": "hardlink",
+        "sha256": "fad718210ae975bb5ab34317136b5a37701d816616d8f9ca2f45a2c9f0647877",
+        "sha256_in_prefix": "fad718210ae975bb5ab34317136b5a37701d816616d8f9ca2f45a2c9f0647877",
+        "size_in_bytes": 23264
+      },
+      {
+        "_path": "site-packages/deeptools/computeMatrixOperations.py",
+        "path_type": "hardlink",
+        "sha256": "6a6fddfe13ea69dc1b76e4981b360668f42f2a580980df82dab661e05f0f51ac",
+        "sha256_in_prefix": "6a6fddfe13ea69dc1b76e4981b360668f42f2a580980df82dab661e05f0f51ac",
+        "size_in_bytes": 31989
+      },
+      {
+        "_path": "site-packages/deeptools/correctGCBias.py",
+        "path_type": "hardlink",
+        "sha256": "d55e05c00b0a3168907e47fdcfd6916e569e3f1fb3adeae0507b9b06602a3679",
+        "sha256_in_prefix": "d55e05c00b0a3168907e47fdcfd6916e569e3f1fb3adeae0507b9b06602a3679",
+        "size_in_bytes": 26145
+      },
+      {
+        "_path": "site-packages/deeptools/correlation.py",
+        "path_type": "hardlink",
+        "sha256": "34993b3a9fa0f74119b0057c22825aa072bbe65c4f0259662dbb07c179f556ad",
+        "sha256_in_prefix": "34993b3a9fa0f74119b0057c22825aa072bbe65c4f0259662dbb07c179f556ad",
+        "size_in_bytes": 28053
+      },
+      {
+        "_path": "site-packages/deeptools/correlation_heatmap.py",
+        "path_type": "hardlink",
+        "sha256": "a9aa0ea155dd2499fc96e15c1f4a01af60aaba207299c2549c0b6f1079af4df3",
+        "sha256_in_prefix": "a9aa0ea155dd2499fc96e15c1f4a01af60aaba207299c2549c0b6f1079af4df3",
+        "size_in_bytes": 3796
+      },
+      {
+        "_path": "site-packages/deeptools/countReadsPerBin.py",
+        "path_type": "hardlink",
+        "sha256": "e2327c96aece2d0b21d5d20417d155db8bfaa8c29ca57f47de734cc63d5614dc",
+        "sha256_in_prefix": "e2327c96aece2d0b21d5d20417d155db8bfaa8c29ca57f47de734cc63d5614dc",
+        "size_in_bytes": 42163
+      },
+      {
+        "_path": "site-packages/deeptools/deepBlue.py",
+        "path_type": "hardlink",
+        "sha256": "21ec2848d56c6ae9b98772665273000ca764d776adf024db554f498b1c1dc9f7",
+        "sha256_in_prefix": "21ec2848d56c6ae9b98772665273000ca764d776adf024db554f498b1c1dc9f7",
+        "size_in_bytes": 10950
+      },
+      {
+        "_path": "site-packages/deeptools/deeptools_list_tools.py",
+        "path_type": "hardlink",
+        "sha256": "370c11cb469ac8bf55f54ec26fe6e75bfe89deb9ce95a3fea89f9d247b94e7ca",
+        "sha256_in_prefix": "370c11cb469ac8bf55f54ec26fe6e75bfe89deb9ce95a3fea89f9d247b94e7ca",
+        "size_in_bytes": 3240
+      },
+      {
+        "_path": "site-packages/deeptools/estimateReadFiltering.py",
+        "path_type": "hardlink",
+        "sha256": "161bf89cda69824f01fba539614738180a17cf940164a0e27854754c064dbc58",
+        "sha256_in_prefix": "161bf89cda69824f01fba539614738180a17cf940164a0e27854754c064dbc58",
+        "size_in_bytes": 16550
+      },
+      {
+        "_path": "site-packages/deeptools/getFragmentAndReadSize.py",
+        "path_type": "hardlink",
+        "sha256": "12ffb23bb0c5aa8d17bc77b93edbc42b35ee89ff08820bbbd95e95fa31613513",
+        "sha256_in_prefix": "12ffb23bb0c5aa8d17bc77b93edbc42b35ee89ff08820bbbd95e95fa31613513",
+        "size_in_bytes": 7018
+      },
+      {
+        "_path": "site-packages/deeptools/getRatio.py",
+        "path_type": "hardlink",
+        "sha256": "636cc1f54a15fc6bf47852e6f22c3c452edb86742f0867fbf64b96dcdc761f98",
+        "sha256_in_prefix": "636cc1f54a15fc6bf47852e6f22c3c452edb86742f0867fbf64b96dcdc761f98",
+        "size_in_bytes": 2326
+      },
+      {
+        "_path": "site-packages/deeptools/getScaleFactor.py",
+        "path_type": "hardlink",
+        "sha256": "424f6ed121712e8038c4363d36cdc14472e52c7da4591f1fad8e4d1be67c42e8",
+        "sha256_in_prefix": "424f6ed121712e8038c4363d36cdc14472e52c7da4591f1fad8e4d1be67c42e8",
+        "size_in_bytes": 12772
+      },
+      {
+        "_path": "site-packages/deeptools/getScorePerBigWigBin.py",
+        "path_type": "hardlink",
+        "sha256": "1d195e6aaac9098731b33cd7d78529d09ef4356d7bb4e7184136473b784de3e6",
+        "sha256_in_prefix": "1d195e6aaac9098731b33cd7d78529d09ef4356d7bb4e7184136473b784de3e6",
+        "size_in_bytes": 11968
+      },
+      {
+        "_path": "site-packages/deeptools/heatmapper.py",
+        "path_type": "hardlink",
+        "sha256": "507cf2401efaee9c2c57dc38bd080de255032d9460295cc84d3f99321ac041b0",
+        "sha256_in_prefix": "507cf2401efaee9c2c57dc38bd080de255032d9460295cc84d3f99321ac041b0",
+        "size_in_bytes": 58994
+      },
+      {
+        "_path": "site-packages/deeptools/heatmapper_utilities.py",
+        "path_type": "hardlink",
+        "sha256": "93269815f3cb37804122c83f1b97e867ca7d44dbe00a6287a50f1628f12d4971",
+        "sha256_in_prefix": "93269815f3cb37804122c83f1b97e867ca7d44dbe00a6287a50f1628f12d4971",
+        "size_in_bytes": 7169
+      },
+      {
+        "_path": "site-packages/deeptools/mapReduce.py",
+        "path_type": "hardlink",
+        "sha256": "1d5e2674a3e11873d510007fc31a3924eb4e5aea5e1c5ac87ff285e7403185eb",
+        "sha256_in_prefix": "1d5e2674a3e11873d510007fc31a3924eb4e5aea5e1c5ac87ff285e7403185eb",
+        "size_in_bytes": 9786
+      },
+      {
+        "_path": "site-packages/deeptools/misc.py",
+        "path_type": "hardlink",
+        "sha256": "5173393f7405512dd579aa903d99f0b67bd6581d6c1e5847f3f17ca406783b98",
+        "sha256_in_prefix": "5173393f7405512dd579aa903d99f0b67bd6581d6c1e5847f3f17ca406783b98",
+        "size_in_bytes": 597
+      },
+      {
+        "_path": "site-packages/deeptools/multiBamSummary.py",
+        "path_type": "hardlink",
+        "sha256": "99fd2a91e372cc524839971412359085ff63fc4f3f624d704f7cb4bd390fb70f",
+        "sha256_in_prefix": "99fd2a91e372cc524839971412359085ff63fc4f3f624d704f7cb4bd390fb70f",
+        "size_in_bytes": 11655
+      },
+      {
+        "_path": "site-packages/deeptools/multiBigwigSummary.py",
+        "path_type": "hardlink",
+        "sha256": "0ffd169ed08b99340e3cb3f8fbcc107c76530822d520ed0a36bd5289d7fab2eb",
+        "sha256_in_prefix": "0ffd169ed08b99340e3cb3f8fbcc107c76530822d520ed0a36bd5289d7fab2eb",
+        "size_in_bytes": 12675
+      },
+      {
+        "_path": "site-packages/deeptools/parserCommon.py",
+        "path_type": "hardlink",
+        "sha256": "33a93aae74d41ca2e544a4b4c900dafc8909f6c481c6183c8cbe70741cd5bc0a",
+        "sha256_in_prefix": "33a93aae74d41ca2e544a4b4c900dafc8909f6c481c6183c8cbe70741cd5bc0a",
+        "size_in_bytes": 45301
+      },
+      {
+        "_path": "site-packages/deeptools/plotCorrelation.py",
+        "path_type": "hardlink",
+        "sha256": "889cfb1140e55019a6a2789f22a82c6286dd77487bcf083a523c4ddaae0c0aef",
+        "sha256_in_prefix": "889cfb1140e55019a6a2789f22a82c6286dd77487bcf083a523c4ddaae0c0aef",
+        "size_in_bytes": 10834
+      },
+      {
+        "_path": "site-packages/deeptools/plotCoverage.py",
+        "path_type": "hardlink",
+        "sha256": "2bd6f292bde9ddf0a51f606735c618d878d0a207ba1ab70018556057c009e533",
+        "sha256_in_prefix": "2bd6f292bde9ddf0a51f606735c618d878d0a207ba1ab70018556057c009e533",
+        "size_in_bytes": 16183
+      },
+      {
+        "_path": "site-packages/deeptools/plotEnrichment.py",
+        "path_type": "hardlink",
+        "sha256": "49c53acc29ee4bf89fa826e54d9940b31b3bbb66427fb5695e74ac3c8aadec6f",
+        "sha256_in_prefix": "49c53acc29ee4bf89fa826e54d9940b31b3bbb66427fb5695e74ac3c8aadec6f",
+        "size_in_bytes": 25089
+      },
+      {
+        "_path": "site-packages/deeptools/plotFingerprint.py",
+        "path_type": "hardlink",
+        "sha256": "35e9b541fc7423cae98b573a4e16c1e41a0cdcac8d155866d7ec892c78e2ec53",
+        "sha256_in_prefix": "35e9b541fc7423cae98b573a4e16c1e41a0cdcac8d155866d7ec892c78e2ec53",
+        "size_in_bytes": 19752
+      },
+      {
+        "_path": "site-packages/deeptools/plotHeatmap.py",
+        "path_type": "hardlink",
+        "sha256": "8454a612af1579bea984d4b00da1e27bf3dde41c923870f59d303c6c86cc6d64",
+        "sha256_in_prefix": "8454a612af1579bea984d4b00da1e27bf3dde41c923870f59d303c6c86cc6d64",
+        "size_in_bytes": 37639
+      },
+      {
+        "_path": "site-packages/deeptools/plotPCA.py",
+        "path_type": "hardlink",
+        "sha256": "036aa5229458b48f821a973fd3f1f059fc662096c3da1d7d59b33d4537bb3050",
+        "sha256_in_prefix": "036aa5229458b48f821a973fd3f1f059fc662096c3da1d7d59b33d4537bb3050",
+        "size_in_bytes": 9322
+      },
+      {
+        "_path": "site-packages/deeptools/plotProfile.py",
+        "path_type": "hardlink",
+        "sha256": "9f759bcdbe374685ebf526fb5a2d292bf44af9d04e36d640720bea88863c3374",
+        "sha256_in_prefix": "9f759bcdbe374685ebf526fb5a2d292bf44af9d04e36d640720bea88863c3374",
+        "size_in_bytes": 39162
+      },
+      {
+        "_path": "site-packages/deeptools/sumCoveragePerBin.py",
+        "path_type": "hardlink",
+        "sha256": "d5d5a826acb8d10518244ccc63f4d8dcc044190262288e9e5930c801c311ac78",
+        "sha256_in_prefix": "d5d5a826acb8d10518244ccc63f4d8dcc044190262288e9e5930c801c311ac78",
+        "size_in_bytes": 9902
+      },
+      {
+        "_path": "site-packages/deeptools/utilities.py",
+        "path_type": "hardlink",
+        "sha256": "96cc6c2261d86677fc9a043c10743431e69aa64f570ec6e8cb7088570d2c058d",
+        "sha256_in_prefix": "96cc6c2261d86677fc9a043c10743431e69aa64f570ec6e8cb7088570d2c058d",
+        "size_in_bytes": 14161
+      },
+      {
+        "_path": "site-packages/deeptools/writeBedGraph.py",
+        "path_type": "hardlink",
+        "sha256": "3f55526b90b1cca4abb8a4a11a142b6a802b34bcde317ba22e0f817afaf031af",
+        "sha256_in_prefix": "3f55526b90b1cca4abb8a4a11a142b6a802b34bcde317ba22e0f817afaf031af",
+        "size_in_bytes": 13224
+      },
+      {
+        "_path": "site-packages/deeptools/writeBedGraph_bam_and_bw.py",
+        "path_type": "hardlink",
+        "sha256": "4aa7b1ce4a37568b976f26f23a6097f71310eacfb3bd57339786959dc0cfda64",
+        "sha256_in_prefix": "4aa7b1ce4a37568b976f26f23a6097f71310eacfb3bd57339786959dc0cfda64",
+        "size_in_bytes": 8954
+      },
+      {
+        "_path": "lib/python3.8/site-packages/deeptools/__pycache__/SES_scaleFactor.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/deeptools/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/deeptools/__pycache__/_version.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/deeptools/__pycache__/alignmentSieve.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/deeptools/__pycache__/bamCompare.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/deeptools/__pycache__/bamCoverage.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/deeptools/__pycache__/bamHandler.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/deeptools/__pycache__/bamPEFragmentSize.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/deeptools/__pycache__/bigwigCompare.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/deeptools/__pycache__/cm.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/deeptools/__pycache__/computeGCBias.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/deeptools/__pycache__/computeMatrix.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/deeptools/__pycache__/computeMatrixOperations.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/deeptools/__pycache__/correctGCBias.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/deeptools/__pycache__/correlation.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/deeptools/__pycache__/correlation_heatmap.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/deeptools/__pycache__/countReadsPerBin.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/deeptools/__pycache__/deepBlue.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/deeptools/__pycache__/deeptools_list_tools.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/deeptools/__pycache__/estimateReadFiltering.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/deeptools/__pycache__/getFragmentAndReadSize.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/deeptools/__pycache__/getRatio.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/deeptools/__pycache__/getScaleFactor.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/deeptools/__pycache__/getScorePerBigWigBin.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/deeptools/__pycache__/heatmapper.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/deeptools/__pycache__/heatmapper_utilities.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/deeptools/__pycache__/mapReduce.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/deeptools/__pycache__/misc.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/deeptools/__pycache__/multiBamSummary.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/deeptools/__pycache__/multiBigwigSummary.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/deeptools/__pycache__/parserCommon.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/deeptools/__pycache__/plotCorrelation.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/deeptools/__pycache__/plotCoverage.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/deeptools/__pycache__/plotEnrichment.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/deeptools/__pycache__/plotFingerprint.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/deeptools/__pycache__/plotHeatmap.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/deeptools/__pycache__/plotPCA.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/deeptools/__pycache__/plotProfile.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/deeptools/__pycache__/sumCoveragePerBin.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/deeptools/__pycache__/utilities.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/deeptools/__pycache__/writeBedGraph.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/deeptools/__pycache__/writeBedGraph_bam_and_bw.cpython-38.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "deeptools==3.5.1=py_0",
+  "sha256": "0c1a1bd4d0ab2ea636f32f8b9e7229dd5be0e0996f37ef4270e4e1a5d99e9dc3",
+  "size": 146745,
+  "subdir": "noarch",
+  "timestamp": 1615994656000,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/bioconda/noarch/deeptools-3.5.1-py_0.tar.bz2",
+  "version": "3.5.1"
+}

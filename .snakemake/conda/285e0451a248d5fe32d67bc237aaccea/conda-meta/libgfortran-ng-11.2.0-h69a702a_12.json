@@ -1,0 +1,33 @@
+{
+  "build": "h69a702a_12",
+  "build_number": 12,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "libgfortran5 11.2.0 h5c6108e_12"
+  ],
+  "extracted_package_dir": "/omics/groups/OE0146/internal/Areeba/miniconda3/pkgs/libgfortran-ng-11.2.0-h69a702a_12",
+  "features": "",
+  "files": [],
+  "fn": "libgfortran-ng-11.2.0-h69a702a_12.tar.bz2",
+  "license": "GPL-3.0-only WITH GCC-exception-3.1",
+  "link": {
+    "source": "/omics/groups/OE0146/internal/Areeba/miniconda3/pkgs/libgfortran-ng-11.2.0-h69a702a_12",
+    "type": 1
+  },
+  "md5": "33c165be455015cc74e8d857182f3f58",
+  "name": "libgfortran-ng",
+  "package_tarball_full_path": "/omics/groups/OE0146/internal/Areeba/miniconda3/pkgs/libgfortran-ng-11.2.0-h69a702a_12.tar.bz2",
+  "paths_data": {
+    "paths": [],
+    "paths_version": 1
+  },
+  "requested_spec": "libgfortran-ng==11.2.0=h69a702a_12",
+  "sha256": "ac5662a3ca5a43b1e8ab2ee4575e4d8e3d9b58cd555e67cd0d82c443e1a6092b",
+  "size": 19765,
+  "subdir": "linux-64",
+  "timestamp": 1643065683000,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/libgfortran-ng-11.2.0-h69a702a_12.tar.bz2",
+  "version": "11.2.0"
+}

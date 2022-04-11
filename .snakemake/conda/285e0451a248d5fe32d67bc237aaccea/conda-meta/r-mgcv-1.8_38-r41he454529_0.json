@@ -1,0 +1,328 @@
+{
+  "build": "r41he454529_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "r-matrix",
+    "libgcc-ng >=9.4.0",
+    "libblas >=3.8.0,<4.0a0",
+    "liblapack >=3.8.0,<4.0a0",
+    "r-base >=4.1,<4.2.0a0",
+    "r-nlme >=3.1_64"
+  ],
+  "extracted_package_dir": "/omics/groups/OE0146/internal/Areeba/miniconda3/pkgs/r-mgcv-1.8_38-r41he454529_0",
+  "features": "",
+  "files": [
+    "lib/R/library/mgcv/CITATION",
+    "lib/R/library/mgcv/DESCRIPTION",
+    "lib/R/library/mgcv/INDEX",
+    "lib/R/library/mgcv/Meta/Rd.rds",
+    "lib/R/library/mgcv/Meta/data.rds",
+    "lib/R/library/mgcv/Meta/features.rds",
+    "lib/R/library/mgcv/Meta/hsearch.rds",
+    "lib/R/library/mgcv/Meta/links.rds",
+    "lib/R/library/mgcv/Meta/nsInfo.rds",
+    "lib/R/library/mgcv/Meta/package.rds",
+    "lib/R/library/mgcv/NAMESPACE",
+    "lib/R/library/mgcv/R/mgcv",
+    "lib/R/library/mgcv/R/mgcv.rdb",
+    "lib/R/library/mgcv/R/mgcv.rdx",
+    "lib/R/library/mgcv/data/columb.polys.rda",
+    "lib/R/library/mgcv/data/columb.rda",
+    "lib/R/library/mgcv/help/AnIndex",
+    "lib/R/library/mgcv/help/aliases.rds",
+    "lib/R/library/mgcv/help/mgcv.rdb",
+    "lib/R/library/mgcv/help/mgcv.rdx",
+    "lib/R/library/mgcv/help/paths.rds",
+    "lib/R/library/mgcv/html/00Index.html",
+    "lib/R/library/mgcv/html/R.css",
+    "lib/R/library/mgcv/libs/mgcv.so",
+    "lib/R/library/mgcv/po/de/LC_MESSAGES/R-mgcv.mo",
+    "lib/R/library/mgcv/po/de/LC_MESSAGES/mgcv.mo",
+    "lib/R/library/mgcv/po/en@quot/LC_MESSAGES/R-mgcv.mo",
+    "lib/R/library/mgcv/po/en@quot/LC_MESSAGES/mgcv.mo",
+    "lib/R/library/mgcv/po/fr/LC_MESSAGES/R-mgcv.mo",
+    "lib/R/library/mgcv/po/fr/LC_MESSAGES/mgcv.mo",
+    "lib/R/library/mgcv/po/it/LC_MESSAGES/R-mgcv.mo",
+    "lib/R/library/mgcv/po/it/LC_MESSAGES/mgcv.mo",
+    "lib/R/library/mgcv/po/ko/LC_MESSAGES/R-mgcv.mo",
+    "lib/R/library/mgcv/po/ko/LC_MESSAGES/mgcv.mo",
+    "lib/R/library/mgcv/po/pl/LC_MESSAGES/R-mgcv.mo",
+    "lib/R/library/mgcv/po/pl/LC_MESSAGES/mgcv.mo"
+  ],
+  "fn": "r-mgcv-1.8_38-r41he454529_0.tar.bz2",
+  "license": "GPL-2.0-or-later",
+  "link": {
+    "source": "/omics/groups/OE0146/internal/Areeba/miniconda3/pkgs/r-mgcv-1.8_38-r41he454529_0",
+    "type": 1
+  },
+  "md5": "af776ec4774a22a676357e44198b0dfa",
+  "name": "r-mgcv",
+  "package_tarball_full_path": "/omics/groups/OE0146/internal/Areeba/miniconda3/pkgs/r-mgcv-1.8_38-r41he454529_0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/R/library/mgcv/CITATION",
+        "path_type": "hardlink",
+        "sha256": "7b4901c55a04430151494c8043b5c51b4f01aeae16d435b17356e741ba944d18",
+        "sha256_in_prefix": "7b4901c55a04430151494c8043b5c51b4f01aeae16d435b17356e741ba944d18",
+        "size_in_bytes": 2358
+      },
+      {
+        "_path": "lib/R/library/mgcv/DESCRIPTION",
+        "path_type": "hardlink",
+        "sha256": "6b567a919c2711cf8924d5366baef63bd747d62bf4b50810c4c930ecdf879375",
+        "sha256_in_prefix": "6b567a919c2711cf8924d5366baef63bd747d62bf4b50810c4c930ecdf879375",
+        "size_in_bytes": 1201
+      },
+      {
+        "_path": "lib/R/library/mgcv/INDEX",
+        "path_type": "hardlink",
+        "sha256": "54bc433571be9c2cd4945b1115dd337a7fdba15b7738f1d0872bd92fe77c300b",
+        "sha256_in_prefix": "54bc433571be9c2cd4945b1115dd337a7fdba15b7738f1d0872bd92fe77c300b",
+        "size_in_bytes": 12196
+      },
+      {
+        "_path": "lib/R/library/mgcv/Meta/Rd.rds",
+        "path_type": "hardlink",
+        "sha256": "81a962c3abe2029348686d1968c780a0d0fc0ff8406a18d27bcec8a963e3f018",
+        "sha256_in_prefix": "81a962c3abe2029348686d1968c780a0d0fc0ff8406a18d27bcec8a963e3f018",
+        "size_in_bytes": 6399
+      },
+      {
+        "_path": "lib/R/library/mgcv/Meta/data.rds",
+        "path_type": "hardlink",
+        "sha256": "4642bae9ba1ab7ea422d3e5042856f80d90e560067f5b63a399874ffe0071f9b",
+        "sha256_in_prefix": "4642bae9ba1ab7ea422d3e5042856f80d90e560067f5b63a399874ffe0071f9b",
+        "size_in_bytes": 133
+      },
+      {
+        "_path": "lib/R/library/mgcv/Meta/features.rds",
+        "path_type": "hardlink",
+        "sha256": "51d50d1afdf7fa236c2e547a1cac49aa6f6cee803f935a626cac903fa66f4373",
+        "sha256_in_prefix": "51d50d1afdf7fa236c2e547a1cac49aa6f6cee803f935a626cac903fa66f4373",
+        "size_in_bytes": 123
+      },
+      {
+        "_path": "lib/R/library/mgcv/Meta/hsearch.rds",
+        "path_type": "hardlink",
+        "sha256": "a1c6d4b3738a8b4d7281d7d09337dcc041d9b4f509938be1487ecd640464f59a",
+        "sha256_in_prefix": "a1c6d4b3738a8b4d7281d7d09337dcc041d9b4f509938be1487ecd640464f59a",
+        "size_in_bytes": 6205
+      },
+      {
+        "_path": "lib/R/library/mgcv/Meta/links.rds",
+        "path_type": "hardlink",
+        "sha256": "8a1d9ef042724b4c6862fbdacf888e635196818df5e2138cc56e1e185d0cba0b",
+        "sha256_in_prefix": "8a1d9ef042724b4c6862fbdacf888e635196818df5e2138cc56e1e185d0cba0b",
+        "size_in_bytes": 2645
+      },
+      {
+        "_path": "lib/R/library/mgcv/Meta/nsInfo.rds",
+        "path_type": "hardlink",
+        "sha256": "95d28529a0513167e4c48c872b5d5a41cba0545d1dec859f0d6bd5deeb163015",
+        "sha256_in_prefix": "95d28529a0513167e4c48c872b5d5a41cba0545d1dec859f0d6bd5deeb163015",
+        "size_in_bytes": 2572
+      },
+      {
+        "_path": "lib/R/library/mgcv/Meta/package.rds",
+        "path_type": "hardlink",
+        "sha256": "a947f52a9325e5c65f1df802218036b0d1446d3eea7376f05e8103b30fddc860",
+        "sha256_in_prefix": "a947f52a9325e5c65f1df802218036b0d1446d3eea7376f05e8103b30fddc860",
+        "size_in_bytes": 1180
+      },
+      {
+        "_path": "lib/R/library/mgcv/NAMESPACE",
+        "path_type": "hardlink",
+        "sha256": "6a127c3c634cd9e134a84c4bc22459f5d9e6e16a85bf0496ce0ca34a0c408e4e",
+        "sha256_in_prefix": "6a127c3c634cd9e134a84c4bc22459f5d9e6e16a85bf0496ce0ca34a0c408e4e",
+        "size_in_bytes": 7391
+      },
+      {
+        "_path": "lib/R/library/mgcv/R/mgcv",
+        "path_type": "hardlink",
+        "sha256": "570ca456b280cdeb201ef5ebdf22dc8f80092e2c0c68e33c7f73340e420f3759",
+        "sha256_in_prefix": "570ca456b280cdeb201ef5ebdf22dc8f80092e2c0c68e33c7f73340e420f3759",
+        "size_in_bytes": 1058
+      },
+      {
+        "_path": "lib/R/library/mgcv/R/mgcv.rdb",
+        "path_type": "hardlink",
+        "sha256": "bf13f2d483fd46c97ca08394f0a4071b9208120845d7344a02d78894dc02a317",
+        "sha256_in_prefix": "bf13f2d483fd46c97ca08394f0a4071b9208120845d7344a02d78894dc02a317",
+        "size_in_bytes": 1903649
+      },
+      {
+        "_path": "lib/R/library/mgcv/R/mgcv.rdx",
+        "path_type": "hardlink",
+        "sha256": "e3dd88c7495585f55c35ae0d4b41cd2a40f9e0379a1b8cc1cae21771ebedd4ee",
+        "sha256_in_prefix": "e3dd88c7495585f55c35ae0d4b41cd2a40f9e0379a1b8cc1cae21771ebedd4ee",
+        "size_in_bytes": 5531
+      },
+      {
+        "_path": "lib/R/library/mgcv/data/columb.polys.rda",
+        "path_type": "hardlink",
+        "sha256": "fa042bbb62ef650da5a75e1c2f461fcbc215f9d102e0120b01102225012dac3e",
+        "sha256_in_prefix": "fa042bbb62ef650da5a75e1c2f461fcbc215f9d102e0120b01102225012dac3e",
+        "size_in_bytes": 8262
+      },
+      {
+        "_path": "lib/R/library/mgcv/data/columb.rda",
+        "path_type": "hardlink",
+        "sha256": "68a162af31f862f7b5d8c594a1548c0d7bee735f0dd1b5d58dc1af353bd596dd",
+        "sha256_in_prefix": "68a162af31f862f7b5d8c594a1548c0d7bee735f0dd1b5d58dc1af353bd596dd",
+        "size_in_bytes": 2889
+      },
+      {
+        "_path": "lib/R/library/mgcv/help/AnIndex",
+        "path_type": "hardlink",
+        "sha256": "11c43f2e441cbcd1b8fdd853419ff6c9b0d02b486784258723e3b0c73660d91b",
+        "sha256_in_prefix": "11c43f2e441cbcd1b8fdd853419ff6c9b0d02b486784258723e3b0c73660d91b",
+        "size_in_bytes": 6960
+      },
+      {
+        "_path": "lib/R/library/mgcv/help/aliases.rds",
+        "path_type": "hardlink",
+        "sha256": "bcc5923b3adcd49980389fb8d8ce914103d84658c6e5ff7112ae403c6fdaafb4",
+        "sha256_in_prefix": "bcc5923b3adcd49980389fb8d8ce914103d84658c6e5ff7112ae403c6fdaafb4",
+        "size_in_bytes": 2017
+      },
+      {
+        "_path": "lib/R/library/mgcv/help/mgcv.rdb",
+        "path_type": "hardlink",
+        "sha256": "6c070cd2483ef632bb3a2becd1bbb5d6484bb8a8ce7ead42876d8050aa4134cc",
+        "sha256_in_prefix": "6c070cd2483ef632bb3a2becd1bbb5d6484bb8a8ce7ead42876d8050aa4134cc",
+        "size_in_bytes": 798063
+      },
+      {
+        "_path": "lib/R/library/mgcv/help/mgcv.rdx",
+        "path_type": "hardlink",
+        "sha256": "2f609db072739d1109b81beea6ee10a70b8d5bbb503f7dbad906373317f5246a",
+        "sha256_in_prefix": "2f609db072739d1109b81beea6ee10a70b8d5bbb503f7dbad906373317f5246a",
+        "size_in_bytes": 3444
+      },
+      {
+        "_path": "lib/R/library/mgcv/help/paths.rds",
+        "path_type": "hardlink",
+        "sha256": "61df9be54ef0f28bb6f84ad8736dd54c933d18c20bcbaa76c19b7fe5b5d98bb8",
+        "sha256_in_prefix": "61df9be54ef0f28bb6f84ad8736dd54c933d18c20bcbaa76c19b7fe5b5d98bb8",
+        "size_in_bytes": 1350
+      },
+      {
+        "_path": "lib/R/library/mgcv/html/00Index.html",
+        "path_type": "hardlink",
+        "sha256": "576096ffeaae818731889c3a47547ed57139e39bc279713bf3624c4771fa8dae",
+        "sha256_in_prefix": "576096ffeaae818731889c3a47547ed57139e39bc279713bf3624c4771fa8dae",
+        "size_in_bytes": 37209
+      },
+      {
+        "_path": "lib/R/library/mgcv/html/R.css",
+        "path_type": "hardlink",
+        "sha256": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "sha256_in_prefix": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "size_in_bytes": 1335
+      },
+      {
+        "_path": "lib/R/library/mgcv/libs/mgcv.so",
+        "path_type": "hardlink",
+        "sha256": "9a121e7047b470f1ea76a13aeab7406552d8f814b5b9b811abafbdd622f3c18a",
+        "sha256_in_prefix": "9a121e7047b470f1ea76a13aeab7406552d8f814b5b9b811abafbdd622f3c18a",
+        "size_in_bytes": 533688
+      },
+      {
+        "_path": "lib/R/library/mgcv/po/de/LC_MESSAGES/R-mgcv.mo",
+        "path_type": "hardlink",
+        "sha256": "acafe81cec39038e66f3fba7fc35e15c781df5b648134746fc7806830fb65395",
+        "sha256_in_prefix": "acafe81cec39038e66f3fba7fc35e15c781df5b648134746fc7806830fb65395",
+        "size_in_bytes": 51459
+      },
+      {
+        "_path": "lib/R/library/mgcv/po/de/LC_MESSAGES/mgcv.mo",
+        "path_type": "hardlink",
+        "sha256": "8e27f275555654ed94b847be55349ef5f06e79f7290dda67790e40f2105185b0",
+        "sha256_in_prefix": "8e27f275555654ed94b847be55349ef5f06e79f7290dda67790e40f2105185b0",
+        "size_in_bytes": 2152
+      },
+      {
+        "_path": "lib/R/library/mgcv/po/en@quot/LC_MESSAGES/R-mgcv.mo",
+        "path_type": "hardlink",
+        "sha256": "42f47cc7adf75f10d21cb93310e6986a2340b0f154fe41d1ca798bcbb7ca7098",
+        "sha256_in_prefix": "42f47cc7adf75f10d21cb93310e6986a2340b0f154fe41d1ca798bcbb7ca7098",
+        "size_in_bytes": 47632
+      },
+      {
+        "_path": "lib/R/library/mgcv/po/en@quot/LC_MESSAGES/mgcv.mo",
+        "path_type": "hardlink",
+        "sha256": "369db00983cd44c12aa334f9dc67ba27b351eaef495d859cab48e17b37e5d643",
+        "sha256_in_prefix": "369db00983cd44c12aa334f9dc67ba27b351eaef495d859cab48e17b37e5d643",
+        "size_in_bytes": 1990
+      },
+      {
+        "_path": "lib/R/library/mgcv/po/fr/LC_MESSAGES/R-mgcv.mo",
+        "path_type": "hardlink",
+        "sha256": "b77085e84df4eb10f665451e8d47b4d186b9a6555af6072d9e3c0bd2db04e227",
+        "sha256_in_prefix": "b77085e84df4eb10f665451e8d47b4d186b9a6555af6072d9e3c0bd2db04e227",
+        "size_in_bytes": 53144
+      },
+      {
+        "_path": "lib/R/library/mgcv/po/fr/LC_MESSAGES/mgcv.mo",
+        "path_type": "hardlink",
+        "sha256": "2d3692ba0a55f01b458edfd50f77ebfdd9f2f834d1e24eb14a29c7cf953e3848",
+        "sha256_in_prefix": "2d3692ba0a55f01b458edfd50f77ebfdd9f2f834d1e24eb14a29c7cf953e3848",
+        "size_in_bytes": 2207
+      },
+      {
+        "_path": "lib/R/library/mgcv/po/it/LC_MESSAGES/R-mgcv.mo",
+        "path_type": "hardlink",
+        "sha256": "bef668b7ac32972958352c28da09501642cd10c5fcf8bc8f13d3039a6b3edcc3",
+        "sha256_in_prefix": "bef668b7ac32972958352c28da09501642cd10c5fcf8bc8f13d3039a6b3edcc3",
+        "size_in_bytes": 44903
+      },
+      {
+        "_path": "lib/R/library/mgcv/po/it/LC_MESSAGES/mgcv.mo",
+        "path_type": "hardlink",
+        "sha256": "2a104e2797bcfc14badc8b219c92d9becc78db7d764ce3b9e6ed8abdea5823f3",
+        "sha256_in_prefix": "2a104e2797bcfc14badc8b219c92d9becc78db7d764ce3b9e6ed8abdea5823f3",
+        "size_in_bytes": 2177
+      },
+      {
+        "_path": "lib/R/library/mgcv/po/ko/LC_MESSAGES/R-mgcv.mo",
+        "path_type": "hardlink",
+        "sha256": "92f5fd8ef644587d2e65dc41ab9c03388b7617e47ba0aa3041c7592eee25c7f9",
+        "sha256_in_prefix": "92f5fd8ef644587d2e65dc41ab9c03388b7617e47ba0aa3041c7592eee25c7f9",
+        "size_in_bytes": 23817
+      },
+      {
+        "_path": "lib/R/library/mgcv/po/ko/LC_MESSAGES/mgcv.mo",
+        "path_type": "hardlink",
+        "sha256": "60295b0eea03c2c78c44b29b87c9bf5ecb9a8bf22fd8d8cb82746e561a71c659",
+        "sha256_in_prefix": "60295b0eea03c2c78c44b29b87c9bf5ecb9a8bf22fd8d8cb82746e561a71c659",
+        "size_in_bytes": 951
+      },
+      {
+        "_path": "lib/R/library/mgcv/po/pl/LC_MESSAGES/R-mgcv.mo",
+        "path_type": "hardlink",
+        "sha256": "bb4be4f79d064903033796bde05f8eba62b216de925315a1d96b0fde68aa0d26",
+        "sha256_in_prefix": "bb4be4f79d064903033796bde05f8eba62b216de925315a1d96b0fde68aa0d26",
+        "size_in_bytes": 32165
+      },
+      {
+        "_path": "lib/R/library/mgcv/po/pl/LC_MESSAGES/mgcv.mo",
+        "path_type": "hardlink",
+        "sha256": "86e7252f1a9e8136c1f76d61bb5d8bc572ce32c31bb84345e02aa060c7ae9cf2",
+        "sha256_in_prefix": "86e7252f1a9e8136c1f76d61bb5d8bc572ce32c31bb84345e02aa060c7ae9cf2",
+        "size_in_bytes": 2313
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "r-mgcv==1.8_38=r41he454529_0",
+  "sha256": "0be012aacde41fa43981f333bd742fe89dfb1be321e1d9015a874583a7fec838",
+  "size": 3094116,
+  "subdir": "linux-64",
+  "timestamp": 1633512234000,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/r-mgcv-1.8_38-r41he454529_0.tar.bz2",
+  "version": "1.8_38"
+}

@@ -1,0 +1,13 @@
+# Package Information for pkg-config
+
+prefix=/omics/groups/OE0146/internal/Areeba/paper/Rapid-CNS2/.snakemake/conda/285e0451a248d5fe32d67bc237aaccea
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: libpcre2-posix
+Description: Posix compatible interface to libpcre2-8
+Version: 10.37
+Libs: -L${libdir} -lpcre2-posix
+Cflags: -I${includedir} 
+Requires.private: libpcre2-8

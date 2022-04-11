@@ -1,0 +1,48 @@
+{
+  "build": "ha878542_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [],
+  "extracted_package_dir": "/omics/groups/OE0146/internal/Areeba/miniconda3/pkgs/ca-certificates-2020.12.5-ha878542_0",
+  "features": "",
+  "files": [
+    "ssl/cacert.pem",
+    "ssl/cert.pem"
+  ],
+  "fn": "ca-certificates-2020.12.5-ha878542_0.tar.bz2",
+  "license": "ISC",
+  "link": {
+    "source": "/omics/groups/OE0146/internal/Areeba/miniconda3/pkgs/ca-certificates-2020.12.5-ha878542_0",
+    "type": 1
+  },
+  "md5": "7eb5d4ffeee663caa1635cd67071bc1b",
+  "name": "ca-certificates",
+  "package_tarball_full_path": "/omics/groups/OE0146/internal/Areeba/miniconda3/pkgs/ca-certificates-2020.12.5-ha878542_0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "ssl/cacert.pem",
+        "path_type": "hardlink",
+        "sha256": "bb77f13d3fbec9e98bbf28ac95046b44196c7d8f55ab7720061e99991a829197",
+        "sha256_in_prefix": "bb77f13d3fbec9e98bbf28ac95046b44196c7d8f55ab7720061e99991a829197",
+        "size_in_bytes": 263774
+      },
+      {
+        "_path": "ssl/cert.pem",
+        "path_type": "softlink",
+        "sha256": "bb77f13d3fbec9e98bbf28ac95046b44196c7d8f55ab7720061e99991a829197",
+        "size_in_bytes": 263774
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "ca-certificates==2020.12.5=ha878542_0",
+  "sha256": "20a5490c4401334698aa6947fd3a257fe1bd2f941f149a07c7a1d01939430513",
+  "size": 140678,
+  "subdir": "linux-64",
+  "timestamp": 1607208283000,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/ca-certificates-2020.12.5-ha878542_0.tar.bz2",
+  "version": "2020.12.5"
+}

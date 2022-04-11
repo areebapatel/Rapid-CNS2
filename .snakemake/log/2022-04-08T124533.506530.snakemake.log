@@ -1,0 +1,22 @@
+Config file rapid_cns_snake.yaml is extended by additional config specified via the command line.
+Building DAG of jobs...
+Conda environment envs/rapid_cns.yml will be created.
+Conda environment envs/methylation_classification.yml will be created.
+Job stats:
+job                           count    min threads    max threads
+--------------------------  -------  -------------  -------------
+megalodon                         1              1              1
+methylation_classification        1             16             16
+total                             2              1             16
+
+
+[Fri Apr  8 12:45:34 2022]
+rule megalodon:
+    input: /b06x-isilon/b06x-m/mnp_nanopore/data/NL0065_2/195014/20210811_1102_MN34546_FAQ56195_70769e9f/fast5
+    output: /b06x-isilon/b06x-m/mnp_nanopore/test_git/NL0065_2/megalodon, /b06x-isilon/b06x-m/mnp_nanopore/test_git/NL0065_2/megalodon/modified_bases.5mC.bed
+    jobid: 1
+    reason: Missing output files: /b06x-isilon/b06x-m/mnp_nanopore/test_git/NL0065_2/megalodon/modified_bases.5mC.bed
+    resources: tmpdir=/tmp, nvidia_gpu=1, mem_gb=64
+
+RuleException in line 6 of /omics/groups/OE0146/internal/Areeba/paper/Rapid-CNS2/Snakefile:
+NameError: The name 'GUPPY_SERVER' is unknown in this context. Please make sure that you defined that variable. Also note that braces not used for variable access have to be escaped by repeating them, i.e. {{print $1}}

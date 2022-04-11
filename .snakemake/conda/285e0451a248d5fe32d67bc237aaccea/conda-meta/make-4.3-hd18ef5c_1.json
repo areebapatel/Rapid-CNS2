@@ -1,0 +1,315 @@
+{
+  "build": "hd18ef5c_1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "libgcc-ng >=7.5.0"
+  ],
+  "extracted_package_dir": "/omics/groups/OE0146/internal/Areeba/miniconda3/pkgs/make-4.3-hd18ef5c_1",
+  "features": "",
+  "files": [
+    "bin/make",
+    "include/gnumake.h",
+    "share/info/make.info",
+    "share/info/make.info-1",
+    "share/info/make.info-2",
+    "share/locale/be/LC_MESSAGES/make.mo",
+    "share/locale/bg/LC_MESSAGES/make.mo",
+    "share/locale/cs/LC_MESSAGES/make.mo",
+    "share/locale/da/LC_MESSAGES/make.mo",
+    "share/locale/de/LC_MESSAGES/make.mo",
+    "share/locale/es/LC_MESSAGES/make.mo",
+    "share/locale/fi/LC_MESSAGES/make.mo",
+    "share/locale/fr/LC_MESSAGES/make.mo",
+    "share/locale/ga/LC_MESSAGES/make.mo",
+    "share/locale/gl/LC_MESSAGES/make.mo",
+    "share/locale/he/LC_MESSAGES/make.mo",
+    "share/locale/hr/LC_MESSAGES/make.mo",
+    "share/locale/id/LC_MESSAGES/make.mo",
+    "share/locale/it/LC_MESSAGES/make.mo",
+    "share/locale/ja/LC_MESSAGES/make.mo",
+    "share/locale/ko/LC_MESSAGES/make.mo",
+    "share/locale/lt/LC_MESSAGES/make.mo",
+    "share/locale/nl/LC_MESSAGES/make.mo",
+    "share/locale/pl/LC_MESSAGES/make.mo",
+    "share/locale/pt/LC_MESSAGES/make.mo",
+    "share/locale/pt_BR/LC_MESSAGES/make.mo",
+    "share/locale/ru/LC_MESSAGES/make.mo",
+    "share/locale/sr/LC_MESSAGES/make.mo",
+    "share/locale/sv/LC_MESSAGES/make.mo",
+    "share/locale/tr/LC_MESSAGES/make.mo",
+    "share/locale/uk/LC_MESSAGES/make.mo",
+    "share/locale/vi/LC_MESSAGES/make.mo",
+    "share/locale/zh_CN/LC_MESSAGES/make.mo",
+    "share/locale/zh_TW/LC_MESSAGES/make.mo",
+    "share/man/man1/make.1"
+  ],
+  "fn": "make-4.3-hd18ef5c_1.tar.bz2",
+  "license": "GPL-3.0-or-later",
+  "link": {
+    "source": "/omics/groups/OE0146/internal/Areeba/miniconda3/pkgs/make-4.3-hd18ef5c_1",
+    "type": 1
+  },
+  "md5": "4049ebfd3190b580dffe76daed26155a",
+  "name": "make",
+  "package_tarball_full_path": "/omics/groups/OE0146/internal/Areeba/miniconda3/pkgs/make-4.3-hd18ef5c_1.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "bin/make",
+        "path_type": "hardlink",
+        "sha256": "46965918ca38f2b7f9431067003ba260ec84660dc1557372fc7e52cff7e370eb",
+        "sha256_in_prefix": "46965918ca38f2b7f9431067003ba260ec84660dc1557372fc7e52cff7e370eb",
+        "size_in_bytes": 272472
+      },
+      {
+        "_path": "include/gnumake.h",
+        "path_type": "hardlink",
+        "sha256": "64b7abf4a666e292d8d819cab6e113347f8369634b014b14168f6ddebda7f648",
+        "sha256_in_prefix": "64b7abf4a666e292d8d819cab6e113347f8369634b014b14168f6ddebda7f648",
+        "size_in_bytes": 2912
+      },
+      {
+        "_path": "share/info/make.info",
+        "path_type": "hardlink",
+        "sha256": "797d6c6e51f71b9e9e5b7ee81ecd44b286877945df24464694c3bf7fb40ae353",
+        "sha256_in_prefix": "797d6c6e51f71b9e9e5b7ee81ecd44b286877945df24464694c3bf7fb40ae353",
+        "size_in_bytes": 6185
+      },
+      {
+        "_path": "share/info/make.info-1",
+        "path_type": "hardlink",
+        "sha256": "d237ef969a8dd755969577ae48cd185b633dcc4eb92af00c2c109d87f4e494ba",
+        "sha256_in_prefix": "d237ef969a8dd755969577ae48cd185b633dcc4eb92af00c2c109d87f4e494ba",
+        "size_in_bytes": 300214
+      },
+      {
+        "_path": "share/info/make.info-2",
+        "path_type": "hardlink",
+        "sha256": "1c498d825c56447740b1d3ca801f974c95b1fb5075f0bffc116dc44dfc1dcfdb",
+        "sha256_in_prefix": "1c498d825c56447740b1d3ca801f974c95b1fb5075f0bffc116dc44dfc1dcfdb",
+        "size_in_bytes": 313692
+      },
+      {
+        "_path": "share/locale/be/LC_MESSAGES/make.mo",
+        "path_type": "hardlink",
+        "sha256": "307d9aa86aad80e27f832510ecdd08c7d9429ab3d75047c163a2dc21a2a41202",
+        "sha256_in_prefix": "307d9aa86aad80e27f832510ecdd08c7d9429ab3d75047c163a2dc21a2a41202",
+        "size_in_bytes": 6580
+      },
+      {
+        "_path": "share/locale/bg/LC_MESSAGES/make.mo",
+        "path_type": "hardlink",
+        "sha256": "e04d0ec4de8797388ed50912dad5d5a926a12ff7897949c9d7509866ed9afb96",
+        "sha256_in_prefix": "e04d0ec4de8797388ed50912dad5d5a926a12ff7897949c9d7509866ed9afb96",
+        "size_in_bytes": 59330
+      },
+      {
+        "_path": "share/locale/cs/LC_MESSAGES/make.mo",
+        "path_type": "hardlink",
+        "sha256": "1da2f86eeb07cbac4ac2bebda75aef6fee3ded2e19c0e2162ad2706b9d7b20d5",
+        "sha256_in_prefix": "1da2f86eeb07cbac4ac2bebda75aef6fee3ded2e19c0e2162ad2706b9d7b20d5",
+        "size_in_bytes": 45689
+      },
+      {
+        "_path": "share/locale/da/LC_MESSAGES/make.mo",
+        "path_type": "hardlink",
+        "sha256": "ae84f9e45ad15adc49a78a10864b4801f15dbdf462693efb6ff5148262caff46",
+        "sha256_in_prefix": "ae84f9e45ad15adc49a78a10864b4801f15dbdf462693efb6ff5148262caff46",
+        "size_in_bytes": 41220
+      },
+      {
+        "_path": "share/locale/de/LC_MESSAGES/make.mo",
+        "path_type": "hardlink",
+        "sha256": "6d03964f41912310abf187e89fee92ec4a231c92ca0caa88b80a30ed67b1bc74",
+        "sha256_in_prefix": "6d03964f41912310abf187e89fee92ec4a231c92ca0caa88b80a30ed67b1bc74",
+        "size_in_bytes": 45198
+      },
+      {
+        "_path": "share/locale/es/LC_MESSAGES/make.mo",
+        "path_type": "hardlink",
+        "sha256": "65d4c4c4e5b5ff0199aa3a9a822e62f1fe72998e0f12cc3821125bee0b3d1f68",
+        "sha256_in_prefix": "65d4c4c4e5b5ff0199aa3a9a822e62f1fe72998e0f12cc3821125bee0b3d1f68",
+        "size_in_bytes": 45980
+      },
+      {
+        "_path": "share/locale/fi/LC_MESSAGES/make.mo",
+        "path_type": "hardlink",
+        "sha256": "ce8ad69e9e021a1bc17b800ba04a0427d37ccb0a05ac6c2091d2a3a8e25c93f5",
+        "sha256_in_prefix": "ce8ad69e9e021a1bc17b800ba04a0427d37ccb0a05ac6c2091d2a3a8e25c93f5",
+        "size_in_bytes": 31939
+      },
+      {
+        "_path": "share/locale/fr/LC_MESSAGES/make.mo",
+        "path_type": "hardlink",
+        "sha256": "68b9fcfaa4f6831238681d7f6b5517f3ac3b40b0fcaa126972644aa767531560",
+        "sha256_in_prefix": "68b9fcfaa4f6831238681d7f6b5517f3ac3b40b0fcaa126972644aa767531560",
+        "size_in_bytes": 44911
+      },
+      {
+        "_path": "share/locale/ga/LC_MESSAGES/make.mo",
+        "path_type": "hardlink",
+        "sha256": "4356c760607900489846221f2e6fdea655e9f82f8eea4195680ac5d514fade56",
+        "sha256_in_prefix": "4356c760607900489846221f2e6fdea655e9f82f8eea4195680ac5d514fade56",
+        "size_in_bytes": 43490
+      },
+      {
+        "_path": "share/locale/gl/LC_MESSAGES/make.mo",
+        "path_type": "hardlink",
+        "sha256": "9956e5551f97c8b41ba80b0e335670c38c9a32f7f697c4cfa6913e021258eb08",
+        "sha256_in_prefix": "9956e5551f97c8b41ba80b0e335670c38c9a32f7f697c4cfa6913e021258eb08",
+        "size_in_bytes": 21543
+      },
+      {
+        "_path": "share/locale/he/LC_MESSAGES/make.mo",
+        "path_type": "hardlink",
+        "sha256": "d13645a617e8cd608d217ae6be4616d79b714a7d9106ee62af6aaf020afdadd8",
+        "sha256_in_prefix": "d13645a617e8cd608d217ae6be4616d79b714a7d9106ee62af6aaf020afdadd8",
+        "size_in_bytes": 10151
+      },
+      {
+        "_path": "share/locale/hr/LC_MESSAGES/make.mo",
+        "path_type": "hardlink",
+        "sha256": "a6eaf7dfe25526bd6ecf039c8bc93017f87cc006eca2dd91dbe7161679588605",
+        "sha256_in_prefix": "a6eaf7dfe25526bd6ecf039c8bc93017f87cc006eca2dd91dbe7161679588605",
+        "size_in_bytes": 46070
+      },
+      {
+        "_path": "share/locale/id/LC_MESSAGES/make.mo",
+        "path_type": "hardlink",
+        "sha256": "b3e0fd9c76ff340ec1cc287527770bc883813646f3a861f4b4f0795ee2e7ba75",
+        "sha256_in_prefix": "b3e0fd9c76ff340ec1cc287527770bc883813646f3a861f4b4f0795ee2e7ba75",
+        "size_in_bytes": 40284
+      },
+      {
+        "_path": "share/locale/it/LC_MESSAGES/make.mo",
+        "path_type": "hardlink",
+        "sha256": "6a8988c19497ca24123fb63d435e460f5c72ba8cb499e6371897742f30fad106",
+        "sha256_in_prefix": "6a8988c19497ca24123fb63d435e460f5c72ba8cb499e6371897742f30fad106",
+        "size_in_bytes": 45544
+      },
+      {
+        "_path": "share/locale/ja/LC_MESSAGES/make.mo",
+        "path_type": "hardlink",
+        "sha256": "974d341071c801b2dca1ee1e6cf5e0631034f226d702559aa5a22fd3c54733a8",
+        "sha256_in_prefix": "974d341071c801b2dca1ee1e6cf5e0631034f226d702559aa5a22fd3c54733a8",
+        "size_in_bytes": 48996
+      },
+      {
+        "_path": "share/locale/ko/LC_MESSAGES/make.mo",
+        "path_type": "hardlink",
+        "sha256": "640f71cc2fe2d6470b7e5fbe1d89e8f879493e907690315ef527f3433eeb9dd0",
+        "sha256_in_prefix": "640f71cc2fe2d6470b7e5fbe1d89e8f879493e907690315ef527f3433eeb9dd0",
+        "size_in_bytes": 46973
+      },
+      {
+        "_path": "share/locale/lt/LC_MESSAGES/make.mo",
+        "path_type": "hardlink",
+        "sha256": "0b7d870745918b3e0f7d9a351d48f6e8ba844961e960b2f71382ed6545cb8186",
+        "sha256_in_prefix": "0b7d870745918b3e0f7d9a351d48f6e8ba844961e960b2f71382ed6545cb8186",
+        "size_in_bytes": 7037
+      },
+      {
+        "_path": "share/locale/nl/LC_MESSAGES/make.mo",
+        "path_type": "hardlink",
+        "sha256": "1ef7d4e62ea678855457e4a500ed43f00b12bd96128114d400332670049b260a",
+        "sha256_in_prefix": "1ef7d4e62ea678855457e4a500ed43f00b12bd96128114d400332670049b260a",
+        "size_in_bytes": 44391
+      },
+      {
+        "_path": "share/locale/pl/LC_MESSAGES/make.mo",
+        "path_type": "hardlink",
+        "sha256": "911e8e38212372a3a173a83e1940a9c2d94ee2e65e89106bc8a9416175703132",
+        "sha256_in_prefix": "911e8e38212372a3a173a83e1940a9c2d94ee2e65e89106bc8a9416175703132",
+        "size_in_bytes": 44530
+      },
+      {
+        "_path": "share/locale/pt/LC_MESSAGES/make.mo",
+        "path_type": "hardlink",
+        "sha256": "c170d26231b02257479eb8b6921e6a03b0e92503793fbf79d9a288e4329ecce9",
+        "sha256_in_prefix": "c170d26231b02257479eb8b6921e6a03b0e92503793fbf79d9a288e4329ecce9",
+        "size_in_bytes": 43530
+      },
+      {
+        "_path": "share/locale/pt_BR/LC_MESSAGES/make.mo",
+        "path_type": "hardlink",
+        "sha256": "11bf93962e75a1131b70bdd2995ea887d479085fcad43c74d650e4460f5313b8",
+        "sha256_in_prefix": "11bf93962e75a1131b70bdd2995ea887d479085fcad43c74d650e4460f5313b8",
+        "size_in_bytes": 44043
+      },
+      {
+        "_path": "share/locale/ru/LC_MESSAGES/make.mo",
+        "path_type": "hardlink",
+        "sha256": "1f40fd551904b9fcab425cf22db6b80d5e6de7afa8b0587fec69685e2974fd62",
+        "sha256_in_prefix": "1f40fd551904b9fcab425cf22db6b80d5e6de7afa8b0587fec69685e2974fd62",
+        "size_in_bytes": 56673
+      },
+      {
+        "_path": "share/locale/sr/LC_MESSAGES/make.mo",
+        "path_type": "hardlink",
+        "sha256": "fb9dd893dd2a27ed9e1b64f76525c5c99165122b9bc6bc78531bba8491a74089",
+        "sha256_in_prefix": "fb9dd893dd2a27ed9e1b64f76525c5c99165122b9bc6bc78531bba8491a74089",
+        "size_in_bytes": 53185
+      },
+      {
+        "_path": "share/locale/sv/LC_MESSAGES/make.mo",
+        "path_type": "hardlink",
+        "sha256": "1841ab2117ca68ae0440f136dd73fc2f43f031c07e8a8d6e486d9073ade303de",
+        "sha256_in_prefix": "1841ab2117ca68ae0440f136dd73fc2f43f031c07e8a8d6e486d9073ade303de",
+        "size_in_bytes": 43480
+      },
+      {
+        "_path": "share/locale/tr/LC_MESSAGES/make.mo",
+        "path_type": "hardlink",
+        "sha256": "88366c0ef1903120bd1b05041b165cf722dbe401b41614e3b50c705417d0e2b6",
+        "sha256_in_prefix": "88366c0ef1903120bd1b05041b165cf722dbe401b41614e3b50c705417d0e2b6",
+        "size_in_bytes": 18996
+      },
+      {
+        "_path": "share/locale/uk/LC_MESSAGES/make.mo",
+        "path_type": "hardlink",
+        "sha256": "99ccb48159839952fd8c40f09d545f281c7532cb0c319835afa87908e2a374d8",
+        "sha256_in_prefix": "99ccb48159839952fd8c40f09d545f281c7532cb0c319835afa87908e2a374d8",
+        "size_in_bytes": 56014
+      },
+      {
+        "_path": "share/locale/vi/LC_MESSAGES/make.mo",
+        "path_type": "hardlink",
+        "sha256": "620f0efd19b75f069266685e036d25ccaabe6aba566051dcad17519abf789cb3",
+        "sha256_in_prefix": "620f0efd19b75f069266685e036d25ccaabe6aba566051dcad17519abf789cb3",
+        "size_in_bytes": 47388
+      },
+      {
+        "_path": "share/locale/zh_CN/LC_MESSAGES/make.mo",
+        "path_type": "hardlink",
+        "sha256": "db754dc615e9f37cd9445a5b295e35bd227567aa23db01236544b1f2cebc1f7d",
+        "sha256_in_prefix": "db754dc615e9f37cd9445a5b295e35bd227567aa23db01236544b1f2cebc1f7d",
+        "size_in_bytes": 42126
+      },
+      {
+        "_path": "share/locale/zh_TW/LC_MESSAGES/make.mo",
+        "path_type": "hardlink",
+        "sha256": "e496a699d3a9fe451d42ce92a115e2614d1511b84704ca889e33c7d8cfbb2b22",
+        "sha256_in_prefix": "e496a699d3a9fe451d42ce92a115e2614d1511b84704ca889e33c7d8cfbb2b22",
+        "size_in_bytes": 42268
+      },
+      {
+        "_path": "share/man/man1/make.1",
+        "path_type": "hardlink",
+        "sha256": "282f17d5765ea8c56aba187cdffecbef254f2c76e75ca57d1f5b02ea6c752ae3",
+        "sha256_in_prefix": "282f17d5765ea8c56aba187cdffecbef254f2c76e75ca57d1f5b02ea6c752ae3",
+        "size_in_bytes": 11033
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "make==4.3=hd18ef5c_1",
+  "sha256": "4a5fe7c80bb0de0015328e2d3fc8db1736f528cb1fd53cd0d5527e24269a4f7c",
+  "size": 518896,
+  "subdir": "linux-64",
+  "timestamp": 1602706451000,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/make-4.3-hd18ef5c_1.tar.bz2",
+  "version": "4.3"
+}

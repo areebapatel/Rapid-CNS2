@@ -1,0 +1,29 @@
+Config file rapid_cns_snake.yaml is extended by additional config specified via the command line.
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cluster nodes: 500
+Job stats:
+job                           count    min threads    max threads
+--------------------------  -------  -------------  -------------
+megalodon                         1              1              1
+methylation_classification        1             16             16
+total                             2              1             16
+
+Select jobs to execute...
+Skipped removing non-empty directory /b06x-isilon/b06x-m/mnp_nanopore/test_git/NL0065_2/megalodon
+
+[Fri Apr  8 16:50:57 2022]
+rule megalodon:
+    input: /b06x-isilon/b06x-m/mnp_nanopore/data/NL0065_2/195014/20210811_1102_MN34546_FAQ56195_70769e9f/fast5
+    output: /b06x-isilon/b06x-m/mnp_nanopore/test_git/NL0065_2/megalodon, /b06x-isilon/b06x-m/mnp_nanopore/test_git/NL0065_2/megalodon/modified_bases.5mC.bed
+    jobid: 1
+    reason: Missing output files: /b06x-isilon/b06x-m/mnp_nanopore/test_git/NL0065_2/megalodon/modified_bases.5mC.bed
+    resources: tmpdir=/tmp, nvidia_gpu=1, mem_gb=64
+
+export GUPPY_SERVER=/b06x-isilon/b06x-m/mnp_nanopore/software/ont-guppy_5.0.11/bin//guppy_basecall_server && megalodon /b06x-isilon/b06x-m/mnp_nanopore/data/NL0065_2/195014/20210811_1102_MN34546_FAQ56195_70769e9f/fast5 --outputs mods mappings --overwrite --reference /b06x-isilon/b06x-m/mnp_nanopore/software/hg38/hg38.mmi --mod-motif m CG 0 --output-directory /b06x-isilon/b06x-m/mnp_nanopore/test_git/NL0065_2/megalodon --guppy-server-path $/b06x-isilon/b06x-m/mnp_nanopore/software/ont-guppy_5.0.11/bin//guppy_basecall_server --overwrite --write-mods-text --devices 0 --processes 40 --guppy-params '--num_callers 8 --gpu_runners_per_device 8  --chunks_per_runner 2048' 
+Submitted job 1 with external jobid '11285938 logs/cluster/megalodon/unique/jobid1_ead8726f-dd5e-420b-8408-df07ec0d01e9.out'.
+WorkflowError:
+Failed to obtain job status. See above for error message.
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: /omics/groups/OE0146/internal/Areeba/paper/Rapid-CNS2/.snakemake/log/2022-04-08T165050.970455.snakemake.log

@@ -1,0 +1,18 @@
+prefix=/omics/groups/OE0146/internal/Areeba/paper/Rapid-CNS2/.snakemake/conda/285e0451a248d5fe32d67bc237aaccea
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+sysconfdir=${prefix}/etc
+localstatedir=${prefix}/var
+PACKAGE=fontconfig
+confdir=${sysconfdir}/fonts
+cachedir=${localstatedir}/cache/${PACKAGE}
+
+Name: Fontconfig
+Description: Font configuration and customization library
+Version: 2.13.94
+Requires:  freetype2 >= 21.0.15
+Requires.private:  libxml-2.0 >= 2.6
+Libs: -L${libdir} -lfontconfig
+Libs.private:  
+Cflags: -I${includedir}  

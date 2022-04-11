@@ -1,0 +1,32 @@
+Package: rhdf5filters
+Type: Package
+Title: HDF5 Compression Filters
+Version: 1.6.0
+Authors@R: c(person("Mike", "Smith", 
+                role=c("aut", "cre"), 
+                email = "grimbough@gmail.com",
+                comment = c(ORCID = "0000-0002-7800-3848"))
+            )
+Description: Provides a collection of compression filters for use with HDF5 datasets. 
+License: BSD_2_clause + file LICENSE
+LazyLoad: true
+VignetteBuilder: knitr
+Suggests: BiocStyle, knitr, rmarkdown, testthat (>= 2.1.0), rhdf5 (>=
+        2.34.0)
+SystemRequirements: GNU make
+URL: https://github.com/grimbough/rhdf5filters
+BugReports: https://github.com/grimbough/rhdf5filters
+LinkingTo: Rhdf5lib
+RoxygenNote: 7.1.1
+Encoding: UTF-8
+biocViews: Infrastructure, DataImport
+git_url: https://git.bioconductor.org/packages/rhdf5filters
+git_branch: RELEASE_3_14
+git_last_commit: 5f7f3a5
+git_last_commit_date: 2021-10-26
+Date/Publication: 2021-10-26
+NeedsCompilation: yes
+Packaged: 2021-10-26 22:33:38 UTC; biocbuild
+Author: Mike Smith [aut, cre] (<https://orcid.org/0000-0002-7800-3848>)
+Maintainer: Mike Smith <grimbough@gmail.com>
+Built: R 4.1.1; x86_64-conda-linux-gnu; 2021-11-02 02:30:54 UTC; unix

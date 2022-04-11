@@ -1,0 +1,17 @@
+FAST5_dir: /b06x-isilon/b06x-m/mnp_nanopore/data/
+basecalling: yes
+outdir: /b06x-isilon/b06x-m/mnp_nanopore/test_git/
+guppy: /b06x-isilon/b06x-m/mnp_nanopore/software/ont-guppy_5.0.11/bin/
+fastq: /b06x-isilon/b06x-m/mnp_nanopore/analysis/
+porechop: /b06x-isilon/b06x-m/mnp_nanopore/software/Porechop/
+panel: /b06x-isilon/b06x-m/mnp_nanopore/test_git/Rapid-CNS2/NPHD_panel.bed
+annovar_path: /b06x-isilon/b06x-m/mnp_nanopore/software/annovar
+annovar_db: /b06x-isilon/b06x-m/mnp_nanopore/software/humandb/
+ref_hg19_mmi: /b06x-isilon/b06x-m/mnp_nanopore/software/hg19/hg19.mmi
+ref_hg19_fa: /b06x-isilon/b06x-m/mnp_nanopore/software/hg19/hg19.fa
+ref_hg38_mmi: /b06x-isilon/b06x-m/mnp_nanopore/software/hg38/hg38.mmi
+probes: /b06x-isilon/b06x-m/mnp_nanopore/test_git/Rapid-CNS2/top_probes_hm450.Rdata
+array: /b06x-isilon/b06x-m/mnp_nanopore/test_git/Rapid-CNS2/HM450.hg38.manifest.gencode.v22.Rdata
+training_data: /b06x-isilon/b06x-m/mnp_nanopore/test_git/Rapid-CNS2/capper_top_100k_betas_binarised.Rdata
+mgmt_hg38: /b06x-isilon/b06x-m/mnp_nanopore/test_git/Rapid-CNS2/mgmt_hg38.bed
+deepvariant: /b06x-isilon/b06x-m/mnp_nanopore/software/pepper_deepvariant_r0.4.sif

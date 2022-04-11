@@ -1,0 +1,14 @@
+prefix=/omics/groups/OE0146/internal/Areeba/paper/Rapid-CNS2/.snakemake/conda/d75c34075870f1264aae8f40a2e60714
+exec_prefix=/omics/groups/OE0146/internal/Areeba/paper/Rapid-CNS2/.snakemake/conda/d75c34075870f1264aae8f40a2e60714
+libdir=/omics/groups/OE0146/internal/Areeba/paper/Rapid-CNS2/.snakemake/conda/d75c34075870f1264aae8f40a2e60714/lib
+includedir=/omics/groups/OE0146/internal/Areeba/paper/Rapid-CNS2/.snakemake/conda/d75c34075870f1264aae8f40a2e60714/include
+
+Name: FreeType 2
+URL: https://freetype.org
+Description: A free, high-quality, and portable font engine.
+Version: 23.4.17
+Requires:
+Requires.private: 
+Libs: -L${libdir} -lfreetype
+Libs.private: -lz -L/omics/groups/OE0146/internal/Areeba/paper/Rapid-CNS2/.snakemake/conda/d75c34075870f1264aae8f40a2e60714/lib -lpng16 -lm -lz -lm
+Cflags: -I${includedir}/freetype2
