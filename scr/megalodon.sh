@@ -1,8 +1,8 @@
 #source paths.config
 #CONDA_DIR=$CONDA_DIR
 
-#source ${CONDA_DIR}/etc/profile.d/conda.sh
-#conda activate rapid_cns.yml
+source /omics/groups/OE0146/internal/Areeba/miniconda3/etc/profile.d/conda.sh
+conda activate rapid_cns_conda_env
 
 for i in "$@"; do
   case $i in

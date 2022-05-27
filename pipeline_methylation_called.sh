@@ -72,38 +72,37 @@ mkdir -p ${LIB_PATH}/report/
 #Get QC report using pycoQC 
 #bsub -n 2 -R "rusage[mem=20G]" -q long -w "done($GUPPY_JOB)" -e ${LOG_DIR}/pycoQC.err -o ${LOG_DIR}/pycoQC.log -J ${LIBRARY}_pycoqc bash scr/pycoqc.sh --summary_file=${LIB_PATH}/guppy/ --out_html=${LIB_PATH}/QC/${SAMPLE}_pycoQC.html --title=${SAMPLE}
 
-
 #Trim adapters
-TRIM_JOB=${SAMPLE}_trim
-bsub -n 8 -R "rusage[mem=64G]" -q verylong -e ${LOG_DIR}/trim.err -o ${LOG_DIR}/trim.log -J ${TRIM_JOB} bash scr/trimming.sh --fastq_dir=${FASTQ_DIR} --out_dir=${LIB_PATH}/fastq --sample=${SAMPLE} --porechop_path=${PORECHOP_PATH} --threads=8 
+#TRIM_JOB=${SAMPLE}_trim
+#bsub -n 8 -R "rusage[mem=64G]" -q verylong -e ${LOG_DIR}/trim.err -o ${LOG_DIR}/trim.log -J ${TRIM_JOB} bash scr/trimming.sh --fastq_dir=${FASTQ_DIR} --out_dir=${LIB_PATH}/fastq --sample=${SAMPLE} --porechop_path=${PORECHOP_PATH} --threads=8 
 
 
 #Align fastq file
 ALIGN_JOB=${SAMPLE}_align
-bsub -n 32 -R "rusage[mem=64G]" -q verylong -w "done($TRIM_JOB)" -e ${LOG_DIR}/align.err -o ${LOG_DIR}/align.log -J ${ALIGN_JOB} bash scr/alignment_dna.sh --fastq=${LIB_PATH}/fastq/${SAMPLE}_adapter_trimmed.fastq.gz --out_dir=${LIB_PATH}/bam --sample=${SAMPLE} --threads=32 --reference=${MMI_HG19}
+bsub -n 32 -R "rusage[mem=64G]" -q verylong -e ${LOG_DIR}/align.err -o ${LOG_DIR}/align.log -J ${ALIGN_JOB} bash scr/alignment_dna.sh --fastq_dir=${FASTQ_DIR} --out_dir=${LIB_PATH}/bam --sample=${SAMPLE} --threads=32 --reference=${MMI_HG19}
 
 #Coverage
 COVERAGE_JOB=${SAMPLE}_coverage
-cd ${LIB_PATH}/coverage && bsub -n 2 -R "rusage[mem=32G]" -q long -w "done($ALIGN_JOB)" -e ${LOG_DIR}/coverage.err -o ${LOG_DIR}/coverage.log -J ${COVERAGE_JOB} "mosdepth -n --by ${TARGETS} --fast-mode ${SAMPLE} ${LIB_PATH}/bam/${SAMPLE}_cat.fastq.trimmed.minimap2.coordsorted.bam"
+cd ${LIB_PATH}/coverage && bsub -n 2 -R "rusage[mem=32G]" -q long -w "done($ALIGN_JOB)" -e ${LOG_DIR}/coverage.err -o ${LOG_DIR}/coverage.log -J ${COVERAGE_JOB} "mosdepth -n --by ${TARGETS} --fast-mode ${SAMPLE} ${LIB_PATH}/bam/${SAMPLE}_cat.fastq.minimap2.coordsorted.bam"
 
 cd /b06x-isilon/b06x-m/mnp_nanopore/git_repos/Rapid-CNS2/
 #Call CNVs
 CNV_JOB=${SAMPLE}_cnv
-bsub -n 16 -R "rusage[mem=64G]" -q long -w "done($ALIGN_JOB)" -e ${LOG_DIR}/cnv.err -o ${LOG_DIR}/cnv.log -J ${CNV_JOB} bash scr/cnvpytor.sh --bam_file=${LIB_PATH}/bam/${SAMPLE}_cat.fastq.trimmed.minimap2.coordsorted.bam --out_dir=${LIB_PATH}/cnv --sample=${SAMPLE} --threads=16
+bsub -n 16 -R "rusage[mem=64G]" -q long -w "done($ALIGN_JOB)" -e ${LOG_DIR}/cnv.err -o ${LOG_DIR}/cnv.log -J ${CNV_JOB} bash scr/cnvpytor.sh --bam_file=${LIB_PATH}/bam/${SAMPLE}_cat.fastq.minimap2.coordsorted.bam --out_dir=${LIB_PATH}/cnv --sample=${SAMPLE} --threads=16
 
 #Deepvariant
 DEEPVARIANT_JOB=${SAMPLE}_deepvariant
-bsub -n 16 -R "rusage[mem=64G]" -q verylong -w "done($ALIGN_JOB)" -J ${DEEPVARIANT_JOB} bash scr/deepvariant.sh  --bam_file=${LIB_PATH}/bam/${SAMPLE}_cat.fastq.trimmed.minimap2.coordsorted.bam --out_dir=${LIB_PATH}/deepvariant --reference=${REFERENCE_HG19} --sample=${SAMPLE} --threads=16 --path=${DEEPVARIANT_PATH}
+bsub -n 16 -R "rusage[mem=64G]" -q verylong -w "done($ALIGN_JOB)" -J ${DEEPVARIANT_JOB} bash scr/deepvariant.sh  --bam_file=${LIB_PATH}/bam/${SAMPLE}_cat.fastq.minimap2.coordsorted.bam --out_dir=${LIB_PATH}/deepvariant --reference=${REFERENCE_HG19} --sample=${SAMPLE} --threads=16 --path=${DEEPVARIANT_PATH}
 DEEPVARIANT_ANNO=${SAMPLE}_deepvariant_annovar
-bsub -n 2 -R "rusage[mem=20G]" -q long -w "done($DEEPVARIANT_JOB)" -J ${DEEPVARIANT_ANNO} -e ${LOG_DIR}/deepvariant_annovar.err -o ${LOG_DIR}/deepvariant_annovar.log bash scr/deepvariant_annovar.sh --bam_file=${LIB_PATH}/bam/${SAMPLE}_cat.fastq.trimmed.minimap2.coordsorted.bam --out_dir=${LIB_PATH}/deepvariant --annovar_path=${ANNOVAR_PATH} --annovar_db=${ANNOVAR_DB} --panel_bed=${PANEL} --reference=${REFERENCE_HG19} --sample=${SAMPLE}
+bsub -n 2 -R "rusage[mem=20G]" -q long -w "done($DEEPVARIANT_JOB)" -J ${DEEPVARIANT_ANNO} -e ${LOG_DIR}/deepvariant_annovar.err -o ${LOG_DIR}/deepvariant_annovar.log bash scr/deepvariant_annovar.sh --bam_file=${LIB_PATH}/bam/${SAMPLE}_cat.fastq.minimap2.coordsorted.bam --out_dir=${LIB_PATH}/deepvariant --annovar_path=${ANNOVAR_PATH} --annovar_db=${ANNOVAR_DB} --panel_bed=${PANEL} --reference=${REFERENCE_HG19} --sample=${SAMPLE}
 
 #Variant and SV calling
-bsub -n 2 -R "rusage[mem=32G]" -q long -w "done($ALIGN_JOB)" -J ${SAMPLE}_svim -e ${LOG_DIR}/svim_trimmed.err -o ${LOG_DIR}/svim_trimmed.log bash scr/svim.sh --bam_file=${LIB_PATH}/bam/${SAMPLE}_cat.fastq.trimmed.minimap2.coordsorted.bam --out_dir=${LIB_PATH}/svim --reference=${REFERENCE_HG19} --sample=${SAMPLE}
+bsub -n 2 -R "rusage[mem=32G]" -q long -w "done($ALIGN_JOB)" -J ${SAMPLE}_svim -e ${LOG_DIR}/svim_trimmed.err -o ${LOG_DIR}/svim.log bash scr/svim.sh --bam_file=${LIB_PATH}/bam/${SAMPLE}_cat.fastq.minimap2.coordsorted.bam --out_dir=${LIB_PATH}/svim --reference=${REFERENCE_HG19} --sample=${SAMPLE}
 
 LONGSHOT_JOB=${SAMPLE}_longshot
-bsub -n 2 -R "rusage[mem=32G]" -q long -w "done($ALIGN_JOB)" -J ${LONGSHOT_JOB} -e ${LOG_DIR}/longshot_trimmed.err  -o ${LOG_DIR}/longshot_trimmed.log bash scr/longshot.sh --bam_file=${LIB_PATH}/bam/${SAMPLE}_cat.fastq.trimmed.minimap2.coordsorted.bam --out_dir=${LIB_PATH}/longshot --annovar_path=${ANNOVAR_PATH} --annovar_db=${ANNOVAR_DB} --panel_bed=${PANEL} --reference=${REFERENCE_HG19} --sample=${SAMPLE}
+bsub -n 2 -R "rusage[mem=32G]" -q long -w "done($ALIGN_JOB)" -J ${LONGSHOT_JOB} -e ${LOG_DIR}/longshot.err  -o ${LOG_DIR}/longshot.log bash scr/longshot.sh --bam_file=${LIB_PATH}/bam/${SAMPLE}_cat.fastq.minimap2.coordsorted.bam --out_dir=${LIB_PATH}/longshot --annovar_path=${ANNOVAR_PATH} --annovar_db=${ANNOVAR_DB} --panel_bed=${PANEL} --reference=${REFERENCE_HG19} --sample=${SAMPLE}
 
-bsub -R "rusage[mem=20G]" -q long -w "done($ALIGN_JOB)" -J ${SAMPLE}_special_positions -e ${LOG_DIR}/special_pos.err -o ${LOG_DIR}/special_positions.log bash scr/special_positions.sh --bam_file=${LIB_PATH}/bam/${SAMPLE}_cat.fastq.trimmed.minimap2.coordsorted.bam --out_dir=${LIB_PATH}/special_positions/ --reference=${REFERENCE_HG19} --sample=${SAMPLE}
+bsub -R "rusage[mem=20G]" -q long -w "done($ALIGN_JOB)" -J ${SAMPLE}_special_positions -e ${LOG_DIR}/special_pos.err -o ${LOG_DIR}/special_positions.log bash scr/special_positions.sh --bam_file=${LIB_PATH}/bam/${SAMPLE}_cat.fastq.minimap2.coordsorted.bam --out_dir=${LIB_PATH}/special_positions/ --reference=${REFERENCE_HG19} --sample=${SAMPLE}
 
 #megalodon modified basecalling
 MEGALODON_DIR=${LIB_PATH}/megalodon_hg38/
@@ -127,8 +126,12 @@ bsub -n 2 -R "rusage[mem=20G]" -q long -w "done($DEEPVARIANT_ANNO)" -J ${DEEPVAR
 bsub -n 2 -R "rusage[mem=20G]" -q long -w "done($LONGSHOT_JOB)" -J ${LONGSHOT_REPORT} -e ${LOG_DIR}/longshot_report.err -o ${LOG_DIR}/longshot_report.log Rscript scr/filter_report.R --input=${LIB_PATH}/longshot/${SAMPLE}_longshot_panel.hg19_multianno.csv --output=${LIB_PATH}/longshot/${SAMPLE}_longshot_report.csv --sample=${SAMPLE} 
 
 #Report
-cd scr/ && bsub -n 4 -R "rusage[mem=64G]" -q verylong -J ${SAMPLE}_longshot_report -w "done($COVERAGE_JOB) && done($MGMT_PRED) && done($MC_JOB) && done($LONGSHOT_REPORT) && done($CNV_JOB)" -e ${LOG_DIR}/longshot_report.err -o ${LOG_DIR}/longshot_report.log Rscript make_report.R --rf_details=${MC_DIR}/${SAMPLE}_rf_details.tsv --votes=${MC_DIR}/${SAMPLE}_votes.tsv --sample=${SAMPLE} --mutations=${LIB_PATH}/longshot/${SAMPLE}_longshot_report.csv --cnv_plot=${LIB_PATH}/cnv/${SAMPLE}_cnvpytor_100k.global.0000.png --coverage=${LIB_PATH}/coverage/${SAMPLE}.mosdepth.summary.txt --output_dir=${LIB_PATH}/report/ --prefix=${SAMPLE}_longshot --patient='Jane Doe'
+cd scr/
+bsub -n 4 -R "rusage[mem=64G]" -q verylong -J ${SAMPLE}_longshot_report -w "done($COVERAGE_JOB) && done($MGMT_PRED) && done($MC_JOB) && done($LONGSHOT_REPORT) && done($CNV_JOB)" -e ${LOG_DIR}/longshot_report.err -o ${LOG_DIR}/longshot_report.log Rscript make_pdfreport.R --rf_details=${MC_DIR}/${SAMPLE}_rf_details.tsv --votes=${MC_DIR}/${SAMPLE}_votes.tsv --mutations=${LIB_PATH}/longshot/${SAMPLE}_longshot_report.csv --cnv_plot=${LIB_PATH}/cnv/${SAMPLE}_cnvpytor_100k.global.0000.png --coverage=${LIB_PATH}/coverage/${SAMPLE}.mosdepth.summary.txt --output_dir=${LIB_PATH}/report/ --prefix=${SAMPLE}_longshot --mgmt=${MEGALODON_DIR}/${SAMPLE}_mgmt_status.csv --patient='XXXX' --sample=${SAMPLE}
 
-bsub -n 4 -R "rusage[mem=64G]" -q verylong -J ${SAMPLE}_deepvariant_report -w "done($COVERAGE_JOB) && done($MGMT_PRED) && done($MC_JOB) && done($DEEPVARIANT_REPORT) && done($CNV_JOB)" -e ${LOG_DIR}/deepvariant_report.err -o ${LOG_DIR}/deepvariant_report.log Rscript make_report.R --rf_details=${MC_DIR}/${SAMPLE}_rf_details.tsv --votes=${MC_DIR}/${SAMPLE}_votes.tsv --sample=${SAMPLE} --mutations=${LIB_PATH}/deepvariant/${SAMPLE}_deepvariant_report.csv --cnv_plot=${LIB_PATH}/cnv/${SAMPLE}_cnvpytor_100k.global.0000.png --coverage=${LIB_PATH}/coverage/${SAMPLE}.mosdepth.summary.txt --output_dir=${LIB_PATH}/report/ --prefix=${SAMPLE}_deepvariant --patient='Jane Doe'
+bsub -n 4 -R "rusage[mem=64G]" -q verylong -J ${SAMPLE}_deepvariant_report -w "done($COVERAGE_JOB) && done($MGMT_PRED) && done($MC_JOB) && done($DEEPVARIANT_REPORT) && done($CNV_JOB)" -e ${LOG_DIR}/deepvariant_report.err -o ${LOG_DIR}/deepvariant_report.log Rscript make_pdfreport.R --rf_details=${MC_DIR}/${SAMPLE}_rf_details.tsv --votes=${MC_DIR}/${SAMPLE}_votes.tsv --sample=${SAMPLE} --mutations=${LIB_PATH}/deepvariant/${SAMPLE}_deepvariant_report.csv --cnv_plot=${LIB_PATH}/cnv/${SAMPLE}_cnvpytor_100k.global.0000.png --coverage=${LIB_PATH}/coverage/${SAMPLE}.mosdepth.summary.txt --output_dir=${LIB_PATH}/report/ --mgmt=${MEGALODON_DIR}/${SAMPLE}_mgmt_status.csv --prefix=${SAMPLE}_deepvariant --patient='XXXX'
+bsub -n 4 -R "rusage[mem=64G]" -q verylong -J ${SAMPLE}_longshot_htmlreport -w "done($COVERAGE_JOB) && done($MGMT_PRED) && done($MC_JOB) && done($LONGSHOT_REPORT) && done($CNV_JOB)" -e ${LOG_DIR}/longshot_report.err -o ${LOG_DIR}/longshot_report.log Rscript make_report.R --rf_details=${MC_DIR}/${SAMPLE}_rf_details.tsv --votes=${MC_DIR}/${SAMPLE}_votes.tsv --mutations=${LIB_PATH}/longshot/${SAMPLE}_longshot_report.csv --cnv_plot=${LIB_PATH}/cnv/${SAMPLE}_cnvpytor_100k.global.0000.png --coverage=${LIB_PATH}/coverage/${SAMPLE}.mosdepth.summary.txt --output_dir=${LIB_PATH}/report/ --prefix=${SAMPLE}_longshot --mgmt=${MEGALODON_DIR}/${SAMPLE}_mgmt_status.csv --patient='XXXX' --sample=${SAMPLE}
+
+bsub -n 4 -R "rusage[mem=64G]" -q verylong -J ${SAMPLE}_deepvariant_htmlreport -w "done($COVERAGE_JOB) && done($MGMT_PRED) && done($MC_JOB) && done($DEEPVARIANT_REPORT) && done($CNV_JOB)" -e ${LOG_DIR}/deepvariant_report.err -o ${LOG_DIR}/deepvariant_report.log Rscript make_report.R --rf_details=${MC_DIR}/${SAMPLE}_rf_details.tsv --votes=${MC_DIR}/${SAMPLE}_votes.tsv --sample=${SAMPLE} --mutations=${LIB_PATH}/deepvariant/${SAMPLE}_deepvariant_report.csv --cnv_plot=${LIB_PATH}/cnv/${SAMPLE}_cnvpytor_100k.global.0000.png --coverage=${LIB_PATH}/coverage/${SAMPLE}.mosdepth.summary.txt --output_dir=${LIB_PATH}/report/ --mgmt=${MEGALODON_DIR}/${SAMPLE}_mgmt_status.csv --prefix=${SAMPLE}_deepvariant --patient='XXXX'
 
 

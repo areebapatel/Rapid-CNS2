@@ -43,8 +43,9 @@ mgmt<- opt$mgmt
 sample <- opt$sample
 
 
-render("Rapid_CNS2_report_UKHD.Rmd", 
-       output_format = "html_document", 
+render("Rapid_CNS2_report_UKHD_pdf.Rmd", 
+       output_format = "pdf_document", 
        output_dir=opt$output_dir,
-       output_file=paste0(prefix,"_Rapid-CNS2_report.html")
+       output_file=paste0(prefix,"_Rapid-CNS2_report.pdf")
 )
+
